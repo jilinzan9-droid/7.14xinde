@@ -952,4 +952,16 @@
     <loc>https://www.pratt-oil.com/ar/products/wcb-eaton-auxiliary-brake-cylinder/</loc>
     <lastmod>2026-06-23</lastmod>
   </url>
+  <url>
+    <loc>https://www.pratt-oil.com/en/news/fb-1300-mud-pump-spare-parts-catalog/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pratt-oil.com/ar/news/fb-1300-mud-pump-spare-parts-catalog/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

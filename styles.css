@@ -5549,6 +5549,7 @@ body.parts-catalog-page .page-hero > p:last-child { max-width: 820px; margin-lef
 .parts-search:focus { outline: 3px solid rgba(13, 104, 166, .18); border-color: #0d68a6; }
 .parts-result-count { white-space: nowrap; color: #0d68a6; }
 .parts-table-scroll { overflow: auto; max-height: 760px; border: 1px solid #dbe4ee; border-radius: 14px; box-shadow: 0 16px 40px rgba(18, 59, 87, .08); }
+.fb-catalog-page .news-detail-media img { object-fit: contain; background: #f4f7f7; padding: 18px; }
 .parts-catalog-table { width: 100%; border-collapse: collapse; background: #fff; }
 .parts-catalog-table th,
 .parts-catalog-table td { padding: 13px 16px; border-bottom: 1px solid #e5ebf1; text-align: left; vertical-align: middle; }

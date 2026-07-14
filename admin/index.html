@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Pratt Oil 网站后台管理</title>
+<style>
+:root{--green:#0f4d3c;--green-d:#0a3b2e;--green-l:#166a52;--accent:#25d366;--bg:#f4f6f5;--line:#e2e8e5;--txt:#1d2b26;--muted:#6b7c75;}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Segoe UI","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer}
+.hidden{display:none!important}
+/* ---- login ---- */
+#login{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--green),var(--green-d))}
+.login-card{background:#fff;border-radius:12px;padding:36px 34px;width:340px;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+.login-card h1{margin:0 0 4px;font-size:20px;color:var(--green)}
+.login-card p{margin:0 0 22px;color:var(--muted);font-size:13px}
+.login-card label{display:block;font-weight:700;margin:14px 0 6px;font-size:13px}
+.login-card input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:7px;font-size:14px}
+.login-card button{width:100%;margin-top:22px;padding:12px;border:0;border-radius:7px;background:var(--green);color:#fff;font-weight:800;font-size:15px}
+.login-err{color:#c0392b;font-size:13px;margin-top:12px;min-height:18px}
+/* ---- shell ---- */
+#app{display:flex;min-height:100vh}
+.side{width:220px;background:linear-gradient(180deg,var(--green),var(--green-d));color:#dfeee8;flex:0 0 auto;display:flex;flex-direction:column}
+.side .logo{padding:20px 18px;font-weight:800;font-size:16px;color:#fff;border-bottom:1px solid rgba(255,255,255,.12)}
+.side .logo small{display:block;font-weight:500;font-size:11px;color:#9fc4b6;margin-top:3px}
+.side nav{padding:10px 0;flex:1}
+.side nav a{display:flex;align-items:center;gap:10px;padding:11px 20px;color:#cfe3db;text-decoration:none;font-weight:600;border-left:3px solid transparent}
+.side nav a:hover{background:rgba(255,255,255,.06)}
+.side nav a.active{background:rgba(255,255,255,.10);border-left-color:var(--accent);color:#fff}
+.side .out{padding:14px 20px;border-top:1px solid rgba(255,255,255,.12)}
+.side .out button{width:100%;background:transparent;border:1px solid rgba(255,255,255,.3);color:#dfeee8;padding:9px;border-radius:6px}
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.top{background:#fff;border-bottom:1px solid var(--line);padding:14px 26px;display:flex;align-items:center;justify-content:space-between}
+.top h2{margin:0;font-size:18px}
+.top .who{color:var(--muted);font-size:13px}
+.top .who b{color:var(--green)}
+.wrap{padding:24px 26px;flex:1}
+/* ---- cards/stats ---- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:22px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.stat .n{font-size:30px;font-weight:800;color:var(--green)}
+.stat .l{color:var(--muted);margin-top:4px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:20px}
+.panel h3{margin:0 0 4px;font-size:16px}
+.panel .sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+.bar{display:flex;gap:10px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+.bar input.search{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:7px}
+.btn{padding:9px 16px;border:0;border-radius:7px;background:var(--green);color:#fff;font-weight:700}
+.btn.ghost{background:#fff;border:1px solid var(--line);color:var(--txt)}
+.btn.danger{background:#fff;border:1px solid #e3b4b0;color:#c0392b}
+.btn.sm{padding:6px 11px;font-size:12.5px}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+td img{width:52px;height:40px;object-fit:cover;border-radius:5px;background:#eef2f0}
+.tag{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11.5px;font-weight:700}
+.tag.pub{background:#e4f6ec;color:#1a8a4d}
+.tag.draft{background:#fdf0e2;color:#b9741a}
+.muted{color:var(--muted)}
+.pager{display:flex;gap:6px;justify-content:flex-end;margin-top:14px}
+.pager button{padding:6px 11px;border:1px solid var(--line);background:#fff;border-radius:6px}
+.pager button.active{background:var(--green);color:#fff;border-color:var(--green)}
+/* ---- form ---- */
+.form-row{margin-bottom:14px}
+.form-row label{display:block;font-weight:700;margin-bottom:6px;font-size:13px}
+.form-row input,.form-row textarea,.form-row select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:7px;font-size:14px;font-family:inherit}
+.form-row textarea{min-height:90px;resize:vertical}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+/* ---- modal ---- */
+.modal-bg{position:fixed;inset:0;background:rgba(15,30,25,.5);display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto;z-index:50}
+.modal{background:#fff;border-radius:12px;width:560px;max-width:100%;padding:24px 26px}
+.modal h3{margin:0 0 18px}
+.modal .foot{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;padding:11px 22px;border-radius:8px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.2);z-index:80;opacity:0;transition:.25s}
+.toast.show{opacity:1;bottom:34px}
+/* ---- dashboard 装修 ---- */
+.dash-hero{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  background:linear-gradient(120deg,var(--green),var(--green-l));color:#fff;border-radius:14px;padding:22px 26px;margin-bottom:22px;box-shadow:0 12px 30px rgba(15,77,60,.25)}
+.dh-greet{font-size:22px;font-weight:800}
+.dh-sub{color:#cdeadf;margin-top:5px;font-size:13px}
+.dh-actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn.light{background:#fff;color:var(--green);font-weight:800;text-decoration:none;display:inline-flex;align-items:center}
+.btn.light.ghost2{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.4)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:22px}
+.kpi{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--green)}
+.kpi.k-green::before{background:#16a34a}.kpi.k-blue::before{background:#2563eb}.kpi.k-amber::before{background:#d97706}.kpi.k-teal::before{background:#0d9488}
+.kpi-ic{width:46px;height:46px;flex:0 0 auto;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:22px;background:#eef4f1}
+.kpi.k-blue .kpi-ic{background:#eaf0fe}.kpi.k-amber .kpi-ic{background:#fdf3e5}.kpi.k-teal .kpi-ic{background:#e6f5f2}
+.kpi-n{font-size:26px;font-weight:800;line-height:1}
+.kpi-l{font-weight:700;margin-top:3px}
+.kpi-note{color:var(--muted);font-size:12px;margin-top:2px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.two-col .panel{margin-bottom:20px}
+.barchart{display:flex;flex-direction:column;gap:12px;margin-top:6px}
+.bar-row{display:flex;align-items:center;gap:10px}
+.bar-row .bl{width:150px;flex:0 0 auto;font-size:12.5px;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-row .bt{flex:1;height:12px;background:#eef2f0;border-radius:8px;overflow:hidden}
+.bar-row .bt i{display:block;height:100%;background:linear-gradient(90deg,var(--green-l),var(--green));border-radius:8px}
+.bar-row .bn{width:28px;text-align:right;font-weight:800;color:var(--green);font-size:13px}
+.donut-wrap{display:flex;align-items:center;gap:24px;margin-top:8px;flex-wrap:wrap}
+.donut{--v:0;width:120px;height:120px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+  background:conic-gradient(var(--green) calc(var(--v)*1%),#e9eeec 0)}
+.donut span{width:82px;height:82px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--green);font-size:19px}
+.legend{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.legend .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.dot.pub{background:#16a34a}.dot.draft{background:#cbd5d0}.dot.blue{background:#2563eb}.dot.amber{background:#d97706}
+@media(max-width:820px){.two-col{grid-template-columns:1fr}}
+.img-upload{display:flex;gap:12px;align-items:flex-start}.img-prev{width:96px;height:72px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#eef2f0;flex:0 0 auto}.img-prev.empty{visibility:hidden}.img-upload-side{flex:1;display:flex;flex-direction:column;gap:8px}
+@media(max-width:720px){.side{width:60px}.side .logo small,.side nav a span{display:none}.grid2{grid-template-columns:1fr}
+.wrap{padding:16px 12px}.top{padding:12px 14px}.panel{padding:16px 14px;overflow-x:auto}.panel table{min-width:520px}
+.kpis{grid-template-columns:1fr 1fr}.dash-hero{padding:18px}.dh-greet{font-size:19px}
+.modal{padding:18px 16px}.bar{gap:8px}.bar .search{min-width:120px}}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login">
+  <form class="login-card" onsubmit="return doLogin(event)">
+    <h1>Pratt Oil 后台</h1>
+    <p>网站内容管理系统 · 请登录</p>
+    <label>账号</label>
+    <input id="lu" autocomplete="username" placeholder="请输入账号">
+    <label>密码</label>
+    <input id="lp" type="password" autocomplete="current-password" placeholder="请输入密码">
+    <button type="submit">登 录</button>
+    <div class="login-err" id="lerr"></div>
+  </form>
+</div>
+
+<!-- APP -->
+<div id="app" class="hidden">
+  <aside class="side">
+    <div class="logo">Pratt Oil<small>网站后台管理</small></div>
+    <nav id="nav">
+      <a data-view="dash" class="active"><span>📊 仪表盘</span></a>
+      <a data-view="products"><span>📦 产品管理</span></a>
+      <a data-view="posts"><span>📝 博客/新闻</span></a>
+      <a data-view="site"><span>🏢 网站信息</span></a>
+      <a data-view="pages"><span>🖊 页面编辑</span></a>
+      <a data-view="system"><span>⚙️ 系统设置</span></a>
+    </nav>
+    <div class="out"><button onclick="logout()">退出登录</button></div>
+  </aside>
+  <div class="main">
+    <div class="top">
+      <h2 id="viewTitle">仪表盘</h2>
+      <div class="who">当前用户：<b>admin</b> · <a href="/demo/pratt-oil-oilfield/" target="_blank" style="color:var(--green);font-weight:700">查看网站 ↗</a></div>
+    </div>
+    <div class="wrap" id="view"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ===== 配置（演示用，客户端登录）===== */
+const AUTH={u:"admin",p:"Ee4uqHQ9bikN8FG2tM"};
+const LS_KEY="prattAdminData_v1";
+let DB={products:[],posts:[],site:{}};
+let cur="dash";
+
+/* ===== 数据加载 ===== */
+async function loadDB(){
+  const saved=localStorage.getItem(LS_KEY);
+  if(saved){try{DB=JSON.parse(saved);return;}catch(e){}}
+  try{const r=await fetch("seed.json");DB=await r.json();}catch(e){DB={products:[],posts:[],site:{}};}
+  save();
+}
+function save(){localStorage.setItem(LS_KEY,JSON.stringify(DB));}
+function resetDB(){if(!confirm("确定恢复到初始数据？当前修改将丢失。"))return;localStorage.removeItem(LS_KEY);loadDB().then(()=>{render();toast("已恢复初始数据");});}
+
+/* ===== 登录 ===== */
+function doLogin(e){e.preventDefault();
+  const u=document.getElementById("lu").value.trim(),p=document.getElementById("lp").value;
+  if(u===AUTH.u&&p===AUTH.p){sessionStorage.setItem("prattAuthed","1");enterApp();}
+  else document.getElementById("lerr").textContent="账号或密码错误，请重试。";
+  return false;}
+function logout(){sessionStorage.removeItem("prattAuthed");location.reload();}
+async function enterApp(){
+  document.getElementById("login").classList.add("hidden");
+  document.getElementById("app").classList.remove("hidden");
+  await loadDB();render();
+}
+
+/* ===== 导航 ===== */
+document.getElementById("nav").addEventListener("click",e=>{
+  const a=e.target.closest("a");if(!a)return;
+  document.querySelectorAll("#nav a").forEach(x=>x.classList.remove("active"));
+  a.classList.add("active");cur=a.dataset.view;render();
+});
+const TITLES={dash:"仪表盘",products:"产品管理",posts:"博客/新闻管理",site:"网站信息",pages:"页面编辑",system:"系统设置"};
+function render(){document.getElementById("viewTitle").textContent=TITLES[cur];({dash:vDash,products:vProducts,posts:vPosts,site:vSite,pages:vPages,system:vSystem}[cur])();}
+
+/* ===== 工具 ===== */
+function esc(s){return(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1800);}
+function statusTag(s){return s==="published"?'<span class="tag pub">已发布</span>':'<span class="tag draft">草稿</span>';}
+const V=document.getElementById("view");
+
+/* ===== 仪表盘 ===== */
+function vDash(){
+  const pPub=DB.products.filter(p=>p.status==="published").length;
+  const pDraft=DB.products.length-pPub;
+  const bPub=DB.posts.filter(p=>p.status==="published").length;
+  const bDraft=DB.posts.length-bPub;
+  const catCount={};DB.products.forEach(p=>{const c=p.category||"未分类";catCount[c]=(catCount[c]||0)+1;});
+  const topCats=Object.entries(catCount).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const maxC=Math.max(1,...topCats.map(c=>c[1]));
+  const now=new Date(),h=now.getHours();
+  const greet=h<6?"夜深了":h<12?"早上好":h<14?"中午好":h<18?"下午好":"晚上好";
+  const dstr=now.toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
+  const pct=(n,t)=>t?Math.round(n/t*100):0;
+  const kpi=(icon,cls,n,l,note)=>`<div class="kpi ${cls}"><div class="kpi-ic">${icon}</div><div><div class="kpi-n">${n}</div><div class="kpi-l">${l}</div><div class="kpi-note">${note}</div></div></div>`;
+  V.innerHTML=`
+  <div class="dash-hero">
+    <div><div class="dh-greet">${greet}，admin 👋</div><div class="dh-sub">${dstr} · 欢迎回到 Pratt Oil 网站后台</div></div>
+    <div class="dh-actions"><a class="btn light" href="/demo/pratt-oil-oilfield/" target="_blank">🌐 查看网站</a><button class="btn light ghost2" onclick="go('products')">＋ 新增产品</button></div>
+  </div>
+  <div class="kpis">
+    ${kpi("📦","k-green",DB.products.length,"产品总数",pPub+" 已发布 · "+pDraft+" 草稿")}
+    ${kpi("📝","k-blue",DB.posts.length,"博客 / 新闻",bPub+" 已发布 · "+bDraft+" 草稿")}
+    ${kpi("🗂","k-amber",Object.keys(catCount).length,"产品分类","覆盖钻采备件全线")}
+    ${kpi("🌍","k-teal",2,"站点语言","EN · AR 双语")}
+  </div>
+  <div class="two-col">
+    <div class="panel">
+      <h3>产品分类分布</h3><p class="sub">按产品数量排名前 6 的分类</p>
+      <div class="barchart">
+        ${topCats.map(([c,n])=>`<div class="bar-row"><span class="bl" title="${esc(c)}">${esc(c)}</span><div class="bt"><i style="width:${Math.round(n/maxC*100)}%"></i></div><span class="bn">${n}</span></div>`).join("")||'<p class="muted">暂无产品</p>'}
+      </div>
+    </div>
+    <div class="panel">
+      <h3>内容状态</h3><p class="sub">已发布 / 草稿占比</p>
+      <div class="donut-wrap">
+        <div class="donut" style="--v:${pct(pPub,DB.products.length)}"><span>${pct(pPub,DB.products.length)}%</span></div>
+        <div class="legend">
+          <div><i class="dot pub"></i> 产品已发布 <b>${pPub}</b></div>
+          <div><i class="dot draft"></i> 产品草稿 <b>${pDraft}</b></div>
+          <div><i class="dot blue"></i> 文章已发布 <b>${bPub}</b></div>
+          <div><i class="dot amber"></i> 文章草稿 <b>${bDraft}</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="two-col">
+    <div class="panel">
+      <h3>最近产品 <button class="btn ghost sm" style="float:right" onclick="go('products')">全部 →</button></h3><p class="sub">最新加入的 5 条</p>
+      <table><tbody>
+      ${DB.products.slice(0,5).map(p=>`<tr><td style="width:60px"><img src="${esc(p.image)}" onerror="this.style.visibility='hidden'"></td><td><b>${esc(p.name)}</b><div class="muted" style="font-size:12px">${esc(p.category)}</div></td><td style="text-align:right">${statusTag(p.status)}</td></tr>`).join("")||'<tr><td class="muted">暂无</td></tr>'}
+      </tbody></table>
+    </div>
+    <div class="panel">
+      <h3>最近文章 <button class="btn ghost sm" style="float:right" onclick="go('posts')">全部 →</button></h3><p class="sub">最新的 5 篇</p>
+      <table><tbody>
+      ${DB.posts.slice(0,5).map(p=>`<tr><td><b>${esc(p.title)}</b><div class="muted" style="font-size:12px">${esc(p.category)} · ${esc(p.date||"")}</div></td><td style="text-align:right">${statusTag(p.status)}</td></tr>`).join("")||'<tr><td class="muted">暂无</td></tr>'}
+      </tbody></table>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>快捷操作</h3><p class="sub">常用管理入口</p>
+    <div class="bar">
+      <button class="btn" onclick="go('products')">＋ 管理产品</button>
+      <button class="btn ghost" onclick="go('posts')">＋ 写博客</button>
+      <button class="btn ghost" onclick="go('site')">编辑网站信息</button>
+      <button class="btn ghost" onclick="go('pages')">编辑页面</button>
+      <button class="btn ghost" onclick="go('system')">导出数据</button>
+    </div>
+  </div>`;
+}
+function go(v){cur=v;document.querySelectorAll("#nav a").forEach(x=>x.classList.toggle("active",x.dataset.view===v));render();}
+
+/* ===== 产品管理 ===== */
+let pPage=1,pQuery="";
+function vProducts(){
+  const q=pQuery.toLowerCase();
+  const list=DB.products.filter(p=>!q||(p.name+p.category).toLowerCase().includes(q));
+  const per=10,pages=Math.max(1,Math.ceil(list.length/per));
+  if(pPage>pages)pPage=pages;
+  const rows=list.slice((pPage-1)*per,pPage*per);
+  V.innerHTML=`
+  <div class="panel">
+    <h3>产品列表</h3><p class="sub">共 ${list.length} 条 · 可新增、编辑、删除、上/下架</p>
+    <div class="bar">
+      <input class="search" placeholder="搜索产品名称或分类…" value="${esc(pQuery)}" oninput="pQuery=this.value;pPage=1;vProducts()">
+      <button class="btn" onclick="editProduct(null)">＋ 新增产品</button>
+    </div>
+    <table><thead><tr><th>图</th><th>名称</th><th>分类</th><th>状态</th><th style="width:150px">操作</th></tr></thead><tbody>
+    ${rows.map(p=>`<tr>
+      <td><img src="${esc(p.image)}" onerror="this.style.visibility='hidden'"></td>
+      <td><b>${esc(p.name)}</b> ${p.spec&&p.spec.rows&&p.spec.rows.length?`<span class="tag pub" title="含 ${p.spec.rows.length} 行参数">参数表 ${p.spec.rows.length}行</span>`:'<span class="tag draft">无参数表</span>'}<div class="muted" style="font-size:12px">${esc(p.blurb||"")}</div></td>
+      <td class="muted">${esc(p.category)}</td>
+      <td>${statusTag(p.status)}</td>
+      <td>
+        <button class="btn ghost sm" onclick="editProduct('${esc(p.id)}')">编辑</button>
+        <button class="btn ghost sm" onclick="toggleProduct('${esc(p.id)}')">${p.status==="published"?"下架":"发布"}</button>
+        <button class="btn danger sm" onclick="delProduct('${esc(p.id)}')">删</button>
+      </td></tr>`).join("")||`<tr><td colspan="5" class="muted">无匹配产品</td></tr>`}
+    </tbody></table>
+    <div class="pager">${Array.from({length:pages},(_,i)=>`<button class="${i+1===pPage?'active':''}" onclick="pPage=${i+1};vProducts()">${i+1}</button>`).join("")}</div>
+  </div>`;
+}
+function editProduct(id){
+  const p=id?DB.products.find(x=>x.id===id):{id:"",name:"",category:"",blurb:"",image:"",status:"published"};
+  const sp=p.spec||{title:"",headers:[],rows:[]};
+  const headStr=(sp.headers||[]).join(" | ");
+  const rowStr=(sp.rows||[]).map(r=>r.join(" | ")).join("\n");
+  modal(`${id?"编辑":"新增"}产品`,`
+    <div class="form-row"><label>产品名称</label><input id="f_name" value="${esc(p.name)}"></div>
+    <div class="grid2">
+      <div class="form-row"><label>分类</label><input id="f_cat" value="${esc(p.category)}"></div>
+      <div class="form-row"><label>状态</label><select id="f_status"><option value="published"${p.status==="published"?" selected":""}>已发布</option><option value="draft"${p.status!=="published"?" selected":""}>草稿</option></select></div>
+    </div>
+    <div class="form-row"><label>简介</label><textarea id="f_blurb">${esc(p.blurb)}</textarea></div>
+    <div class="form-row"><label>产品图片</label>
+      <div class="img-upload">
+        <img id="f_img_prev" class="img-prev" src="${esc(p.image)}" onerror="this.classList.add('empty')">
+        <div class="img-upload-side">
+          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑上传图片<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_img','f_img_prev')"></label>
+          <input id="f_img" value="${esc(p.image)}" placeholder="或粘贴图片地址 URL" oninput="document.getElementById('f_img_prev').src=this.value;document.getElementById('f_img_prev').classList.remove('empty')">
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid var(--line);margin:16px 0 4px;padding-top:12px"><strong>规格参数表</strong> <span class="muted" style="font-size:12px">（用竖线 | 分隔每一列；数据行每行一条）</span></div>
+    <div class="form-row"><label>参数表标题</label><input id="f_spec_title" value="${esc(sp.title||"")}" placeholder="如：Models and Technical Specifications"></div>
+    <div class="form-row"><label>表头</label><input id="f_spec_head" value="${esc(headStr)}" placeholder="Model | ZQ127/25 | ZQ162/35 | ZQ203/100"></div>
+    <div class="form-row"><label>数据行</label><textarea id="f_spec_rows" style="min-height:120px;font-family:monospace;font-size:12.5px" placeholder="Range | Ø60~140 | Ø60~140 | Ø127~203">${esc(rowStr)}</textarea></div>
+  `,()=>{
+    const name=val("f_name");if(!name){toast("请填写产品名称");return false;}
+    const data={name,category:val("f_cat"),blurb:val("f_blurb"),image:val("f_img"),status:val("f_status")};
+    const st=val("f_spec_title"), sh=val("f_spec_head"), sr=document.getElementById("f_spec_rows").value.trim();
+    if(st||sh||sr){
+      data.spec={title:st,
+        headers:sh?sh.split("|").map(x=>x.trim()):[],
+        rows:sr?sr.split("\n").map(l=>l.split("|").map(x=>x.trim())).filter(r=>r.some(c=>c)):[]};
+    } else if(p.spec){ data.spec=null; }
+    if(id){Object.assign(p,data);if(data.spec===null)delete p.spec;}else{data.id="p"+Date.now();DB.products.unshift(data);}
+    save();vProducts();toast("已保存");return true;
+  });
+}
+function toggleProduct(id){const p=DB.products.find(x=>x.id===id);p.status=p.status==="published"?"draft":"published";save();vProducts();}
+function delProduct(id){if(!confirm("确定删除该产品？"))return;DB.products=DB.products.filter(x=>x.id!==id);save();vProducts();toast("已删除");}
+
+/* ===== 博客/新闻 ===== */
+let bQuery="";
+function vPosts(){
+  const q=bQuery.toLowerCase();
+  const list=DB.posts.filter(p=>!q||(p.title+p.category).toLowerCase().includes(q));
+  V.innerHTML=`
+  <div class="panel">
+    <h3>博客 / 新闻</h3><p class="sub">共 ${DB.posts.length} 篇 · 可新增、编辑、删除</p>
+    <div class="bar">
+      <input class="search" placeholder="搜索标题…" value="${esc(bQuery)}" oninput="bQuery=this.value;vPosts()">
+      <button class="btn" onclick="editPost(null)">＋ 写文章</button>
+    </div>
+    <table><thead><tr><th>标题</th><th>分类</th><th>日期</th><th>状态</th><th style="width:120px">操作</th></tr></thead><tbody>
+    ${list.map(p=>`<tr>
+      <td><b>${esc(p.title)}</b><div class="muted" style="font-size:12px">${esc((p.excerpt||"").slice(0,70))}</div></td>
+      <td class="muted">${esc(p.category)}</td><td class="muted">${esc(p.date||"")}</td><td>${statusTag(p.status)}</td>
+      <td><button class="btn ghost sm" onclick="editPost('${esc(p.id)}')">编辑</button><button class="btn danger sm" onclick="delPost('${esc(p.id)}')">删</button></td>
+    </tr>`).join("")||`<tr><td colspan="5" class="muted">暂无文章</td></tr>`}
+    </tbody></table>
+  </div>`;
+}
+function editPost(id){
+  const p=id?DB.posts.find(x=>x.id===id):{id:"",title:"",category:"行业新闻",date:"2026-07-07",excerpt:"",content:"",status:"published"};
+  modal(`${id?"编辑":"新增"}文章`,`
+    <div class="form-row"><label>标题</label><input id="f_title" value="${esc(p.title)}"></div>
+    <div class="grid2">
+      <div class="form-row"><label>分类</label><input id="f_pcat" value="${esc(p.category)}"></div>
+      <div class="form-row"><label>日期</label><input id="f_date" value="${esc(p.date)}"></div>
+    </div>
+    <div class="form-row"><label>封面图片</label>
+      <div class="img-upload">
+        <img id="f_cover_prev" class="img-prev" src="${esc(p.cover||"")}" onerror="this.classList.add('empty')">
+        <div class="img-upload-side">
+          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑上传封面<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_cover','f_cover_prev')"></label>
+          <input id="f_cover" value="${esc(p.cover||"")}" placeholder="或粘贴图片地址 URL" oninput="document.getElementById('f_cover_prev').src=this.value;document.getElementById('f_cover_prev').classList.remove('empty')">
+        </div>
+      </div>
+    </div>
+    <div class="form-row"><label>摘要</label><textarea id="f_ex">${esc(p.excerpt)}</textarea></div>
+    <div class="form-row"><label>正文内容</label><textarea id="f_content" style="min-height:140px">${esc(p.content||"")}</textarea></div>
+    <div class="form-row"><label>状态</label><select id="f_pstatus"><option value="published"${p.status==="published"?" selected":""}>已发布</option><option value="draft"${p.status!=="published"?" selected":""}>草稿</option></select></div>
+  `,()=>{
+    const t=val("f_title");if(!t){toast("请填写标题");return false;}
+    const data={title:t,category:val("f_pcat"),date:val("f_date"),excerpt:val("f_ex"),content:val("f_content"),cover:val("f_cover"),status:val("f_pstatus")};
+    if(id){Object.assign(p,data);}else{data.id="b"+Date.now();DB.posts.unshift(data);}
+    save();vPosts();toast("已保存");return true;
+  });
+}
+function delPost(id){if(!confirm("确定删除该文章？"))return;DB.posts=DB.posts.filter(x=>x.id!==id);save();vPosts();toast("已删除");}
+
+/* ===== 网站信息 ===== */
+function vSite(){
+  const s=DB.site||{};
+  V.innerHTML=`
+  <div class="panel">
+    <h3>网站基础信息</h3><p class="sub">品牌、联系方式、页脚与首页文案（保存后可一键导出交给上线）</p>
+    <div class="grid2">
+      <div class="form-row"><label>品牌名</label><input id="s_brand" value="${esc(s.brand)}"></div>
+      <div class="form-row"><label>公司全称</label><input id="s_company" value="${esc(s.company)}"></div>
+    </div>
+    <div class="form-row"><label>公司简介 / 页脚标语</label><textarea id="s_tag">${esc(s.tagline)}</textarea></div>
+    <div class="grid2">
+      <div class="form-row"><label>邮箱（逗号分隔）</label><input id="s_emails" value="${esc((s.emails||[]).join(", "))}"></div>
+      <div class="form-row"><label>电话（逗号分隔）</label><input id="s_phones" value="${esc((s.phones||[]).join(", "))}"></div>
+    </div>
+    <div class="grid2">
+      <div class="form-row"><label>WhatsApp</label><input id="s_wa" value="${esc(s.whatsapp)}"></div>
+      <div class="form-row"><label>地址</label><input id="s_addr" value="${esc(s.address)}"></div>
+    </div>
+    <div class="form-row"><label>首页大标题</label><input id="s_ht" value="${esc(s.heroTitle)}"></div>
+    <div class="form-row"><label>首页副标题</label><textarea id="s_hs">${esc(s.heroSubtitle)}</textarea></div>
+    <button class="btn" onclick="saveSite()">保存网站信息</button>
+  </div>`;
+}
+function saveSite(){
+  DB.site={brand:val("s_brand"),company:val("s_company"),tagline:val("s_tag"),
+    emails:val("s_emails").split(",").map(x=>x.trim()).filter(Boolean),
+    phones:val("s_phones").split(",").map(x=>x.trim()).filter(Boolean),
+    whatsapp:val("s_wa"),address:val("s_addr"),heroTitle:val("s_ht"),heroSubtitle:val("s_hs")};
+  save();toast("网站信息已保存");
+}
+
+/* ===== 页面编辑 ===== */
+const PAGES=[
+  {id:"home",name:"首页",url:"/demo/pratt-oil-oilfield/"},
+  {id:"about",name:"关于我们",url:"/demo/pratt-oil-oilfield/en/about-us/"},
+  {id:"contact",name:"联系我们",url:"/demo/pratt-oil-oilfield/en/contact/"},
+  {id:"services",name:"服务",url:"/demo/pratt-oil-oilfield/en/services/"},
+  {id:"products",name:"产品目录",url:"/demo/pratt-oil-oilfield/en/products/"}
+];
+function vPages(){
+  DB.pageEdits=DB.pageEdits||{};
+  V.innerHTML=`
+  <div class="panel">
+    <h3>页面编辑</h3><p class="sub">编辑各页面的标题、SEO 描述与主视觉文案；改动保存为覆盖内容，导出后由上线流程套用到静态页。</p>
+    <table><thead><tr><th>页面</th><th>链接</th><th>状态</th><th style="width:120px">操作</th></tr></thead><tbody>
+    ${PAGES.map(pg=>{const e=DB.pageEdits[pg.id];return `<tr>
+      <td><b>${pg.name}</b></td>
+      <td><a href="${pg.url}" target="_blank" class="muted">${pg.url}</a></td>
+      <td>${e?'<span class="tag pub">已自定义</span>':'<span class="muted">默认</span>'}</td>
+      <td><button class="btn ghost sm" onclick="editPage('${pg.id}')">编辑</button></td></tr>`;}).join("")}
+    </tbody></table>
+  </div>`;
+}
+function editPage(pid){
+  const pg=PAGES.find(x=>x.id===pid);const e=(DB.pageEdits||{})[pid]||{};
+  modal(`编辑页面 · ${pg.name}`,`
+    <div class="form-row"><label>页面标题 (title)</label><input id="pg_title" value="${esc(e.title||"")}" placeholder="留空表示不改"></div>
+    <div class="form-row"><label>SEO 描述 (meta description)</label><textarea id="pg_desc">${esc(e.desc||"")}</textarea></div>
+    <div class="form-row"><label>主视觉大标题 (H1)</label><input id="pg_h1" value="${esc(e.h1||"")}"></div>
+    <div class="form-row"><label>主视觉正文</label><textarea id="pg_body">${esc(e.body||"")}</textarea></div>
+  `,()=>{
+    DB.pageEdits=DB.pageEdits||{};
+    DB.pageEdits[pid]={title:val("pg_title"),desc:val("pg_desc"),h1:val("pg_h1"),body:val("pg_body")};
+    if(!DB.pageEdits[pid].title&&!DB.pageEdits[pid].desc&&!DB.pageEdits[pid].h1&&!DB.pageEdits[pid].body)delete DB.pageEdits[pid];
+    save();vPages();toast("页面内容已保存");return true;
+  });
+}
+
+/* ===== 系统设置 ===== */
+function vSystem(){
+  V.innerHTML=`
+  <div class="panel">
+    <h3>数据导出 / 导入</h3><p class="sub">后台数据保存在本浏览器。导出 JSON 交付上线，或导入此前备份。</p>
+    <div class="bar">
+      <button class="btn" onclick="exportJSON()">⬇ 导出全部数据 (JSON)</button>
+      <button class="btn ghost" onclick="document.getElementById('imp').click()">⬆ 导入 JSON</button>
+      <input type="file" id="imp" accept="application/json" class="hidden" onchange="importJSON(event)">
+      <button class="btn danger" onclick="resetDB()">恢复初始数据</button>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>账户</h3><p class="sub">当前登录账号</p>
+    <table><tr><th>账号</th><td>admin</td></tr><tr><th>角色</th><td>管理员</td></tr><tr><th>说明</th><td class="muted">演示后台，登录与数据均在浏览器本地；正式上线可对接服务器数据库与真实鉴权。</td></tr></table>
+  </div>`;
+}
+function exportJSON(){
+  const blob=new Blob([JSON.stringify(DB,null,2)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="pratt-oil-content.json";a.click();toast("已导出");
+}
+function importJSON(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();
+  r.onload=()=>{try{DB=JSON.parse(r.result);save();render();toast("导入成功");}catch(x){toast("文件格式错误");}};r.readAsText(f);}
+
+/* ===== modal helper ===== */
+function modal(title,body,onOk){
+  const bg=document.createElement("div");bg.className="modal-bg";
+  bg.innerHTML=`<div class="modal"><h3>${esc(title)}</h3>${body}<div class="foot"><button class="btn ghost" id="mCancel">取消</button><button class="btn" id="mOk">保存</button></div></div>`;
+  document.body.appendChild(bg);
+  bg.querySelector("#mCancel").onclick=()=>bg.remove();
+  bg.addEventListener("click",e=>{if(e.target===bg)bg.remove();});
+  bg.querySelector("#mOk").onclick=()=>{if(onOk()!==false)bg.remove();};
+}
+function val(id){return document.getElementById(id).value.trim();}
+/* 从电脑直接上传图片：读成 base64 存入字段并预览（演示版存本地） */
+function uploadImage(input,targetId,previewId){
+  const f=input.files&&input.files[0];if(!f)return;
+  if(!f.type.startsWith("image/")){toast("请选择图片文件");return;}
+  if(f.size>3*1024*1024){toast("图片超过 3MB，演示版建议压缩后再传");}
+  const r=new FileReader();
+  r.onload=function(){document.getElementById(targetId).value=r.result;const pv=document.getElementById(previewId);pv.src=r.result;pv.classList.remove("empty");toast("图片已上传");};
+  r.readAsDataURL(f);
+}
+
+/* ===== 启动 ===== */
+if(sessionStorage.getItem("prattAuthed")==="1")enterApp();
+</script>
+</body>
+</html>

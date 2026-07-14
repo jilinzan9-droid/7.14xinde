@@ -1,0 +1,7 @@
+﻿User-agent: *
+Allow: /
+
+Disallow: /source-images/
+Disallow: /tools/
+Disallow: /admin/
+Sitemap: https://www.pratt-oil.com/sitemap.xml

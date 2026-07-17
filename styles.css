@@ -4327,13 +4327,14 @@ html[lang="en"] .featured-support-grid p {
 
 /* Keep the crankshaft product photo prominent without cropping the assembly. */
 body.wide-spec-table-page .ru-product-detail-image {
-  padding: clamp(8px, 1.2vw, 18px);
+  padding: 0;
+  aspect-ratio: 1 / 1;
 }
 
 body.wide-spec-table-page .ru-product-detail-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 body.wide-spec-table-page .ru-product-detail-hero {

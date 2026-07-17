@@ -280,7 +280,13 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/burovye-vertlyug-sl/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pratt-oil.com/ar/products/burovye-vertlyug-sl/</loc>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

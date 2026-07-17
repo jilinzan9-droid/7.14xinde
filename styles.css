@@ -4398,6 +4398,55 @@ body.wide-spec-table-page .ru-product-detail-hero + .ru-model-table-section {
   font-weight: 900;
 }
 
+/* SL drilling swivel: keep the technical drawing legible and the bilingual table aligned. */
+body.sl-swivel-page .ru-product-detail-hero {
+  align-items: start;
+}
+
+body.sl-swivel-page .ru-product-detail-copy h1 {
+  font-size: clamp(36px, 3.2vw, 48px);
+}
+
+body.sl-swivel-page .ru-description-grid {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
+}
+
+body.sl-swivel-page .ru-description-grid img {
+  object-fit: contain;
+  background: #fff;
+}
+
+body.sl-swivel-page .ru-model-table th,
+body.sl-swivel-page .ru-model-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+body.sl-swivel-page .ru-model-table .spec-label {
+  width: 18%;
+  text-align: left;
+}
+
+body.sl-swivel-page .ru-model-table .spec-unit {
+  width: 8%;
+  white-space: normal;
+}
+
+html[lang="ar"] body.sl-swivel-page .ru-product-meta span {
+  border-right: 3px solid var(--gold);
+  border-left: 0;
+}
+
+html[lang="ar"] body.sl-swivel-page .ru-model-table .spec-label {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="ar"] body.sl-swivel-page .ru-model-table .spec-unit {
+  direction: rtl;
+}
+
 .ru-model-table-wrap {
   margin-top: 18px;
 }

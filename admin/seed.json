@@ -50751,12 +50751,12 @@
     },
     {
       "id": "burovye-vertlyug-sl",
-      "name": "SL Drilling Swivel",
-      "name_ar": "SL سويفل حفر",
+      "name": "SL Series Drilling Swivels",
+      "name_ar": "وصلات الدوران للحفر من سلسلة SL",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
-      "blurb_ar": "الحفارات وملحقات الونش",
+      "blurb": "Drilling-rig swivels for free drill-string rotation, drilling-fluid circulation and suspended-load support.",
+      "blurb_ar": "وصلات دوران لأجهزة الحفر تتيح دوران سلسلة الحفر وتمرير سائل الحفر وتحمل الحمل المعلق.",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/burovye-vertlyug-sl-main.webp",
       "slug": "burovye-vertlyug-sl",
       "source_url": "https://www.pratt-oil.ru/%D0%B1%D1%83%D1%80%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B2%D0%B5%D1%80%D1%82%D0%BB%D1%8E%D0%B3-sl_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
@@ -50764,7 +50764,8 @@
       "spec": {
         "title": "Models and Technical Specifications",
         "headers": [
-          "Model",
+          "Parameter",
+          "Unit",
           "SL135",
           "SL160",
           "SL170",
@@ -50774,7 +50775,8 @@
         ],
         "rows": [
           [
-            ".",
+            "Max. static load",
+            "kN",
             "1350",
             "1600",
             "1700",
@@ -50783,16 +50785,18 @@
             "4500"
           ],
           [
+            "Max. static load",
+            "US ton",
             "150",
             "180",
             "190",
             "250",
             "350",
-            "500",
-            ""
+            "500"
           ],
           [
-            "Oilfield Spare Part",
+            "Dynamic load rating",
+            "kN",
             "1000",
             "1200",
             "1300",
@@ -50801,16 +50805,18 @@
             "3200"
           ],
           [
+            "Dynamic load rating",
+            "US ton",
             "110",
             "135",
             "145",
             "180",
             "250",
-            "360",
-            ""
+            "360"
           ],
           [
-            "Speed",
+            "Max. speed",
+            "rpm",
             "300",
             "300",
             "300",
@@ -50819,16 +50825,18 @@
             "300"
           ],
           [
+            "Max. working pressure",
+            "MPa",
             "35",
             "35",
             "35",
             "35",
             "35",
-            "35",
-            ""
+            "35"
           ],
           [
-            "Max.Pressure",
+            "Max. working pressure",
+            "psi",
             "5000",
             "5000",
             "5000",
@@ -50837,16 +50845,18 @@
             "5000"
           ],
           [
+            "Bore size of central pipe",
+            "mm",
             "64",
             "64",
             "64",
             "75",
             "75",
-            "75",
-            ""
+            "75"
           ],
           [
-            "Size",
+            "Bore size of central pipe",
+            "in",
             "2.52",
             "2.52",
             "2.52",
@@ -50855,7 +50865,8 @@
             "3"
           ],
           [
-            "Oilfield Spare Part",
+            "Thread of drilling hose",
+            "—",
             "4 LP",
             "4 LP",
             "4 LP",
@@ -50864,7 +50875,8 @@
             "4 LP"
           ],
           [
-            "Oilfield Spare Part",
+            "Sub connection",
+            "—",
             "6 5/8 REG-LH",
             "6 5/8 REG-LH",
             "6 5/8 REG-LH",
@@ -50873,25 +50885,28 @@
             "6 5/8 REG-LH"
           ],
           [
-            "Size",
-            "2280*680*590",
-            "2280*680*590",
-            "2250*820*835",
-            "2800*980*790",
-            "3015*1096*830",
-            "3015*1096*830"
+            "Overall dimensions (L × W × H)",
+            "mm",
+            "2280 × 680 × 590",
+            "2280 × 680 × 590",
+            "2250 × 820 × 835",
+            "2800 × 980 × 790",
+            "3015 × 1096 × 830",
+            "3015 × 1096 × 830"
           ],
           [
-            "90*27*23",
-            "90*27*23",
-            "100*32*33",
-            "110*39*31",
-            "119*43*33",
-            "119*43*33",
-            ""
+            "Overall dimensions (L × W × H)",
+            "in",
+            "90 × 27 × 23",
+            "90 × 27 × 23",
+            "100 × 32 × 33",
+            "110 × 39 × 31",
+            "119 × 43 × 33",
+            "119 × 43 × 33"
           ],
           [
-            "Oilfield Spare Part",
+            "Weight",
+            "kg",
             "1500",
             "1500",
             "1782",
@@ -50900,13 +50915,14 @@
             "2700"
           ],
           [
+            "Weight",
+            "lb",
             "3307",
             "3307",
             "3928",
             "5512",
             "5950",
-            "5950",
-            ""
+            "5950"
           ]
         ]
       }

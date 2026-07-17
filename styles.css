@@ -4409,28 +4409,70 @@ html[lang="en"] .featured-support-grid p {
 }
 
 /* Wide seven-column specification table: mud pump crankshaft assembly page */
+body.wide-spec-table-page .product-sidebar {
+  position: static;
+}
+
+body.wide-spec-table-page .ru-model-table-section {
+  width: calc(100% + 262px);
+  margin-left: -262px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+html[dir="rtl"] body.wide-spec-table-page .ru-model-table-section {
+  margin-right: -262px;
+  margin-left: 0;
+}
+
 body.wide-spec-table-page .ru-model-table-section > * {
-  width: min(1800px, calc(100% - 40px));
-  max-width: 1800px;
+  width: 100%;
+  max-width: none;
 }
 
 body.wide-spec-table-page .ru-model-table {
-  min-width: 1480px;
-  table-layout: auto;
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
 }
 
 body.wide-spec-table-page .ru-model-table th,
 body.wide-spec-table-page .ru-model-table td {
-  padding: 12px 16px;
+  padding: 10px 8px;
+  overflow-wrap: anywhere;
 }
 
 body.wide-spec-table-page .ru-model-table td:not(:first-child) {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 body.wide-spec-table-page .ru-model-table th:first-child,
 body.wide-spec-table-page .ru-model-table td:first-child {
-  min-width: 210px;
+  width: 20%;
+  min-width: 0;
+}
+
+@media (max-width: 1180px) {
+  body.wide-spec-table-page .ru-model-table-section,
+  html[dir="rtl"] body.wide-spec-table-page .ru-model-table-section {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  body.wide-spec-table-page .ru-model-table th,
+  body.wide-spec-table-page .ru-model-table td {
+    padding: 6px 4px;
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  body.wide-spec-table-page .ru-model-table th:first-child,
+  body.wide-spec-table-page .ru-model-table td:first-child {
+    width: 24%;
+  }
 }
 
 .ru-unsupported-table-note {

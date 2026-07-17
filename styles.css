@@ -4325,6 +4325,25 @@ html[lang="en"] .featured-support-grid p {
   box-shadow: 0 16px 34px rgba(16, 32, 38, 0.12);
 }
 
+/* Keep the crankshaft product photo prominent without cropping the assembly. */
+body.wide-spec-table-page .ru-product-detail-image {
+  padding: clamp(8px, 1.2vw, 18px);
+}
+
+body.wide-spec-table-page .ru-product-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+body.wide-spec-table-page .ru-product-detail-hero {
+  padding-bottom: clamp(36px, 4vw, 52px);
+}
+
+body.wide-spec-table-page .ru-product-detail-hero + .ru-model-table-section {
+  padding-top: clamp(44px, 5vw, 64px);
+}
+
 .ru-product-info-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -3446,8 +3446,9 @@ body.brake-band-reference-layout .ru-breadcrumb {
 }
 
 .brake-band-table-scroll {
+  width: 100%;
   max-width: 1040px;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 .brake-band-parts-table {
@@ -3460,11 +3461,25 @@ body.brake-band-reference-layout .ru-breadcrumb {
 
 .brake-band-parts-table th,
 .brake-band-parts-table td {
+  min-width: 0;
   border: 1px solid rgba(16, 32, 38, 0.1);
   padding: 10px 12px;
   text-align: center;
   vertical-align: middle;
-  word-break: break-word;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+@media (max-width: 720px) {
+  .brake-band-parts-table {
+    font-size: 9px;
+  }
+
+  .brake-band-parts-table th,
+  .brake-band-parts-table td {
+    padding: 5px 3px;
+    line-height: 1.25;
+  }
 }
 
 .brake-band-parts-table th {
@@ -4408,70 +4423,97 @@ html[lang="en"] .featured-support-grid p {
   background: #f8faf9;
 }
 
-/* Wide seven-column specification table: mud pump crankshaft assembly page */
-body.wide-spec-table-page .product-sidebar {
+/* Responsive product specification tables: 2 to 11 columns without horizontal dragging */
+body.ru-product-detail-page:not(.compact-product-range-page)
+  .product-category-layout:has(> .product-category-main > .ru-model-table-section)
+  > .product-sidebar {
   position: static;
 }
 
-body.wide-spec-table-page .ru-model-table-section {
+body.ru-product-detail-page:not(.compact-product-range-page)
+  .product-category-main > .ru-model-table-section {
   width: calc(100% + 262px);
-  margin-left: -262px;
-  padding-right: 0;
-  padding-left: 0;
+  margin-inline-start: -262px;
+  padding-inline: 0;
 }
 
-html[dir="rtl"] body.wide-spec-table-page .ru-model-table-section {
-  margin-right: -262px;
-  margin-left: 0;
-}
-
-body.wide-spec-table-page .ru-model-table-section > * {
+body.ru-product-detail-page:not(.compact-product-range-page)
+  .product-category-main > .ru-model-table-section > * {
   width: 100%;
   max-width: none;
 }
 
-body.wide-spec-table-page .ru-model-table {
+body.ru-product-detail-page .ru-table-scroll {
+  overflow: visible;
+  contain: none;
+}
+
+body.ru-product-detail-page .ru-model-table {
   width: 100%;
   min-width: 0;
   table-layout: fixed;
 }
 
-body.wide-spec-table-page .ru-model-table th,
-body.wide-spec-table-page .ru-model-table td {
-  padding: 10px 8px;
-  overflow-wrap: anywhere;
-}
-
-body.wide-spec-table-page .ru-model-table td:not(:first-child) {
-  white-space: normal;
-}
-
-body.wide-spec-table-page .ru-model-table th:first-child,
-body.wide-spec-table-page .ru-model-table td:first-child {
-  width: 20%;
+body.ru-product-detail-page .ru-model-table th,
+body.ru-product-detail-page .ru-model-table td {
   min-width: 0;
+  padding: 10px 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+}
+
+body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(6)) th,
+body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(6)) td {
+  padding: 8px 6px;
+  font-size: 12px;
+}
+
+body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(8)) th,
+body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(8)) td {
+  padding: 7px 4px;
+  font-size: 11px;
+  line-height: 1.35;
 }
 
 @media (max-width: 1180px) {
-  body.wide-spec-table-page .ru-model-table-section,
-  html[dir="rtl"] body.wide-spec-table-page .ru-model-table-section {
+  body.ru-product-detail-page:not(.compact-product-range-page)
+    .product-category-main > .ru-model-table-section {
     width: 100%;
-    margin-right: 0;
-    margin-left: 0;
+    margin-inline-start: 0;
   }
 }
 
 @media (max-width: 720px) {
-  body.wide-spec-table-page .ru-model-table th,
-  body.wide-spec-table-page .ru-model-table td {
+  body.ru-product-detail-page .ru-model-table-wrap {
+    border-radius: 10px;
+  }
+
+  body.ru-product-detail-page .ru-model-table-wrap h3 {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  body.ru-product-detail-page .ru-model-table th,
+  body.ru-product-detail-page .ru-model-table td {
     padding: 6px 4px;
     font-size: 10px;
     line-height: 1.3;
   }
 
-  body.wide-spec-table-page .ru-model-table th:first-child,
-  body.wide-spec-table-page .ru-model-table td:first-child {
-    width: 24%;
+  body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(6)) th,
+  body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(6)) td {
+    padding: 5px 3px;
+    font-size: 9px;
+    line-height: 1.25;
+  }
+
+  body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(8)) th,
+  body.ru-product-detail-page .ru-model-table:has(tr > :nth-child(8)) td {
+    padding: 4px 2px;
+    font-size: 8px;
+    line-height: 1.2;
   }
 }
 
@@ -5285,25 +5327,31 @@ body.wcb-reference-cn-page .wcb-cn-large-photo img {
 
 body.wcb-reference-cn-page .wcb-cn-table-wrap {
   margin-top: 32px;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 body.wcb-reference-cn-page .wcb-cn-table {
   width: 100%;
+  min-width: 0;
   border-collapse: collapse;
   border: 1px solid #e5e5e5;
   color: #333;
   background: #fff;
   font-size: 13px;
+  table-layout: fixed;
   text-align: center;
 }
 
 body.wcb-reference-cn-page .wcb-cn-table th,
 body.wcb-reference-cn-page .wcb-cn-table td {
-  min-width: 112px;
+  min-width: 0;
   padding: 10px 8px;
   border: 1px solid #e8e8e8;
   line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
 }
 
 body.wcb-reference-cn-page .wcb-cn-table th {
@@ -5313,6 +5361,18 @@ body.wcb-reference-cn-page .wcb-cn-table th {
 
 body.wcb-reference-cn-page .wcb-cn-table tbody tr:nth-child(even) td {
   background: #fcfcfc;
+}
+
+@media (max-width: 720px) {
+  body.wcb-reference-cn-page .wcb-cn-table {
+    font-size: 9px;
+  }
+
+  body.wcb-reference-cn-page .wcb-cn-table th,
+  body.wcb-reference-cn-page .wcb-cn-table td {
+    padding: 5px 3px;
+    line-height: 1.25;
+  }
 }
 
 body.wcb-reference-cn-page .wcb-cn-prevnext {

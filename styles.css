@@ -4372,6 +4372,251 @@ body.wide-spec-table-page .ru-product-detail-hero + .ru-model-table-section {
   line-height: 1.7;
 }
 
+/* MS35-AVA product page: compact hero and source-backed supply overview. */
+body.ms35-ava-page .ru-product-detail-hero {
+  grid-template-columns: minmax(0, 0.92fr) minmax(340px, 1.08fr);
+  gap: clamp(26px, 3vw, 46px);
+  align-items: center;
+  padding: clamp(40px, 5vw, 68px) 0 clamp(48px, 6vw, 76px);
+}
+
+body.ms35-ava-page .ru-product-detail-copy h1 {
+  max-width: 720px;
+  margin: 10px 0 20px;
+  font-size: clamp(38px, 3.4vw, 54px);
+  line-height: 1.04;
+}
+
+body.ms35-ava-page .ru-product-detail-copy h1 span {
+  display: block;
+  color: #006b57;
+  font-size: 0.72em;
+  letter-spacing: 0.01em;
+}
+
+body.ms35-ava-page .ms35-hero-lede {
+  max-width: 62ch;
+  margin: 0;
+  font-size: clamp(16px, 1.4vw, 19px);
+  line-height: 1.72;
+}
+
+body.ms35-ava-page .ru-product-meta {
+  grid-template-columns: minmax(0, 1.35fr) minmax(140px, 0.65fr);
+  gap: 10px;
+  margin: 24px 0;
+}
+
+body.ms35-ava-page .ru-product-meta span {
+  min-width: 0;
+  padding: 11px 13px;
+  overflow-wrap: anywhere;
+}
+
+body.ms35-ava-page .ms35-product-image {
+  width: min(100%, 560px);
+  justify-self: end;
+  background: #fbfbf7;
+}
+
+body.ms35-ava-page .hero-actions .btn.secondary {
+  border-color: #006b57;
+  color: #006b57;
+  background: #fff;
+}
+
+html[lang="ar"] body.ms35-ava-page .ms35-product-image {
+  justify-self: start;
+}
+
+body.ms35-ava-page .ms35-product-overview {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: clamp(32px, 4vw, 54px);
+  border: 1px solid rgba(16, 32, 38, 0.12);
+  border-radius: 22px;
+  background: linear-gradient(145deg, #f3f7f5 0%, #fff 68%);
+  box-shadow: 0 18px 48px rgba(16, 32, 38, 0.09);
+}
+
+body.ms35-ava-page .ms35-overview-heading {
+  max-width: 900px;
+  margin-bottom: 28px;
+}
+
+body.ms35-ava-page .ms35-overview-heading h2 {
+  margin: 8px 0 16px;
+  font-size: clamp(30px, 3vw, 44px);
+  line-height: 1.13;
+}
+
+body.ms35-ava-page .ms35-overview-heading p:not(.eyebrow) {
+  max-width: 78ch;
+  margin: 0;
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: 1.75;
+}
+
+body.ms35-ava-page .ms35-proof-grid,
+body.ms35-ava-page .ms35-capability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+body.ms35-ava-page .ms35-proof-grid {
+  margin-bottom: 14px;
+}
+
+body.ms35-ava-page .ms35-proof-grid article {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  padding: 18px 20px;
+  border-radius: 14px;
+  color: #fff;
+  background: #084c3f;
+}
+
+body.ms35-ava-page .ms35-proof-grid strong {
+  color: #f3c45a;
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1;
+}
+
+body.ms35-ava-page .ms35-proof-grid span {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+body.ms35-ava-page .ms35-capability-grid article {
+  position: relative;
+  min-width: 0;
+  padding: 22px 22px 22px 64px;
+  border: 1px solid rgba(16, 32, 38, 0.1);
+  border-radius: 14px;
+  background: #fff;
+}
+
+html[lang="ar"] body.ms35-ava-page .ms35-capability-grid article {
+  padding: 22px 64px 22px 22px;
+}
+
+body.ms35-ava-page .ms35-capability-number {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  color: #c9972e;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+html[lang="ar"] body.ms35-ava-page .ms35-capability-number {
+  right: 20px;
+  left: auto;
+}
+
+body.ms35-ava-page .ms35-capability-grid h3 {
+  margin: 0 0 8px;
+  color: var(--green-dark);
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+body.ms35-ava-page .ms35-capability-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+body.ms35-ava-page .ms35-compatibility-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  margin-top: 14px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+  background: #fff8e9;
+}
+
+html[lang="ar"] body.ms35-ava-page .ms35-compatibility-note {
+  border-right: 4px solid var(--gold);
+  border-left: 0;
+  border-radius: 12px 0 0 12px;
+}
+
+body.ms35-ava-page .ms35-compatibility-note strong {
+  color: var(--green-dark);
+  white-space: nowrap;
+}
+
+body.ms35-ava-page .ms35-compatibility-note p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+body.ms35-ava-page .ru-related-products {
+  padding: clamp(52px, 6vw, 78px) 0;
+}
+
+@media (max-width: 900px) {
+  body.ms35-ava-page .ru-product-detail-hero {
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+  }
+
+  body.ms35-ava-page .ms35-product-image,
+  html[lang="ar"] body.ms35-ava-page .ms35-product-image {
+    width: min(100%, 620px);
+    justify-self: center;
+  }
+
+  body.ms35-ava-page .ms35-capability-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  body.ms35-ava-page .product-sidebar {
+    display: none;
+  }
+
+  body.ms35-ava-page .floating-whatsapp {
+    display: none;
+  }
+
+  body.ms35-ava-page .ru-product-detail-hero {
+    padding-bottom: 42px;
+  }
+
+  body.ms35-ava-page .ru-product-meta,
+  body.ms35-ava-page .ms35-proof-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.ms35-ava-page .ms35-product-overview {
+    padding: 26px 18px;
+    border-radius: 16px;
+  }
+
+  body.ms35-ava-page .ms35-proof-grid article,
+  body.ms35-ava-page .ms35-compatibility-note {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  body.ms35-ava-page .ms35-compatibility-note strong {
+    white-space: normal;
+  }
+}
+
 .ru-description-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

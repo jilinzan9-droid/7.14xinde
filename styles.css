@@ -4372,7 +4372,7 @@ body.wide-spec-table-page .ru-product-detail-hero + .ru-model-table-section {
   line-height: 1.7;
 }
 
-/* MS35-AVA product page: compact hero and source-backed supply overview. */
+/* Source-backed product pages: compact hero and structured supply overview. */
 body.ms35-ava-page .ru-product-detail-hero {
   grid-template-columns: minmax(0, 0.92fr) minmax(340px, 1.08fr);
   gap: clamp(26px, 3vw, 46px);
@@ -4417,6 +4417,30 @@ body.ms35-ava-page .ms35-product-image {
   width: min(100%, 560px);
   justify-self: end;
   background: #fbfbf7;
+}
+
+body.a10-piston-page .ru-product-detail-copy h1 .a10-model-code {
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-size: clamp(20px, 2.2vw, 30px);
+  line-height: 1.16;
+  overflow-wrap: anywhere;
+}
+
+body.a10-piston-page .ru-product-detail-copy h1 {
+  font-size: clamp(34px, 3.2vw, 48px);
+}
+
+body.a10-piston-page .ru-product-meta {
+  grid-template-columns: 1fr;
+}
+
+body.a10-piston-page .a10-product-image {
+  aspect-ratio: 900 / 650;
+}
+
+body.a10-piston-page .a10-product-image img {
+  object-fit: cover;
 }
 
 body.ms35-ava-page .hero-actions .btn.secondary {

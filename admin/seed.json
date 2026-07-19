@@ -24695,16 +24695,73 @@
     },
     {
       "id": "privod-otbora-moschnosti-852hvakr-f6xs",
-      "name": "Power Take-Off Drive 852HVAKR-F6XS",
-      "name_ar": "مشغل أخذ القدرة 852HVAKR-F6XS",
+      "name": "Parker Chelsea 852XBAKP-F6XS Hydraulic Power Take-Off",
+      "name_ar": "مأخذ قدرة هيدروليكي Parker Chelsea 852XBAKP-F6XS",
       "category": "Valves, Pumps and Hydraulic Components",
       "category_ar": "الصمامات والمضخات والمكونات الهيدروليكية",
-      "blurb": "Valves, Pumps and Hydraulic Components",
-      "blurb_ar": "الصمامات والمضخات والمكونات الهيدروليكية",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/privod-otbora-moschnosti-852hvakr-f6xs-main.webp",
+      "blurb": "Heavy-duty hydraulic 8-bolt PowerShift PTO with pressure lubrication and SAE C output",
+      "blurb_ar": "مأخذ قدرة PowerShift هيدروليكي للخدمة الشاقة بتثبيت 8 مسامير وتزييت بالضغط وخرج SAE C",
+      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/privod-otbora-moschnosti-852hvakr-f6xs-detail.jpg",
       "slug": "privod-otbora-moschnosti-852hvakr-f6xs",
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4-%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0-%D0%BC%D0%BE%D1%89%D0%BD%D0%BE%D1%81%D1%82%D0%B8-852%D1%85%D0%B2%D0%B0%D0%BA%D1%80-f6xs_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
-      "status": "published"
+      "status": "published",
+      "spec": {
+        "title": "852XBAKP-F6XS Model Configuration and Series Ratings",
+        "headers": [
+          "Parameter",
+          "Verified value"
+        ],
+        "rows": [
+          [
+            "Product type",
+            "Chelsea 852 Series heavy-duty hydraulic 8-bolt PowerShift PTO"
+          ],
+          [
+            "Mounting option",
+            "X — Standard mount"
+          ],
+          [
+            "Gear ratio",
+            "B — 18/32"
+          ],
+          [
+            "Input gear designator",
+            "AK"
+          ],
+          [
+            "Lubrication",
+            "P — Pressure lubrication"
+          ],
+          [
+            "Shift option",
+            "F — No valve"
+          ],
+          [
+            "Assembly arrangement",
+            "6"
+          ],
+          [
+            "Output option",
+            "XS — SAE C 4-bolt flange; SAE C 1-1/4 in–14T shaft"
+          ],
+          [
+            "Intermittent torque",
+            "500 lb-ft / 678 N·m"
+          ],
+          [
+            "Power at 500 output rpm",
+            "48 hp / 36 kW"
+          ],
+          [
+            "Power at 1,000 output rpm",
+            "95 hp / 71 kW"
+          ],
+          [
+            "Approximate weight",
+            "88 lb / 40 kg"
+          ]
+        ]
+      }
     },
     {
       "id": "parkovochnyy-klapan-dg17v-3-2n-60",

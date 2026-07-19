@@ -6030,3 +6030,320 @@ html[lang="ar"] .parts-search { text-align: right; }
   .parts-catalog-table { min-width: 820px; }
   .parts-table-scroll { max-height: 620px; }
 }
+
+/* Parker Chelsea 852 PTO: source images, decoded model configuration and verified ratings. */
+body.pto-852-page .ru-product-detail-copy h1 {
+  font-size: clamp(36px, 3.2vw, 50px);
+}
+
+body.pto-852-page .ru-product-detail-copy h1 .pto-model-code {
+  display: block;
+  direction: ltr;
+  unicode-bidi: isolate;
+  margin-bottom: 8px;
+  color: #006b57;
+  font-size: clamp(25px, 2.6vw, 38px);
+  letter-spacing: 0.015em;
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+body.pto-852-page .ru-product-meta {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+body.pto-852-page .pto-product-image {
+  width: min(100%, 540px);
+  aspect-ratio: 1;
+  background: #fff;
+}
+
+body.pto-852-page .pto-product-image img {
+  object-fit: cover;
+}
+
+body.pto-852-page .pto-product-overview {
+  margin-bottom: clamp(52px, 6vw, 78px);
+}
+
+body.pto-852-page .pto-highlight-grid,
+body.pto-852-page .pto-overview-grid,
+body.pto-852-page .pto-code-grid,
+body.pto-852-page .pto-component-strip,
+body.pto-852-page .pto-rating-grid {
+  display: grid;
+  gap: 14px;
+}
+
+body.pto-852-page .pto-highlight-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+body.pto-852-page .pto-highlight-grid article {
+  min-width: 0;
+  padding: 22px 18px;
+  border-radius: 14px;
+  color: #fff;
+  background: linear-gradient(145deg, #084c3f, #006b57);
+}
+
+body.pto-852-page .pto-highlight-grid strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #f3c45a;
+  font-size: clamp(24px, 2.2vw, 32px);
+  line-height: 1;
+}
+
+body.pto-852-page .pto-highlight-grid span {
+  display: block;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+body.pto-852-page .pto-overview-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+body.pto-852-page .pto-overview-grid article {
+  padding: 22px;
+  border: 1px solid rgba(16, 32, 38, 0.1);
+  border-radius: 14px;
+  background: #fff;
+}
+
+body.pto-852-page .pto-overview-grid h3 {
+  margin: 0 0 9px;
+  color: var(--green-dark);
+  font-size: 19px;
+}
+
+body.pto-852-page .pto-overview-grid p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+body.pto-852-page .pto-model-specs {
+  box-sizing: border-box;
+  padding: clamp(38px, 5vw, 64px);
+  border: 1px solid rgba(16, 32, 38, 0.11);
+  border-radius: 22px;
+  background: linear-gradient(145deg, #f4f8f6 0%, #fff 72%);
+  box-shadow: 0 18px 48px rgba(16, 32, 38, 0.08);
+}
+
+body.pto-852-page .pto-model-specs > .section-heading {
+  max-width: 900px;
+  margin-bottom: 26px;
+}
+
+body.pto-852-page .pto-model-specs > .section-heading h2 {
+  margin: 8px 0 12px;
+  font-size: clamp(30px, 3vw, 44px);
+  line-height: 1.12;
+}
+
+body.pto-852-page .pto-model-specs > .section-heading p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+body.pto-852-page .pto-code-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+body.pto-852-page .pto-code-grid article {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid rgba(16, 32, 38, 0.1);
+  border-radius: 14px;
+  background: #fff;
+}
+
+body.pto-852-page .pto-code-grid article > span {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  direction: ltr;
+  unicode-bidi: isolate;
+  color: #fff;
+  background: #006b57;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+body.pto-852-page .pto-code-grid strong,
+body.pto-852-page .pto-code-grid p {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+body.pto-852-page .pto-code-grid strong {
+  margin-bottom: 5px;
+  color: var(--green-dark);
+  font-size: 14px;
+}
+
+body.pto-852-page .pto-code-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body.pto-852-page .pto-component-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 14px;
+}
+
+body.pto-852-page .pto-component-strip article {
+  min-width: 0;
+  padding: 17px 18px;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+  background: #fff8e9;
+}
+
+html[lang="ar"] body.pto-852-page .pto-component-strip article {
+  border-right: 3px solid var(--gold);
+  border-left: 0;
+  border-radius: 12px 0 0 12px;
+}
+
+body.pto-852-page .pto-component-strip span,
+body.pto-852-page .pto-component-strip strong,
+body.pto-852-page .pto-component-strip small {
+  display: block;
+}
+
+body.pto-852-page .pto-component-strip span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+body.pto-852-page .pto-component-strip strong {
+  margin: 5px 0;
+  direction: ltr;
+  unicode-bidi: isolate;
+  color: var(--green-dark);
+  font-size: 20px;
+}
+
+body.pto-852-page .pto-component-strip small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+body.pto-852-page .pto-rating-heading {
+  margin-top: clamp(40px, 5vw, 62px);
+}
+
+body.pto-852-page .pto-rating-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+body.pto-852-page .pto-rating-grid article {
+  min-width: 0;
+  padding: 21px;
+  border-radius: 14px;
+  background: #084c3f;
+}
+
+body.pto-852-page .pto-rating-grid span,
+body.pto-852-page .pto-rating-grid strong,
+body.pto-852-page .pto-rating-grid small {
+  display: block;
+}
+
+body.pto-852-page .pto-rating-grid span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+}
+
+body.pto-852-page .pto-rating-grid strong {
+  margin: 9px 0 5px;
+  color: #f3c45a;
+  font-size: clamp(22px, 2vw, 30px);
+  line-height: 1;
+}
+
+body.pto-852-page .pto-rating-grid small {
+  color: #fff;
+  line-height: 1.45;
+}
+
+body.pto-852-page .pto-reference-note,
+body.pto-852-page .pto-source-link {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+body.pto-852-page .pto-reference-note a,
+body.pto-852-page .pto-source-link a {
+  color: #006b57;
+  font-weight: 900;
+}
+
+body.pto-852-page .pto-source-gallery {
+  padding-top: clamp(54px, 6vw, 80px);
+}
+
+body.pto-852-page .pto-source-gallery .section-heading {
+  max-width: 820px;
+  margin-bottom: 24px;
+}
+
+body.pto-852-page .pto-source-gallery .ru-description-grid img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  background: #fff;
+}
+
+body.pto-852-page .pto-source-gallery .pto-accessory-photo img {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1040px) {
+  body.pto-852-page .pto-highlight-grid,
+  body.pto-852-page .pto-code-grid,
+  body.pto-852-page .pto-component-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  body.pto-852-page .ru-product-meta,
+  body.pto-852-page .pto-highlight-grid,
+  body.pto-852-page .pto-overview-grid,
+  body.pto-852-page .pto-code-grid,
+  body.pto-852-page .pto-component-strip,
+  body.pto-852-page .pto-rating-grid,
+  body.pto-852-page .pto-source-gallery .ru-description-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.pto-852-page .pto-model-specs {
+    width: 100%;
+    margin-inline-start: 0;
+    padding: 28px 18px;
+    border-radius: 16px;
+  }
+
+  body.pto-852-page .pto-code-grid article {
+    padding: 16px;
+  }
+}

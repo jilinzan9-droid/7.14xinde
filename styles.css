@@ -6347,3 +6347,88 @@ body.pto-852-page .pto-source-gallery .pto-accessory-photo img {
     padding: 16px;
   }
 }
+
+/* Vickers DG17V directional valve: verified data and source-photo control. */
+body.dg17-valve-page .dg17-product-image {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+body.dg17-valve-page .dg17-product-image img {
+  object-fit: contain;
+  background: #fff;
+}
+
+body.dg17-valve-page .dg17-product-image figcaption {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
+  z-index: 1;
+  padding: 10px 13px;
+  border-radius: 10px;
+  direction: ltr;
+  unicode-bidi: isolate;
+  color: #fff;
+  background: rgba(8, 76, 63, 0.92);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+body.dg17-valve-page .dg17-photo-warning {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin-top: 14px;
+  padding: 20px;
+  border: 1px solid rgba(180, 104, 0, 0.24);
+  border-left: 4px solid #bd6d00;
+  border-radius: 0 12px 12px 0;
+  background: #fff3df;
+}
+
+html[lang="ar"] body.dg17-valve-page .dg17-photo-warning {
+  border-right: 4px solid #bd6d00;
+  border-left: 1px solid rgba(180, 104, 0, 0.24);
+  border-radius: 12px 0 0 12px;
+}
+
+body.dg17-valve-page .dg17-photo-warning strong {
+  color: #7d4600;
+  white-space: nowrap;
+}
+
+body.dg17-valve-page .dg17-photo-warning p {
+  margin: 0;
+  color: #614b2f;
+  line-height: 1.65;
+}
+
+body.dg17-valve-page .dg17-rating-grid strong {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 720px) {
+  body.dg17-valve-page .dg17-photo-warning {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  body.dg17-valve-page .dg17-photo-warning strong {
+    white-space: normal;
+  }
+
+  body.dg17-valve-page .dg17-product-image figcaption {
+    right: 9px;
+    bottom: 9px;
+    left: 9px;
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}

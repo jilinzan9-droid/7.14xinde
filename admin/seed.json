@@ -24765,16 +24765,65 @@
     },
     {
       "id": "parkovochnyy-klapan-dg17v-3-2n-60",
-      "name": "DG17V-3-2N-60 Parking Valve",
-      "name_ar": "DG17V-3-2N-60 صمام توقف",
+      "name": "Vickers by Danfoss DG17V-3-2N-60 Directional Control Valve",
+      "name_ar": "صمام تحكم اتجاهي Vickers by Danfoss DG17V-3-2N-60",
       "category": "Valves, Pumps and Hydraulic Components",
       "category_ar": "الصمامات والمضخات والمكونات الهيدروليكية",
-      "blurb": "Valves, Pumps and Hydraulic Components",
-      "blurb_ar": "الصمامات والمضخات والمكونات الهيدروليكية",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/parkovochnyy-klapan-dg17v-3-2n-60-main.webp",
+      "blurb": "Manual lever-operated D03 directional valve, item 02-127344, rated to 75 L/min and 350 bar",
+      "blurb_ar": "صمام اتجاهي يدوي بالذراع بواجهة D03 ورقم 02-127344، بتدفق 75 لتر/دقيقة وضغط 350 بار",
+      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/parkovochnyy-klapan-dg17v-3-2n-60-detail.png",
       "slug": "parkovochnyy-klapan-dg17v-3-2n-60",
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D0%B0%D0%BF%D0%B0%D0%BD-dg17v-3-2n-60_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
-      "status": "published"
+      "status": "published",
+      "spec": {
+        "title": "DG17V-3-2N-60 Verified Manufacturer Specifications",
+        "headers": [
+          "Parameter",
+          "Verified value"
+        ],
+        "rows": [
+          [
+            "Brand / manufacturer item",
+            "Vickers by Danfoss / 02-127344"
+          ],
+          [
+            "Product type",
+            "Single-stage, manually lever-operated directional control valve"
+          ],
+          [
+            "Mounting interface",
+            "ISO 4401-03 / CETOP 3 / NFPA D03; subplate or manifold mounted"
+          ],
+          [
+            "Spool / spring arrangement",
+            "Type 2 / no spring, detented"
+          ],
+          [
+            "Maximum flow",
+            "75 L/min / 20 US gpm"
+          ],
+          [
+            "Rated system pressure",
+            "350 bar / 5,000 psi"
+          ],
+          [
+            "Tank-port rating",
+            "7 bar / 100 psi"
+          ],
+          [
+            "Hydraulic fluid / cleanliness",
+            "Petroleum oils / cleanliness code 19/17/14"
+          ],
+          [
+            "Dimensions",
+            "151.4 mm length × 46.0 mm width; 5.96 in height"
+          ],
+          [
+            "Design series / build",
+            "Series 60 / right-hand, lever on A-port side"
+          ]
+        ]
+      }
     },
     {
       "id": "tormoznoy-klapan-bk-f-s",

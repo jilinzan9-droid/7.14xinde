@@ -26402,21 +26402,20 @@
     },
     {
       "id": "burovoy-gidravlicheskiy-klyuch-serii-zq",
-      "name": "ZQ Series Drilling Hydraulic Tong",
-      "name_ar": "ZQ سلسلة Drilling Hydraulic Tong",
+      "name": "ZQ Series Drill Pipe Power Tong",
+      "name_ar": "ملقط أنابيب الحفر الهيدروليكي سلسلة ZQ",
       "category": "Wellhead Tools",
       "category_ar": "أدوات رأس البئر",
-      "blurb": "Wellhead Tools",
-      "blurb_ar": "أدوات رأس البئر",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-serii-zq-main.webp",
+      "blurb": "Integrated hydraulic spinning and torque tong for drill-pipe make-up and break-out.",
+      "blurb_ar": "ملقط هيدروليكي متكامل لتدوير وربط وفك وصلات أنابيب الحفر.",
+      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/burovoy-klyuch-zq203-main.jpg",
       "slug": "burovoy-gidravlicheskiy-klyuch-serii-zq",
-      "source_url": "https://www.pratt-oil.ru/%D0%B1%D1%83%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B3%D0%B8%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BB%D1%8E%D1%87-%D1%81%D0%B5%D1%80%D0%B8%D0%B8-zq_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
+      "source_url": "https://www.pratt-oil.ru/%D0%B1%D1%83%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BB%D1%8E%D1%87-zq203_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "ZQ Series Model Comparison",
         "headers": [
-          "Model",
-          "Column 2",
+          "Parameter",
           "ZQ127-25",
           "ZQ162-50",
           "ZQ203-100",
@@ -26424,196 +26423,74 @@
         ],
         "rows": [
           [
-            "Size",
-            "65-127",
-            "85-162",
-            "114-203",
-            "114-203",
-            ""
+            "Manufacturer-listed pipe size, mm",
+            "65–127",
+            "85–162",
+            "114–203",
+            "114–203"
           ],
           [
-            "23/8 〞～ 31/2 〞",
-            "23/8 〞～ 5 〞",
-            "27/8 〞～ 8 〞",
-            "27/8 〞～ 8 〞",
-            "",
-            ""
+            "Typical pipe-size listing, in.",
+            "2⅜ joint–3½ body",
+            "2⅜ joint–5 body",
+            "2⅞–8; verify jaw/roller set",
+            "2⅞–8; verify jaw/roller set"
           ],
           [
-            "Pressure",
-            "65-127",
-            "114.3 ～ 153.7",
-            "",
-            "",
-            ""
-          ],
-          [
-            "23/8 〞～ 31/2 〞",
-            "41/2 〞～ 51/2 〞",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Not specified in source",
-            "65-127",
-            "138-156",
-            "",
-            "",
-            ""
-          ],
-          [
-            "23/8 〞～ 31/2 〞",
-            "31/2 〞～ 41/2 〞",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Pressure",
+            "Maximum torque, kN·m",
             "25",
             "50",
             "100",
-            "125",
-            ""
+            "125"
           ],
           [
-            "18440",
-            "36880",
-            "73750",
-            "92200",
-            "",
-            ""
+            "High / low speed, rpm",
+            "65 / 10.5",
+            "60 / 4.1",
+            "40 / 2.7",
+            "40 / 2.7"
           ],
           [
-            ".",
-            ".",
-            "65",
-            "60",
-            "40",
-            "40"
-          ],
-          [
-            "Not specified in source",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            ".",
-            "10.5",
-            "4.1",
-            "2.7",
-            "2.7"
-          ],
-          [
-            "",
-            "Not specified in source",
-            "0.5–0.9",
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "72–130",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "Speed",
-            ".",
+            "Hydraulic rated pressure, MPa",
             "12",
-            "14",
+            "16",
             "16.6",
             "20.7"
           ],
           [
-            ".",
-            "1740",
-            "2030",
-            "2400",
-            "3000",
-            ""
-          ],
-          [
-            "Not specified in source",
+            "Rated hydraulic flow, L/min",
             "120",
             "120",
             "114",
-            "114",
-            ""
+            "114"
           ],
           [
-            "Not specified in source",
-            "31.7",
-            "31.7",
-            "30",
-            "30",
-            ""
+            "Air pressure, MPa",
+            "0.5–0.9",
+            "0.5–0.9",
+            "0.5–0.9",
+            "0.5–0.9"
           ],
           [
-            "1000",
-            "1000",
-            "1500",
-            "1500",
-            "",
-            ""
+            "Shifting-cylinder stroke, mm",
+            "1,000",
+            "1,000",
+            "1,500",
+            "1,500"
           ],
           [
-            "Size",
-            "39.4",
-            "39.4",
-            "59",
-            "59",
-            ""
+            "Overall dimensions (L × W × H), mm",
+            "1,110 × 735 × 815",
+            "1,570 × 800 × 1,190",
+            "1,760 × 1,000 × 1,360",
+            "1,760 × 1,080 × 1,360"
           ],
           [
-            "1110x735×",
-            "1570x800x1190",
-            "1760x1000x1360",
-            "1760x1080x1360",
-            "",
-            ""
-          ],
-          [
-            "815",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "44x31x32",
-            "62x31x47",
-            "69x39x53",
-            "69x40.5x53",
-            "",
-            ""
-          ],
-          [
-            "Weight",
+            "Weight, kg",
             "620",
-            "1500",
-            "2400",
-            "2650",
-            ""
-          ],
-          [
-            "1360",
-            "3310",
-            "5290",
-            "5840",
-            "",
-            ""
+            "1,500",
+            "2,400",
+            "2,650"
           ]
         ]
       }

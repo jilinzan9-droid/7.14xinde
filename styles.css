@@ -6432,3 +6432,690 @@ body.dg17-valve-page .dg17-rating-grid strong {
     font-size: 11px;
   }
 }
+
+/* Unified, source-backed product page standard. Reuse these classes for every
+   product added after July 2026 so photography, specifications and inquiry
+   guidance follow one consistent layout in both English and Arabic. */
+body.standard-product-page {
+  --standard-green: #084c3f;
+  --standard-green-soft: #eef6f3;
+  --standard-gold: #d09a2d;
+  background: #fff;
+}
+
+body.standard-product-page .standard-product-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(420px, 1.08fr);
+  gap: clamp(32px, 4vw, 64px);
+  align-items: center;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: clamp(42px, 6vw, 84px) clamp(20px, 4vw, 52px);
+}
+
+body.standard-product-page .standard-product-hero .ru-product-detail-copy h1,
+body.standard-product-page .standard-product-hero h1 {
+  max-width: 760px;
+  margin: 10px 0 20px;
+  font-size: clamp(38px, 4.2vw, 64px);
+  line-height: 1.03;
+  letter-spacing: -0.035em;
+}
+
+body.standard-product-page .standard-product-hero h1 span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--standard-green);
+  font-size: 0.38em;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body.standard-product-page .standard-product-hero .hero-lede,
+body.standard-product-page .standard-product-hero .standard-product-lede,
+body.standard-product-page .standard-product-hero .ru-product-detail-copy > p:not(.eyebrow) {
+  max-width: 64ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(16px, 1.35vw, 19px);
+  line-height: 1.72;
+}
+
+body.standard-product-page .standard-product-hero .ru-product-meta {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0;
+}
+
+body.standard-product-page .standard-product-hero .ru-product-meta span {
+  min-width: 0;
+  padding: 11px 13px;
+  overflow-wrap: anywhere;
+}
+
+body.standard-product-page .standard-product-image {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: min(100%, 620px);
+  min-width: 0;
+  margin: 0;
+  justify-self: end;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid rgba(16, 32, 38, 0.12);
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 24px 54px rgba(16, 32, 38, 0.13);
+}
+
+body.standard-product-page .standard-product-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+body.standard-product-page .standard-product-image figcaption {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
+  padding: 10px 13px;
+  border-radius: 10px;
+  color: #fff;
+  background: rgba(8, 76, 63, 0.92);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+body.standard-product-page .standard-product-overview,
+body.standard-product-page .standard-product-specs,
+body.standard-product-page .standard-product-reference,
+body.standard-product-page .standard-product-gallery,
+body.standard-product-page .standard-product-parts-link {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body.standard-product-page .standard-product-overview {
+  padding: clamp(32px, 5vw, 64px);
+  border: 1px solid rgba(16, 32, 38, 0.11);
+  border-radius: 24px;
+  background: linear-gradient(145deg, var(--standard-green-soft) 0%, #fff 68%);
+  box-shadow: 0 18px 48px rgba(16, 32, 38, 0.08);
+}
+
+body.standard-product-page .standard-product-overview > .section-heading,
+body.standard-product-page .standard-product-specs > .section-heading,
+body.standard-product-page .standard-product-gallery > .section-heading {
+  max-width: 900px;
+  margin-bottom: 28px;
+}
+
+body.standard-product-page .standard-product-overview .section-heading p,
+body.standard-product-page .standard-product-specs .section-heading p,
+body.standard-product-page .standard-product-gallery .section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+body.standard-product-page .standard-product-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 28px;
+}
+
+body.standard-product-page .standard-product-highlight-grid article {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid rgba(8, 76, 63, 0.11);
+  border-radius: 14px;
+  background: #fff;
+}
+
+body.standard-product-page .standard-product-highlight-grid span,
+body.standard-product-page .standard-product-highlight-grid strong,
+body.standard-product-page .standard-product-highlight-grid small {
+  display: block;
+}
+
+body.standard-product-page .standard-product-highlight-grid span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body.standard-product-page .standard-product-highlight-grid strong {
+  margin: 8px 0 6px;
+  color: var(--standard-green);
+  font-size: clamp(22px, 2.2vw, 32px);
+  line-height: 1.05;
+}
+
+body.standard-product-page .standard-product-highlight-grid small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+body.standard-product-page .standard-product-content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+body.standard-product-page .standard-product-content-grid article {
+  min-width: 0;
+  padding: 25px;
+  border-left: 4px solid var(--standard-gold);
+  border-radius: 0 14px 14px 0;
+  background: #fff;
+}
+
+html[lang="ar"] body.standard-product-page .standard-product-content-grid article {
+  border-right: 4px solid var(--standard-gold);
+  border-left: 0;
+  border-radius: 14px 0 0 14px;
+}
+
+body.standard-product-page .standard-product-content-grid h2,
+body.standard-product-page .standard-product-content-grid h3 {
+  margin-bottom: 10px;
+  color: var(--standard-green);
+}
+
+body.standard-product-page .standard-product-content-grid p,
+body.standard-product-page .standard-product-content-grid li {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+body.standard-product-page .standard-product-compatibility-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin-top: 22px;
+  padding: 22px 24px;
+  border: 1px solid rgba(190, 123, 0, 0.24);
+  border-left: 4px solid #c58513;
+  border-radius: 0 14px 14px 0;
+  background: #fff7e7;
+}
+
+html[lang="ar"] body.standard-product-page .standard-product-compatibility-note {
+  border-right: 4px solid #c58513;
+  border-left: 1px solid rgba(190, 123, 0, 0.24);
+  border-radius: 14px 0 0 14px;
+}
+
+body.standard-product-page .standard-product-compatibility-note strong {
+  color: #784c00;
+  white-space: nowrap;
+}
+
+body.standard-product-page .standard-product-compatibility-note p {
+  margin: 0;
+  color: #5f5039;
+  line-height: 1.68;
+}
+
+body.standard-product-page .standard-product-specs {
+  padding: clamp(56px, 7vw, 92px) clamp(20px, 4vw, 52px);
+}
+
+body.standard-product-page .standard-product-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+body.standard-product-page .standard-product-spec-grid article {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(8, 76, 63, 0.14);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(16, 32, 38, 0.07);
+}
+
+body.standard-product-page .standard-product-spec-grid article > h3 {
+  margin: 0;
+  padding: 18px 20px;
+  color: #fff;
+  background: var(--standard-green);
+  font-size: 21px;
+  letter-spacing: -0.015em;
+}
+
+body.standard-product-page .standard-product-spec-grid dl {
+  margin: 0;
+}
+
+body.standard-product-page .standard-product-spec-grid dl > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+  padding: 12px 16px;
+  border-top: 1px solid rgba(16, 32, 38, 0.08);
+}
+
+body.standard-product-page .standard-product-spec-grid dt {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+body.standard-product-page .standard-product-spec-grid dd {
+  margin: 0;
+  direction: ltr;
+  unicode-bidi: isolate;
+  color: var(--green-dark);
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: end;
+  overflow-wrap: anywhere;
+}
+
+body.standard-product-page .standard-product-reference {
+  padding: 0 clamp(20px, 4vw, 52px) clamp(44px, 6vw, 72px);
+}
+
+body.standard-product-page .standard-product-reference p {
+  margin: 0;
+  padding: 20px 22px;
+  border-radius: 14px;
+  color: var(--muted);
+  background: #f3f7f5;
+  line-height: 1.65;
+}
+
+body.standard-product-page .standard-product-reference a,
+body.standard-product-page .standard-product-parts-link a {
+  color: var(--standard-green);
+  font-weight: 900;
+}
+
+body.standard-product-page .standard-product-gallery {
+  padding: clamp(54px, 6vw, 84px) clamp(20px, 4vw, 52px);
+  border-top: 1px solid rgba(16, 32, 38, 0.09);
+}
+
+body.standard-product-page .standard-product-gallery .ru-description-grid,
+body.standard-product-page .standard-product-gallery > .standard-product-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+body.standard-product-page .standard-product-gallery figure {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(16, 32, 38, 0.11);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(16, 32, 38, 0.08);
+}
+
+body.standard-product-page .standard-product-gallery figure img,
+body.standard-product-page .standard-product-gallery .ru-description-grid img {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 34vw, 520px);
+  object-fit: contain;
+  background: #fff;
+}
+
+body.standard-product-page .standard-product-gallery figcaption {
+  padding: 15px 18px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+body.standard-product-page .standard-product-parts-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 26px;
+  align-items: center;
+  margin-bottom: clamp(50px, 7vw, 90px);
+  padding: clamp(26px, 4vw, 42px);
+  border-radius: 20px;
+  color: #fff;
+  background: var(--standard-green);
+}
+
+body.standard-product-page .standard-product-parts-link h2,
+body.standard-product-page .standard-product-parts-link p {
+  color: #fff;
+}
+
+body.standard-product-page .standard-product-parts-link p {
+  max-width: 72ch;
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.65;
+}
+
+body.standard-product-page .standard-product-parts-link a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: var(--standard-green);
+  background: #fff;
+  text-align: center;
+}
+
+html[lang="ar"] body.standard-product-page .standard-product-image {
+  justify-self: start;
+}
+
+html[lang="ar"] body.standard-product-page .standard-product-hero h1 {
+  letter-spacing: 0;
+  line-height: 1.12;
+}
+
+html[lang="ar"] body.standard-product-page .topbar a {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 1100px) {
+  body.standard-product-page .standard-product-hero {
+    grid-template-columns: minmax(0, 0.92fr) minmax(340px, 1.08fr);
+  }
+
+  body.standard-product-page .standard-product-highlight-grid,
+  body.standard-product-page .standard-product-spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  body.standard-product-page .standard-product-hero,
+  body.standard-product-page .standard-product-content-grid,
+  body.standard-product-page .standard-product-highlight-grid,
+  body.standard-product-page .standard-product-spec-grid,
+  body.standard-product-page .standard-product-gallery .ru-description-grid,
+  body.standard-product-page .standard-product-gallery > .standard-product-gallery-grid,
+  body.standard-product-page .standard-product-parts-link {
+    grid-template-columns: 1fr;
+  }
+
+  body.standard-product-page .standard-product-hero {
+    gap: 30px;
+    padding-top: 32px;
+  }
+
+  body.standard-product-page .standard-product-hero .ru-product-meta {
+    grid-template-columns: 1fr;
+  }
+
+  body.standard-product-page .standard-product-image,
+  html[lang="ar"] body.standard-product-page .standard-product-image {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  body.standard-product-page .standard-product-overview {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding: 28px 20px;
+    border-radius: 18px;
+  }
+
+  body.standard-product-page .standard-product-compatibility-note {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  body.standard-product-page .standard-product-compatibility-note strong {
+    white-space: normal;
+  }
+
+  body.standard-product-page .standard-product-spec-grid dl > div {
+    grid-template-columns: minmax(0, 1fr) minmax(110px, 0.8fr);
+  }
+
+  body.standard-product-page .standard-product-gallery figure img,
+  body.standard-product-page .standard-product-gallery .ru-description-grid img {
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  body.standard-product-page .standard-product-parts-link {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+/* Model cards and source-reference cards used by the standard product markup. */
+body.standard-product-page .standard-product-model-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+body.standard-product-page .standard-product-model-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(8, 76, 63, 0.14);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 14px 32px rgba(16, 32, 38, 0.08);
+}
+
+body.standard-product-page .standard-product-model-card > header {
+  padding: 22px 24px;
+  color: #fff;
+  background: var(--standard-green);
+}
+
+body.standard-product-page .standard-product-model-card > header span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body.standard-product-page .standard-product-model-card > header h3 {
+  margin: 5px 0 4px;
+  color: #fff;
+  font-size: clamp(25px, 2.3vw, 34px);
+}
+
+body.standard-product-page .standard-product-model-card > header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+body.standard-product-page .standard-product-spec-list {
+  margin: 0;
+}
+
+body.standard-product-page .standard-product-spec-list > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(145px, 0.75fr);
+  gap: 16px;
+  align-items: start;
+  padding: 13px 18px;
+  border-top: 1px solid rgba(16, 32, 38, 0.08);
+}
+
+body.standard-product-page .standard-product-spec-list dt {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+body.standard-product-page .standard-product-spec-list dd {
+  margin: 0;
+  direction: ltr;
+  unicode-bidi: isolate;
+  color: var(--green-dark);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.45;
+  text-align: end;
+  overflow-wrap: anywhere;
+}
+
+body.standard-product-page .standard-product-spec-list dd small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+body.standard-product-page .standard-product-model-note {
+  margin: 18px 0 0;
+  padding: 17px 19px;
+  border-left: 3px solid var(--standard-gold);
+  border-radius: 0 12px 12px 0;
+  color: var(--muted);
+  background: #fff7e7;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+html[lang="ar"] body.standard-product-page .standard-product-model-note {
+  border-right: 3px solid var(--standard-gold);
+  border-left: 0;
+  border-radius: 12px 0 0 12px;
+}
+
+body.standard-product-page .standard-product-reference-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+body.standard-product-page .standard-product-reference-grid > article {
+  display: flex;
+  min-width: 0;
+  min-height: 100%;
+  margin: 0;
+  padding: 23px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgba(16, 32, 38, 0.11);
+  border-radius: 16px;
+  color: var(--green-dark);
+  background: #fff;
+}
+
+body.standard-product-page .standard-product-reference-grid > article h3 {
+  margin-bottom: 9px;
+  color: var(--standard-green);
+  font-size: 20px;
+}
+
+body.standard-product-page .standard-product-reference-grid > article p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+body.standard-product-page .standard-product-reference-grid > article > a {
+  margin-top: auto;
+  color: var(--standard-green);
+  font-weight: 900;
+}
+
+body.standard-product-page .standard-product-reference-grid > article.standard-product-parts-link {
+  display: flex;
+  grid-template-columns: none;
+  gap: 0;
+  max-width: none;
+  margin: 0;
+  padding: 23px;
+  border: 0;
+  color: #fff;
+  background: var(--standard-green);
+}
+
+body.standard-product-page .standard-product-reference-grid > article.standard-product-parts-link h3 {
+  color: #fff;
+}
+
+body.standard-product-page .standard-product-reference-grid > article.standard-product-parts-link p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+body.standard-product-page .standard-product-reference-grid > article.standard-product-parts-link > a {
+  display: inline-flex;
+  min-height: 44px;
+  padding: 10px 14px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  color: var(--standard-green);
+  background: #fff;
+  text-align: center;
+}
+
+@media (max-width: 920px) {
+  body.standard-product-page .standard-product-reference-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  body.standard-product-page .standard-product-model-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.standard-product-page .standard-product-spec-list > div {
+    grid-template-columns: minmax(0, 1fr) minmax(120px, 0.78fr);
+    gap: 12px;
+    padding: 12px 14px;
+  }
+}
+
+/* Product detail pages use the full content width; category navigation remains
+   available from the main Products page and no longer squeezes the hero copy. */
+body.standard-product-page main > .ru-bomco-product-range {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+body.standard-product-page main > .ru-bomco-product-range > .product-category-layout {
+  display: block;
+  max-width: none;
+}
+
+body.standard-product-page main > .ru-bomco-product-range > .product-category-layout > .product-sidebar {
+  display: none;
+}
+
+body.standard-product-page main > .ru-bomco-product-range > .product-category-layout > .product-category-main {
+  width: 100%;
+  min-width: 0;
+}
+
+body.ru-product-detail-page.standard-product-page:not(.compact-product-range-page)
+  .product-category-main > .ru-model-table-section.standard-product-specs {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline: clamp(20px, 4vw, 52px);
+}

@@ -56,6 +56,71 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+function setActivePrimaryNavigation() {
+  if (document.documentElement.lang !== "en" || !navLinks) return;
+
+  const normalizePath = (value) => value.replace(/\/+$/, "/");
+  const currentPath = normalizePath(window.location.pathname);
+  const mainLinks = Array.from(navLinks.querySelectorAll(".nav-main-link"));
+  const byLabel = (label) => mainLinks.find((link) => link.textContent.trim() === label);
+  let activeLink = null;
+
+  if (currentPath.endsWith("/demo/pratt-oil-oilfield/")) {
+    activeLink = byLabel("Home");
+  } else if (currentPath.includes("/en/services/")) {
+    activeLink = byLabel("Services");
+  } else if (currentPath.includes("/en/news/")) {
+    activeLink = byLabel("News");
+  } else if (currentPath.includes("/en/contact/")) {
+    activeLink = byLabel("Contact");
+  } else if (
+    currentPath.includes("/en/about-us/") ||
+    currentPath.includes("/en/factory-photos/") ||
+    currentPath.includes("/en/export-support/")
+  ) {
+    activeLink = byLabel("About Us");
+  } else if (
+    currentPath.includes("/en/products/") ||
+    currentPath.includes("/en/mud-pump-spare-parts/") ||
+    currentPath.includes("/en/mud-pump-liners-pistons-valves-seats/") ||
+    currentPath.includes("/en/drilling-rig-spare-parts/") ||
+    currentPath.includes("/en/drawworks-brake-system-parts/") ||
+    currentPath.includes("/en/wellhead-equipment-valves/") ||
+    currentPath.includes("/en/oilfield-hydraulic-components/") ||
+    currentPath.includes("/en/fast-wearing-oilfield-parts/")
+  ) {
+    activeLink = byLabel("Products");
+  }
+
+  mainLinks.forEach((link) => {
+    const isActive = link === activeLink;
+    link.classList.toggle("is-active", isActive);
+    if (isActive) {
+      link.setAttribute("aria-current", "page");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  });
+
+  // A menu label with a dropdown is a disclosure control, not a second
+  // navigation target. The destination remains available in its panel.
+  navLinks.addEventListener("click", (event) => {
+    const trigger = event.target.closest(".nav-dropdown-row > a[aria-haspopup=\"true\"]");
+    if (!trigger) return;
+    const dropdown = trigger.closest("[data-nav-dropdown]");
+    const toggle = dropdown?.querySelector("[data-nav-toggle]");
+    if (!dropdown || !toggle) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const isOpen = dropdown.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) closeDropdowns(dropdown);
+  }, true);
+}
+
+setActivePrimaryNavigation();
+window.addEventListener("hashchange", setActivePrimaryNavigation);
+
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 document.querySelectorAll("[data-carousel]").forEach((carousel) => {
@@ -64,6 +129,11 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
   const prev = carousel.querySelector("[data-carousel-prev]");
   const next = carousel.querySelector("[data-carousel-next]");
   if (slides.length < 2) return;
+
+  const configuredInterval = Number.parseInt(carousel.dataset.carouselInterval || "4500", 10);
+  const autoplayInterval = Number.isFinite(configuredInterval) && configuredInterval >= 2500
+    ? configuredInterval
+    : 4500;
 
   let current = 0;
   let timer = null;
@@ -94,7 +164,7 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
   function startAutoplay() {
     stopAutoplay();
     if (!reduceMotion.matches) {
-      timer = window.setInterval(() => showSlide(current + 1), 5000);
+      timer = window.setInterval(() => showSlide(current + 1), autoplayInterval);
     }
   }
 
@@ -114,11 +184,6 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
     showSlide(current + 1);
     startAutoplay();
   });
-
-  carousel.addEventListener("mouseenter", stopAutoplay);
-  carousel.addEventListener("mouseleave", startAutoplay);
-  carousel.addEventListener("focusin", stopAutoplay);
-  carousel.addEventListener("focusout", startAutoplay);
 
   carousel.addEventListener("keydown", (event) => {
     if (event.key === "ArrowLeft") {
@@ -200,6 +265,37 @@ document.querySelectorAll("[data-news-tabs]").forEach((section) => {
     });
   });
 });
+
+const quoteForm = document.querySelector("[data-quote-form]");
+
+if (quoteForm) {
+  quoteForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const data = new FormData(quoteForm);
+    const value = (name) => String(data.get(name) || "").trim();
+    const message = [
+      "Hello Pratt Oil, I need an oilfield spare parts quotation.",
+      "",
+      `Name: ${value("name")}`,
+      `Company: ${value("company") || "Not provided"}`,
+      `Country / market: ${value("country")}`,
+      `Email or phone: ${value("contact") || "Not provided"}`,
+      `Part number / model / product: ${value("part")}`,
+      `Quantity and notes: ${value("details") || "Not provided"}`,
+      "",
+      "I can attach product photos or technical drawings in WhatsApp."
+    ].join("\n");
+
+    const url = `https://api.whatsapp.com/send?phone=8615908080040&text=${encodeURIComponent(message)}`;
+    const status = quoteForm.querySelector("[data-quote-status]");
+    if (status) {
+      status.textContent = "Your inquiry is ready. WhatsApp is opening in a new tab.";
+    }
+    window.open(url, "_blank", "noopener,noreferrer");
+  });
+}
+
 /* Product category sidebar dropdown (expand/collapse + active highlight) */
 (function () {
   document.querySelectorAll(".product-sidebar [data-sidebar-toggle]").forEach(function (btn) {
@@ -226,3 +322,49 @@ document.querySelectorAll("[data-news-tabs]").forEach((section) => {
     } catch (e) {}
   });
 })();
+
+/* Product detail inquiry form: prepare a WhatsApp message from the form. */
+document.querySelectorAll("[data-product-detail-inquiry]").forEach(function (form) {
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    var data = new FormData(form);
+    var value = function (name) {
+      return String(data.get(name) || "").trim();
+    };
+    var productTitle = document.querySelector(
+      ".ru-product-detail-copy h1, .wcb-cn-hero-copy h1, .brake-band-summary-copy h1, main h1"
+    );
+    var product = productTitle ? productTitle.textContent.trim() : "Oilfield spare part";
+    var isArabic = document.documentElement.lang === "ar";
+    var lines = isArabic
+      ? [
+          "مرحباً Pratt Oil، أحتاج إلى عرض سعر.",
+          "",
+          "المنتج: " + product,
+          "الاسم: " + value("name"),
+          "البريد الإلكتروني: " + value("email"),
+          "الهاتف: " + (value("phone") || "غير مذكور"),
+          "الرسالة: " + value("message")
+        ]
+      : [
+          "Hello Pratt Oil, I need a quotation.",
+          "",
+          "Product: " + product,
+          "Name: " + value("name"),
+          "Email: " + value("email"),
+          "Phone: " + (value("phone") || "Not provided"),
+          "Message: " + value("message")
+        ];
+    var url =
+      "https://api.whatsapp.com/send?phone=8615908080040&text=" +
+      encodeURIComponent(lines.join("\n"));
+    var status = form.querySelector("[data-product-detail-inquiry-status]");
+    if (status) {
+      status.textContent = isArabic
+        ? "تم تجهيز طلبك. سيتم فتح WhatsApp في علامة تبويب جديدة."
+        : "Your inquiry is ready. WhatsApp is opening in a new tab.";
+    }
+    window.open(url, "_blank", "noopener,noreferrer");
+  });
+});

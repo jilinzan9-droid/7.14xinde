@@ -23,7 +23,7 @@ The receiver prepares a separate release and atomically switches the website roo
 
 Inquiries continue through the existing public WhatsApp number. A visitor must confirm sending in WhatsApp; opening a prepared message is not a delivery confirmation. The admin page is a browser-local draft editor. Its JSON exports do not generate or publish the static website; reviewed source changes are published through this repository's `main` branch.
 
-Google Analytics is disabled until the business creates a GA4 property and supplies its real Measurement ID in `assets/js/analytics.js`. The business has not opened a YouTube channel, so the broken placeholder channel links have been removed.
+Google Analytics 4 is configured in `assets/js/analytics.js` for the `PRATT OIL 官方网站` web data stream, Measurement ID `G-PY30RMKXMD`. The property uses China time (UTC+08:00) for daily reports. Public pages load the shared script once; the browser-local admin page is excluded. The business has not opened a YouTube channel, so the broken placeholder channel links have been removed.
 
 ## Check a release
 

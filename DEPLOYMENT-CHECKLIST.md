@@ -13,15 +13,15 @@
 
 ## Google Analytics
 
-1. Create a Google Analytics 4 property for the production domain.
-2. Open Admin > Data streams > Web and copy the Measurement ID, for example `G-ABC123DEF4`.
-3. Replace `G-XXXXXXXXXX` in `assets/js/analytics.js` with the real Measurement ID before uploading.
-4. After deployment, open the site once in a normal browser and check Google Analytics Realtime.
-5. To see today's visits, use Google Analytics Reports with the date set to Today.
+1. The `PRATT OIL 网站` GA4 property uses China time (UTC+08:00).
+2. The `PRATT OIL 官方网站` web data stream is configured for `https://www.pratt-oil.com/`, Measurement ID `G-PY30RMKXMD`.
+3. The shared `assets/js/analytics.js` contains this ID. Each public page loads it once; the admin page is excluded.
+4. After deployment, open the site in a normal browser and check Google Analytics Realtime to confirm receipt; queuing the tag does not prove that Google has received it.
+5. To see today's users and page views, open Google Analytics Reports and set the date to Today. Collection starts when the tag is installed, and processed reports may take 24–48 hours to populate.
 
 ## Site Standard
 
-- Every HTML page must include `<script src="/assets/js/analytics.js" defer></script>` before `</head>`.
+- Every public HTML page must include the shared `analytics.js` with `defer` before `</head>`. Use a valid path and update its version parameter when the tracking configuration changes.
 - Keep only English and Arabic language options.
 - Commit changes to the static site root, including `assets/`, `en/`, `ar/`, `index.html`, `styles.css`, `script.js`, `robots.txt`, and `sitemap.xml`, and push to `main` to deploy.
 - Do not upload `source-images/` or `tools/` to the public server unless they are intentionally needed for maintenance.

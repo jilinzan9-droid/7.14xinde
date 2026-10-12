@@ -1,6 +1,6 @@
 (() => {
-  // Set the site's real GA4 Measurement ID after the property is created.
-  const GA_MEASUREMENT_ID = "";
+  // PRATT OIL official website GA4 web data stream.
+  const GA_MEASUREMENT_ID = "G-PY30RMKXMD";
 
   if (!/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID)) {
     window.prattAnalyticsReady = false;

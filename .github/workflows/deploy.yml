@@ -1,0 +1,98 @@
+name: Deploy Pratt Oil to Tencent
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pratt-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out website
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Test deployment receiver
+        shell: bash
+        run: python3 -m unittest discover -s deploy -p 'test_*.py' -v
+
+      - name: Build static release
+        shell: bash
+        run: python3 deploy/build_release.py --output "$RUNNER_TEMP/pratt-release.tar.gz" --commit "$GITHUB_SHA"
+
+      - name: Check the latest production commit
+        id: release_check
+        shell: bash
+        run: |
+          set -euo pipefail
+          latest="$(git ls-remote origin refs/heads/main | cut -f1)"
+          [[ "$latest" =~ ^[0-9a-f]{40}$ ]]
+          if [ "$latest" = "$GITHUB_SHA" ]; then
+            printf 'deploy=true\n' >> "$GITHUB_OUTPUT"
+          else
+            printf 'deploy=false\n' >> "$GITHUB_OUTPUT"
+            printf 'Skipping commit %s because main now points to %s\n' "$GITHUB_SHA" "$latest"
+          fi
+
+      - name: Deploy over pinned SSH
+        if: steps.release_check.outputs.deploy == 'true'
+        shell: bash
+        env:
+          PRATT_DEPLOY_SSH_KEY: ${{ secrets.PRATT_DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          test -n "$PRATT_DEPLOY_SSH_KEY"
+          test -s deploy/known_hosts
+          key_file="$(mktemp "$RUNNER_TEMP/pratt-ssh-key.XXXXXX")"
+          trap 'rm -f -- "$key_file"' EXIT
+          chmod 600 "$key_file"
+          printf '%s\n' "$PRATT_DEPLOY_SSH_KEY" > "$key_file"
+          unset PRATT_DEPLOY_SSH_KEY
+          ssh \
+            -i "$key_file" \
+            -o IdentitiesOnly=yes \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile="$GITHUB_WORKSPACE/deploy/known_hosts" \
+            -o ConnectTimeout=10 \
+            -o ServerAliveInterval=15 \
+            root@43.160.235.91 "deploy $GITHUB_SHA" \
+            < "$RUNNER_TEMP/pratt-release.tar.gz"
+
+      - name: Verify HTTPS and deployed commit
+        if: steps.release_check.outputs.deploy == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          status="$(curl --proto '=https' --silent --show-error --fail \
+            --connect-timeout 10 --max-time 30 --retry 3 \
+            --output /dev/null --write-out '%{http_code}' \
+            "https://www.pratt-oil.com/?release=$GITHUB_SHA")"
+          test "$status" = 200
+          curl --proto '=https' --silent --show-error --fail \
+            --connect-timeout 10 --max-time 30 --retry 3 \
+            --header 'Cache-Control: no-cache' \
+            "https://www.pratt-oil.com/__pratt_release.json?release=$GITHUB_SHA" \
+            > "$RUNNER_TEMP/pratt-live-release.json"
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          metadata = json.loads((Path(os.environ["RUNNER_TEMP"]) / "pratt-live-release.json").read_text())
+          expected = os.environ["GITHUB_SHA"]
+          if metadata.get("commit") != expected:
+              raise SystemExit("The live release commit does not match the workflow commit")
+          print(f"Verified HTTPS release {expected}")
+          PY

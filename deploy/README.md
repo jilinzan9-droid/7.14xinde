@@ -15,7 +15,15 @@ The deployment key is dedicated to this repository and restricted to the receive
 
 Only the static website directories `assets/`, `en/`, `ar/`, `admin/`, `privacy-policy/`, `terms/` and the listed root website files are packaged. Git metadata, workflow files, deployment scripts and historical backups are excluded. Each archive includes a fresh manifest with file sizes and SHA256 hashes; the receiver rejects unexpected files, links, path traversal, unsupported metadata and oversized archives. Transfers and validation use bounded chunks.
 
-The receiver prepares a separate release and atomically switches the website root to it. On the first deployment it atomically exchanges the original directory and the new symlink, then preserves the original directory outside the public web root. It checks the served homepage, stylesheet and `/__pratt_release.json` against the requested commit. If this check fails, it restores the previous website. Five recent releases and the original backup are retained. Nginx configuration and certificates are not changed.
+Before packaging, `python3 deploy/validate_site.py` checks the actual HTML and CSS references, anchors, canonical URLs, reciprocal hreflang, sitemap coverage and JSON-LD. A failed check stops automatic publication. This is a static-file check; it does not verify message delivery or search-engine indexing.
+
+The receiver prepares a separate release and atomically switches the website root to it. On the first deployment it atomically exchanges the original directory and the new symlink, then preserves the original directory outside the public web root. It checks the served homepage, stylesheet and `/__pratt_release.json` against the requested commit. If this check fails, it restores the previous website. TERM, INT and ALRM interruptions are deferred during filesystem transitions and restoration; exception recovery checks the actual live target. Five recent releases and the original backup are retained. Nginx configuration and certificates are not changed.
+
+## Site integrations
+
+Inquiries continue through the existing public WhatsApp number. A visitor must confirm sending in WhatsApp; opening a prepared message is not a delivery confirmation. The admin page is a browser-local draft editor. Its JSON exports do not generate or publish the static website; reviewed source changes are published through this repository's `main` branch.
+
+Google Analytics is disabled until the business creates a GA4 property and supplies its real Measurement ID in `assets/js/analytics.js`. The business has not opened a YouTube channel, so the broken placeholder channel links have been removed.
 
 ## Check a release
 

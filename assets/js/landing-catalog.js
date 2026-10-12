@@ -1,3 +1,15 @@
+function matchesCatalogSearch(text, query) {
+  const normalize = value => value.normalize('NFKC').toLowerCase();
+  const haystack = normalize(text);
+  const needle = normalize(query.trim());
+  if (haystack.includes(needle)) return true;
+  // Model and part numbers are commonly written with or without separators.
+  // Keep ordinary text searches unchanged, and allow those model variants.
+  if (!/[a-z]/.test(needle) || !/\d/.test(needle)) return false;
+  const compact = value => value.replace(/[\s\p{Pd}_./]+/gu, '');
+  return compact(haystack).includes(compact(needle));
+}
+
 document.querySelectorAll('[data-lp-catalog]').forEach(catalog => {
   const cards = [...catalog.querySelectorAll('[data-lp-category]')];
   const filters = [...catalog.querySelectorAll('[data-lp-filter]')];
@@ -7,7 +19,7 @@ document.querySelectorAll('[data-lp-catalog]').forEach(catalog => {
     const query = search.value.trim().toLowerCase();
     let visible = 0;
     cards.forEach(card => {
-      const show = (category === 'all' || card.dataset.lpCategory === category) && card.textContent.toLowerCase().includes(query);
+      const show = (category === 'all' || card.dataset.lpCategory === category) && matchesCatalogSearch(card.textContent, query);
       card.hidden = !show;
       visible += Number(show);
     });
@@ -36,7 +48,7 @@ document.querySelectorAll('[data-parts-search]').forEach(input => {
   region.append(pager);
   const update = () => {
     const query = input.value.trim().toLowerCase();
-    const matches = rows.filter(row => row.textContent.toLowerCase().includes(query));
+    const matches = rows.filter(row => matchesCatalogSearch(row.textContent, query));
     rows.forEach(row => row.hidden = true);
     const start = currentPage * pageSize;
     matches.slice(start, start + pageSize).forEach(row => row.hidden = false);

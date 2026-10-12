@@ -1,7 +1,8 @@
 (() => {
-  const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+  // Set the site's real GA4 Measurement ID after the property is created.
+  const GA_MEASUREMENT_ID = "";
 
-  if (!/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID) || GA_MEASUREMENT_ID === "G-XXXXXXXXXX") {
+  if (!/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID)) {
     window.prattAnalyticsReady = false;
     return;
   }

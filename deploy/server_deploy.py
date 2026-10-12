@@ -1,6 +1,7 @@
 #!/usr/bin/python3 -I
 """Restricted SSH receiver for Pratt Oil static releases (Linux, Python stdlib)."""
 
+from contextlib import contextmanager
 import ctypes
 import datetime
 import gzip
@@ -10,6 +11,7 @@ import os
 from pathlib import Path, PurePosixPath
 import re
 import shutil
+import signal
 import subprocess
 import sys
 import tarfile
@@ -219,40 +221,66 @@ def health_check(commit):
         raise RuntimeError('The served release is not the requested commit')
 
 
+@contextmanager
+def deployment_signals_blocked():
+    """Defer deployment interrupts until filesystem transitions are consistent."""
+    if not hasattr(signal, 'pthread_sigmask'):
+        # Activation runs on Linux; archive validation also runs on Windows.
+        yield
+        return
+    interrupts = {signal.SIGTERM, signal.SIGINT, signal.SIGALRM}
+    previous = signal.pthread_sigmask(signal.SIG_BLOCK, interrupts)
+    try:
+        yield
+    finally:
+        signal.pthread_sigmask(signal.SIG_SETMASK, previous)
+
+
 def activate(site, live, backups, check):
     temporary = live.parent / ('.pratt-next-' + uuid.uuid4().hex)
-    temporary.symlink_to(site, target_is_directory=True)
+    restore = live.parent / ('.pratt-restore-' + uuid.uuid4().hex)
     old_target = None
     initial_backup = None
-    switched = False
     try:
-        if live.is_symlink():
-            old_target = live.resolve(strict=True)
-            old_target.relative_to(RELEASES.resolve())
-            os.replace(temporary, live)
-            switched = True
-        elif live.is_dir():
-            backups.mkdir(parents=True, exist_ok=True, mode=0o700)
-            initial_backup = backups / ('initial-' + uuid.uuid4().hex)
-            exchange(temporary, live)
-            switched = True
-            os.replace(temporary, initial_backup)
-        else:
-            raise RuntimeError('Expected an existing website directory or managed symlink')
+        with deployment_signals_blocked():
+            temporary.symlink_to(site, target_is_directory=True)
+            if live.is_symlink():
+                old_target = live.resolve(strict=True)
+                old_target.relative_to(RELEASES.resolve())
+                os.replace(temporary, live)
+            elif live.is_dir():
+                backups.mkdir(parents=True, exist_ok=True, mode=0o700)
+                initial_backup = backups / ('initial-' + uuid.uuid4().hex)
+                exchange(temporary, live)
+                os.replace(temporary, initial_backup)
+            else:
+                raise RuntimeError('Expected an existing website directory or managed symlink')
         check()
     except BaseException:
-        if switched:
-            if old_target is not None:
-                temporary.symlink_to(old_target, target_is_directory=True)
-                os.replace(temporary, live)
-            elif initial_backup is not None:
-                original = initial_backup if initial_backup.exists() else temporary
-                exchange(original, live)
-                original.unlink()  # The failed release's symlink after exchange.
+        with deployment_signals_blocked():
+            # A signal or syscall wrapper can fail after the rename succeeded.
+            # Determine whether rollback is needed from the live filesystem.
+            if live.is_symlink() and live.resolve() == site.resolve():
+                if old_target is not None:
+                    restore.symlink_to(old_target, target_is_directory=True)
+                    os.replace(restore, live)
+                elif initial_backup is not None:
+                    if initial_backup.is_dir() and not initial_backup.is_symlink():
+                        original = initial_backup
+                    elif temporary.is_dir() and not temporary.is_symlink():
+                        original = temporary
+                    else:
+                        raise RuntimeError('Cannot find the original website for rollback')
+                    exchange(original, live)
+                    original.unlink()  # The failed release's symlink after exchange.
         raise
     finally:
-        if temporary.is_symlink():
-            temporary.unlink()
+        with deployment_signals_blocked():
+            # Never remove a directory: it may be the original website if a
+            # filesystem error interrupted first-install backup or rollback.
+            for pending in (temporary, restore):
+                if pending.is_symlink():
+                    pending.unlink()
     return initial_backup
 
 
@@ -272,7 +300,6 @@ def main():
     if match is None:
         raise ValueError('This key only accepts: deploy <40-character commit>')
     commit = match.group(1)
-    import signal
     def interrupted(signum, frame):
         raise RuntimeError('Deployment interrupted or timed out')
     signal.signal(signal.SIGTERM, interrupted)

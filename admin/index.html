@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Pratt Oil 网站后台管理</title>
+<title>Pratt Oil 本地内容编辑器</title>
 <style>
 :root{--green:#0f4d3c;--green-d:#0a3b2e;--green-l:#166a52;--accent:#25d366;--bg:#f4f6f5;--line:#e2e8e5;--txt:#1d2b26;--muted:#6b7c75;}
 *{box-sizing:border-box}
@@ -118,24 +118,20 @@ td img{width:52px;height:40px;object-fit:cover;border-radius:5px;background:#eef
 </head>
 <body>
 
-<!-- LOGIN -->
+<!-- LOCAL EDITOR ENTRY -->
 <div id="login">
-  <form class="login-card" onsubmit="return doLogin(event)">
-    <h1>Pratt Oil 后台</h1>
-    <p>网站内容管理系统 · 请登录</p>
-    <label>账号</label>
-    <input id="lu" autocomplete="username" placeholder="请输入账号">
-    <label>密码</label>
-    <input id="lp" type="password" autocomplete="current-password" placeholder="请输入密码">
-    <button type="submit">登 录</button>
-    <div class="login-err" id="lerr"></div>
-  </form>
+  <div class="login-card">
+    <h1>Pratt Oil 本地内容编辑器</h1>
+    <p>在本浏览器编辑和保存草稿。本工具不连接服务器，也不提供账号登录或访问控制。</p>
+    <p>完成后导出 JSON，交给维护人员更新静态页面并通过 GitHub 发布。导出文件本身不会更新网站。</p>
+    <button type="button" onclick="enterApp()">进入本地草稿工具</button>
+  </div>
 </div>
 
 <!-- APP -->
 <div id="app" class="hidden">
   <aside class="side">
-    <div class="logo">Pratt Oil<small>网站后台管理</small></div>
+    <div class="logo">Pratt Oil<small>本地内容草稿</small></div>
     <nav id="nav">
       <a data-view="dash" class="active"><span>📊 仪表盘</span></a>
       <a data-view="products"><span>📦 产品管理</span></a>
@@ -144,13 +140,14 @@ td img{width:52px;height:40px;object-fit:cover;border-radius:5px;background:#eef
       <a data-view="pages"><span>🖊 页面编辑</span></a>
       <a data-view="system"><span>⚙️ 系统设置</span></a>
     </nav>
-    <div class="out"><button onclick="logout()">退出登录</button></div>
+    <div class="out"><button onclick="leaveApp()">返回工具说明</button></div>
   </aside>
   <div class="main">
     <div class="top">
       <h2 id="viewTitle">仪表盘</h2>
-      <div class="who">当前用户：<b>admin</b> · <a href="/demo/pratt-oil-oilfield/" target="_blank" style="color:var(--green);font-weight:700">查看网站 ↗</a></div>
+      <div class="who"><b>仅保存本浏览器草稿</b> · <a href="/demo/pratt-oil-oilfield/" target="_blank" style="color:var(--green);font-weight:700">查看网站 ↗</a></div>
     </div>
+    <p class="sub" style="margin:16px 24px 0">保存仅更新本浏览器。请导出 JSON，交付维护人员应用到静态页面并通过 GitHub 发布；此工具不会修改线上网站。</p>
     <div class="wrap" id="view"></div>
   </div>
 </div>
@@ -158,33 +155,88 @@ td img{width:52px;height:40px;object-fit:cover;border-radius:5px;background:#eef
 <div class="toast" id="toast"></div>
 
 <script>
-/* ===== 配置（演示用，客户端登录）===== */
-const AUTH={u:"admin",p:"Ee4uqHQ9bikN8FG2tM"};
+/* ===== 本地草稿配置 ===== */
 const LS_KEY="prattAdminData_v1";
 let DB={products:[],posts:[],site:{}};
 let cur="dash";
 
-/* ===== 数据加载 ===== */
-async function loadDB(){
-  const saved=localStorage.getItem(LS_KEY);
-  if(saved){try{DB=JSON.parse(saved);return;}catch(e){}}
-  try{const r=await fetch("seed.json");DB=await r.json();}catch(e){DB={products:[],posts:[],site:{}};}
-  save();
+/* ===== 数据验证与本地保存 ===== */
+function isRecord(value){return value!==null&&typeof value==="object"&&!Array.isArray(value);}
+function validateDB(data){
+  const fail=()=>{throw new Error("Invalid content data structure");};
+  const textFields=(item,fields)=>fields.forEach(key=>{if(item[key]!==undefined&&typeof item[key]!=="string")fail();});
+  const textList=value=>Array.isArray(value)&&value.every(item=>typeof item==="string");
+  if(!isRecord(data)||!Array.isArray(data.products)||!Array.isArray(data.posts)||!isRecord(data.site))fail();
+  for(const [key,title] of [["products","name"],["posts","title"]]){
+    const ids=new Set();
+    data[key].forEach(item=>{
+      if(!isRecord(item)||typeof item.id!=="string"||!/^[A-Za-z0-9_-]+$/.test(item.id)||ids.has(item.id))fail();
+      ids.add(item.id);
+      if(typeof item[title]!=="string"||!item[title].trim()||!["published","draft"].includes(item.status))fail();
+      textFields(item,["name","name_ar","title","category","category_ar","blurb","blurb_ar","image","slug","source_url","date","excerpt","content","cover"]);
+      if(item.spec!=null){
+        if(!isRecord(item.spec))fail();
+        textFields(item.spec,["title"]);
+        if(item.spec.headers!==undefined&&!textList(item.spec.headers))fail();
+        if(item.spec.rows!==undefined&&(!Array.isArray(item.spec.rows)||!item.spec.rows.every(textList)))fail();
+      }
+    });
+  }
+  textFields(data.site,["brand","company","tagline","whatsapp","address","heroTitle","heroSubtitle"]);
+  for(const key of ["emails","phones"]){if(data.site[key]!==undefined&&!textList(data.site[key]))fail();}
+  if(data.pageEdits!==undefined){
+    if(!isRecord(data.pageEdits))fail();
+    Object.values(data.pageEdits).forEach(page=>{if(!isRecord(page))fail();textFields(page,["title","desc","h1","body"]);});
+  }
+  return data;
 }
-function save(){localStorage.setItem(LS_KEY,JSON.stringify(DB));}
-function resetDB(){if(!confirm("确定恢复到初始数据？当前修改将丢失。"))return;localStorage.removeItem(LS_KEY);loadDB().then(()=>{render();toast("已恢复初始数据");});}
+function copyDB(){return JSON.parse(JSON.stringify(DB));}
+function save(candidate=DB){
+  try{
+    validateDB(candidate);
+    localStorage.setItem(LS_KEY,JSON.stringify(candidate));
+    DB=candidate;
+    return true;
+  }catch(e){toast("本地草稿未保存：请检查数据格式或浏览器存储空间，并先导出备份。");return false;}
+}
+async function loadSeed(){
+  const response=await fetch("seed.json");
+  if(!response.ok)throw new Error("Seed data unavailable");
+  return validateDB(await response.json());
+}
+async function loadDB(){
+  let recovered=false;
+  try{
+    const saved=localStorage.getItem(LS_KEY);
+    if(saved){try{DB=validateDB(JSON.parse(saved));return "";}catch(e){recovered=true;}}
+  }catch(e){recovered=true;}
+  try{
+    const candidate=await loadSeed();
+    const stored=save(candidate);
+    if(!stored)DB=candidate;
+    if(recovered)return stored?"本地草稿数据无效，已恢复初始草稿。":"本地草稿数据无效，已读取初始数据；当前内容仅保留在本次打开中，请导出备份。";
+    return stored?"":"浏览器无法保存草稿；当前内容仅保留在本次打开中，请导出备份。";
+  }catch(e){
+    DB={products:[],posts:[],site:{}};
+    return "无法读取本地草稿或初始数据。请检查网络后重新进入，或导入有效的 JSON 备份。";
+  }
+}
+async function resetDB(){
+  if(!confirm("确定恢复初始本地草稿？请先导出备份；网站线上内容不受影响。"))return;
+  try{const candidate=await loadSeed();if(!save(candidate))return;render();toast("已恢复初始本地草稿");}
+  catch(e){toast("无法读取初始数据，当前草稿未更改。");}
+}
 
-/* ===== 登录 ===== */
-function doLogin(e){e.preventDefault();
-  const u=document.getElementById("lu").value.trim(),p=document.getElementById("lp").value;
-  if(u===AUTH.u&&p===AUTH.p){sessionStorage.setItem("prattAuthed","1");enterApp();}
-  else document.getElementById("lerr").textContent="账号或密码错误，请重试。";
-  return false;}
-function logout(){sessionStorage.removeItem("prattAuthed");location.reload();}
+/* ===== 本地工具入口 ===== */
+let isLoading=false;
+function leaveApp(){document.getElementById("app").classList.add("hidden");document.getElementById("login").classList.remove("hidden");}
 async function enterApp(){
+  if(isLoading)return;
+  isLoading=true;
   document.getElementById("login").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  await loadDB();render();
+  document.getElementById("view").textContent="正在读取本地草稿…";
+  try{const notice=await loadDB();render();if(notice)toast(notice);}finally{isLoading=false;}
 }
 
 /* ===== 导航 ===== */
@@ -199,7 +251,7 @@ function render(){document.getElementById("viewTitle").textContent=TITLES[cur];(
 /* ===== 工具 ===== */
 function esc(s){return(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1800);}
-function statusTag(s){return s==="published"?'<span class="tag pub">已发布</span>':'<span class="tag draft">草稿</span>';}
+function statusTag(s){return s==="published"?'<span class="tag pub">交付草稿</span>':'<span class="tag draft">暂存草稿</span>';}
 const V=document.getElementById("view");
 
 /* ===== 仪表盘 ===== */
@@ -218,12 +270,12 @@ function vDash(){
   const kpi=(icon,cls,n,l,note)=>`<div class="kpi ${cls}"><div class="kpi-ic">${icon}</div><div><div class="kpi-n">${n}</div><div class="kpi-l">${l}</div><div class="kpi-note">${note}</div></div></div>`;
   V.innerHTML=`
   <div class="dash-hero">
-    <div><div class="dh-greet">${greet}，admin 👋</div><div class="dh-sub">${dstr} · 欢迎回到 Pratt Oil 网站后台</div></div>
+    <div><div class="dh-greet">${greet} 👋</div><div class="dh-sub">${dstr} · Pratt Oil 本地草稿工作区</div></div>
     <div class="dh-actions"><a class="btn light" href="/demo/pratt-oil-oilfield/" target="_blank">🌐 查看网站</a><button class="btn light ghost2" onclick="go('products')">＋ 新增产品</button></div>
   </div>
   <div class="kpis">
-    ${kpi("📦","k-green",DB.products.length,"产品总数",pPub+" 已发布 · "+pDraft+" 草稿")}
-    ${kpi("📝","k-blue",DB.posts.length,"博客 / 新闻",bPub+" 已发布 · "+bDraft+" 草稿")}
+    ${kpi("📦","k-green",DB.products.length,"产品总数",pPub+" 交付草稿 · "+pDraft+" 暂存草稿")}
+    ${kpi("📝","k-blue",DB.posts.length,"博客 / 新闻",bPub+" 交付草稿 · "+bDraft+" 暂存草稿")}
     ${kpi("🗂","k-amber",Object.keys(catCount).length,"产品分类","覆盖钻采备件全线")}
     ${kpi("🌍","k-teal",2,"站点语言","EN · AR 双语")}
   </div>
@@ -235,14 +287,14 @@ function vDash(){
       </div>
     </div>
     <div class="panel">
-      <h3>内容状态</h3><p class="sub">已发布 / 草稿占比</p>
+      <h3>内容状态</h3><p class="sub">交付草稿 / 暂存草稿占比</p>
       <div class="donut-wrap">
         <div class="donut" style="--v:${pct(pPub,DB.products.length)}"><span>${pct(pPub,DB.products.length)}%</span></div>
         <div class="legend">
-          <div><i class="dot pub"></i> 产品已发布 <b>${pPub}</b></div>
-          <div><i class="dot draft"></i> 产品草稿 <b>${pDraft}</b></div>
-          <div><i class="dot blue"></i> 文章已发布 <b>${bPub}</b></div>
-          <div><i class="dot amber"></i> 文章草稿 <b>${bDraft}</b></div>
+          <div><i class="dot pub"></i> 产品交付草稿 <b>${pPub}</b></div>
+          <div><i class="dot draft"></i> 产品暂存草稿 <b>${pDraft}</b></div>
+          <div><i class="dot blue"></i> 文章交付草稿 <b>${bPub}</b></div>
+          <div><i class="dot amber"></i> 文章暂存草稿 <b>${bDraft}</b></div>
         </div>
       </div>
     </div>
@@ -284,7 +336,7 @@ function vProducts(){
   const rows=list.slice((pPage-1)*per,pPage*per);
   V.innerHTML=`
   <div class="panel">
-    <h3>产品列表</h3><p class="sub">共 ${list.length} 条 · 可新增、编辑、删除、上/下架</p>
+    <h3>产品列表</h3><p class="sub">共 ${list.length} 条 · 本地新增、编辑、删除与交付状态</p>
     <div class="bar">
       <input class="search" placeholder="搜索产品名称或分类…" value="${esc(pQuery)}" oninput="pQuery=this.value;pPage=1;vProducts()">
       <button class="btn" onclick="editProduct(null)">＋ 新增产品</button>
@@ -297,7 +349,7 @@ function vProducts(){
       <td>${statusTag(p.status)}</td>
       <td>
         <button class="btn ghost sm" onclick="editProduct('${esc(p.id)}')">编辑</button>
-        <button class="btn ghost sm" onclick="toggleProduct('${esc(p.id)}')">${p.status==="published"?"下架":"发布"}</button>
+        <button class="btn ghost sm" onclick="toggleProduct('${esc(p.id)}')">${p.status==="published"?"暂存":"纳入交付"}</button>
         <button class="btn danger sm" onclick="delProduct('${esc(p.id)}')">删</button>
       </td></tr>`).join("")||`<tr><td colspan="5" class="muted">无匹配产品</td></tr>`}
     </tbody></table>
@@ -313,14 +365,14 @@ function editProduct(id){
     <div class="form-row"><label>产品名称</label><input id="f_name" value="${esc(p.name)}"></div>
     <div class="grid2">
       <div class="form-row"><label>分类</label><input id="f_cat" value="${esc(p.category)}"></div>
-      <div class="form-row"><label>状态</label><select id="f_status"><option value="published"${p.status==="published"?" selected":""}>已发布</option><option value="draft"${p.status!=="published"?" selected":""}>草稿</option></select></div>
+      <div class="form-row"><label>状态</label><select id="f_status"><option value="published"${p.status==="published"?" selected":""}>交付草稿</option><option value="draft"${p.status!=="published"?" selected":""}>暂存草稿</option></select></div>
     </div>
     <div class="form-row"><label>简介</label><textarea id="f_blurb">${esc(p.blurb)}</textarea></div>
     <div class="form-row"><label>产品图片</label>
       <div class="img-upload">
         <img id="f_img_prev" class="img-prev" src="${esc(p.image)}" onerror="this.classList.add('empty')">
         <div class="img-upload-side">
-          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑上传图片<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_img','f_img_prev')"></label>
+          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑读取图片<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_img','f_img_prev')"></label>
           <input id="f_img" value="${esc(p.image)}" placeholder="或粘贴图片地址 URL" oninput="document.getElementById('f_img_prev').src=this.value;document.getElementById('f_img_prev').classList.remove('empty')">
         </div>
       </div>
@@ -338,12 +390,15 @@ function editProduct(id){
         headers:sh?sh.split("|").map(x=>x.trim()):[],
         rows:sr?sr.split("\n").map(l=>l.split("|").map(x=>x.trim())).filter(r=>r.some(c=>c)):[]};
     } else if(p.spec){ data.spec=null; }
-    if(id){Object.assign(p,data);if(data.spec===null)delete p.spec;}else{data.id="p"+Date.now();DB.products.unshift(data);}
-    save();vProducts();toast("已保存");return true;
+    const candidate=copyDB();
+    if(id){const edited=candidate.products.find(x=>x.id===id);Object.assign(edited,data);if(data.spec===null)delete edited.spec;}
+    else{data.id="p"+Date.now();candidate.products.unshift(data);}
+    if(!save(candidate))return false;
+    vProducts();toast("已保存本地产品草稿");return true;
   });
 }
-function toggleProduct(id){const p=DB.products.find(x=>x.id===id);p.status=p.status==="published"?"draft":"published";save();vProducts();}
-function delProduct(id){if(!confirm("确定删除该产品？"))return;DB.products=DB.products.filter(x=>x.id!==id);save();vProducts();toast("已删除");}
+function toggleProduct(id){const candidate=copyDB(),p=candidate.products.find(x=>x.id===id);if(!p)return;p.status=p.status==="published"?"draft":"published";if(save(candidate))vProducts();}
+function delProduct(id){if(!confirm("确定从本地草稿删除该产品？"))return;const candidate=copyDB();candidate.products=candidate.products.filter(x=>x.id!==id);if(!save(candidate))return;vProducts();toast("已从本地草稿删除");}
 
 /* ===== 博客/新闻 ===== */
 let bQuery="";
@@ -367,7 +422,7 @@ function vPosts(){
   </div>`;
 }
 function editPost(id){
-  const p=id?DB.posts.find(x=>x.id===id):{id:"",title:"",category:"行业新闻",date:"2026-07-07",excerpt:"",content:"",status:"published"};
+  const p=id?DB.posts.find(x=>x.id===id):{id:"",title:"",category:"行业新闻",date:new Date().toISOString().slice(0,10),excerpt:"",content:"",status:"published"};
   modal(`${id?"编辑":"新增"}文章`,`
     <div class="form-row"><label>标题</label><input id="f_title" value="${esc(p.title)}"></div>
     <div class="grid2">
@@ -378,29 +433,31 @@ function editPost(id){
       <div class="img-upload">
         <img id="f_cover_prev" class="img-prev" src="${esc(p.cover||"")}" onerror="this.classList.add('empty')">
         <div class="img-upload-side">
-          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑上传封面<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_cover','f_cover_prev')"></label>
+          <label class="btn ghost sm" style="display:inline-block;cursor:pointer">⬆ 从电脑读取封面<input type="file" accept="image/*" class="hidden" onchange="uploadImage(this,'f_cover','f_cover_prev')"></label>
           <input id="f_cover" value="${esc(p.cover||"")}" placeholder="或粘贴图片地址 URL" oninput="document.getElementById('f_cover_prev').src=this.value;document.getElementById('f_cover_prev').classList.remove('empty')">
         </div>
       </div>
     </div>
     <div class="form-row"><label>摘要</label><textarea id="f_ex">${esc(p.excerpt)}</textarea></div>
     <div class="form-row"><label>正文内容</label><textarea id="f_content" style="min-height:140px">${esc(p.content||"")}</textarea></div>
-    <div class="form-row"><label>状态</label><select id="f_pstatus"><option value="published"${p.status==="published"?" selected":""}>已发布</option><option value="draft"${p.status!=="published"?" selected":""}>草稿</option></select></div>
+    <div class="form-row"><label>状态</label><select id="f_pstatus"><option value="published"${p.status==="published"?" selected":""}>交付草稿</option><option value="draft"${p.status!=="published"?" selected":""}>暂存草稿</option></select></div>
   `,()=>{
     const t=val("f_title");if(!t){toast("请填写标题");return false;}
     const data={title:t,category:val("f_pcat"),date:val("f_date"),excerpt:val("f_ex"),content:val("f_content"),cover:val("f_cover"),status:val("f_pstatus")};
-    if(id){Object.assign(p,data);}else{data.id="b"+Date.now();DB.posts.unshift(data);}
-    save();vPosts();toast("已保存");return true;
+    const candidate=copyDB();
+    if(id){Object.assign(candidate.posts.find(x=>x.id===id),data);}else{data.id="b"+Date.now();candidate.posts.unshift(data);}
+    if(!save(candidate))return false;
+    vPosts();toast("已保存本地文章草稿");return true;
   });
 }
-function delPost(id){if(!confirm("确定删除该文章？"))return;DB.posts=DB.posts.filter(x=>x.id!==id);save();vPosts();toast("已删除");}
+function delPost(id){if(!confirm("确定从本地草稿删除该文章？"))return;const candidate=copyDB();candidate.posts=candidate.posts.filter(x=>x.id!==id);if(!save(candidate))return;vPosts();toast("已从本地草稿删除");}
 
 /* ===== 网站信息 ===== */
 function vSite(){
   const s=DB.site||{};
   V.innerHTML=`
   <div class="panel">
-    <h3>网站基础信息</h3><p class="sub">品牌、联系方式、页脚与首页文案（保存后可一键导出交给上线）</p>
+    <h3>网站基础信息</h3><p class="sub">编辑品牌、联系方式、页脚与首页草稿，导出后交给维护人员应用到静态页面并通过 GitHub 发布。</p>
     <div class="grid2">
       <div class="form-row"><label>品牌名</label><input id="s_brand" value="${esc(s.brand)}"></div>
       <div class="form-row"><label>公司全称</label><input id="s_company" value="${esc(s.company)}"></div>
@@ -416,15 +473,16 @@ function vSite(){
     </div>
     <div class="form-row"><label>首页大标题</label><input id="s_ht" value="${esc(s.heroTitle)}"></div>
     <div class="form-row"><label>首页副标题</label><textarea id="s_hs">${esc(s.heroSubtitle)}</textarea></div>
-    <button class="btn" onclick="saveSite()">保存网站信息</button>
+    <button class="btn" onclick="saveSite()">保存本地网站信息草稿</button>
   </div>`;
 }
 function saveSite(){
-  DB.site={brand:val("s_brand"),company:val("s_company"),tagline:val("s_tag"),
+  const candidate=copyDB();
+  candidate.site={...candidate.site,brand:val("s_brand"),company:val("s_company"),tagline:val("s_tag"),
     emails:val("s_emails").split(",").map(x=>x.trim()).filter(Boolean),
     phones:val("s_phones").split(",").map(x=>x.trim()).filter(Boolean),
     whatsapp:val("s_wa"),address:val("s_addr"),heroTitle:val("s_ht"),heroSubtitle:val("s_hs")};
-  save();toast("网站信息已保存");
+  if(save(candidate))toast("已保存本地网站信息草稿");
 }
 
 /* ===== 页面编辑 ===== */
@@ -439,7 +497,7 @@ function vPages(){
   DB.pageEdits=DB.pageEdits||{};
   V.innerHTML=`
   <div class="panel">
-    <h3>页面编辑</h3><p class="sub">编辑各页面的标题、SEO 描述与主视觉文案；改动保存为覆盖内容，导出后由上线流程套用到静态页。</p>
+    <h3>页面编辑</h3><p class="sub">编辑标题、SEO 描述与主视觉文案的本地草稿。导出 JSON 后，维护人员需将内容应用到静态页面，再通过 GitHub 发布。</p>
     <table><thead><tr><th>页面</th><th>链接</th><th>状态</th><th style="width:120px">操作</th></tr></thead><tbody>
     ${PAGES.map(pg=>{const e=DB.pageEdits[pg.id];return `<tr>
       <td><b>${pg.name}</b></td>
@@ -457,10 +515,11 @@ function editPage(pid){
     <div class="form-row"><label>主视觉大标题 (H1)</label><input id="pg_h1" value="${esc(e.h1||"")}"></div>
     <div class="form-row"><label>主视觉正文</label><textarea id="pg_body">${esc(e.body||"")}</textarea></div>
   `,()=>{
-    DB.pageEdits=DB.pageEdits||{};
-    DB.pageEdits[pid]={title:val("pg_title"),desc:val("pg_desc"),h1:val("pg_h1"),body:val("pg_body")};
-    if(!DB.pageEdits[pid].title&&!DB.pageEdits[pid].desc&&!DB.pageEdits[pid].h1&&!DB.pageEdits[pid].body)delete DB.pageEdits[pid];
-    save();vPages();toast("页面内容已保存");return true;
+    const candidate=copyDB();candidate.pageEdits=candidate.pageEdits||{};
+    candidate.pageEdits[pid]={title:val("pg_title"),desc:val("pg_desc"),h1:val("pg_h1"),body:val("pg_body")};
+    if(!candidate.pageEdits[pid].title&&!candidate.pageEdits[pid].desc&&!candidate.pageEdits[pid].h1&&!candidate.pageEdits[pid].body)delete candidate.pageEdits[pid];
+    if(!save(candidate))return false;
+    vPages();toast("已保存本地页面草稿");return true;
   });
 }
 
@@ -468,7 +527,7 @@ function editPage(pid){
 function vSystem(){
   V.innerHTML=`
   <div class="panel">
-    <h3>数据导出 / 导入</h3><p class="sub">后台数据保存在本浏览器。导出 JSON 交付上线，或导入此前备份。</p>
+    <h3>数据导出 / 导入</h3><p class="sub">数据仅保存在本浏览器。导出 JSON 备份或交付维护人员；需要更新静态页面并通过 GitHub 发布后，线上网站才会变化。</p>
     <div class="bar">
       <button class="btn" onclick="exportJSON()">⬇ 导出全部数据 (JSON)</button>
       <button class="btn ghost" onclick="document.getElementById('imp').click()">⬆ 导入 JSON</button>
@@ -477,39 +536,46 @@ function vSystem(){
     </div>
   </div>
   <div class="panel">
-    <h3>账户</h3><p class="sub">当前登录账号</p>
-    <table><tr><th>账号</th><td>admin</td></tr><tr><th>角色</th><td>管理员</td></tr><tr><th>说明</th><td class="muted">演示后台，登录与数据均在浏览器本地；正式上线可对接服务器数据库与真实鉴权。</td></tr></table>
+    <h3>本地工具说明</h3><p class="sub">这是公开的浏览器草稿编辑工具，没有服务器账号、权限管理或发布接口。</p>
+    <p class="muted">请勿在草稿中保存密码或其他机密信息。导出文件需由维护人员审核后应用到网站源码。</p>
   </div>`;
 }
 function exportJSON(){
   const blob=new Blob([JSON.stringify(DB,null,2)],{type:"application/json"});
-  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="pratt-oil-content.json";a.click();toast("已导出");
+  const a=document.createElement("a"),url=URL.createObjectURL(blob);a.href=url;a.download="pratt-oil-content.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast("已导出本地草稿，请交付维护人员审核并通过 GitHub 发布。");
 }
-function importJSON(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();
-  r.onload=()=>{try{DB=JSON.parse(r.result);save();render();toast("导入成功");}catch(x){toast("文件格式错误");}};r.readAsText(f);}
+function importJSON(e){
+  const input=e.target,f=input.files[0];if(!f)return;const r=new FileReader();
+  r.onload=()=>{
+    try{const candidate=validateDB(JSON.parse(r.result));if(!save(candidate))return;render();toast("已导入本地草稿，线上网站未更改。");}
+    catch(x){toast("JSON 格式或数据结构无效，当前草稿未更改。");}
+    finally{input.value="";}
+  };
+  r.onerror=()=>{input.value="";toast("无法读取文件，当前草稿未更改。");};
+  r.readAsText(f);
+}
 
 /* ===== modal helper ===== */
 function modal(title,body,onOk){
   const bg=document.createElement("div");bg.className="modal-bg";
-  bg.innerHTML=`<div class="modal"><h3>${esc(title)}</h3>${body}<div class="foot"><button class="btn ghost" id="mCancel">取消</button><button class="btn" id="mOk">保存</button></div></div>`;
+  bg.innerHTML=`<div class="modal"><h3>${esc(title)}</h3>${body}<div class="foot"><button class="btn ghost" id="mCancel">取消</button><button class="btn" id="mOk">保存本地草稿</button></div></div>`;
   document.body.appendChild(bg);
   bg.querySelector("#mCancel").onclick=()=>bg.remove();
   bg.addEventListener("click",e=>{if(e.target===bg)bg.remove();});
   bg.querySelector("#mOk").onclick=()=>{if(onOk()!==false)bg.remove();};
 }
 function val(id){return document.getElementById(id).value.trim();}
-/* 从电脑直接上传图片：读成 base64 存入字段并预览（演示版存本地） */
+/* 从电脑读取图片：仅在本浏览器预览，并作为 data URL 保存在本地草稿。 */
 function uploadImage(input,targetId,previewId){
   const f=input.files&&input.files[0];if(!f)return;
   if(!f.type.startsWith("image/")){toast("请选择图片文件");return;}
-  if(f.size>3*1024*1024){toast("图片超过 3MB，演示版建议压缩后再传");}
+  if(f.size>3*1024*1024){toast("图片超过 3MB，建议压缩后再读取，以免本地草稿超出存储空间");}
   const r=new FileReader();
-  r.onload=function(){document.getElementById(targetId).value=r.result;const pv=document.getElementById(previewId);pv.src=r.result;pv.classList.remove("empty");toast("图片已上传");};
+  r.onload=function(){document.getElementById(targetId).value=r.result;const pv=document.getElementById(previewId);pv.src=r.result;pv.classList.remove("empty");toast("图片已在本地读取，尚未发布到网站");};
   r.readAsDataURL(f);
 }
 
-/* ===== 启动 ===== */
-if(sessionStorage.getItem("prattAuthed")==="1")enterApp();
+/* 从说明页进入本地工具；没有客户端密码或服务器登录。 */
 </script>
 </body>
 </html>

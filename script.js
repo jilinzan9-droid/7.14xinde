@@ -65,7 +65,7 @@ function setActivePrimaryNavigation() {
   const byLabel = (label) => mainLinks.find((link) => link.textContent.trim() === label);
   let activeLink = null;
 
-  if (currentPath.endsWith("/demo/pratt-oil-oilfield/")) {
+  if (currentPath === "/" || currentPath === "/index.html" || currentPath.endsWith("/demo/pratt-oil-oilfield/")) {
     activeLink = byLabel("Home");
   } else if (currentPath.includes("/en/services/")) {
     activeLink = byLabel("Services");
@@ -101,9 +101,11 @@ function setActivePrimaryNavigation() {
       link.removeAttribute("aria-current");
     }
   });
+}
 
-  // A menu label with a dropdown is a disclosure control, not a second
-  // navigation target. The destination remains available in its panel.
+// Register the disclosure handler once; updating the active link on a hash
+// change must not add another handler that toggles the same menu again.
+if (navLinks) {
   navLinks.addEventListener("click", (event) => {
     const trigger = event.target.closest(".nav-dropdown-row > a[aria-haspopup=\"true\"]");
     if (!trigger) return;
@@ -266,6 +268,24 @@ document.querySelectorAll("[data-news-tabs]").forEach((section) => {
   });
 });
 
+function openWhatsAppInquiry(form, message, statusSelector) {
+  const url = `https://api.whatsapp.com/send?phone=8615908080040&text=${encodeURIComponent(message)}`;
+  const status = form.querySelector(statusSelector);
+  const isArabic = document.documentElement.lang === "ar";
+  if (status) {
+    status.textContent = isArabic
+      ? "مسودة WhatsApp جاهزة. راجع الرسالة واضغط إرسال في WhatsApp لإرسال طلبك."
+      : "Your WhatsApp draft is ready. Review it and press Send in WhatsApp to send your inquiry.";
+    const link = document.createElement("a");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = isArabic ? "افتح WhatsApp" : "Open WhatsApp";
+    status.append(" ", link);
+  }
+  window.open(url, "_blank", "noopener,noreferrer");
+}
+
 const quoteForm = document.querySelector("[data-quote-form]");
 
 if (quoteForm) {
@@ -287,14 +307,41 @@ if (quoteForm) {
       "I can attach product photos or technical drawings in WhatsApp."
     ].join("\n");
 
-    const url = `https://api.whatsapp.com/send?phone=8615908080040&text=${encodeURIComponent(message)}`;
-    const status = quoteForm.querySelector("[data-quote-status]");
-    if (status) {
-      status.textContent = "Your inquiry is ready. WhatsApp is opening in a new tab.";
-    }
-    window.open(url, "_blank", "noopener,noreferrer");
+    openWhatsAppInquiry(quoteForm, message, "[data-quote-status]");
   });
 }
+
+/* Contact and category forms prepare a draft; the visitor sends it in WhatsApp. */
+document.querySelectorAll("[data-contact-inquiry]").forEach((form) => {
+  form.querySelector("[data-contact-submit]").disabled = false;
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    const value = (name) => String(data.get(name) || "").trim();
+    const isArabic = document.documentElement.lang === "ar";
+    const title = document.querySelector("main h1")?.textContent.trim() || document.title;
+    const message = isArabic
+      ? [
+          "مرحباً Pratt Oil، أحتاج إلى عرض سعر.", "",
+          `الصفحة: ${title}`,
+          `الاسم: ${value("name")}`,
+          `البريد الإلكتروني أو WhatsApp: ${value("contact")}`,
+          `رقم القطعة أو الموديل: ${value("part_number") || "غير مذكور"}`,
+          `الرسالة: ${value("message")}`,
+          `رابط الصفحة: ${window.location.href}`
+        ]
+      : [
+          "Hello Pratt Oil, I need an oilfield spare parts quotation.", "",
+          `Page: ${title}`,
+          `Name: ${value("name")}`,
+          `Email or WhatsApp: ${value("contact")}`,
+          `Part number / model: ${value("part_number") || "Not provided"}`,
+          `Message: ${value("message")}`,
+          `Page URL: ${window.location.href}`
+        ];
+    openWhatsAppInquiry(form, message.join("\n"), "[data-contact-inquiry-status]");
+  });
+});
 
 /* Product category sidebar dropdown (expand/collapse + active highlight) */
 (function () {
@@ -356,15 +403,6 @@ document.querySelectorAll("[data-product-detail-inquiry]").forEach(function (for
           "Phone: " + (value("phone") || "Not provided"),
           "Message: " + value("message")
         ];
-    var url =
-      "https://api.whatsapp.com/send?phone=8615908080040&text=" +
-      encodeURIComponent(lines.join("\n"));
-    var status = form.querySelector("[data-product-detail-inquiry-status]");
-    if (status) {
-      status.textContent = isArabic
-        ? "تم تجهيز طلبك. سيتم فتح WhatsApp في علامة تبويب جديدة."
-        : "Your inquiry is ready. WhatsApp is opening in a new tab.";
-    }
-    window.open(url, "_blank", "noopener,noreferrer");
+    openWhatsAppInquiry(form, lines.join("\n"), "[data-product-detail-inquiry-status]");
   });
 });

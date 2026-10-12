@@ -9,7 +9,9 @@ import hashlib
 import importlib.util
 import io
 import json
+import os
 from pathlib import Path
+import signal
 import sys
 import tarfile
 import tempfile
@@ -30,6 +32,10 @@ FILES = {
     "ar/index.html": "<h1>العربية</h1>".encode("utf-8"),
 }
 REJECTED = (ValueError, tarfile.TarError, EOFError, gzip.BadGzipFile)
+
+
+class InjectedInterruption(RuntimeError):
+    """A handled Linux signal sent only to this temporary-fixture test process."""
 
 
 def manifest_for(files):
@@ -244,6 +250,26 @@ class LinuxActivationTests(unittest.TestCase):
 
     def assert_no_temporary_links(self):
         self.assertEqual(list(self.root.glob(".pratt-next-*")), [])
+        self.assertEqual(list(self.root.glob(".pratt-restore-*")), [])
+
+    def install_interrupt_handlers(self):
+        def interrupted(signum, frame):
+            raise InjectedInterruption("injected signal " + str(signum))
+
+        for signum in (signal.SIGTERM, signal.SIGINT, signal.SIGALRM):
+            previous = signal.signal(signum, interrupted)
+            self.addCleanup(signal.signal, signum, previous)
+
+    def make_original_directory(self):
+        self.live.mkdir()
+        (self.live / "index.html").write_bytes(b"original directory")
+
+    def assert_original_directory_restored(self):
+        self.assertTrue(self.live.is_dir())
+        self.assertFalse(self.live.is_symlink())
+        self.assertEqual((self.live / "index.html").read_bytes(), b"original directory")
+        self.assertEqual(list(self.backups.iterdir()), [])
+        self.assert_no_temporary_links()
 
     def test_initial_directory_conversion_preserves_backup(self):
         self.live.mkdir()
@@ -309,6 +335,178 @@ class LinuxActivationTests(unittest.TestCase):
         self.assertEqual(self.live.resolve(), unmanaged.resolve())
         check.assert_not_called()
         self.assert_no_temporary_links()
+
+    def test_symlink_interrupt_after_successful_replace_rolls_back(self):
+        self.install_interrupt_handlers()
+        previous = self.make_site("previous", b"previous release")
+        self.live.symlink_to(previous, target_is_directory=True)
+        replace = receiver.os.replace
+        injected = False
+
+        def replace_then_interrupt(source, destination):
+            nonlocal injected
+            result = replace(source, destination)
+            if destination == self.live and not injected:
+                injected = True
+                os.kill(os.getpid(), signal.SIGTERM)
+            return result
+
+        health = mock.Mock()
+        with mock.patch.object(receiver.os, "replace", replace_then_interrupt):
+            with self.assertRaises(InjectedInterruption):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertTrue(injected)
+        self.assertEqual(self.live.resolve(), previous.resolve())
+        self.assertEqual((previous / "index.html").read_bytes(), b"previous release")
+        health.assert_not_called()
+        self.assert_no_temporary_links()
+
+    def test_initial_interrupt_after_exchange_restores_original(self):
+        self.install_interrupt_handlers()
+        self.make_original_directory()
+        exchange = receiver.exchange
+        injected = False
+
+        def exchange_then_interrupt(first, second):
+            nonlocal injected
+            result = exchange(first, second)
+            if not injected:
+                injected = True
+                os.kill(os.getpid(), signal.SIGINT)
+            return result
+
+        health = mock.Mock()
+        with mock.patch.object(receiver, "exchange", exchange_then_interrupt):
+            with self.assertRaises(InjectedInterruption):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertTrue(injected)
+        health.assert_not_called()
+        self.assert_original_directory_restored()
+
+    def test_initial_interrupt_after_backup_move_restores_original(self):
+        self.install_interrupt_handlers()
+        self.make_original_directory()
+        replace = receiver.os.replace
+        injected = False
+
+        def replace_then_interrupt(source, destination):
+            nonlocal injected
+            result = replace(source, destination)
+            if destination.parent == self.backups and not injected:
+                injected = True
+                os.kill(os.getpid(), signal.SIGALRM)
+            return result
+
+        health = mock.Mock()
+        with mock.patch.object(receiver.os, "replace", replace_then_interrupt):
+            with self.assertRaises(InjectedInterruption):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertTrue(injected)
+        health.assert_not_called()
+        self.assert_original_directory_restored()
+
+    def test_symlink_interrupt_during_rollback_finishes_restoration(self):
+        self.install_interrupt_handlers()
+        previous = self.make_site("previous", b"previous release")
+        self.live.symlink_to(previous, target_is_directory=True)
+        replace = receiver.os.replace
+        injected = False
+
+        def replace_then_interrupt(source, destination):
+            nonlocal injected
+            result = replace(source, destination)
+            if source.name.startswith(".pratt-restore-"):
+                injected = True
+                os.kill(os.getpid(), signal.SIGINT)
+            return result
+
+        health = mock.Mock(side_effect=RuntimeError("simulated unhealthy release"))
+        with mock.patch.object(receiver.os, "replace", replace_then_interrupt):
+            with self.assertRaises(InjectedInterruption):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertTrue(injected)
+        self.assertEqual(self.live.resolve(), previous.resolve())
+        self.assertEqual((previous / "index.html").read_bytes(), b"previous release")
+        self.assert_no_temporary_links()
+
+    def test_initial_interrupt_during_rollback_keeps_original_directory(self):
+        self.install_interrupt_handlers()
+        self.make_original_directory()
+        exchange = receiver.exchange
+        calls = 0
+
+        def exchange_then_interrupt(first, second):
+            nonlocal calls
+            result = exchange(first, second)
+            calls += 1
+            if calls == 2:
+                os.kill(os.getpid(), signal.SIGTERM)
+            return result
+
+        health = mock.Mock(side_effect=RuntimeError("simulated unhealthy release"))
+        with mock.patch.object(receiver, "exchange", exchange_then_interrupt):
+            with self.assertRaises(InjectedInterruption):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertEqual(calls, 2)
+        self.assert_original_directory_restored()
+
+    def test_symlink_exception_after_rename_uses_actual_live_state(self):
+        previous = self.make_site("previous", b"previous release")
+        self.live.symlink_to(previous, target_is_directory=True)
+        replace = receiver.os.replace
+        injected = False
+
+        def replace_then_raise(source, destination):
+            nonlocal injected
+            result = replace(source, destination)
+            if destination == self.live and not injected:
+                injected = True
+                raise RuntimeError("injected exception after rename")
+            return result
+
+        health = mock.Mock()
+        with mock.patch.object(receiver.os, "replace", replace_then_raise):
+            with self.assertRaisesRegex(RuntimeError, "after rename"):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        self.assertEqual(self.live.resolve(), previous.resolve())
+        health.assert_not_called()
+        self.assert_no_temporary_links()
+
+    def test_initial_exception_after_exchange_uses_actual_live_state(self):
+        self.make_original_directory()
+        exchange = receiver.exchange
+        injected = False
+
+        def exchange_then_raise(first, second):
+            nonlocal injected
+            result = exchange(first, second)
+            if not injected:
+                injected = True
+                raise RuntimeError("injected exception after exchange")
+            return result
+
+        health = mock.Mock()
+        with mock.patch.object(receiver, "exchange", exchange_then_raise):
+            with self.assertRaisesRegex(RuntimeError, "after exchange"):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        health.assert_not_called()
+        self.assert_original_directory_restored()
+
+    def test_initial_backup_move_failure_does_not_delete_original(self):
+        self.make_original_directory()
+        replace = receiver.os.replace
+
+        def fail_backup_move(source, destination):
+            if destination.parent == self.backups:
+                raise OSError("injected backup move failure")
+            return replace(source, destination)
+
+        health = mock.Mock()
+        with mock.patch.object(receiver.os, "replace", fail_backup_move):
+            with self.assertRaisesRegex(OSError, "backup move failure"):
+                receiver.activate(self.new_site, self.live, self.backups, health)
+        health.assert_not_called()
+        self.assert_original_directory_restored()
 
 
 if __name__ == "__main__":

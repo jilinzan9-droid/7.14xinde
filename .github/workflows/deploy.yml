@@ -27,6 +27,10 @@ jobs:
         shell: bash
         run: python3 -m unittest discover -s deploy -p 'test_*.py' -v
 
+      - name: Validate website links and metadata
+        shell: bash
+        run: python3 deploy/validate_site.py
+
       - name: Build static release
         shell: bash
         run: python3 deploy/build_release.py --output "$RUNNER_TEMP/pratt-release.tar.gz" --commit "$GITHUB_SHA"

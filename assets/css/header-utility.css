@@ -1,0 +1,166 @@
+/* Compact contact strip above the main navigation. */
+.header-utility {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 100%;
+  grid-column: 1 / -1;
+  inline-size: 100%;
+  margin: 0;
+  border-bottom: 1px solid #edf0f1;
+  color: #677175;
+  background: #fff;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.header-utility .header-utility-inner {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 16px;
+  inline-size: 100%;
+  max-inline-size: 1530px;
+  min-block-size: 30px;
+  margin-inline: auto;
+  padding: 2px 12px;
+}
+
+.header-utility .header-utility-social {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 7px;
+  direction: ltr;
+}
+
+.header-utility .header-social-entry {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: center;
+  inline-size: 24px;
+  block-size: 24px;
+  min-inline-size: 24px;
+  margin: 0;
+  padding: 4px;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  text-decoration: none;
+}
+
+.header-utility span.header-social-entry {
+  cursor: default;
+}
+
+.header-utility .header-social-entry img {
+  display: block;
+  inline-size: 14px;
+  block-size: 14px;
+  max-inline-size: none;
+  margin: 0;
+  object-fit: contain;
+  filter: brightness(0);
+  opacity: .55;
+}
+
+.header-utility a.header-social-entry:hover img,
+.header-utility a.header-social-entry:focus-visible img {
+  opacity: .85;
+}
+
+.header-utility .header-utility-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-inline-size: 0;
+  min-block-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: #677175;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.header-utility .header-utility-email:hover {
+  color: #073f35;
+}
+
+.header-utility a:focus-visible {
+  outline: 2px solid #0f6b57;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Replace the older contact strip without changing the navigation itself. */
+body .site-header.has-header-utility > .topbar {
+  display: none;
+}
+
+/* Only standard sticky headers need the extra anchor clearance. */
+.site-header.has-header-utility:has(> nav.nav) ~ main :is(section, article, aside)[id] {
+  scroll-margin-block-start: 165px;
+}
+
+@media (min-width: 1121px) {
+  html[lang] body.ru-product-detail-page .site-header.has-header-utility ~ main .product-sidebar {
+    top: 145px;
+  }
+}
+
+/* Legacy product pages hide their navigation on phones; keep the new strip visible. */
+@media (max-width: 760px) {
+  body.ru-product-detail-page .site-header.has-header-utility:not([data-primary-nav="unified"]) {
+    display: block;
+  }
+
+  body.ru-product-detail-page .site-header.has-header-utility:not([data-primary-nav="unified"]) > .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 1120px) {
+  .header-utility .header-utility-inner {
+    max-inline-size: 1640px;
+    padding-inline: clamp(18px, 5vw, 72px);
+  }
+
+  html[lang="en"] body .site-header.has-header-utility[data-primary-nav="unified"] #navLinks {
+    max-height: calc(100vh - 152px);
+    max-height: calc(100dvh - 152px);
+  }
+}
+
+@media (max-width: 720px) {
+  .header-utility .header-utility-inner {
+    column-gap: 10px;
+    padding-inline: 14px;
+  }
+
+  .header-utility .header-utility-social {
+    gap: 4px;
+  }
+
+  .site-header.has-header-utility:has(> nav.nav) ~ main :is(section, article, aside)[id] {
+    scroll-margin-block-start: 180px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-utility .header-utility-email {
+    font-size: 11px;
+  }
+
+  .header-utility .header-utility-email > span {
+    display: none;
+  }
+}

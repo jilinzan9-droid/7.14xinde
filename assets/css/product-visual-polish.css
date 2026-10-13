@@ -1,0 +1,216 @@
+/* Product presentation only. Load after the existing typography sheets. */
+html[lang] body.home-en #home .product-card,
+html[lang] body.ru-catalog-page #featured-products .product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+html[lang] body.home-en #home .product-card .card-detail-link,
+html[lang] body.ru-catalog-page #featured-products .product-card .card-detail-link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+html[lang] body.home-en #home .product-card-media,
+html[lang] body.ru-catalog-page #featured-products .product-card-media {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  background: #fff;
+}
+
+html[lang] body.home-en #home .product-card-media img,
+html[lang] body.ru-catalog-page #featured-products .product-card-media img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 14px;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+}
+
+html[lang] body.home-en #home .product-card:hover .product-card-media img,
+html[lang] body.ru-catalog-page #featured-products .product-card:hover .product-card-media img {
+  transform: none;
+}
+
+html[lang] body.home-en #home .product-card h3,
+html[lang] body.ru-catalog-page #featured-products .product-card h3 {
+  display: grid;
+  align-items: center;
+  flex: 1;
+  min-height: calc(2.9em + 24px);
+  height: auto;
+  margin: 0;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: normal;
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: unset;
+}
+
+/* Category and related-product titles must show the complete product name. */
+html[lang] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-body h3,
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-body h3 {
+  display: grid;
+  align-items: center;
+  min-height: calc(2.9em + 24px);
+  height: auto;
+  margin: 0;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: normal;
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: unset;
+}
+
+html[lang="ar"] body.home-en #home .product-card h3,
+html[lang="ar"] body.ru-catalog-page #featured-products .product-card h3,
+html[lang="ar"] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-body h3,
+html[lang="ar"] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-body h3 {
+  direction: rtl;
+  line-height: 1.55;
+}
+
+html[lang] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-media,
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-media {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background: #fff;
+}
+
+html[lang] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-media img,
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-media img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Reduce the decorative rig banner and the gap before product content. */
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .ru-product-card-media {
+  flex-shrink: 0;
+}
+
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .ru-product-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+html[lang] body.ru-product-detail-page .ru-bomco-product-range .ru-product-card-body h3 {
+  flex: 1;
+}
+
+html[lang] body.ru-product-detail-page .product-detail-reference-banner {
+  height: clamp(170px, 18vw, 250px);
+  margin-top: 0;
+}
+
+html[lang] body.ru-product-detail-page .ru-bomco-product-range {
+  padding-block: 36px 48px;
+}
+
+html[lang] body.compact-product-range-page .ru-bomco-product-range {
+  padding-block: 28px 44px;
+}
+
+html[lang] body.ru-product-detail-page .ru-breadcrumb {
+  height: auto;
+  min-height: 48px;
+  padding-block: 12px;
+}
+
+/* Native model pages and their existing campaign product grids. */
+body.lp-detail .lp-hero {
+  padding-block: 18px 44px;
+}
+
+.lp-catalog h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+}
+
+.lp-catalog .lp-photo img {
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 760px) {
+  html[lang] body.ru-product-detail-page .product-detail-reference-banner {
+    height: 106px;
+  }
+
+  html[lang] body.ru-product-detail-page .ru-breadcrumb {
+    min-height: 48px;
+    padding-block: 12px;
+    align-content: center;
+  }
+
+  html[lang] body.ru-product-detail-page .ru-bomco-product-range,
+  html[lang] body.compact-product-range-page .ru-bomco-product-range {
+    padding-block: 24px 36px;
+  }
+}
+
+@media (max-width: 720px) {
+  html[lang] body.home-en #home .product-card h3,
+  html[lang] body.ru-catalog-page #featured-products .product-card h3 {
+    min-height: calc(2.9em + 20px);
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+
+  html[lang] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-body h3,
+  html[lang] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-body h3 {
+    min-height: calc(2.9em + 20px);
+    padding: 10px 8px;
+    font-size: 13px;
+  }
+
+  html[lang] body.home-en #home .product-card-media img,
+  html[lang] body.ru-catalog-page #featured-products .product-card-media img,
+  html[lang] body:is(.ru-catalog-page, .ru-product-detail-page) .ru-product-card-media img,
+  html[lang] body.ru-product-detail-page .ru-bomco-product-range .product-category-main .ru-product-card-media img {
+    padding: 8px;
+  }
+
+  .lp-catalog h3 {
+    font-size: 18px;
+  }
+
+  body.lp-detail .lp-hero {
+    padding-block: 18px 32px;
+  }
+}

@@ -158,3 +158,14 @@ footer.site-footer.footer-reference-compact > .footer-compact-bar {
 }
 
 footer.footer.footer-reference .footer_bot a { font-size: 12px; font-weight: 400; }
+
+footer.footer.footer-reference .footVideoimg .footer-qr-label {
+  display: block;
+  margin-top: 6px;
+  color: rgba(255, 255, 255, .76);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}

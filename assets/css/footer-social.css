@@ -1,0 +1,84 @@
+/* Social placeholders share the existing footer, without link behavior. */
+footer .footTop_boxt .footVideo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 18px;
+  inline-size: 100%;
+  max-inline-size: 210px;
+  align-items: start;
+  justify-content: start;
+}
+
+footer .footTop_boxt .footVideo > .footer-social-entry,
+footer .footTop_boxt .footVideo > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  min-inline-size: 0;
+  text-align: center;
+}
+
+footer .footTop_boxt .footVideo > .footer-social-entry {
+  cursor: default;
+}
+
+footer .footTop_boxt .footVideo img {
+  display: block;
+  inline-size: auto;
+  block-size: 40px;
+  max-inline-size: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+footer .footTop_boxt .footVideo > .footer-social-entry > span,
+footer .footTop_boxt .footVideo > a > span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+/* Compact footers may have light backgrounds; retain their own text color. */
+footer .footer-social-compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px 24px;
+  max-inline-size: 100%;
+  margin-block: 16px;
+  color: inherit;
+}
+
+footer .footer-social-compact > .footer-social-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  min-inline-size: 64px;
+  max-inline-size: 100%;
+  color: inherit;
+  text-align: center;
+  cursor: default;
+}
+
+footer .footer-social-compact > .footer-social-entry img {
+  display: block;
+  inline-size: auto;
+  block-size: 32px;
+  max-inline-size: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+footer .footer-social-compact > .footer-social-entry > span {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: normal;
+}

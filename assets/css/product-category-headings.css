@@ -1,0 +1,42 @@
+/* Existing category heading only. No sidebar, product grid, or header rules. */
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading {
+  display: block;
+  width: calc(100% - 36px);
+  max-width: 1440px;
+  margin: 0 auto 24px;
+  padding: 0;
+  direction: inherit;
+  text-align: start;
+}
+html[lang="en"] body.compact-product-range-page .ru-bomco-product-range > .section-heading {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="ar"] body.compact-product-range-page .ru-bomco-product-range > .section-heading {
+  direction: rtl;
+  text-align: right;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading h1 {
+  margin: 0;
+  color: #26384b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: normal;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading > .eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  letter-spacing: normal;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading > p:not(.eyebrow) {
+  margin: 8px 0 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (max-width: 720px) {
+  html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading { margin-bottom: 20px; }
+  html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading h1 { font-size: 20px; }
+}

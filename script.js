@@ -353,10 +353,15 @@ document.querySelectorAll("[data-contact-inquiry]").forEach((form) => {
       btn.setAttribute("aria-expanded", String(open));
     });
   });
-  var path = location.pathname.replace(/\/+$/, "/");
+  function canonicalSidebarPath(value) {
+    var normalized = value.replace(/^\/demo\/pratt-oil-oilfield(?=\/|$)/, "") || "/";
+    normalized = normalized.replace(/\/index\.html$/i, "/");
+    return normalized.replace(/\/+$/, "/");
+  }
+  var path = canonicalSidebarPath(location.pathname);
   document.querySelectorAll(".product-sidebar a").forEach(function (a) {
     try {
-      var ap = new URL(a.href).pathname.replace(/\/+$/, "/");
+      var ap = canonicalSidebarPath(new URL(a.href).pathname);
       if (ap === path) {
         a.classList.add("active");
         var g = a.closest("[data-sidebar-group]");

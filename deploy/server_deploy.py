@@ -23,7 +23,7 @@ BASE = Path('/var/lib/pratt-oil')
 RELEASES = BASE / 'releases'
 BACKUPS = Path('/var/backups/pratt-oil')
 ROOT_FILES = {'index.html', 'styles.css', 'script.js', 'robots.txt', 'sitemap.xml',
-              'DEPLOYMENT-CHECKLIST.md', 'IMAGE-SLOTS.md'}
+              'DEPLOYMENT-CHECKLIST.md', 'IMAGE-SLOTS.md', 'google64ce287d7385b530.html'}
 SITE_DIRS = {'assets', 'en', 'ar', 'admin', 'privacy-policy', 'terms'}
 EXTENSIONS = {'.html', '.css', '.js', '.json', '.xml', '.txt', '.md', '.csv',
               '.webp', '.jpg', '.jpeg', '.png', '.gif', '.svg', '.ico', '.avif',

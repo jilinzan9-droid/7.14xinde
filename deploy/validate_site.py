@@ -117,10 +117,19 @@ class Page(HTMLParser):
 def validate():
     errors = []
     pages = {}
+    verification_files = 0
     for file in sorted(ROOT.rglob('*.html')):
         if '.git' in file.parts:
             continue
-        page = Page(file.relative_to(ROOT).as_posix())
+        relative = file.relative_to(ROOT).as_posix()
+        if relative == 'google64ce287d7385b530.html':
+            expected_body = b'google-site-verification: google64ce287d7385b530.html'
+            if file.read_bytes().rstrip(b'\r\n') != expected_body:
+                errors.append(f'{relative}: invalid Google verification file content')
+            else:
+                verification_files += 1
+            continue
+        page = Page(relative)
         page.feed(file.read_text(encoding='utf-8-sig'))
         pages[file] = page
         for value in page.jsonld:
@@ -181,7 +190,8 @@ def validate():
         print('\n'.join(errors), file=sys.stderr)
         return 1
     print(f'Validated {len(pages)} HTML pages, {len(references)} URL references, '
-          f'{len(urls)} sitemap URLs, hreflang and all JSON-LD.')
+          f'{len(urls)} sitemap URLs, hreflang and all JSON-LD; '
+          f'{verification_files} Google verification files.')
     return 0
 
 

@@ -20,6 +20,7 @@ DIRECTORIES = {"assets", "en", "ar", "admin", "privacy-policy", "terms"}
 ROOT_FILES = {
     "index.html", "styles.css", "script.js", "robots.txt", "sitemap.xml",
     "DEPLOYMENT-CHECKLIST.md", "IMAGE-SLOTS.md",
+    "google64ce287d7385b530.html",
 }
 STATIC_SUFFIXES = {
     ".html", ".css", ".js", ".json", ".xml", ".txt", ".csv", ".md", ".webmanifest",

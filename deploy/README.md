@@ -25,6 +25,8 @@ Inquiries continue through the existing public WhatsApp number. A visitor must c
 
 Google Analytics 4 is configured in `assets/js/analytics.js` for the `PRATT OIL 官方网站` web data stream, Measurement ID `G-PY30RMKXMD`. The property uses China time (UTC+08:00) for daily reports. Public pages load the shared script once; the browser-local admin page is excluded. The business has not opened a YouTube channel, so the broken placeholder channel links have been removed.
 
+Search Console ownership for `https://www.pratt-oil.com/` uses the original Google file `google64ce287d7385b530.html` at the website root. Keep this file in future releases to retain verification. The build and receiver explicitly allow this exact filename; the validator checks its original verification text and excludes it from content-page metadata and sitemap coverage. A receiver update must be installed by an administrator before publishing this file.
+
 Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
 
 ## Check a release

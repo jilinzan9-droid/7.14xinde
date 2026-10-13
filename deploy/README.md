@@ -25,6 +25,8 @@ Inquiries continue through the existing public WhatsApp number. A visitor must c
 
 Google Analytics 4 is configured in `assets/js/analytics.js` for the `PRATT OIL 官方网站` web data stream, Measurement ID `G-PY30RMKXMD`. The property uses China time (UTC+08:00) for daily reports. Public pages load the shared script once; the browser-local admin page is excluded. The business has not opened a YouTube channel, so the broken placeholder channel links have been removed.
 
+Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
+
 ## Check a release
 
 Check the GitHub Actions run and `https://www.pratt-oil.com/__pratt_release.json`. The marker's `commit` must equal the deployed GitHub commit. The receiver returns a nonzero exit code on validation or health-check failure.

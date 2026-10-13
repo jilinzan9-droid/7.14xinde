@@ -1,0 +1,91 @@
+{
+  "purpose": "Retain existing landing pages and their assets for future reuse; changing product navigation does not remove these pages.",
+  "product_navigation_targets": {
+    "Mud Pump Spare Parts": "/en/products/bomco-f-series-mud-pumps/",
+    "Frac Pump Spare Parts": "/en/products/spm-tws-drilling-mud-pump/"
+  },
+  "preserve_all_shared_assets": true,
+  "preserve_unused_landing_images": true,
+  "landing_pages": [
+    {
+      "slug": "mud-pump-spare-parts",
+      "title": "Mud Pump Spare Parts Manufacturer | F-Series, 3NB, HHF, FB & FC Parts",
+      "source": "en/mud-pump-spare-parts/index.html",
+      "url": "https://www.pratt-oil.com/en/mud-pump-spare-parts/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/mud-pump-spare-parts/",
+      "same_directory_resources": [
+        "en/mud-pump-spare-parts/landing.css",
+        "en/mud-pump-spare-parts/landing.js"
+      ],
+      "dedicated_image_directory": "assets/images/mud-pump-landing"
+    },
+    {
+      "slug": "fracturing-pump-parts",
+      "title": "Fracturing Pump Parts | STP, QWS and TWS Pump Spares | Pratt Oil",
+      "source": "en/fracturing-pump-parts/index.html",
+      "url": "https://www.pratt-oil.com/en/fracturing-pump-parts/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/fracturing-pump-parts/",
+      "same_directory_resources": [
+        "en/fracturing-pump-parts/landing.css",
+        "en/fracturing-pump-parts/landing.js"
+      ],
+      "dedicated_image_directory": "assets/images/fracturing-landing"
+    },
+    {
+      "slug": "drawworks-brake-system-parts",
+      "title": "Drilling Rig Drawworks Parts | Brake Systems & Clutches | Pratt Oil",
+      "source": "en/drawworks-brake-system-parts/index.html",
+      "url": "https://www.pratt-oil.com/en/drawworks-brake-system-parts/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/drawworks-brake-system-parts/",
+      "same_directory_resources": [
+        "en/drawworks-brake-system-parts/landing.css",
+        "en/drawworks-brake-system-parts/landing.js"
+      ],
+      "dedicated_image_directory": "assets/images/drawworks-landing"
+    },
+    {
+      "slug": "drilling-rig-spare-parts",
+      "title": "Drilling Rig Spare Parts Supplier | Middle East Oilfield Spare Parts",
+      "source": "en/drilling-rig-spare-parts/index.html",
+      "url": "https://www.pratt-oil.com/en/drilling-rig-spare-parts/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/drilling-rig-spare-parts/",
+      "same_directory_resources": []
+    },
+    {
+      "slug": "drilling-hydraulic-power-tongs",
+      "title": "Hydraulic Power Tongs & Spare Parts | Pratt Oil",
+      "source": "en/drilling-hydraulic-power-tongs/index.html",
+      "url": "https://www.pratt-oil.com/en/drilling-hydraulic-power-tongs/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/drilling-hydraulic-power-tongs/",
+      "same_directory_resources": [
+        "en/drilling-hydraulic-power-tongs/landing.css",
+        "en/drilling-hydraulic-power-tongs/landing.js"
+      ],
+      "dedicated_image_directory": "assets/images/power-tong-landing"
+    },
+    {
+      "slug": "wellhead-equipment-valves",
+      "title": "Wellhead Equipment & Oilfield Valves Supplier | Middle East",
+      "source": "en/wellhead-equipment-valves/index.html",
+      "url": "https://www.pratt-oil.com/en/wellhead-equipment-valves/",
+      "legacy_url": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/wellhead-equipment-valves/",
+      "same_directory_resources": []
+    }
+  ],
+  "additional_existing_topic_and_regional_pages": [
+    "en/mud-pump-liners-pistons-valves-seats/index.html",
+    "en/oilfield-hydraulic-components/index.html",
+    "en/fast-wearing-oilfield-parts/index.html",
+    "en/oilfield-equipment-supplier-bahrain/index.html",
+    "en/oilfield-equipment-supplier-iraq/index.html",
+    "en/oilfield-equipment-supplier-kuwait/index.html",
+    "en/oilfield-equipment-supplier-oman/index.html",
+    "en/oilfield-equipment-supplier-qatar/index.html",
+    "en/oilfield-equipment-supplier-saudi-arabia/index.html",
+    "en/oilfield-equipment-supplier-uae/index.html"
+  ],
+  "retained_service_page": {
+    "source": "en/services/index.html",
+    "fracturing_section": "https://www.pratt-oil.com/demo/pratt-oil-oilfield/en/services/#service-fracturing"
+  }
+}

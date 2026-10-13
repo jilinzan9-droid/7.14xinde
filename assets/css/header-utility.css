@@ -114,6 +114,9 @@ body .site-header.has-header-utility > .topbar {
 @media (min-width: 1121px) {
   html[lang] body.ru-product-detail-page .site-header.has-header-utility ~ main .product-sidebar {
     top: 145px;
+    max-height: calc(100vh - 165px);
+    max-height: calc(100dvh - 165px);
+    overflow-y: auto;
   }
 }
 

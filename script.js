@@ -108,7 +108,7 @@ function setActivePrimaryNavigation() {
 if (navLinks) {
   navLinks.addEventListener("click", (event) => {
     const trigger = event.target.closest(".nav-dropdown-row > a[aria-haspopup=\"true\"]");
-    if (!trigger) return;
+    if (!trigger || trigger.hasAttribute("data-nav-link")) return;
     const dropdown = trigger.closest("[data-nav-dropdown]");
     const toggle = dropdown?.querySelector("[data-nav-toggle]");
     if (!dropdown || !toggle) return;

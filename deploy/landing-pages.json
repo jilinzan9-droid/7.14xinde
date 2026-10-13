@@ -2,13 +2,13 @@
   "purpose": "Retain existing landing pages and their assets for future reuse; changing product navigation does not remove these pages.",
   "product_navigation_targets": {
     "Mud Pump Spare Parts": "/en/products/bomco-f-series-mud-pumps/",
-    "Frac Pump Spare Parts": "/en/products/spm-tws-drilling-mud-pump/",
-    "Drawworks Brake Systems": "/en/products/drawworks-brake-band-system-parts/",
-    "Drilling Rig Spare Parts": "/en/products/drilling-rigs-and-drawworks-accessories/",
-    "Hydraulic Disc Brake System": "/en/products/hydraulic-disc-brake-system/",
-    "WCB Eaton Auxiliary Brake": "/en/products/wcb-eaton-auxiliary-brake/",
-    "Wellhead Equipment & Tools": "/en/products/wellhead-tools/",
-    "Valve & Pump Spare Parts": "/en/products/drilling-rig-accessories-valves-pumps/"
+    "Fracturing Pump Spare Parts": "/en/products/spm-tws-drilling-mud-pump/",
+    "Drawworks Band Brake Parts": "/en/products/drawworks-brake-band-system-parts/",
+    "Drilling Rig and Drawworks Parts": "/en/products/drilling-rigs-and-drawworks-accessories/",
+    "Hydraulic Disc Brakes and Parts": "/en/products/hydraulic-disc-brake-system/",
+    "WCB Water-Cooled Brakes and Parts": "/en/products/wcb-eaton-auxiliary-brake/",
+    "Power Tongs and Handling Tools": "/en/products/wellhead-tools/",
+    "Hydraulic Pumps and Valves": "/en/products/drilling-rig-accessories-valves-pumps/"
   },
   "preserve_all_shared_assets": true,
   "preserve_unused_landing_images": true,

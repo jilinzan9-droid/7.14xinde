@@ -1,0 +1,211 @@
+/* One type scale for the English homepage, including supply solution cards. */
+body.home-en:not(.home-ar) {
+  --home-section-size: 34px;
+  --home-card-size: 20px;
+  --home-product-title-size: 18px;
+  --home-body-size: 16px;
+  --home-label-size: 13px;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-size: var(--home-body-size);
+  line-height: 1.65;
+}
+
+body.home-en:not(.home-ar) #home h2 {
+  font-size: var(--home-section-size);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.4px;
+}
+
+body.home-en:not(.home-ar) #home .landing-hero h1,
+body.home-en:not(.home-ar) #home .landing-hero h2 {
+  font-size: clamp(48px, 3.4vw, 52px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.6px;
+}
+
+body.home-en:not(.home-ar) #home h3,
+body.home-en:not(.home-ar) #home .home-service-title,
+body.home-en:not(.home-ar) #home .quote-form-heading strong {
+  font-size: var(--home-card-size);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+body.home-en:not(.home-ar) #home p,
+body.home-en:not(.home-ar) #home address,
+body.home-en:not(.home-ar) #home input,
+body.home-en:not(.home-ar) #home textarea {
+  font-size: var(--home-body-size);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+body.home-en:not(.home-ar) #home .eyebrow,
+body.home-en:not(.home-ar) #home .supply-solutions-kicker,
+body.home-en:not(.home-ar) #home .supply-solution-copy > span:first-child,
+body.home-en:not(.home-ar) #home .quote-form-heading > span,
+body.home-en:not(.home-ar) #home .news-badge,
+body.home-en:not(.home-ar) #home .company-address-block > span {
+  font-size: var(--home-label-size);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .9px;
+}
+
+body.home-en:not(.home-ar) #home .eyebrow,
+body.home-en:not(.home-ar) #home .supply-solutions-kicker {
+  margin-bottom: 12px;
+}
+
+body.home-en:not(.home-ar) #home .section-heading,
+body.home-en:not(.home-ar) #home .supply-solutions-heading {
+  margin-bottom: 32px;
+}
+
+body.home-en:not(.home-ar) #home .section-heading h2,
+body.home-en:not(.home-ar) #home .supply-solutions-heading h2,
+body.home-en:not(.home-ar) #home .company-presence-copy h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+body.home-en:not(.home-ar) #home .section-heading > p:last-child,
+body.home-en:not(.home-ar) #home .supply-solutions-heading > p:last-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body.home-en:not(.home-ar) #home .btn,
+body.home-en:not(.home-ar) #home .news-tab,
+body.home-en:not(.home-ar) #home .read-more,
+body.home-en:not(.home-ar) #home .supply-solution-action {
+  font-size: var(--home-body-size);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+body.home-en:not(.home-ar) #home label,
+body.home-en:not(.home-ar) #home .quote-form-note,
+body.home-en:not(.home-ar) #home figcaption,
+body.home-en:not(.home-ar) #home .company-capability-list span {
+  font-size: var(--home-label-size);
+  line-height: 1.6;
+}
+
+body.home-en:not(.home-ar) #home label {
+  font-weight: 700;
+}
+
+body.home-en:not(.home-ar) #home .company-capability-list strong {
+  font-size: var(--home-card-size);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+body.home-en:not(.home-ar) #home .parts-grid > div,
+body.home-en:not(.home-ar) #home .market-tile {
+  font-size: var(--home-body-size);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Let long product names wrap and keep every title visible. */
+body.home-en:not(.home-ar) #home .product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+body.home-en:not(.home-ar) #home .product-card .card-detail-link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+body.home-en:not(.home-ar) #home .product-card-media {
+  flex-shrink: 0;
+}
+
+body.home-en:not(.home-ar) #home .product-card h3 {
+  font-size: var(--home-product-title-size);
+  display: grid;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  min-height: calc(2.7 * var(--home-product-title-size) + 28px);
+  height: auto;
+  margin: 0;
+  padding: 14px 12px;
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  text-wrap: balance;
+  -webkit-line-clamp: unset;
+}
+
+body.home-en:not(.home-ar) #home .news-card h3 {
+  overflow: visible;
+  white-space: normal;
+  -webkit-line-clamp: unset;
+}
+
+body.home-en:not(.home-ar) #home .supply-solution-copy h3 {
+  margin: 12px 0;
+}
+
+body.home-en:not(.home-ar) #home .home-service-title {
+  right: 18px;
+  left: 18px;
+}
+
+body.home-en:not(.home-ar) .footer h3 {
+  font-size: var(--home-label-size);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+body.home-en:not(.home-ar) .footer p,
+body.home-en:not(.home-ar) .footer a,
+body.home-en:not(.home-ar) .footer em {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+body.home-en:not(.home-ar) .footer em {
+  font-style: normal;
+}
+
+@media (max-width: 1100px) {
+  body.home-en:not(.home-ar) #home .landing-hero h1,
+  body.home-en:not(.home-ar) #home .landing-hero h2 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 720px) {
+  body.home-en:not(.home-ar) {
+    --home-section-size: 28px;
+    --home-card-size: 18px;
+    --home-product-title-size: 16px;
+  }
+
+  body.home-en:not(.home-ar) #home .landing-hero h1,
+  body.home-en:not(.home-ar) #home .landing-hero h2 {
+    font-size: clamp(32px, 8vw, 38px);
+    line-height: 1.2;
+  }
+
+  body.home-en:not(.home-ar) #home .section-heading,
+  body.home-en:not(.home-ar) #home .supply-solutions-heading {
+    margin-bottom: 24px;
+  }
+
+  body.home-en:not(.home-ar) #home .product-card h3 {
+    padding: 12px 8px;
+    min-height: calc(2.7 * var(--home-product-title-size) + 24px);
+  }
+}

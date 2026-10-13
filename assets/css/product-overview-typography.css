@@ -1,0 +1,76 @@
+/* Match homepage typography only within the English product overview. */
+body.en-product-catalog-page #featured-products {
+  --overview-section-title-size: 34px;
+  --overview-product-title-size: 18px;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+body.en-product-catalog-page #featured-products .section-heading h1 {
+  font-size: var(--overview-section-title-size);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.4px;
+}
+
+body.en-product-catalog-page #featured-products p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+body.en-product-catalog-page #featured-products .eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .9px;
+}
+
+/* Stretch title strips to the same height within each existing grid row. */
+body.en-product-catalog-page #featured-products .product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+body.en-product-catalog-page #featured-products .product-card .card-detail-link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+body.en-product-catalog-page #featured-products .product-card h3 {
+  display: grid;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  min-height: calc(2.7 * var(--overview-product-title-size) + 28px);
+  height: auto;
+  margin: 0;
+  padding: 14px 12px;
+  color: #fff;
+  background: #176fdf;
+  font-size: var(--overview-product-title-size);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  text-wrap: balance;
+  -webkit-line-clamp: unset;
+}
+
+@media (max-width: 720px) {
+  body.en-product-catalog-page #featured-products {
+    --overview-section-title-size: 28px;
+    --overview-product-title-size: 16px;
+  }
+
+  body.en-product-catalog-page #featured-products .product-card h3 {
+    min-height: calc(2.7 * var(--overview-product-title-size) + 24px);
+    padding: 12px 8px;
+  }
+}

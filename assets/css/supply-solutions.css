@@ -1,0 +1,190 @@
+/* Shared links to equipment-specific spare parts supply pages. */
+.supply-solutions-section {
+  padding: 64px clamp(20px, 4vw, 72px);
+  background: #f3f7f4;
+  border-top: 1px solid #e0e8e2;
+  scroll-margin-top: 150px;
+}
+.supply-solutions-shell { max-width: 1320px; margin: 0 auto; }
+.supply-solutions-heading { max-width: 760px; margin-bottom: 32px; }
+.supply-solutions-kicker {
+  margin: 0 0 12px;
+  color: #0f6b57;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.supply-solutions-heading h2 {
+  margin: 0 0 14px;
+  color: #073f35;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.18;
+  letter-spacing: -.7px;
+}
+.supply-solutions-heading > p:last-child {
+  margin: 0;
+  color: #5c6970;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.supply-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.supply-solution-card {
+  display: grid;
+  grid-template-columns: 46% minmax(0, 1fr);
+  align-items: stretch;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #dbe5df;
+  border-radius: 12px;
+  background: #fff;
+  color: #102026;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(7, 63, 53, .04);
+  transition: border-color .18s ease, box-shadow .18s ease;
+}
+.supply-solution-card:hover {
+  border-color: #0f6b57;
+  box-shadow: 0 8px 24px rgba(7, 63, 53, .1);
+}
+.supply-solution-card:focus-visible,
+.supply-context-link a:focus-visible,
+.supply-related-links a:focus-visible,
+.supply-footer-nav a:focus-visible {
+  outline: 3px solid #c89b3c;
+  outline-offset: 4px;
+}
+.supply-solution-media {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  padding: 12px;
+  background: #fff;
+  border-right: 1px solid #edf1ee;
+}
+.supply-solution-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #fff;
+}
+.supply-solution-copy { display: flex; flex-direction: column; padding: 26px 24px; }
+.supply-solution-copy > span:first-child {
+  color: #0f6b57;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.supply-solution-copy h3 {
+  margin: 12px 0;
+  color: #073f35;
+  font-size: 23px;
+  line-height: 1.22;
+  font-weight: 700;
+}
+.supply-solution-copy p {
+  margin: 0 0 20px;
+  color: #5c6970;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.supply-solution-copy .supply-solution-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #e8eeea;
+  color: #0f6b57;
+  font-size: 13px;
+  font-weight: 700;
+}
+.supply-context-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 24px;
+  margin: 24px 0;
+  padding: 18px 22px;
+  border-left: 3px solid #0f6b57;
+  background: #f3f7f4;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.supply-context-link p { flex: 1 1 300px; margin: 0; color: #5c6970; }
+.supply-context-link a { color: #0f6b57; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.supply-related {
+  width: min(1120px, calc(100% - 40px));
+  margin: 40px auto;
+  padding: 28px;
+  border: 1px solid #dce5e9;
+  border-radius: 8px;
+  background: #f6f9fa;
+}
+.supply-related h2 { margin: 0 0 10px; font-size: 24px; line-height: 1.25; letter-spacing: -.4px; }
+.supply-related > p { margin: 0 0 18px; font-size: 14px; line-height: 1.65; }
+.supply-related-links { display: flex; flex-wrap: wrap; gap: 12px; }
+.supply-related-links a {
+  padding: 10px 14px;
+  border: 1px solid #c7d7df;
+  border-radius: 4px;
+  background: #fff;
+  color: #163a54;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.supply-related-links a:hover { border-color: #163a54; text-decoration: underline; }
+.supply-footer-nav { display: block; width: 100%; font-family: Arial, Helvetica, sans-serif; }
+.supply-footer-nav h3 { margin: 0 0 14px; font-size: 14px; font-weight: 700; line-height: 1.4; letter-spacing: .8px; }
+.supply-footer-links { display: flex; flex-wrap: wrap; gap: 12px 30px; margin: 0; padding: 0; list-style: none; }
+.supply-footer-links li { margin: 0; padding: 0; }
+.supply-footer-links a { font-size: 13px; line-height: 1.6; text-decoration: none; }
+.supply-footer-links a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.supply-footer-nav--standard {
+  max-width: 1490px;
+  width: calc(100% - clamp(40px, 8vw, 144px));
+  margin: 0 auto;
+  padding: 24px 0 32px;
+  border-top: 1px solid rgba(255, 255, 255, .18);
+  color: #d6e5df;
+}
+.supply-footer-nav--standard h3 { color: #c89b3c; text-transform: uppercase; }
+footer.has-supply-solutions { flex-wrap: wrap; }
+.supply-footer-nav--compact {
+  flex: 0 0 100%;
+  grid-column: 1 / -1;
+  margin-top: 20px;
+  padding-top: 22px;
+  border-top: 1px solid #dce5e9;
+  color: #163a54;
+}
+@media (max-width: 1000px) {
+  .supply-solution-card { grid-template-columns: 1fr; }
+  .supply-solution-media { padding: 14px 28px; border-right: 0; border-bottom: 1px solid #edf1ee; }
+  .supply-solution-media img { max-height: 220px; }
+  .supply-solution-copy { padding: 22px; }
+}
+@media (max-width: 600px) {
+  .supply-solutions-section { padding: 42px 20px; scroll-margin-top: 100px; }
+  .supply-solutions-grid { grid-template-columns: 1fr; gap: 20px; }
+  .supply-solutions-heading { margin-bottom: 24px; }
+  .supply-solutions-heading > p:last-child { font-size: 14px; }
+  .supply-solution-copy h3 { font-size: 22px; }
+  .supply-context-link { padding: 16px; }
+  .supply-related { padding: 22px 18px; }
+  .supply-related-links { flex-direction: column; align-items: stretch; }
+  .supply-footer-links { display: grid; grid-template-columns: 1fr; gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .supply-solution-card { transition: none; }
+}

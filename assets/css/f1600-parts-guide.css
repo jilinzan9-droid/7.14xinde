@@ -10,6 +10,10 @@ body.f1600-parts-guide .news-detail-media {
   position: sticky;
   top: 155px;
   min-height: 0;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  overflow: visible;
   margin: 0;
   padding: 16px;
   border: 1px solid #dce1e5;

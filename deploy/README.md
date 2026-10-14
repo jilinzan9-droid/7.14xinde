@@ -33,6 +33,8 @@ Arabic pages load `arabic-navigation.css` last to preserve the mobile menu, the 
 
 Search Console ownership for `https://www.pratt-oil.com/` uses the original Google file `google64ce287d7385b530.html` at the website root. Keep this file in future releases to retain verification. The build and receiver explicitly allow this exact filename; the validator checks its original verification text and excludes it from content-page metadata and sitemap coverage. A receiver update must be installed by an administrator before publishing this file.
 
+`product-reference-cards.css` loads after the existing styles on pages with image product cards. Only cards marked `data-product-reference="true"` receive the white rectangular layout, blue category label, left-aligned black product name and outlined arrow. Arabic cards retain right-to-left alignment. The arrow stays inside the existing product or inquiry link, and campaign quotation links are preserved. Text-only related-product lists and technical drawing controls keep their existing layouts. Keep product names fully visible and use `contain` for product images.
+
 Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
 
 ## Check a release

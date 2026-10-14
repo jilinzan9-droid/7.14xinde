@@ -1,0 +1,437 @@
+/* Product cards only. Load last so previous title bars and rounded cards cannot
+   override the reference. The IDs inside :is give the scoped rules enough
+   specificity for the older product-category templates. Grid columns are kept. */
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dce1e5;
+  border-radius: 0;
+  color: #151b20;
+  background: #fff;
+  box-shadow: none;
+  direction: ltr;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  transform: none;
+  transition: border-color 160ms ease;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"]:hover {
+  border-color: #aebcc7;
+  background: #fff;
+  box-shadow: none;
+  transform: none;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > a:first-child {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  color: inherit;
+  background: #fff;
+  text-decoration: none;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.product-card-media, .ru-product-card-media, div.product-image, .image-placeholder) {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.product-card-media, .ru-product-card-media, div.product-image, .image-placeholder) img,
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"]:hover :is(.product-card-media, .ru-product-card-media, div.product-image, .image-placeholder) img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 12px;
+  border-radius: 0;
+  background: #fff;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  transition: none;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .ru-product-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  min-width: 0;
+  padding: 0;
+  background: #fff;
+}
+
+/* :is also raises these overrides above rules which hide all body spans. */
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-card-category {
+  display: block;
+  flex: 0 0 auto;
+  height: auto;
+  margin: 18px 16px 7px;
+  padding: 0;
+  color: #0668e8;
+  background: transparent;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: inherit;
+  text-transform: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] h3 {
+  display: block;
+  flex: 0 0 auto;
+  align-self: stretch;
+  min-width: 0;
+  min-height: 0;
+  max-height: none;
+  height: auto;
+  margin: 0 16px 20px;
+  padding: 0;
+  overflow: visible;
+  color: #151b20;
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: inherit;
+  text-overflow: clip;
+  text-transform: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  text-wrap: pretty;
+  -webkit-line-clamp: unset;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.card-detail-link > p, .ru-product-card-body > p) {
+  display: none;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-card-arrow {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 40px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  inline-size: 40px;
+  block-size: 40px;
+  min-inline-size: 40px;
+  min-block-size: 40px;
+  margin: auto 16px 16px;
+  padding: 0;
+  border: 1px solid #0668e8;
+  border-radius: 6px;
+  color: #0668e8;
+  background: #fff;
+  line-height: 1;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-card-arrow svg {
+  display: block;
+  inline-size: 18px;
+  block-size: 18px;
+  margin: 0;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > a:first-child:focus-visible {
+  outline: 2px solid #0668e8;
+  outline-offset: -2px;
+}
+
+/* Campaign catalogs have separate image, detail and quotation links. Keep
+   those functioning and style their existing text and controls in place. */
+html[lang] body [data-product-reference="true"] .product-card-link-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+html[lang] body .product-card[data-product-reference="true"] div.product-image > span {
+  display: none;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"],
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"]:hover {
+  border: 1px solid #dce1e5;
+  border-radius: 0;
+  color: #151b20;
+  background: #fff;
+  box-shadow: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  transform: none;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-photo {
+  padding: 12px;
+  border-bottom: 0;
+  border-radius: 0;
+  background: #fff;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-photo img {
+  object-fit: contain;
+  object-position: center;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-copy {
+  padding: 18px 16px 16px;
+  gap: 0;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] :is(.lp-tag, .product-card-category) {
+  display: block;
+  margin: 0 0 7px;
+  padding: 0;
+  color: #0668e8;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: inherit;
+  text-transform: none;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] h3,
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] h3 a {
+  margin: 0 0 14px;
+  padding: 0;
+  color: #151b20;
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: inherit;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-view {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 40px;
+  align-items: center;
+  justify-content: center;
+  inline-size: 40px;
+  block-size: 40px;
+  min-inline-size: 40px;
+  min-height: 40px;
+  padding: 0;
+  border: 1px solid #0668e8;
+  border-radius: 6px;
+  color: #0668e8;
+  background: #fff;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-view .product-card-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 18px;
+  block-size: 18px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+}
+
+html[lang] body .lp-catalog .lp-card[data-product-reference="true"] .lp-view .product-card-arrow svg {
+  display: block;
+  inline-size: 18px;
+  block-size: 18px;
+  margin: 0;
+}
+
+/* The original drawworks cards keep their specifications and inquiry links. */
+html[lang] body .product-card[data-product-reference="true"] .product-copy {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  padding: 18px 16px 16px;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-copy :is(h3, .product-card-category) {
+  margin-inline: 0;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-copy .product-card-category {
+  margin-top: 0;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-copy .product-card-arrow {
+  margin-inline: 0;
+}
+
+html[lang="ar"] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"],
+html[lang="ar"] body .lp-catalog .lp-card[data-product-reference="true"] {
+  direction: rtl;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: right;
+}
+
+html[lang="ar"] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(h3, .product-card-category),
+html[lang="ar"] body .lp-catalog .lp-card[data-product-reference="true"] :is(h3, .lp-tag, .product-card-category) {
+  direction: rtl;
+  text-align: right;
+  line-height: 1.55;
+}
+
+html[lang="ar"] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-card-arrow svg,
+html[lang="ar"] body .lp-catalog .lp-card[data-product-reference="true"] .lp-view .product-card-arrow svg {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 720px) {
+  html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] h3,
+  html[lang] body .lp-catalog .lp-card[data-product-reference="true"] h3,
+  html[lang] body .lp-catalog .lp-card[data-product-reference="true"] h3 a {
+    font-size: 14px;
+  }
+
+  html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .product-card-category {
+    margin-top: 14px;
+  }
+
+  html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.product-card-media, .ru-product-card-media, div.product-image, .image-placeholder) img {
+    padding: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] {
+    transition: none;
+  }
+}
+
+/* Native fracturing and tong cards have a direct image followed by copy, rather
+   than a linked media wrapper. Technical drawing cards have no reference marker. */
+html[lang] body :is(.featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > img {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 12px;
+  border-radius: 0;
+  background: #fff;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  transition: none;
+}
+
+html[lang] body :is(.featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > :is(div, .equipment-copy) {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  padding: 18px 16px 16px;
+  background: #fff;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.equipment-copy, .featured-products > article > div) :is(h3, .product-card-category) {
+  margin-inline: 0;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] :is(.equipment-copy, .featured-products > article > div) .product-card-category {
+  margin-top: 0;
+}
+
+html[lang] body :is(.featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > div > p {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Preserve the actual native inquiry/technical links; the decoration itself
+   stays inside their existing anchor and has no separate focus target. */
+html[lang] body :is(.product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .text-link {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 40px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  inline-size: 40px;
+  block-size: 40px;
+  min-inline-size: 40px;
+  min-block-size: 40px;
+  margin: auto 0 0;
+  padding: 0;
+  border: 1px solid #0668e8;
+  border-radius: 6px;
+  color: #0668e8;
+  background: #fff;
+  text-decoration: none;
+}
+
+html[lang] body :is(#products .product-card, #featured-products .product-card, .ru-product-card, .product-card, .featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] .text-link .product-card-arrow {
+  display: inline-flex;
+  flex: 0 0 18px;
+  align-items: center;
+  justify-content: center;
+  inline-size: 18px;
+  block-size: 18px;
+  min-inline-size: 18px;
+  min-block-size: 18px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+}
+
+@media (max-width: 720px) {
+  html[lang] body :is(.featured-products > article, .equipment-grid > .equipment-main, .equipment-grid > .equipment-secondary)[data-product-reference="true"] > img {
+    padding: 8px;
+  }
+}

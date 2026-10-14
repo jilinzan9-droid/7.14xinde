@@ -165,10 +165,15 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
 
   function startAutoplay() {
     stopAutoplay();
-    if (!reduceMotion.matches) {
+    if (!reduceMotion.matches && !document.hidden && !carousel.contains(document.activeElement)) {
       timer = window.setInterval(() => showSlide(current + 1), autoplayInterval);
     }
   }
+
+  carousel.addEventListener("focusin", stopAutoplay);
+  carousel.addEventListener("focusout", (event) => {
+    if (!carousel.contains(event.relatedTarget)) startAutoplay();
+  });
 
   dots.forEach((dot, index) => {
     dot.addEventListener("click", () => {

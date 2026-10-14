@@ -39,6 +39,8 @@ Search Console ownership for `https://www.pratt-oil.com/` uses the original Goog
 
 Product category grids omit the large `product-detail-inquiry` form beneath the cards and pagination. Product detail inquiry forms, the dedicated contact page and existing WhatsApp/contact links remain available. Do not add links to an inquiry-form anchor on a category page that has no corresponding form.
 
+The existing `/en/news/f1600-mud-pump-spare-parts-selection-support/` guide is the English F1600 parts topic page. Its content and internal links cover replacement-part matching and quotation requirements, consistent with the owner's parts-only F1600 business. It uses a labeled cylinder-liner reference photo rather than the former F-1600HL pump photo. Preserve its canonical URL and BlogPosting type; do not invent whole-pump sales, OEM authorization, stock, technical ratings or ranking gains. `f1600-parts-guide.css` affects only this guide. Search Console performance was still processing data when this optimization was released.
+
 Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
 
 ## Check a release

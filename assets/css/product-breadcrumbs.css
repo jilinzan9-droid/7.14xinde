@@ -1,0 +1,53 @@
+/* Match the product content container while keeping the divider full width. */
+html[lang] body.ru-product-detail-page .ru-breadcrumb {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-height: 48px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+html[lang] body.ru-product-detail-page .ru-breadcrumb .product-breadcrumb-inner {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  width: calc(100% - 36px);
+  max-width: 1440px;
+  min-width: 0;
+  margin-inline: auto;
+  padding-inline: 4px;
+  text-align: start;
+}
+
+html[lang] body.ru-product-detail-page .ru-breadcrumb .product-breadcrumb-inner > strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+html[lang="ar"] body.ru-product-detail-page .ru-breadcrumb .product-breadcrumb-inner {
+  direction: rtl;
+  padding-inline: 0;
+  text-align: right;
+}
+
+html[lang] body.brake-band-reference-layout .ru-breadcrumb .product-breadcrumb-inner {
+  width: calc(100% - 84px);
+  max-width: none;
+  padding-inline: 0;
+}
+
+@media (max-width: 760px) {
+  html[lang] body.ru-product-detail-page .ru-breadcrumb .product-breadcrumb-inner {
+    gap: 6px 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  html[lang] body.brake-band-reference-layout .ru-breadcrumb .product-breadcrumb-inner {
+    width: calc(100% - 28px);
+  }
+}

@@ -35,6 +35,10 @@ Search Console ownership for `https://www.pratt-oil.com/` uses the original Goog
 
 `product-reference-cards.css` loads after the existing styles on pages with image product cards. Only cards marked `data-product-reference="true"` receive the white rectangular layout, blue category label, left-aligned black product name and outlined arrow. Arabic cards retain right-to-left alignment. The arrow stays inside the existing product or inquiry link, and campaign quotation links are preserved. Text-only related-product lists and technical drawing controls keep their existing layouts. Keep product names fully visible and use `contain` for product images.
 
+`product-breadcrumbs.css` loads last on RU product templates that have breadcrumb navigation. The inner breadcrumb container aligns with the category heading and content width beneath the header; the two brake-band detail layouts follow their own content container width. Arabic navigation remains right-to-left and long names wrap on mobile. The visible breadcrumb links and BreadcrumbList data retain their original destinations.
+
+Product category grids omit the large `product-detail-inquiry` form beneath the cards and pagination. Product detail inquiry forms, the dedicated contact page and existing WhatsApp/contact links remain available. Do not add links to an inquiry-form anchor on a category page that has no corresponding form.
+
 Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
 
 ## Check a release

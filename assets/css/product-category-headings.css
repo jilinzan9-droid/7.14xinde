@@ -1,4 +1,4 @@
-/* Existing category heading only. No sidebar, product grid, or header rules. */
+/* Category headings and their contextual supply links only. */
 html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading {
   display: block;
   width: calc(100% - 36px);
@@ -35,6 +35,31 @@ html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-he
   margin: 8px 0 0;
   font-size: 16px;
   line-height: 1.6;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading .supply-context-link {
+  display: block;
+  width: auto;
+  max-width: none;
+  margin: 12px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: inherit;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading .supply-context-link p {
+  margin: 0;
+  color: #5c6970;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading .supply-context-link a {
+  color: #126ad7;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 @media (max-width: 720px) {
   html[lang] body.compact-product-range-page .ru-bomco-product-range > .section-heading { margin-bottom: 20px; }

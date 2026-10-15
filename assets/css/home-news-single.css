@@ -1,12 +1,12 @@
 /* Full-image homepage news links; the grid also works without JavaScript. */
 .news-single-section .section-heading,
 .news-single-section .news-picture-carousel {
-  max-width: 1120px;
+  max-width: 1600px;
   margin-inline: auto;
 }
 
 .news-single-section .news-picture-track {
-  --news-visible: 3;
+  --news-visible: 4;
   --news-gap: 26px;
   display: grid;
   grid-template-columns: repeat(var(--news-visible), minmax(0, 1fr));
@@ -30,7 +30,7 @@
   display: block;
   flex: 0 0 calc((100% - (var(--news-visible) - 1) * var(--news-gap)) / var(--news-visible));
   min-width: 0;
-  aspect-ratio: 7 / 5;
+  aspect-ratio: 6 / 5;
   overflow: hidden;
   border-radius: 12px;
   background: #eef1f0;
@@ -162,6 +162,10 @@ html[lang] #home .news-single-section .news-more-row .btn {
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .news-single-section .news-picture-card:hover img { transform: scale(1.035); }
+}
+
+@media (max-width: 1279px) {
+  .news-single-section .news-picture-track { --news-visible: 3; }
 }
 
 @media (max-width: 900px) {

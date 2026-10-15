@@ -86230,6 +86230,78 @@
   ],
   "posts": [
     {
+      "id": "mud-pump-piston-matching",
+      "title": "Mud Pump Piston Selection: Match the Liner and Rod",
+      "category": "公司新闻",
+      "excerpt": "Match a mud pump piston by liner bore, assembly number, rod interface and service conditions. Prepare the details needed for a replacement-parts quote.",
+      "slug": "en/news/mud-pump-piston-matching/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "mud-pump-seat-identification",
+      "title": "Mud Pump Seat Identification: Match the Valve Assembly",
+      "category": "公司新闻",
+      "excerpt": "Identify a mud pump seat using valve and seat references, the fluid-end drawing and service details. Prepare a clear replacement-parts quotation request.",
+      "slug": "en/news/mud-pump-seat-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "frac-pump-packing-plunger-identification",
+      "title": "Frac Pump Packing and Plungers: Identify Parts Before Ordering",
+      "category": "公司新闻",
+      "excerpt": "Prepare a clear frac pump packing inquiry with the correct plunger, seal-set contents, fluid-end identification, drawings and part numbers.",
+      "slug": "en/news/frac-pump-packing-plunger-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "frac-pump-valves-seats-purchasing-checklist",
+      "title": "Frac Pump Valves and Seats: A Purchasing Checklist",
+      "category": "公司新闻",
+      "excerpt": "Specify frac pump valves and seats using the installed fluid-end drawing, exact part numbers, assembly contents, quantities and supporting photos.",
+      "slug": "en/news/frac-pump-valves-seats-purchasing-checklist/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "frac-pump-parts-model-fluid-end-identification",
+      "title": "Frac Pump Parts: Confirm the Model and Fluid End Before Ordering",
+      "category": "公司新闻",
+      "excerpt": "Identify frac pump parts by full model, suffix, installed fluid end and exact part number before requesting TWS600, QWS2250 or QWS2500 spares.",
+      "slug": "en/news/frac-pump-parts-model-fluid-end-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "drawworks-brake-band-parts-identification",
+      "title": "Drawworks Brake Band Parts: What to Include in an RFQ",
+      "category": "公司新闻",
+      "excerpt": "Identify drawworks brake bands, friction blocks and drums, then prepare the equipment references, drawings and photos needed for a clear parts quotation.",
+      "slug": "en/news/drawworks-brake-band-parts-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "drawworks-hydraulic-disc-brake-parts-identification",
+      "title": "Drawworks Disc Brake System Parts: Pads, Rotors and Actuators",
+      "category": "公司新闻",
+      "excerpt": "Prepare a drawworks disc brake parts inquiry with clear pad, rotor, actuator and control references, plus the original model details and available drawings.",
+      "slug": "en/news/drawworks-hydraulic-disc-brake-parts-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
+      "id": "wcb-brake-parts-model-identification",
+      "title": "WCB Parts in a Drawworks Braking System: Identify Before Ordering",
+      "category": "公司新闻",
+      "excerpt": "Identify WCB brake parts using the complete model and component references. Distinguish friction discs, wear plates, seals and springs before an inquiry.",
+      "slug": "en/news/wcb-brake-parts-model-identification/",
+      "date": "2026-10-15",
+      "status": "published"
+    },
+    {
       "id": "f1600-mud-pump-spare-parts-selection-support",
       "title": "F1600 Mud Pump Spare Parts",
       "category": "公司新闻",

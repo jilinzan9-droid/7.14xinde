@@ -1,0 +1,46 @@
+/* Readability and part-reference media for new technical parts guides. */
+body.technical-parts-guide .page-hero { padding-block: 24px 32px; }
+body.technical-parts-guide .page-hero h1 { font-size: clamp(26px, 2.5vw, 34px); line-height: 1.3; }
+body.technical-parts-guide .page-hero .eyebrow { color: #126ad7; font-size: 12px; font-weight: 600; }
+body.technical-parts-guide .page-hero > p:not(.eyebrow):not(.article-publisher) { font-size: 16px; line-height: 1.65; }
+body.technical-parts-guide .page-hero .hero-actions .btn.secondary { color: #26333a; background: #fff; border-color: #cfd9de; }
+body.technical-parts-guide .article-layout { grid-template-columns: minmax(240px, .62fr) minmax(0, 1.38fr); }
+body.technical-parts-guide .news-detail-media {
+  display: block;
+  position: sticky;
+  top: 155px;
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  overflow: visible;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid #dce1e5;
+  background: #fff;
+}
+body.technical-parts-guide .news-detail-media img { height: 280px; object-fit: contain; }
+body.technical-parts-guide .news-detail-media figcaption { margin-top: 12px; color: #5c6970; font-size: 13px; line-height: 1.6; }
+body.technical-parts-guide .article-lead { font-size: 17px; font-weight: 500; line-height: 1.65; }
+body.technical-parts-guide .article-section h2 { font-size: 22px; line-height: 1.4; }
+body.technical-parts-guide .article-section p,
+body.technical-parts-guide .article-section ul,
+body.technical-parts-guide .article-section ol { font-size: 16px; line-height: 1.7; }
+body.technical-parts-guide .article-section ul,
+body.technical-parts-guide .article-section ol { margin: 0; padding-inline-start: 22px; color: var(--muted); }
+body.technical-parts-guide .article-section ul { list-style: disc; }
+body.technical-parts-guide .article-section ol { list-style: decimal; }
+body.technical-parts-guide .article-section li + li { margin-top: 8px; }
+body.technical-parts-guide .article-content a:not(.btn) { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 900px) {
+  body.technical-parts-guide .article-layout { grid-template-columns: minmax(0, 1fr); }
+  body.technical-parts-guide .news-detail-media { position: static; width: 100%; max-width: 440px; margin-inline: auto; }
+  body.technical-parts-guide .news-detail-media img { height: 220px; }
+  body.technical-parts-guide .article-section h2 { font-size: 20px; }
+}
+
+body.technical-parts-guide .article-publisher { font-size: 14px; }
+body.technical-parts-guide .article-sources li { font-size: 14px; overflow-wrap: anywhere; }
+body.technical-parts-guide .article-content { min-width: 0; }
+body.technical-parts-guide .article-content table { width: 100%; border-collapse: collapse; }
+body.technical-parts-guide .article-content th, body.technical-parts-guide .article-content td { padding: 10px; border: 1px solid #dce1e5; text-align: start; }

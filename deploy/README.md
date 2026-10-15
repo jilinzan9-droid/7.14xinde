@@ -43,6 +43,8 @@ Pages also omit the large repeated `contact-section` directory with multiple ema
 
 The existing `/en/news/f1600-mud-pump-spare-parts-selection-support/` guide is the English F1600 parts topic page. Its content and internal links cover replacement-part matching and quotation requirements, consistent with the owner's parts-only F1600 business. It uses a labeled cylinder-liner reference photo rather than the former F-1600HL pump photo. Preserve its canonical URL and BlogPosting type; do not invent whole-pump sales, OEM authorization, stock, technical ratings or ranking gains. `f1600-parts-guide.css` affects only this guide. Search Console performance was still processing data when this optimization was released.
 
+At the owner's request, this F1600 guide is the only published news article. The other 16 English and Arabic news details have been removed, together with their listing cards, cross-links and sitemap entries. Keep the existing news and category URLs: News and Company News list the guide, while Industry News has an explicit empty state. Both homepages use a single static feature card styled by `home-news-single.css`; the Arabic card identifies the guide as English. Product catalog tables, search data, shared images and inquiry forms are retained. The admin seed contains only this post; existing browser-local drafts remain independent of the published static site.
+
 Product navigation points to the catalog pages. The existing landing pages and services page remain available at their original URLs for future reuse. `deploy/landing-pages.json` records these pages and their resources; preserve their source files, shared assets and unused landing images when reorganizing navigation.
 
 ## Check a release

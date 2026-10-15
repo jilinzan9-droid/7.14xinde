@@ -86230,102 +86230,12 @@
   ],
   "posts": [
     {
-      "id": "company-news",
-      "title": "Company News",
-      "category": "栏目",
-      "excerpt": "Company updates for oilfield spare parts sourcing, quotation communication and export packaging support.",
-      "slug": "en/news/company-news/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "drawworks-brake-system-parts-middle-east",
-      "title": "Iraq Drilling Tenders Show Demand for Hydraulic and Pneumatic Rig Spare Parts",
-      "category": "行业新闻",
-      "excerpt": "Iraq drilling tenders show procurement demand for rig spare parts, hydraulic and pneumatic systems, power tong spares, valves, hoses and seals.",
-      "slug": "en/news/drawworks-brake-system-parts-middle-east/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "drilling-mud-pump-supply-spare-parts",
-      "title": "Drilling Mud Pump Supply and Spare Parts Support",
-      "category": "行业新闻",
-      "excerpt": "Pratt Oil supports drilling mud pump spare parts quotation, including liners, pistons, valves, seats, fluid end parts and model matching by drawing, photo or pa",
-      "slug": "en/news/drilling-mud-pump-supply-spare-parts/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "f-series-mud-pump-spare-parts-selection",
-      "title": "UAE Drilling and Oilfield Services Contracts Drive Spare Parts Demand",
-      "category": "行业新闻",
-      "excerpt": "UAE drilling and oilfield services activity creates procurement demand for mud pump parts, hydraulic components, valves, seals and pressure-control spare parts.",
-      "slug": "en/news/f-series-mud-pump-spare-parts-selection/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
       "id": "f1600-mud-pump-spare-parts-selection-support",
-      "title": "F1600 Mud Pump Spare Parts Selection Support",
-      "category": "行业新闻",
-      "excerpt": "Pratt Oil shares F1600 mud pump spare parts selection support for liners, pistons, valves, seats, rods, seals and fluid end components matched by model, drawing",
+      "title": "F1600 Mud Pump Spare Parts",
+      "category": "公司新闻",
+      "excerpt": "F1600 replacement spare parts, component matching and information required for a quotation.",
       "slug": "en/news/f1600-mud-pump-spare-parts-selection-support/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "fast-wearing-oilfield-parts-drilling-consumables",
-      "title": "Fast-Wearing Oilfield Parts and Drilling Consumables for Desert Operations",
-      "category": "行业新闻",
-      "excerpt": "Common consumables for oilfield equipment maintenance, including seals, gaskets, brake parts, valves, seats and hydraulic maintenance parts.",
-      "slug": "en/news/fast-wearing-oilfield-parts-drilling-consumables/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "industry-news",
-      "title": "Industry News for Oilfield Spare Parts Buyers",
-      "category": "栏目",
-      "excerpt": "Industry notes for Middle East oilfield spare parts buyers, including mud pump consumables, drilling consumables and maintenance parts.",
-      "slug": "en/news/industry-news/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "middle-east-oilfield-spare-parts-inquiry-support",
-      "title": "Middle East Oilfield Spare Parts Inquiry Support",
-      "category": "行业新闻",
-      "excerpt": "Jinan Prite Petroleum Equipment supports buyers who send part number, pump model, rig model, product photo or technical drawing for quotation.",
-      "slug": "en/news/middle-east-oilfield-spare-parts-inquiry-support/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "mud-pump-liners-pistons-valves-seats-maintenance",
-      "title": "Saudi and GCC Rig Activity Keeps Fast-Wearing Drilling Consumables in Focus",
-      "category": "行业新闻",
-      "excerpt": "Saudi and GCC rig activity supports procurement of mud pump liners, pistons, valves, seats, brake parts, seals and drilling maintenance consumables.",
-      "slug": "en/news/mud-pump-liners-pistons-valves-seats-maintenance/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "oilfield-equipment-spare-parts-sourcing-support",
-      "title": "Oilfield Equipment Spare Parts Sourcing Support",
-      "category": "行业新闻",
-      "excerpt": "Jinan Prite Petroleum Equipment supports oilfield equipment spare parts sourcing for mud pumps, drilling rigs, workover equipment, wellhead tools, valves and hy",
-      "slug": "en/news/oilfield-equipment-spare-parts-sourcing-support/",
-      "date": "2026-06-18",
-      "status": "published"
-    },
-    {
-      "id": "oilfield-spare-parts-export-packaging-quotation-support",
-      "title": "Export Packaging and Quotation Support for Oilfield Spare Parts",
-      "category": "行业新闻",
-      "excerpt": "Oilfield spare parts can be quoted according to model, drawing, quantity and delivery destination, with export packaging support for overseas buyers.",
-      "slug": "en/news/oilfield-spare-parts-export-packaging-quotation-support/",
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "status": "published"
     }
   ],

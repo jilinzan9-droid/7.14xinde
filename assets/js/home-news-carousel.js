@@ -13,6 +13,40 @@
     let visible = 0;
     let current = 0;
     let frame = 0;
+    let timer = 0;
+    let pointerOver = false;
+    let pointerDown = false;
+    let inView = !('IntersectionObserver' in window);
+    let userPaused = reduceMotion.matches;
+    const controls = document.createElement('div');
+    controls.className = 'news-picture-controls';
+    dots.before(controls);
+    controls.append(dots);
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'news-picture-toggle';
+    const toggleIcon = document.createElement('span');
+    toggleIcon.setAttribute('aria-hidden', 'true');
+    toggle.append(toggleIcon);
+    controls.append(toggle);
+
+    function syncPlayback() {
+      clearTimeout(timer);
+      timer = 0;
+      const label = userPaused
+        ? (arabic ? 'بدء عرض الأدلة تلقائياً' : 'Start automatic guide slideshow')
+        : (arabic ? 'إيقاف عرض الأدلة تلقائياً' : 'Pause automatic guide slideshow');
+      toggle.setAttribute('aria-label', label);
+      toggle.title = label;
+      toggleIcon.textContent = userPaused ? '▶' : 'Ⅱ';
+      const focused = carousel.contains(document.activeElement) && document.activeElement !== toggle;
+      if (userPaused || pointerOver || pointerDown || focused || document.hidden || !inView || lastStart() === 0) return;
+      timer = setTimeout(() => {
+        const wrap = current >= lastStart();
+        show(wrap ? 0 : current + 1, wrap);
+        syncPlayback();
+      }, 4200);
+    }
 
     const lastStart = () => Math.max(0, cards.length - visible);
     const edge = () => {
@@ -32,6 +66,7 @@
         if (index === current) dot.setAttribute('aria-current', 'true');
         else dot.removeAttribute('aria-current');
       });
+      syncPlayback();
     };
     const show = (index, instant = false) => {
       const next = Math.max(0, Math.min(lastStart(), index));
@@ -50,7 +85,10 @@
           button.setAttribute('aria-label', arabic
             ? `عرض الأدلة ${index + 1}–${Math.min(index + visible, cards.length)} من ${cards.length}`
             : `Show guides ${index + 1}–${Math.min(index + visible, cards.length)} of ${cards.length}`);
-          button.addEventListener('click', () => show(index));
+          button.addEventListener('click', () => {
+            show(index);
+            syncPlayback();
+          });
           dots.append(button);
         }
         dots.hidden = lastStart() === 0;
@@ -60,6 +98,47 @@
     };
 
     carousel.setAttribute('data-news-ready', '');
+    toggle.addEventListener('click', () => {
+      userPaused = !userPaused;
+      syncPlayback();
+    });
+    carousel.addEventListener('pointerenter', (event) => {
+      if (event.pointerType === 'mouse') {
+        pointerOver = true;
+        syncPlayback();
+      }
+    });
+    carousel.addEventListener('pointerleave', (event) => {
+      if (event.pointerType === 'mouse') {
+        pointerOver = false;
+        syncPlayback();
+      }
+    });
+    carousel.addEventListener('focusin', syncPlayback);
+    carousel.addEventListener('focusout', () => queueMicrotask(syncPlayback));
+    track.addEventListener('pointerdown', () => {
+      pointerDown = true;
+      syncPlayback();
+    });
+    const releasePointer = () => {
+      if (!pointerDown) return;
+      pointerDown = false;
+      syncPlayback();
+    };
+    window.addEventListener('pointerup', releasePointer);
+    window.addEventListener('pointercancel', releasePointer);
+    document.addEventListener('visibilitychange', syncPlayback);
+    reduceMotion.addEventListener('change', () => {
+      if (reduceMotion.matches) userPaused = true;
+      syncPlayback();
+    });
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        inView = entries[0].intersectionRatio >= 0.15;
+        syncPlayback();
+      }, {threshold: [0, 0.15]});
+      observer.observe(carousel);
+    }
     track.tabIndex = 0;
     track.addEventListener('scroll', () => {
       if (!frame) frame = requestAnimationFrame(update);

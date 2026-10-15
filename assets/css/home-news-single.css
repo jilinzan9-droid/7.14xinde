@@ -131,26 +131,6 @@ html[lang] #home .news-single-section .news-picture-title h3 {
   border-radius: 8px;
 }
 
-.news-single-section .news-picture-toggle {
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  padding: 0;
-  border: 1px solid #cbd8e4;
-  border-radius: 50%;
-  background: #fff;
-  color: #126ad7;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.news-single-section .news-picture-toggle:focus-visible {
-  outline: 2px solid #126ad7;
-  outline-offset: 3px;
-}
-
 .news-single-section .news-more-row { justify-content: center; margin-top: 18px; }
 
 html[lang] #home .news-single-section .news-more-row .btn {

@@ -303,30 +303,458 @@
       "source_url": "https://www.pratt-oil.ru/eaton-wcb-%D0%B2%D0%BE%D0%B4%D1%8F%D0%BD%D0%BE%D0%B9-%D1%82%D0%BE%D1%80%D0%BC%D0%BE%D0%B7-%D0%B2%D1%81%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%BE%D1%80_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Model References",
+        "title": "JC Series Drawworks Parts Reference",
         "headers": [
-          "Model Reference",
-          "Component Type"
+          "Item",
+          "Component",
+          "Part / Drawing Reference",
+          "Component",
+          "Part / Drawing Reference"
         ],
         "rows": [
           [
+            1,
+            "Key 50 x 50 x 200; Part number: JC28/11D-06-09",
+            "JC28/11D-06-09",
+            "Upper return system",
+            "JC28/11D-03-04-00"
+          ],
+          [
+            2,
+            "Pin; Part number: JC28/11-03-21",
+            "JC28/11-03-21",
+            "Woven brake shoe",
+            "JC28A-02-07"
+          ],
+          [
+            3,
+            "Shaft bushing; Part number: JC28/11d-06-18.",
+            "JC28/11d-06-18",
+            "Cast brake shoe",
+            "JC28A-02-08"
+          ],
+          [
+            4,
+            "Shaft bushing; Part number: JC28/11D-06-14.",
+            "JC28/11D-06-14",
+            "Right-hand-threaded rod",
+            "JC28A-02-10"
+          ],
+          [
+            5,
+            "Shaft bushing; Part number: JC28/11D-06-07.",
+            "JC28/11D-06-07",
+            "Connecting lever",
+            "JC28A-02-12"
+          ],
+          [
+            6,
+            "Shaft bushing; Part number: JC28/11D-06-01.",
+            "JC28/11D-06-01",
+            "Shaft bushing",
+            "JC21A-03-32"
+          ],
+          [
+            7,
+            "Shaft bushing; Part number: JC28/11D-06-05.",
+            "JC28/11D-06-05",
+            "Bearing 1212",
+            "GB281-64"
+          ],
+          [
+            8,
+            "Shaft bushing; Part number: JC28/11D-06-16.",
+            "JC28/11D-06-16",
+            "Bearing cover",
+            "JC21A-03-34"
+          ],
+          [
+            9,
+            "Shaft bushing; Part number: JC28/11D-06-15.",
+            "JC28/11D-06-15.",
+            "Bearing housing",
+            "JC28A-02-21"
+          ],
+          [
+            10,
+            "Connecting plate; Part number: JC28/11D-06-08.",
+            "JC28/11D-06-08",
+            "Counterweight",
+            "JC28A-02-15-00"
+          ],
+          [
+            11,
+            "Shaft; Part number: JC28/11D-06-11A.",
+            "JC28/11D-06-11A.",
+            "Crank",
+            "JC28A-02-13-00"
+          ],
+          [
+            12,
+            "Rigid water pipe; Part number: JC28/11D-06-23.",
+            "JC28/11D-06-23",
+            "Spring",
+            "JC21A-03-12"
+          ],
+          [
+            13,
+            "Flange; Part number: JC28/11D-06-19A.",
+            "JC28/11D-06-19A.",
+            "Rod",
+            "JC21/11-03-19"
+          ],
+          [
+            14,
+            "Copper pipe L=400 18X1.5/T3 for the JC28/11D drawworks main roller assembly; Part number: T_PL400X18X1,5",
+            "JC28/11D",
+            "Pin",
+            "JC28/11-03-21"
+          ],
+          [
+            15,
+            "Flange JC28/11D-06-20",
+            "JC28/11D-06-20",
+            "Rod",
+            "JC28/11-03-20"
+          ],
+          [
+            16,
+            "Key 32x32x230; JC28/11D-06-22",
+            "JC28/11D-06-22",
+            "Locking bushing",
+            "JC28K-01-00"
+          ],
+          [
+            17,
+            "Clutch ATD324H",
+            "ATD324H",
+            "Anti-collision lever",
+            "JC21A-03-06"
+          ],
+          [
+            18,
+            "Bearing GB/T276-1994",
+            "GB/T276-1994",
+            "Brake stop",
+            "JC21A-03-07"
+          ],
+          [
+            19,
+            "Adjusting shim JC28C-01-10",
+            "JC28C-01-10",
+            "Brake shaft",
+            "JC28/11-03-11"
+          ],
+          [
+            20,
+            "Oil-system component (description to confirm against drawing)",
+            "JC28/11-06-25",
+            "Balance beam",
+            "JC28K-02-01"
+          ],
+          [
+            21,
+            "Key 45x45x274 JC28/11D-06-21",
+            "JC28/11D-06-21",
+            "Right-hand-threaded nut",
+            "JC28A-02-20"
+          ],
+          [
+            22,
+            "Clutch ATD330H",
+            "ATD330H",
+            "Knurled adjusting nut",
+            "JC28A-02-19"
+          ],
+          [
+            23,
+            "Bearing cover JC28/11D-06-17",
+            "JC28/11D-06-17",
+            "Left-hand-threaded nut",
+            "JC28A-02-18"
+          ],
+          [
+            24,
+            "Clutch gear ring JC28/11-06-19",
+            "JC28/11-06-19",
+            "Left-hand-threaded rod",
+            "JC28A-02-17A"
+          ],
+          [
+            25,
+            "Gear wheel JC28/11-06-18",
+            "JC28/11-06-18",
+            "Brake band assembly",
+            "JC28A-02-01-00"
+          ],
+          [
+            26,
+            "Wheel spoke JC28/11D-06-13",
+            "JC28/11D-06-13",
+            "Locking bushing",
+            "JC28/11-03-19"
+          ],
+          [
+            27,
+            "Spacer flange JC28/11F-06-15",
+            "JC28/11F-06-15",
+            "Lower crank lever",
+            "JC28/11-03-16-00"
+          ],
+          [
+            28,
+            "Component gasket 620102-00-0025",
+            "620102-00-0025",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            29,
+            "Intermediate flange JC28/11D-06-12",
+            "JC28/11D-06-12",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            30,
+            "Drum body; JC32A-01-11-00",
+            "JC32A-01-11-00",
+            "Shaft bushing",
+            "JC28/11-06-04"
+          ],
+          [
+            31,
+            "Pipe connector Z1/2; 830102-01-0500",
+            "830102-01-0500",
+            "Connecting disc",
+            "JC28/11-06-05"
+          ],
+          [
+            32,
+            "Brake drum JC32B-01-07-00",
+            "JC32B-01-07-00",
+            "Bearing housing",
+            "JC28/11-06-06"
+          ],
+          [
+            33,
+            "Bearing cover JC28/11D-06-04",
+            "JC28/11D-06-04",
+            "Shaft bushing",
+            "JC28/11-06-07"
+          ],
+          [
+            34,
+            "Intermediate flange JC21A-01-07",
+            "JC21A-01-07",
+            "Connecting disc",
+            "JC28/11-06-08"
+          ],
+          [
+            35,
+            "Intermediate flange JC28/11D-06-06",
+            "JC28/11D-06-06",
+            "Drum body",
+            "JC28K-01-01-00"
+          ],
+          [
+            36,
+            "Sprocket JC21A-01-06",
+            "JC21A-01-06",
+            "Oil seal PD270×240×15",
+            "HG4-692-67"
+          ],
+          [
+            37,
+            "Wheel rib JC28/11D-06-03",
+            "JC28/11D-06-03",
+            "Brake drum",
+            "JC32B-01-07-00"
+          ],
+          [
+            38,
+            "Bearing cover JC28/11D-06-02",
+            "JC28/11D-06-02",
+            "Wheel spoke",
+            "JC28B-01-14"
+          ],
+          [
+            39,
+            "Clutch gear; JC21A-01-02",
+            "JC21A-01-02",
+            "Sprocket",
+            "JC28E-01-15"
+          ],
+          [
+            40,
+            "Bushing shaft; JC28/11D-06-01",
+            "JC28/11D-06-01",
+            "Clutch outer gear ring",
+            "JC28/11-06-19"
+          ],
+          [
+            41,
+            "Adjusting washer JC28C-01-10",
+            "JC28C-01-10",
+            "Clutch",
+            "TPQ330"
+          ],
+          [
+            42,
+            "Oil-buffer protective cover; JC21A-01-03-00",
+            "JC21A-01-03-00",
+            "Straight end fitting Z1/2\"",
+            "QJKT-2J1-Z10"
+          ],
+          [
+            43,
+            "Air and water guide; SD-00E",
+            "SD-00E",
+            "Copper pipe L=700",
+            "Copper pipe L=700"
+          ],
+          [
+            44,
+            "Axle",
+            "JC28/11-06-03",
+            "Oil seal PD190×225×18",
+            "HG4-692-67"
+          ],
+          [
+            45,
+            "324WCB gear-ring bore modification",
+            "JC28/11-06-27",
+            "Bearing 234",
+            "GB276-64"
+          ],
+          [
+            46,
+            "Double guide flange",
+            "JC28K-01-03",
+            "Double-tab lock washer 20",
+            "GB/T855-1988"
+          ],
+          [
+            47,
+            "Auxiliary brake",
             "WCB324",
-            "Auxiliary brake"
+            "Elbow fitting Z3/4\"",
+            "7N9-12"
           ],
           [
-            "WCB224",
-            "Auxiliary brake"
+            48,
+            "Straight-end pipe connector Z1/2\"",
+            "QJKT-2J1-Z15",
+            "Straight end fitting Z3/4\"",
+            "QJKT-2J1-Z15"
           ],
           [
-            "WCB236",
-            "Auxiliary brake"
+            49,
+            "Bolt M20×65",
+            "GB/T5782-2000",
+            "Rigid water pipe",
+            "JC28/11-06-10"
           ],
           [
-            "WCB336",
-            "Auxiliary brake"
+            50,
+            "Straight-end pipe connector Z1\"",
+            "QJKT-2J1-Z15",
+            "Oil seal PD220×260×18",
+            "HG4-692-67"
+          ],
+          [
+            51,
+            "Main drum assembly",
+            "JC28K-01-00",
+            "Main drum body",
+            "JC14-01-09-00"
+          ],
+          [
+            52,
+            "Drum body",
+            "JC28/11-06-11-00",
+            "Main drum body",
+            "JC21A-01-13A/B-00"
+          ],
+          [
+            53,
+            "Wire-rope groove (LEBUS)",
+            "JC28/11-06-11-03",
+            "Main drum body",
+            "JC28/11-06-11-00"
+          ],
+          [
+            54,
+            "Brake band assembly",
+            "JC28/11-03-05-00",
+            "Main drum body",
+            "JC28K-01-00"
+          ],
+          [
+            55,
+            "Brake bolt",
+            "JC28A-02-05",
+            "Brake band assembly",
+            "JC18A-03-01-00"
+          ],
+          [
+            56,
+            "Brake bolt",
+            "JC28A-02-06",
+            "Brake band assembly",
+            "JC21A-03-01-00"
+          ],
+          [
+            57,
+            "Brake band assembly",
+            "JC21A-03-01-00",
+            "Brake band assembly",
+            "JC28/11-03-05-00"
+          ],
+          [
+            58,
+            "Fasteners",
+            "JC21A-03-13",
+            "Brake band",
+            "JC14-03-07-00"
+          ],
+          [
+            59,
+            "Fasteners",
+            "JC21A-03-14",
+            "Brake-block bolt/nut set",
+            "JC21A-03-13 / JC21A-03-14"
+          ],
+          [
+            60,
+            "Sand drum body",
+            "JC14/11-03-02-00",
+            "Brake-block bolt/nut set",
+            "JC28A-02-05 / JC28A-02-06"
+          ],
+          [
+            61,
+            "Wire-rope groove LEBUS",
+            "JC21A-01-13A/B-05-00",
+            "Sand drum body",
+            "JC21/11-02-11-00"
           ]
-        ]
-      }
+        ],
+        "note": "General JC-series drawworks reference. Confirm the equipment model, part number and drawing before ordering."
+      },
+      "description": "JC series drawworks (models: JC18A, JC18/11, JC21A, JC21/11, JC28/11, JC28A, JC28D, JC28F and JC28K) are designed for oil and gas drilling and provide reliable operation under demanding operating conditions.\n\nThe equipment features a robust design, stable performance and a long service life.\n\nThe main components include a band brake, a hydraulic disc brake, a pneumatic tube clutch, a push-type disc clutch, a brake drum and a drum assembly.\n\nJC series drawworks are widely used on drilling rigs and are suitable for a variety of drilling and well workover tasks.",
+      "description_images": [
+        {
+          "image": "/assets/images/drawworks-20261017/wcb-auxiliary-brake.webp",
+          "alt": "Eaton WCB water-cooled auxiliary brake"
+        }
+      ],
+      "model_references": [
+        "WCB324",
+        "WCB224",
+        "WCB236",
+        "WCB336"
+      ]
     },
     {
       "id": "pnevmaticheskie-mufty-shpm-lt",
@@ -341,18 +769,464 @@
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D0%BD%D0%B5%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D1%83%D1%84%D1%82%D1%8B-%D1%88%D0%BF%D0%BC-lt_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Model References",
+        "title": "JC Series Drawworks Parts Reference",
         "headers": [
-          "Model Reference",
-          "Component Type"
+          "Item",
+          "Component",
+          "Part / Drawing Reference",
+          "Component",
+          "Part / Drawing Reference"
         ],
         "rows": [
           [
-            "LT",
-            "Pneumatic air tube clutch"
+            1,
+            "Key 50 x 50 x 200; Part number: JC28/11D-06-09",
+            "JC28/11D-06-09",
+            "Upper return system",
+            "JC28/11D-03-04-00"
+          ],
+          [
+            2,
+            "Pin; Part number: JC28/11-03-21",
+            "JC28/11-03-21",
+            "Woven brake shoe",
+            "JC28A-02-07"
+          ],
+          [
+            3,
+            "Shaft bushing; Part number: JC28/11d-06-18.",
+            "JC28/11d-06-18",
+            "Cast brake shoe",
+            "JC28A-02-08"
+          ],
+          [
+            4,
+            "Shaft bushing; Part number: JC28/11D-06-14.",
+            "JC28/11D-06-14",
+            "Right-hand-threaded rod",
+            "JC28A-02-10"
+          ],
+          [
+            5,
+            "Shaft bushing; Part number: JC28/11D-06-07.",
+            "JC28/11D-06-07",
+            "Connecting lever",
+            "JC28A-02-12"
+          ],
+          [
+            6,
+            "Shaft bushing; Part number: JC28/11D-06-01.",
+            "JC28/11D-06-01",
+            "Shaft bushing",
+            "JC21A-03-32"
+          ],
+          [
+            7,
+            "Shaft bushing; Part number: JC28/11D-06-05.",
+            "JC28/11D-06-05",
+            "Bearing 1212",
+            "GB281-64"
+          ],
+          [
+            8,
+            "Shaft bushing; Part number: JC28/11D-06-16.",
+            "JC28/11D-06-16",
+            "Bearing cover",
+            "JC21A-03-34"
+          ],
+          [
+            9,
+            "Shaft bushing; Part number: JC28/11D-06-15.",
+            "JC28/11D-06-15.",
+            "Bearing housing",
+            "JC28A-02-21"
+          ],
+          [
+            10,
+            "Connecting plate; Part number: JC28/11D-06-08.",
+            "JC28/11D-06-08",
+            "Counterweight",
+            "JC28A-02-15-00"
+          ],
+          [
+            11,
+            "Shaft; Part number: JC28/11D-06-11A.",
+            "JC28/11D-06-11A.",
+            "Crank",
+            "JC28A-02-13-00"
+          ],
+          [
+            12,
+            "Rigid water pipe; Part number: JC28/11D-06-23.",
+            "JC28/11D-06-23",
+            "Spring",
+            "JC21A-03-12"
+          ],
+          [
+            13,
+            "Flange; Part number: JC28/11D-06-19A.",
+            "JC28/11D-06-19A.",
+            "Rod",
+            "JC21/11-03-19"
+          ],
+          [
+            14,
+            "Copper pipe L=400 18X1.5/T3 for the JC28/11D drawworks main roller assembly; Part number: T_PL400X18X1,5",
+            "JC28/11D",
+            "Pin",
+            "JC28/11-03-21"
+          ],
+          [
+            15,
+            "Flange JC28/11D-06-20",
+            "JC28/11D-06-20",
+            "Rod",
+            "JC28/11-03-20"
+          ],
+          [
+            16,
+            "Key 32x32x230; JC28/11D-06-22",
+            "JC28/11D-06-22",
+            "Locking bushing",
+            "JC28K-01-00"
+          ],
+          [
+            17,
+            "Clutch ATD324H",
+            "ATD324H",
+            "Anti-collision lever",
+            "JC21A-03-06"
+          ],
+          [
+            18,
+            "Bearing GB/T276-1994",
+            "GB/T276-1994",
+            "Brake stop",
+            "JC21A-03-07"
+          ],
+          [
+            19,
+            "Adjusting shim JC28C-01-10",
+            "JC28C-01-10",
+            "Brake shaft",
+            "JC28/11-03-11"
+          ],
+          [
+            20,
+            "Oil-system component (description to confirm against drawing)",
+            "JC28/11-06-25",
+            "Balance beam",
+            "JC28K-02-01"
+          ],
+          [
+            21,
+            "Key 45x45x274 JC28/11D-06-21",
+            "JC28/11D-06-21",
+            "Right-hand-threaded nut",
+            "JC28A-02-20"
+          ],
+          [
+            22,
+            "Clutch ATD330H",
+            "ATD330H",
+            "Knurled adjusting nut",
+            "JC28A-02-19"
+          ],
+          [
+            23,
+            "Bearing cover JC28/11D-06-17",
+            "JC28/11D-06-17",
+            "Left-hand-threaded nut",
+            "JC28A-02-18"
+          ],
+          [
+            24,
+            "Clutch gear ring JC28/11-06-19",
+            "JC28/11-06-19",
+            "Left-hand-threaded rod",
+            "JC28A-02-17A"
+          ],
+          [
+            25,
+            "Gear wheel JC28/11-06-18",
+            "JC28/11-06-18",
+            "Brake band assembly",
+            "JC28A-02-01-00"
+          ],
+          [
+            26,
+            "Wheel spoke JC28/11D-06-13",
+            "JC28/11D-06-13",
+            "Locking bushing",
+            "JC28/11-03-19"
+          ],
+          [
+            27,
+            "Spacer flange JC28/11F-06-15",
+            "JC28/11F-06-15",
+            "Lower crank lever",
+            "JC28/11-03-16-00"
+          ],
+          [
+            28,
+            "Component gasket 620102-00-0025",
+            "620102-00-0025",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            29,
+            "Intermediate flange JC28/11D-06-12",
+            "JC28/11D-06-12",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            30,
+            "Drum body; JC32A-01-11-00",
+            "JC32A-01-11-00",
+            "Shaft bushing",
+            "JC28/11-06-04"
+          ],
+          [
+            31,
+            "Pipe connector Z1/2; 830102-01-0500",
+            "830102-01-0500",
+            "Connecting disc",
+            "JC28/11-06-05"
+          ],
+          [
+            32,
+            "Brake drum JC32B-01-07-00",
+            "JC32B-01-07-00",
+            "Bearing housing",
+            "JC28/11-06-06"
+          ],
+          [
+            33,
+            "Bearing cover JC28/11D-06-04",
+            "JC28/11D-06-04",
+            "Shaft bushing",
+            "JC28/11-06-07"
+          ],
+          [
+            34,
+            "Intermediate flange JC21A-01-07",
+            "JC21A-01-07",
+            "Connecting disc",
+            "JC28/11-06-08"
+          ],
+          [
+            35,
+            "Intermediate flange JC28/11D-06-06",
+            "JC28/11D-06-06",
+            "Drum body",
+            "JC28K-01-01-00"
+          ],
+          [
+            36,
+            "Sprocket JC21A-01-06",
+            "JC21A-01-06",
+            "Oil seal PD270×240×15",
+            "HG4-692-67"
+          ],
+          [
+            37,
+            "Wheel rib JC28/11D-06-03",
+            "JC28/11D-06-03",
+            "Brake drum",
+            "JC32B-01-07-00"
+          ],
+          [
+            38,
+            "Bearing cover JC28/11D-06-02",
+            "JC28/11D-06-02",
+            "Wheel spoke",
+            "JC28B-01-14"
+          ],
+          [
+            39,
+            "Clutch gear; JC21A-01-02",
+            "JC21A-01-02",
+            "Sprocket",
+            "JC28E-01-15"
+          ],
+          [
+            40,
+            "Bushing shaft; JC28/11D-06-01",
+            "JC28/11D-06-01",
+            "Clutch outer gear ring",
+            "JC28/11-06-19"
+          ],
+          [
+            41,
+            "Adjusting washer JC28C-01-10",
+            "JC28C-01-10",
+            "Clutch",
+            "TPQ330"
+          ],
+          [
+            42,
+            "Oil-buffer protective cover; JC21A-01-03-00",
+            "JC21A-01-03-00",
+            "Straight end fitting Z1/2\"",
+            "QJKT-2J1-Z10"
+          ],
+          [
+            43,
+            "Air and water guide; SD-00E",
+            "SD-00E",
+            "Copper pipe L=700",
+            "Copper pipe L=700"
+          ],
+          [
+            44,
+            "Axle",
+            "JC28/11-06-03",
+            "Oil seal PD190×225×18",
+            "HG4-692-67"
+          ],
+          [
+            45,
+            "324WCB gear-ring bore modification",
+            "JC28/11-06-27",
+            "Bearing 234",
+            "GB276-64"
+          ],
+          [
+            46,
+            "Double guide flange",
+            "JC28K-01-03",
+            "Double-tab lock washer 20",
+            "GB/T855-1988"
+          ],
+          [
+            47,
+            "Auxiliary brake",
+            "WCB324",
+            "Elbow fitting Z3/4\"",
+            "7N9-12"
+          ],
+          [
+            48,
+            "Straight-end pipe connector Z1/2\"",
+            "QJKT-2J1-Z15",
+            "Straight end fitting Z3/4\"",
+            "QJKT-2J1-Z15"
+          ],
+          [
+            49,
+            "Bolt M20×65",
+            "GB/T5782-2000",
+            "Rigid water pipe",
+            "JC28/11-06-10"
+          ],
+          [
+            50,
+            "Straight-end pipe connector Z1\"",
+            "QJKT-2J1-Z15",
+            "Oil seal PD220×260×18",
+            "HG4-692-67"
+          ],
+          [
+            51,
+            "Main drum assembly",
+            "JC28K-01-00",
+            "Main drum body",
+            "JC14-01-09-00"
+          ],
+          [
+            52,
+            "Drum body",
+            "JC28/11-06-11-00",
+            "Main drum body",
+            "JC21A-01-13A/B-00"
+          ],
+          [
+            53,
+            "Wire-rope groove (LEBUS)",
+            "JC28/11-06-11-03",
+            "Main drum body",
+            "JC28/11-06-11-00"
+          ],
+          [
+            54,
+            "Brake band assembly",
+            "JC28/11-03-05-00",
+            "Main drum body",
+            "JC28K-01-00"
+          ],
+          [
+            55,
+            "Brake bolt",
+            "JC28A-02-05",
+            "Brake band assembly",
+            "JC18A-03-01-00"
+          ],
+          [
+            56,
+            "Brake bolt",
+            "JC28A-02-06",
+            "Brake band assembly",
+            "JC21A-03-01-00"
+          ],
+          [
+            57,
+            "Brake band assembly",
+            "JC21A-03-01-00",
+            "Brake band assembly",
+            "JC28/11-03-05-00"
+          ],
+          [
+            58,
+            "Fasteners",
+            "JC21A-03-13",
+            "Brake band",
+            "JC14-03-07-00"
+          ],
+          [
+            59,
+            "Fasteners",
+            "JC21A-03-14",
+            "Brake-block bolt/nut set",
+            "JC21A-03-13 / JC21A-03-14"
+          ],
+          [
+            60,
+            "Sand drum body",
+            "JC14/11-03-02-00",
+            "Brake-block bolt/nut set",
+            "JC28A-02-05 / JC28A-02-06"
+          ],
+          [
+            61,
+            "Wire-rope groove LEBUS",
+            "JC21A-01-13A/B-05-00",
+            "Sand drum body",
+            "JC21/11-02-11-00"
           ]
-        ]
-      }
+        ],
+        "note": "General JC-series drawworks reference. Confirm the equipment model, part number and drawing before ordering."
+      },
+      "description": "JC series drawworks (models: JC18A, JC18/11, JC21A, JC21/11, JC28/11, JC28A, JC28D, JC28F and JC28K) are designed for oil and gas drilling and provide reliable operation under demanding operating conditions.\n\nThe equipment features a robust design, stable performance and a long service life.\n\nThe main components include a band brake, a hydraulic disc brake, a pneumatic tube clutch, a push-type disc clutch, a brake drum and a drum assembly.\n\nJC series drawworks are widely used on drilling rigs and are suitable for a variety of drilling and well workover tasks.",
+      "description_images": [
+        {
+          "image": "/assets/images/drawworks-20261017/lt-air-tube-clutches.webp",
+          "alt": "LT pneumatic air tube clutch assemblies"
+        },
+        {
+          "image": "/assets/images/drawworks-20261017/lt-clutch-detail.webp",
+          "alt": "LT pneumatic air tube clutch detail"
+        },
+        {
+          "image": "/assets/images/drawworks-20261017/drawworks-drum-assembly.webp",
+          "alt": "Drawworks drum and clutch assembly reference"
+        }
+      ],
+      "model_references": [
+        "LT",
+        "ШПМ"
+      ]
     },
     {
       "id": "tormoz-burovoy-lebedki-jc2811-06-12-00",
@@ -804,8 +1678,22 @@
             "JC21/11-02-11-00"
           ]
         ],
-        "note": "General JC series reference, not a confirmed bill of materials for JC2811-06-12-00. Confirm each drawing before ordering."
-      }
+        "note": "General JC-series drawworks reference. Confirm the equipment model, part number and drawing before ordering."
+      },
+      "description": "JC series drawworks (models: JC18A, JC18/11, JC21A, JC21/11, JC28/11, JC28A, JC28D, JC28F and JC28K) are designed for oil and gas drilling and provide reliable operation under demanding operating conditions.\n\nThe equipment features a robust design, stable performance and a long service life.\n\nThe main components include a band brake, a hydraulic disc brake, a pneumatic tube clutch, a push-type disc clutch, a brake drum and a drum assembly.\n\nJC series drawworks are widely used on drilling rigs and are suitable for a variety of drilling and well workover tasks.",
+      "description_images": [
+        {
+          "image": "/assets/images/drawworks-20261017/jc2811-drawworks-brake.webp",
+          "alt": "JC2811-06-12-00 drawworks brake"
+        },
+        {
+          "image": "/assets/images/drawworks-20261017/drawworks-drum-assembly.webp",
+          "alt": "Drawworks drum and clutch assembly reference"
+        }
+      ],
+      "model_references": [
+        "JC2811-06-12-00"
+      ]
     },
     {
       "id": "promyvochnaya-truba-sl135-sl160-sl170-sl225-sl315-sl450",
@@ -820,38 +1708,460 @@
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D0%B2%D0%BE%D1%87%D0%BD%D0%B0%D1%8F-%D1%82%D1%80%D1%83%D0%B1%D0%B0-sl135-sl160-sl170-sl225-sl315-sl450_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Model References",
+        "title": "JC Series Drawworks Parts Reference",
         "headers": [
-          "Model Reference",
-          "Component Type"
+          "Item",
+          "Component",
+          "Part / Drawing Reference",
+          "Component",
+          "Part / Drawing Reference"
         ],
         "rows": [
           [
-            "SL135",
-            "Drilling swivel washpipe"
+            1,
+            "Key 50 x 50 x 200; Part number: JC28/11D-06-09",
+            "JC28/11D-06-09",
+            "Upper return system",
+            "JC28/11D-03-04-00"
           ],
           [
-            "SL160",
-            "Drilling swivel washpipe"
+            2,
+            "Pin; Part number: JC28/11-03-21",
+            "JC28/11-03-21",
+            "Woven brake shoe",
+            "JC28A-02-07"
           ],
           [
-            "SL170",
-            "Drilling swivel washpipe"
+            3,
+            "Shaft bushing; Part number: JC28/11d-06-18.",
+            "JC28/11d-06-18",
+            "Cast brake shoe",
+            "JC28A-02-08"
           ],
           [
-            "SL225",
-            "Drilling swivel washpipe"
+            4,
+            "Shaft bushing; Part number: JC28/11D-06-14.",
+            "JC28/11D-06-14",
+            "Right-hand-threaded rod",
+            "JC28A-02-10"
           ],
           [
-            "SL315",
-            "Drilling swivel washpipe"
+            5,
+            "Shaft bushing; Part number: JC28/11D-06-07.",
+            "JC28/11D-06-07",
+            "Connecting lever",
+            "JC28A-02-12"
           ],
           [
-            "SL450",
-            "Drilling swivel washpipe"
+            6,
+            "Shaft bushing; Part number: JC28/11D-06-01.",
+            "JC28/11D-06-01",
+            "Shaft bushing",
+            "JC21A-03-32"
+          ],
+          [
+            7,
+            "Shaft bushing; Part number: JC28/11D-06-05.",
+            "JC28/11D-06-05",
+            "Bearing 1212",
+            "GB281-64"
+          ],
+          [
+            8,
+            "Shaft bushing; Part number: JC28/11D-06-16.",
+            "JC28/11D-06-16",
+            "Bearing cover",
+            "JC21A-03-34"
+          ],
+          [
+            9,
+            "Shaft bushing; Part number: JC28/11D-06-15.",
+            "JC28/11D-06-15.",
+            "Bearing housing",
+            "JC28A-02-21"
+          ],
+          [
+            10,
+            "Connecting plate; Part number: JC28/11D-06-08.",
+            "JC28/11D-06-08",
+            "Counterweight",
+            "JC28A-02-15-00"
+          ],
+          [
+            11,
+            "Shaft; Part number: JC28/11D-06-11A.",
+            "JC28/11D-06-11A.",
+            "Crank",
+            "JC28A-02-13-00"
+          ],
+          [
+            12,
+            "Rigid water pipe; Part number: JC28/11D-06-23.",
+            "JC28/11D-06-23",
+            "Spring",
+            "JC21A-03-12"
+          ],
+          [
+            13,
+            "Flange; Part number: JC28/11D-06-19A.",
+            "JC28/11D-06-19A.",
+            "Rod",
+            "JC21/11-03-19"
+          ],
+          [
+            14,
+            "Copper pipe L=400 18X1.5/T3 for the JC28/11D drawworks main roller assembly; Part number: T_PL400X18X1,5",
+            "JC28/11D",
+            "Pin",
+            "JC28/11-03-21"
+          ],
+          [
+            15,
+            "Flange JC28/11D-06-20",
+            "JC28/11D-06-20",
+            "Rod",
+            "JC28/11-03-20"
+          ],
+          [
+            16,
+            "Key 32x32x230; JC28/11D-06-22",
+            "JC28/11D-06-22",
+            "Locking bushing",
+            "JC28K-01-00"
+          ],
+          [
+            17,
+            "Clutch ATD324H",
+            "ATD324H",
+            "Anti-collision lever",
+            "JC21A-03-06"
+          ],
+          [
+            18,
+            "Bearing GB/T276-1994",
+            "GB/T276-1994",
+            "Brake stop",
+            "JC21A-03-07"
+          ],
+          [
+            19,
+            "Adjusting shim JC28C-01-10",
+            "JC28C-01-10",
+            "Brake shaft",
+            "JC28/11-03-11"
+          ],
+          [
+            20,
+            "Oil-system component (description to confirm against drawing)",
+            "JC28/11-06-25",
+            "Balance beam",
+            "JC28K-02-01"
+          ],
+          [
+            21,
+            "Key 45x45x274 JC28/11D-06-21",
+            "JC28/11D-06-21",
+            "Right-hand-threaded nut",
+            "JC28A-02-20"
+          ],
+          [
+            22,
+            "Clutch ATD330H",
+            "ATD330H",
+            "Knurled adjusting nut",
+            "JC28A-02-19"
+          ],
+          [
+            23,
+            "Bearing cover JC28/11D-06-17",
+            "JC28/11D-06-17",
+            "Left-hand-threaded nut",
+            "JC28A-02-18"
+          ],
+          [
+            24,
+            "Clutch gear ring JC28/11-06-19",
+            "JC28/11-06-19",
+            "Left-hand-threaded rod",
+            "JC28A-02-17A"
+          ],
+          [
+            25,
+            "Gear wheel JC28/11-06-18",
+            "JC28/11-06-18",
+            "Brake band assembly",
+            "JC28A-02-01-00"
+          ],
+          [
+            26,
+            "Wheel spoke JC28/11D-06-13",
+            "JC28/11D-06-13",
+            "Locking bushing",
+            "JC28/11-03-19"
+          ],
+          [
+            27,
+            "Spacer flange JC28/11F-06-15",
+            "JC28/11F-06-15",
+            "Lower crank lever",
+            "JC28/11-03-16-00"
+          ],
+          [
+            28,
+            "Component gasket 620102-00-0025",
+            "620102-00-0025",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            29,
+            "Intermediate flange JC28/11D-06-12",
+            "JC28/11D-06-12",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            30,
+            "Drum body; JC32A-01-11-00",
+            "JC32A-01-11-00",
+            "Shaft bushing",
+            "JC28/11-06-04"
+          ],
+          [
+            31,
+            "Pipe connector Z1/2; 830102-01-0500",
+            "830102-01-0500",
+            "Connecting disc",
+            "JC28/11-06-05"
+          ],
+          [
+            32,
+            "Brake drum JC32B-01-07-00",
+            "JC32B-01-07-00",
+            "Bearing housing",
+            "JC28/11-06-06"
+          ],
+          [
+            33,
+            "Bearing cover JC28/11D-06-04",
+            "JC28/11D-06-04",
+            "Shaft bushing",
+            "JC28/11-06-07"
+          ],
+          [
+            34,
+            "Intermediate flange JC21A-01-07",
+            "JC21A-01-07",
+            "Connecting disc",
+            "JC28/11-06-08"
+          ],
+          [
+            35,
+            "Intermediate flange JC28/11D-06-06",
+            "JC28/11D-06-06",
+            "Drum body",
+            "JC28K-01-01-00"
+          ],
+          [
+            36,
+            "Sprocket JC21A-01-06",
+            "JC21A-01-06",
+            "Oil seal PD270×240×15",
+            "HG4-692-67"
+          ],
+          [
+            37,
+            "Wheel rib JC28/11D-06-03",
+            "JC28/11D-06-03",
+            "Brake drum",
+            "JC32B-01-07-00"
+          ],
+          [
+            38,
+            "Bearing cover JC28/11D-06-02",
+            "JC28/11D-06-02",
+            "Wheel spoke",
+            "JC28B-01-14"
+          ],
+          [
+            39,
+            "Clutch gear; JC21A-01-02",
+            "JC21A-01-02",
+            "Sprocket",
+            "JC28E-01-15"
+          ],
+          [
+            40,
+            "Bushing shaft; JC28/11D-06-01",
+            "JC28/11D-06-01",
+            "Clutch outer gear ring",
+            "JC28/11-06-19"
+          ],
+          [
+            41,
+            "Adjusting washer JC28C-01-10",
+            "JC28C-01-10",
+            "Clutch",
+            "TPQ330"
+          ],
+          [
+            42,
+            "Oil-buffer protective cover; JC21A-01-03-00",
+            "JC21A-01-03-00",
+            "Straight end fitting Z1/2\"",
+            "QJKT-2J1-Z10"
+          ],
+          [
+            43,
+            "Air and water guide; SD-00E",
+            "SD-00E",
+            "Copper pipe L=700",
+            "Copper pipe L=700"
+          ],
+          [
+            44,
+            "Axle",
+            "JC28/11-06-03",
+            "Oil seal PD190×225×18",
+            "HG4-692-67"
+          ],
+          [
+            45,
+            "324WCB gear-ring bore modification",
+            "JC28/11-06-27",
+            "Bearing 234",
+            "GB276-64"
+          ],
+          [
+            46,
+            "Double guide flange",
+            "JC28K-01-03",
+            "Double-tab lock washer 20",
+            "GB/T855-1988"
+          ],
+          [
+            47,
+            "Auxiliary brake",
+            "WCB324",
+            "Elbow fitting Z3/4\"",
+            "7N9-12"
+          ],
+          [
+            48,
+            "Straight-end pipe connector Z1/2\"",
+            "QJKT-2J1-Z15",
+            "Straight end fitting Z3/4\"",
+            "QJKT-2J1-Z15"
+          ],
+          [
+            49,
+            "Bolt M20×65",
+            "GB/T5782-2000",
+            "Rigid water pipe",
+            "JC28/11-06-10"
+          ],
+          [
+            50,
+            "Straight-end pipe connector Z1\"",
+            "QJKT-2J1-Z15",
+            "Oil seal PD220×260×18",
+            "HG4-692-67"
+          ],
+          [
+            51,
+            "Main drum assembly",
+            "JC28K-01-00",
+            "Main drum body",
+            "JC14-01-09-00"
+          ],
+          [
+            52,
+            "Drum body",
+            "JC28/11-06-11-00",
+            "Main drum body",
+            "JC21A-01-13A/B-00"
+          ],
+          [
+            53,
+            "Wire-rope groove (LEBUS)",
+            "JC28/11-06-11-03",
+            "Main drum body",
+            "JC28/11-06-11-00"
+          ],
+          [
+            54,
+            "Brake band assembly",
+            "JC28/11-03-05-00",
+            "Main drum body",
+            "JC28K-01-00"
+          ],
+          [
+            55,
+            "Brake bolt",
+            "JC28A-02-05",
+            "Brake band assembly",
+            "JC18A-03-01-00"
+          ],
+          [
+            56,
+            "Brake bolt",
+            "JC28A-02-06",
+            "Brake band assembly",
+            "JC21A-03-01-00"
+          ],
+          [
+            57,
+            "Brake band assembly",
+            "JC21A-03-01-00",
+            "Brake band assembly",
+            "JC28/11-03-05-00"
+          ],
+          [
+            58,
+            "Fasteners",
+            "JC21A-03-13",
+            "Brake band",
+            "JC14-03-07-00"
+          ],
+          [
+            59,
+            "Fasteners",
+            "JC21A-03-14",
+            "Brake-block bolt/nut set",
+            "JC21A-03-13 / JC21A-03-14"
+          ],
+          [
+            60,
+            "Sand drum body",
+            "JC14/11-03-02-00",
+            "Brake-block bolt/nut set",
+            "JC28A-02-05 / JC28A-02-06"
+          ],
+          [
+            61,
+            "Wire-rope groove LEBUS",
+            "JC21A-01-13A/B-05-00",
+            "Sand drum body",
+            "JC21/11-02-11-00"
           ]
-        ]
-      }
+        ],
+        "note": "General JC-series drawworks reference. Confirm the equipment model, part number and drawing before ordering."
+      },
+      "description": "JC series drawworks (models: JC18A, JC18/11, JC21A, JC21/11, JC28/11, JC28A, JC28D, JC28F and JC28K) are designed for oil and gas drilling and provide reliable operation under demanding operating conditions.\n\nThe equipment features a robust design, stable performance and a long service life.\n\nThe main components include a band brake, a hydraulic disc brake, a pneumatic tube clutch, a push-type disc clutch, a brake drum and a drum assembly.\n\nJC series drawworks are widely used on drilling rigs and are suitable for a variety of drilling and well workover tasks.",
+      "description_images": [
+        {
+          "image": "/assets/images/drawworks-20261017/sl-swivel-washpipe.webp",
+          "alt": "SL series drilling swivel washpipe"
+        }
+      ],
+      "model_references": [
+        "SL135",
+        "SL160",
+        "SL170",
+        "SL225",
+        "SL315",
+        "SL450"
+      ]
     },
     {
       "id": "pnevmaticheskiy-tip-mufta-nazhima-buro",
@@ -866,30 +2176,462 @@
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D0%BD%D0%B5%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BF-%D0%BC%D1%83%D1%84%D1%82%D0%B0-%D0%BD%D0%B0%D0%B6%D0%B8%D0%BC%D0%B0-%D0%B1%D1%83%D1%80%D0%BE_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Model References",
+        "title": "JC Series Drawworks Parts Reference",
         "headers": [
-          "Model Reference",
-          "Component Type"
+          "Item",
+          "Component",
+          "Part / Drawing Reference",
+          "Component",
+          "Part / Drawing Reference"
         ],
         "rows": [
           [
-            "ATD224",
-            "Pneumatic push-type disc clutch"
+            1,
+            "Key 50 x 50 x 200; Part number: JC28/11D-06-09",
+            "JC28/11D-06-09",
+            "Upper return system",
+            "JC28/11D-03-04-00"
           ],
           [
-            "ATD324",
-            "Pneumatic push-type disc clutch"
+            2,
+            "Pin; Part number: JC28/11-03-21",
+            "JC28/11-03-21",
+            "Woven brake shoe",
+            "JC28A-02-07"
           ],
           [
-            "ATD236",
-            "Pneumatic push-type disc clutch"
+            3,
+            "Shaft bushing; Part number: JC28/11d-06-18.",
+            "JC28/11d-06-18",
+            "Cast brake shoe",
+            "JC28A-02-08"
           ],
           [
-            "ATD336",
-            "Pneumatic push-type disc clutch"
+            4,
+            "Shaft bushing; Part number: JC28/11D-06-14.",
+            "JC28/11D-06-14",
+            "Right-hand-threaded rod",
+            "JC28A-02-10"
+          ],
+          [
+            5,
+            "Shaft bushing; Part number: JC28/11D-06-07.",
+            "JC28/11D-06-07",
+            "Connecting lever",
+            "JC28A-02-12"
+          ],
+          [
+            6,
+            "Shaft bushing; Part number: JC28/11D-06-01.",
+            "JC28/11D-06-01",
+            "Shaft bushing",
+            "JC21A-03-32"
+          ],
+          [
+            7,
+            "Shaft bushing; Part number: JC28/11D-06-05.",
+            "JC28/11D-06-05",
+            "Bearing 1212",
+            "GB281-64"
+          ],
+          [
+            8,
+            "Shaft bushing; Part number: JC28/11D-06-16.",
+            "JC28/11D-06-16",
+            "Bearing cover",
+            "JC21A-03-34"
+          ],
+          [
+            9,
+            "Shaft bushing; Part number: JC28/11D-06-15.",
+            "JC28/11D-06-15.",
+            "Bearing housing",
+            "JC28A-02-21"
+          ],
+          [
+            10,
+            "Connecting plate; Part number: JC28/11D-06-08.",
+            "JC28/11D-06-08",
+            "Counterweight",
+            "JC28A-02-15-00"
+          ],
+          [
+            11,
+            "Shaft; Part number: JC28/11D-06-11A.",
+            "JC28/11D-06-11A.",
+            "Crank",
+            "JC28A-02-13-00"
+          ],
+          [
+            12,
+            "Rigid water pipe; Part number: JC28/11D-06-23.",
+            "JC28/11D-06-23",
+            "Spring",
+            "JC21A-03-12"
+          ],
+          [
+            13,
+            "Flange; Part number: JC28/11D-06-19A.",
+            "JC28/11D-06-19A.",
+            "Rod",
+            "JC21/11-03-19"
+          ],
+          [
+            14,
+            "Copper pipe L=400 18X1.5/T3 for the JC28/11D drawworks main roller assembly; Part number: T_PL400X18X1,5",
+            "JC28/11D",
+            "Pin",
+            "JC28/11-03-21"
+          ],
+          [
+            15,
+            "Flange JC28/11D-06-20",
+            "JC28/11D-06-20",
+            "Rod",
+            "JC28/11-03-20"
+          ],
+          [
+            16,
+            "Key 32x32x230; JC28/11D-06-22",
+            "JC28/11D-06-22",
+            "Locking bushing",
+            "JC28K-01-00"
+          ],
+          [
+            17,
+            "Clutch ATD324H",
+            "ATD324H",
+            "Anti-collision lever",
+            "JC21A-03-06"
+          ],
+          [
+            18,
+            "Bearing GB/T276-1994",
+            "GB/T276-1994",
+            "Brake stop",
+            "JC21A-03-07"
+          ],
+          [
+            19,
+            "Adjusting shim JC28C-01-10",
+            "JC28C-01-10",
+            "Brake shaft",
+            "JC28/11-03-11"
+          ],
+          [
+            20,
+            "Oil-system component (description to confirm against drawing)",
+            "JC28/11-06-25",
+            "Balance beam",
+            "JC28K-02-01"
+          ],
+          [
+            21,
+            "Key 45x45x274 JC28/11D-06-21",
+            "JC28/11D-06-21",
+            "Right-hand-threaded nut",
+            "JC28A-02-20"
+          ],
+          [
+            22,
+            "Clutch ATD330H",
+            "ATD330H",
+            "Knurled adjusting nut",
+            "JC28A-02-19"
+          ],
+          [
+            23,
+            "Bearing cover JC28/11D-06-17",
+            "JC28/11D-06-17",
+            "Left-hand-threaded nut",
+            "JC28A-02-18"
+          ],
+          [
+            24,
+            "Clutch gear ring JC28/11-06-19",
+            "JC28/11-06-19",
+            "Left-hand-threaded rod",
+            "JC28A-02-17A"
+          ],
+          [
+            25,
+            "Gear wheel JC28/11-06-18",
+            "JC28/11-06-18",
+            "Brake band assembly",
+            "JC28A-02-01-00"
+          ],
+          [
+            26,
+            "Wheel spoke JC28/11D-06-13",
+            "JC28/11D-06-13",
+            "Locking bushing",
+            "JC28/11-03-19"
+          ],
+          [
+            27,
+            "Spacer flange JC28/11F-06-15",
+            "JC28/11F-06-15",
+            "Lower crank lever",
+            "JC28/11-03-16-00"
+          ],
+          [
+            28,
+            "Component gasket 620102-00-0025",
+            "620102-00-0025",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            29,
+            "Intermediate flange JC28/11D-06-12",
+            "JC28/11D-06-12",
+            "Bushing",
+            "JC28/11-03-18"
+          ],
+          [
+            30,
+            "Drum body; JC32A-01-11-00",
+            "JC32A-01-11-00",
+            "Shaft bushing",
+            "JC28/11-06-04"
+          ],
+          [
+            31,
+            "Pipe connector Z1/2; 830102-01-0500",
+            "830102-01-0500",
+            "Connecting disc",
+            "JC28/11-06-05"
+          ],
+          [
+            32,
+            "Brake drum JC32B-01-07-00",
+            "JC32B-01-07-00",
+            "Bearing housing",
+            "JC28/11-06-06"
+          ],
+          [
+            33,
+            "Bearing cover JC28/11D-06-04",
+            "JC28/11D-06-04",
+            "Shaft bushing",
+            "JC28/11-06-07"
+          ],
+          [
+            34,
+            "Intermediate flange JC21A-01-07",
+            "JC21A-01-07",
+            "Connecting disc",
+            "JC28/11-06-08"
+          ],
+          [
+            35,
+            "Intermediate flange JC28/11D-06-06",
+            "JC28/11D-06-06",
+            "Drum body",
+            "JC28K-01-01-00"
+          ],
+          [
+            36,
+            "Sprocket JC21A-01-06",
+            "JC21A-01-06",
+            "Oil seal PD270×240×15",
+            "HG4-692-67"
+          ],
+          [
+            37,
+            "Wheel rib JC28/11D-06-03",
+            "JC28/11D-06-03",
+            "Brake drum",
+            "JC32B-01-07-00"
+          ],
+          [
+            38,
+            "Bearing cover JC28/11D-06-02",
+            "JC28/11D-06-02",
+            "Wheel spoke",
+            "JC28B-01-14"
+          ],
+          [
+            39,
+            "Clutch gear; JC21A-01-02",
+            "JC21A-01-02",
+            "Sprocket",
+            "JC28E-01-15"
+          ],
+          [
+            40,
+            "Bushing shaft; JC28/11D-06-01",
+            "JC28/11D-06-01",
+            "Clutch outer gear ring",
+            "JC28/11-06-19"
+          ],
+          [
+            41,
+            "Adjusting washer JC28C-01-10",
+            "JC28C-01-10",
+            "Clutch",
+            "TPQ330"
+          ],
+          [
+            42,
+            "Oil-buffer protective cover; JC21A-01-03-00",
+            "JC21A-01-03-00",
+            "Straight end fitting Z1/2\"",
+            "QJKT-2J1-Z10"
+          ],
+          [
+            43,
+            "Air and water guide; SD-00E",
+            "SD-00E",
+            "Copper pipe L=700",
+            "Copper pipe L=700"
+          ],
+          [
+            44,
+            "Axle",
+            "JC28/11-06-03",
+            "Oil seal PD190×225×18",
+            "HG4-692-67"
+          ],
+          [
+            45,
+            "324WCB gear-ring bore modification",
+            "JC28/11-06-27",
+            "Bearing 234",
+            "GB276-64"
+          ],
+          [
+            46,
+            "Double guide flange",
+            "JC28K-01-03",
+            "Double-tab lock washer 20",
+            "GB/T855-1988"
+          ],
+          [
+            47,
+            "Auxiliary brake",
+            "WCB324",
+            "Elbow fitting Z3/4\"",
+            "7N9-12"
+          ],
+          [
+            48,
+            "Straight-end pipe connector Z1/2\"",
+            "QJKT-2J1-Z15",
+            "Straight end fitting Z3/4\"",
+            "QJKT-2J1-Z15"
+          ],
+          [
+            49,
+            "Bolt M20×65",
+            "GB/T5782-2000",
+            "Rigid water pipe",
+            "JC28/11-06-10"
+          ],
+          [
+            50,
+            "Straight-end pipe connector Z1\"",
+            "QJKT-2J1-Z15",
+            "Oil seal PD220×260×18",
+            "HG4-692-67"
+          ],
+          [
+            51,
+            "Main drum assembly",
+            "JC28K-01-00",
+            "Main drum body",
+            "JC14-01-09-00"
+          ],
+          [
+            52,
+            "Drum body",
+            "JC28/11-06-11-00",
+            "Main drum body",
+            "JC21A-01-13A/B-00"
+          ],
+          [
+            53,
+            "Wire-rope groove (LEBUS)",
+            "JC28/11-06-11-03",
+            "Main drum body",
+            "JC28/11-06-11-00"
+          ],
+          [
+            54,
+            "Brake band assembly",
+            "JC28/11-03-05-00",
+            "Main drum body",
+            "JC28K-01-00"
+          ],
+          [
+            55,
+            "Brake bolt",
+            "JC28A-02-05",
+            "Brake band assembly",
+            "JC18A-03-01-00"
+          ],
+          [
+            56,
+            "Brake bolt",
+            "JC28A-02-06",
+            "Brake band assembly",
+            "JC21A-03-01-00"
+          ],
+          [
+            57,
+            "Brake band assembly",
+            "JC21A-03-01-00",
+            "Brake band assembly",
+            "JC28/11-03-05-00"
+          ],
+          [
+            58,
+            "Fasteners",
+            "JC21A-03-13",
+            "Brake band",
+            "JC14-03-07-00"
+          ],
+          [
+            59,
+            "Fasteners",
+            "JC21A-03-14",
+            "Brake-block bolt/nut set",
+            "JC21A-03-13 / JC21A-03-14"
+          ],
+          [
+            60,
+            "Sand drum body",
+            "JC14/11-03-02-00",
+            "Brake-block bolt/nut set",
+            "JC28A-02-05 / JC28A-02-06"
+          ],
+          [
+            61,
+            "Wire-rope groove LEBUS",
+            "JC21A-01-13A/B-05-00",
+            "Sand drum body",
+            "JC21/11-02-11-00"
           ]
-        ]
-      }
+        ],
+        "note": "General JC-series drawworks reference. Confirm the equipment model, part number and drawing before ordering."
+      },
+      "description": "JC series drawworks (models: JC18A, JC18/11, JC21A, JC21/11, JC28/11, JC28A, JC28D, JC28F and JC28K) are designed for oil and gas drilling and provide reliable operation under demanding operating conditions.\n\nThe equipment features a robust design, stable performance and a long service life.\n\nThe main components include a band brake, a hydraulic disc brake, a pneumatic tube clutch, a push-type disc clutch, a brake drum and a drum assembly.\n\nJC series drawworks are widely used on drilling rigs and are suitable for a variety of drilling and well workover tasks.",
+      "description_images": [
+        {
+          "image": "/assets/images/drawworks-20261017/atd-disc-clutch.webp",
+          "alt": "ATD pneumatic push-type disc clutch"
+        },
+        {
+          "image": "/assets/images/drawworks-20261017/atd-clutch-assemblies.webp",
+          "alt": "ATD pneumatic disc clutch assemblies"
+        }
+      ],
+      "model_references": [
+        "ATD224",
+        "ATD324",
+        "ATD236",
+        "ATD336"
+      ]
     },
     {
       "id": "shtok-porshnya-gh3161-05-18-dlya-burovoy-nasos-f1300f1600",

@@ -24,3 +24,24 @@ body.ru-product-detail-page .imported-reference-note { color: #52636d; }
   body.ru-product-detail-page .imported-product-gallery-grid { grid-template-columns: 1fr; }
   body.ru-product-detail-page .imported-product-gallery img { height: 240px; }
 }
+
+/* Complete source descriptions, assigned photographs and drawing references. */
+body.ru-product-detail-page .product-section-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 24px 0; padding: 16px 0; border-block: 1px solid #dce3e6; }
+body.ru-product-detail-page .product-section-links a { color: #1466c3; font-size: 14px; font-weight: 600; }
+body.ru-product-detail-page :is(#product-description, #part-number-reference) { scroll-margin-top: 160px; }
+body.ru-product-detail-page .imported-product-description h3 { margin: 24px 0 14px; font-size: 17px; line-height: 1.5; }
+body.ru-product-detail-page .imported-description-text p { margin: 0 0 14px; font-size: 14px; line-height: 1.75; }
+body.ru-product-detail-page .imported-product-description .imported-product-gallery-grid figure:last-child:nth-child(odd) { grid-column: 1 / -1; }
+body.ru-product-detail-page .imported-product-description .imported-product-gallery-grid img { height: 330px; }
+body.ru-product-detail-page .imported-parts-download { color: #1466c3; font-weight: 600; text-decoration: underline; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table { min-width: 720px; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:first-child { width: 6%; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(2),
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(4) { width: 27%; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(3),
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(5) { width: 20%; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table tbody th { background: #f4f8fa; color: #29424d; text-align: center; }
+body.ru-product-detail-page .imported-parts-reference .ru-table-scroll:focus-visible { outline: 2px solid #1466c3; outline-offset: 3px; }
+@media (max-width: 640px) {
+  body.ru-product-detail-page .imported-product-description .imported-product-gallery-grid img { height: 280px; }
+}

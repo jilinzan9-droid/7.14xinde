@@ -35,9 +35,9 @@ body.ru-product-detail-page .imported-product-description .imported-product-gall
 body.ru-product-detail-page .imported-product-description .imported-product-gallery-grid img { height: 330px; }
 body.ru-product-detail-page .imported-parts-download { color: #1466c3; font-weight: 600; text-decoration: underline; }
 body.ru-product-detail-page .imported-parts-reference .ru-model-table { min-width: 720px; }
-body.ru-product-detail-page .imported-parts-reference .ru-model-table th:first-child { width: 6%; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:first-child { width: 8%; }
 body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(2),
-body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(4) { width: 27%; }
+body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(4) { width: 26%; }
 body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(3),
 body.ru-product-detail-page .imported-parts-reference .ru-model-table th:nth-child(5) { width: 20%; }
 body.ru-product-detail-page .imported-parts-reference .ru-model-table tbody th { background: #f4f8fa; color: #29424d; text-align: center; }

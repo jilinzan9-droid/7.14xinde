@@ -292,2225 +292,601 @@
     },
     {
       "id": "eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor",
-      "name": "Eaton WCB Water-Cooled Auxiliary Brake WCB324 WCB224 WCB236 WCB336",
+      "name": "Eaton WCB Water-Cooled Auxiliary Brake",
       "name_ar": "Eaton WCB Water-Cooled فرامل مساعدة WCB324 WCB224 WCB236 WCB336",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
+      "blurb": "Water-cooled auxiliary brake enquiries for WCB224, WCB236, WCB324 and WCB336 references. Please provide the exact brake designation, nameplate photo and assembly drawing so the requested unit or replacement component can be matched.",
       "blurb_ar": "الحفارات وملحقات الونش",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor-main.jpg",
+      "image": "/assets/images/drawworks-20261017/wcb-auxiliary-brake.webp",
       "slug": "eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor",
       "source_url": "https://www.pratt-oil.ru/eaton-wcb-%D0%B2%D0%BE%D0%B4%D1%8F%D0%BD%D0%BE%D0%B9-%D1%82%D0%BE%D1%80%D0%BC%D0%BE%D0%B7-%D0%B2%D1%81%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%BE%D1%80_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "Model References",
         "headers": [
-          "1",
-          "50 X 50 X 200; Part Number: JC28/11D-06-09",
-          "JC28/11D-06-09",
-          "Upper",
-          "JC28/11D-03-04-00"
+          "Model Reference",
+          "Component Type"
         ],
         "rows": [
           [
-            "2",
-            "Pin; Part Number: JC28/11-03-21",
-            "JC28/11-03-21",
-            "Brake",
-            "JC28A-02-07"
-          ],
-          [
-            "3",
-            "Bushing ; Part Number: JC28/11d-06-18.",
-            "JC28/11d-06-18",
-            "Brake",
-            "JC28A-02-08"
-          ],
-          [
-            "4",
-            "Bushing ; Part Number: JC28/11D-06-14.",
-            "JC28/11D-06-14",
-            "Not specified in source",
-            "JC28A-02-10"
-          ],
-          [
-            "5",
-            "Bushing ; Part Number: JC28/11D-06-07.",
-            "JC28/11D-06-07",
-            "Not specified in source",
-            "JC28A-02-12"
-          ],
-          [
-            "6",
-            "Bushing ; Part Number: JC28/11D-06-01.",
-            "JC28/11D-06-01",
-            "Bushing",
-            "JC21A-03-32"
-          ],
-          [
-            "7",
-            "Bushing ; Part Number: JC28/11D-06-05.",
-            "JC28/11D-06-05",
-            "1212",
-            "GB281-64"
-          ],
-          [
-            "8",
-            "Bushing ; Part Number: JC28/11D-06-16.",
-            "JC28/11D-06-16",
-            "Not specified in source",
-            "JC21A-03-34"
-          ],
-          [
-            "9",
-            "Bushing ; Part Number: JC28/11D-06-15.",
-            "JC28/11D-06-15.",
-            "Not specified in source",
-            "JC28A-02-21"
-          ],
-          [
-            "10",
-            "; Part Number: JC28/11D-06-08.",
-            "JC28/11D-06-08",
-            "Not specified in source",
-            "JC28A-02-15-00"
-          ],
-          [
-            "11",
-            "; Part Number: JC28/11D-06-11A.",
-            "JC28/11D-06-11A.",
-            "Not specified in source",
-            "JC28A-02-13-00"
-          ],
-          [
-            "12",
-            "; Part Number: JC28/11D-06-23.",
-            "JC28/11D-06-23",
-            "Not specified in source",
-            "JC21A-03-12"
-          ],
-          [
-            "13",
-            "Flange; Part Number: JC28/11D-06-19A.",
-            "JC28/11D-06-19A.",
-            "Not specified in source",
-            "JC21/11-03-19"
-          ],
-          [
-            "14",
-            "L=400 18X1.5/T3 For Roller JC28/11D; Part Number: T_PL400X18X1 5",
-            "JC28/11D",
-            "Pin",
-            "JC28/11-03-21"
-          ],
-          [
-            "15",
-            "Flange JC28/11D-06-20",
-            "JC28/11D-06-20",
-            "Not specified in source",
-            "JC28/11-03-20"
-          ],
-          [
-            "16",
-            "32x32x230; JC28/11D-06-22",
-            "JC28/11D-06-22",
-            "Bushing",
-            "JC28K-01-00"
-          ],
-          [
-            "17",
-            "ATD324H",
-            "ATD324H",
-            "Not specified in source",
-            "JC21A-03-06"
-          ],
-          [
-            "18",
-            "GB/T276-1994",
-            "GB/T276-1994",
-            "Brake",
-            "JC21A-03-07"
-          ],
-          [
-            "19",
-            "JC28C-01-10",
-            "JC28C-01-10",
-            "Brake",
-            "JC28/11-03-11"
-          ],
-          [
-            "20",
-            "JC28/11-06-25",
-            "JC28/11-06-25",
-            "Not specified in source",
-            "JC28K-02-01"
-          ],
-          [
-            "21",
-            "45x45x274 JC28/11D-06-21",
-            "JC28/11D-06-21",
-            "Nut",
-            "JC28A-02-20"
-          ],
-          [
-            "22",
-            "ATD330H",
-            "ATD330H",
-            "Nut",
-            "JC28A-02-19"
-          ],
-          [
-            "23",
-            "JC28/11D-06-17",
-            "JC28/11D-06-17",
-            "Nut",
-            "JC28A-02-18"
-          ],
-          [
-            "24",
-            "JC28/11-06-19",
-            "JC28/11-06-19",
-            "Not specified in source",
-            "JC28A-02-17A"
-          ],
-          [
-            "25",
-            "JC28/11-06-18",
-            "JC28/11-06-18",
-            "Brake",
-            "JC28A-02-01-00"
-          ],
-          [
-            "26",
-            "JC28/11D-06-13",
-            "JC28/11D-06-13",
-            "Bushing",
-            "JC28/11-03-19"
-          ],
-          [
-            "27",
-            "Flange JC28/11F-06-15",
-            "JC28/11F-06-15",
-            "Not specified in source",
-            "JC28/11-03-16-00"
-          ],
-          [
-            "28",
-            "620102-00-0025",
-            "620102-00-0025",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "29",
-            "Flange JC28/11D-06-12",
-            "JC28/11D-06-12",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "30",
-            "; JC32A-01-11-00",
-            "JC32A-01-11-00",
-            "Bushing",
-            "JC28/11-06-04"
-          ],
-          [
-            "31",
-            "Z1/2; 830102-01-0500",
-            "830102-01-0500",
-            "Disc",
-            "JC28/11-06-05"
-          ],
-          [
-            "32",
-            "Brake Drum JC32B-01-07-00",
-            "JC32B-01-07-00",
-            "Not specified in source",
-            "JC28/11-06-06"
-          ],
-          [
-            "33",
-            "JC28/11D-06-04",
-            "JC28/11D-06-04",
-            "Bushing",
-            "JC28/11-06-07"
-          ],
-          [
-            "34",
-            "Flange JC21A-01-07",
-            "JC21A-01-07",
-            "Disc",
-            "JC28/11-06-08"
-          ],
-          [
-            "35",
-            "Flange JC28/11D-06-06",
-            "JC28/11D-06-06",
-            "Not specified in source",
-            "JC28K-01-01-00"
-          ],
-          [
-            "36",
-            "JC21A-01-06",
-            "JC21A-01-06",
-            "PD270x240x15",
-            "HG4-692-67"
-          ],
-          [
-            "37",
-            "JC28/11D-06-03",
-            "JC28/11D-06-03",
-            "Brake Drum",
-            "JC32B-01-07-00"
-          ],
-          [
-            "38",
-            "JC28/11D-06-02",
-            "JC28/11D-06-02",
-            "Not specified in source",
-            "JC28B-01-14"
-          ],
-          [
-            "39",
-            "; JC21A-01-02",
-            "JC21A-01-02",
-            "Not specified in source",
-            "JC28E-01-15"
-          ],
-          [
-            "40",
-            "Liners ; JC28/11D-06-01",
-            "JC28/11D-06-01",
-            "Not specified in source",
-            "JC28/11-06-19"
-          ],
-          [
-            "41",
-            "Washer JC28C-01-10",
-            "JC28C-01-10",
-            "Clutch",
-            "TPQ330"
-          ],
-          [
-            "42",
-            "; JC21A-01-03-00",
-            "JC21A-01-03-00",
-            "Z1/2",
-            "QJKT-2J1-Z10"
-          ],
-          [
-            "43",
-            "; SD-00E",
-            "SD-00E",
-            "L=700",
-            "L=700"
-          ],
-          [
-            "44",
-            "JC28/11-06-03",
-            "Not specified in source",
-            "PD190x225x18",
-            "HG4-692-67"
-          ],
-          [
-            "45",
-            "JC28/11-06-27",
-            "324WCB",
-            "234",
-            "GB276-64"
-          ],
-          [
-            "46",
-            "JC28K-01-03",
-            "Flange",
-            "Washer 20",
-            "GB/T855-1988"
-          ],
-          [
-            "47",
             "WCB324",
-            "Brake",
-            "Z3/4",
-            "7N9-12"
+            "Auxiliary brake"
           ],
           [
-            "48",
-            "QJKT-2J1-Z15",
-            "Z1/2",
-            "Z3/4",
-            "QJKT-2J1-Z15"
+            "WCB224",
+            "Auxiliary brake"
           ],
           [
-            "49",
-            "GB/T5782-2000",
-            "Bolt M20x65",
-            "Not specified in source",
-            "JC28/11-06-10"
+            "WCB236",
+            "Auxiliary brake"
           ],
           [
-            "50",
-            "QJKT-2J1-Z15",
-            "Z1",
-            "PD220x260x18",
-            "HG4-692-67"
-          ],
-          [
-            "51",
-            "JC28K-01-00",
-            "Assembly",
-            "Not specified in source",
-            "JC14-01-09-00"
-          ],
-          [
-            "52",
-            "JC28/11-06-11-00",
-            "Not specified in source",
-            "Not specified in source",
-            "JC21A-01-13A/B-00"
-          ],
-          [
-            "53",
-            "JC28/11-06-11-03",
-            "For (LEBUS)",
-            "Not specified in source",
-            "JC28/11-06-11-00"
-          ],
-          [
-            "54",
-            "JC28/11-03-05-00",
-            "Brake",
-            "Not specified in source",
-            "JC28K-01-00"
-          ],
-          [
-            "55",
-            "JC28A-02-05",
-            "Bolt Brake",
-            "Brake",
-            "JC18A-03-01-00"
-          ],
-          [
-            "56",
-            "JC28A-02-06",
-            "Bolt Brake",
-            "Brake",
-            "JC21A-03-01-00"
-          ],
-          [
-            "57",
-            "JC21A-03-01-00",
-            "Brake",
-            "Brake",
-            "JC28/11-03-05-00"
-          ],
-          [
-            "58",
-            "JC21A-03-13",
-            "Not specified in source",
-            "Brake Band",
-            "JC14-03-07-00"
-          ],
-          [
-            "59",
-            "JC21A-03-14",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC21A-03-13 / JC21A-03-14"
-          ],
-          [
-            "60",
-            "JC14/11-03-02-00",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC28A-02-05 / JC28A-02-06"
-          ],
-          [
-            "61",
-            "JC21A-01-13A/B-05-00",
-            "For LEBUS",
-            "Not specified in source",
-            "JC21/11-02-11-00"
+            "WCB336",
+            "Auxiliary brake"
           ]
         ]
       }
     },
     {
       "id": "pnevmaticheskie-mufty-shpm-lt",
-      "name": "Pneumatic Clutches LT",
+      "name": "LT Series Pneumatic Air Tube Clutches",
       "name_ar": "قابض هوائيes LT",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
+      "blurb": "LT series pneumatic air tube clutches for drawworks replacement enquiries. Share the existing clutch designation, part number, photos and key dimensions to identify the required assembly or component.",
       "blurb_ar": "الحفارات وملحقات الونش",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/pnevmaticheskie-mufty-shpm-lt-main.jpg",
+      "image": "/assets/images/drawworks-20261017/lt-air-tube-clutches.webp",
       "slug": "pnevmaticheskie-mufty-shpm-lt",
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D0%BD%D0%B5%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D1%83%D1%84%D1%82%D1%8B-%D1%88%D0%BF%D0%BC-lt_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "Model References",
         "headers": [
-          "1",
-          "50 X 50 X 200; Part Number: JC28/11D-06-09",
-          "JC28/11D-06-09",
-          "Upper",
-          "JC28/11D-03-04-00"
+          "Model Reference",
+          "Component Type"
         ],
         "rows": [
           [
-            "2",
-            "Pin; Part Number: JC28/11-03-21",
-            "JC28/11-03-21",
-            "Brake",
-            "JC28A-02-07"
-          ],
-          [
-            "3",
-            "Bushing ; Part Number: JC28/11d-06-18.",
-            "JC28/11d-06-18",
-            "Brake",
-            "JC28A-02-08"
-          ],
-          [
-            "4",
-            "Bushing ; Part Number: JC28/11D-06-14.",
-            "JC28/11D-06-14",
-            "Not specified in source",
-            "JC28A-02-10"
-          ],
-          [
-            "5",
-            "Bushing ; Part Number: JC28/11D-06-07.",
-            "JC28/11D-06-07",
-            "Not specified in source",
-            "JC28A-02-12"
-          ],
-          [
-            "6",
-            "Bushing ; Part Number: JC28/11D-06-01.",
-            "JC28/11D-06-01",
-            "Bushing",
-            "JC21A-03-32"
-          ],
-          [
-            "7",
-            "Bushing ; Part Number: JC28/11D-06-05.",
-            "JC28/11D-06-05",
-            "1212",
-            "GB281-64"
-          ],
-          [
-            "8",
-            "Bushing ; Part Number: JC28/11D-06-16.",
-            "JC28/11D-06-16",
-            "Not specified in source",
-            "JC21A-03-34"
-          ],
-          [
-            "9",
-            "Bushing ; Part Number: JC28/11D-06-15.",
-            "JC28/11D-06-15.",
-            "Not specified in source",
-            "JC28A-02-21"
-          ],
-          [
-            "10",
-            "; Part Number: JC28/11D-06-08.",
-            "JC28/11D-06-08",
-            "Not specified in source",
-            "JC28A-02-15-00"
-          ],
-          [
-            "11",
-            "; Part Number: JC28/11D-06-11A.",
-            "JC28/11D-06-11A.",
-            "Not specified in source",
-            "JC28A-02-13-00"
-          ],
-          [
-            "12",
-            "; Part Number: JC28/11D-06-23.",
-            "JC28/11D-06-23",
-            "Not specified in source",
-            "JC21A-03-12"
-          ],
-          [
-            "13",
-            "Flange; Part Number: JC28/11D-06-19A.",
-            "JC28/11D-06-19A.",
-            "Not specified in source",
-            "JC21/11-03-19"
-          ],
-          [
-            "14",
-            "L=400 18X1.5/T3 For Roller JC28/11D; Part Number: T_PL400X18X1 5",
-            "JC28/11D",
-            "Pin",
-            "JC28/11-03-21"
-          ],
-          [
-            "15",
-            "Flange JC28/11D-06-20",
-            "JC28/11D-06-20",
-            "Not specified in source",
-            "JC28/11-03-20"
-          ],
-          [
-            "16",
-            "32x32x230; JC28/11D-06-22",
-            "JC28/11D-06-22",
-            "Bushing",
-            "JC28K-01-00"
-          ],
-          [
-            "17",
-            "ATD324H",
-            "ATD324H",
-            "Not specified in source",
-            "JC21A-03-06"
-          ],
-          [
-            "18",
-            "GB/T276-1994",
-            "GB/T276-1994",
-            "Brake",
-            "JC21A-03-07"
-          ],
-          [
-            "19",
-            "JC28C-01-10",
-            "JC28C-01-10",
-            "Brake",
-            "JC28/11-03-11"
-          ],
-          [
-            "20",
-            "JC28/11-06-25",
-            "JC28/11-06-25",
-            "Not specified in source",
-            "JC28K-02-01"
-          ],
-          [
-            "21",
-            "45x45x274 JC28/11D-06-21",
-            "JC28/11D-06-21",
-            "Nut",
-            "JC28A-02-20"
-          ],
-          [
-            "22",
-            "ATD330H",
-            "ATD330H",
-            "Nut",
-            "JC28A-02-19"
-          ],
-          [
-            "23",
-            "JC28/11D-06-17",
-            "JC28/11D-06-17",
-            "Nut",
-            "JC28A-02-18"
-          ],
-          [
-            "24",
-            "JC28/11-06-19",
-            "JC28/11-06-19",
-            "Not specified in source",
-            "JC28A-02-17A"
-          ],
-          [
-            "25",
-            "JC28/11-06-18",
-            "JC28/11-06-18",
-            "Brake",
-            "JC28A-02-01-00"
-          ],
-          [
-            "26",
-            "JC28/11D-06-13",
-            "JC28/11D-06-13",
-            "Bushing",
-            "JC28/11-03-19"
-          ],
-          [
-            "27",
-            "Flange JC28/11F-06-15",
-            "JC28/11F-06-15",
-            "Not specified in source",
-            "JC28/11-03-16-00"
-          ],
-          [
-            "28",
-            "620102-00-0025",
-            "620102-00-0025",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "29",
-            "Flange JC28/11D-06-12",
-            "JC28/11D-06-12",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "30",
-            "; JC32A-01-11-00",
-            "JC32A-01-11-00",
-            "Bushing",
-            "JC28/11-06-04"
-          ],
-          [
-            "31",
-            "Z1/2; 830102-01-0500",
-            "830102-01-0500",
-            "Disc",
-            "JC28/11-06-05"
-          ],
-          [
-            "32",
-            "Brake Drum JC32B-01-07-00",
-            "JC32B-01-07-00",
-            "Not specified in source",
-            "JC28/11-06-06"
-          ],
-          [
-            "33",
-            "JC28/11D-06-04",
-            "JC28/11D-06-04",
-            "Bushing",
-            "JC28/11-06-07"
-          ],
-          [
-            "34",
-            "Flange JC21A-01-07",
-            "JC21A-01-07",
-            "Disc",
-            "JC28/11-06-08"
-          ],
-          [
-            "35",
-            "Flange JC28/11D-06-06",
-            "JC28/11D-06-06",
-            "Not specified in source",
-            "JC28K-01-01-00"
-          ],
-          [
-            "36",
-            "JC21A-01-06",
-            "JC21A-01-06",
-            "PD270x240x15",
-            "HG4-692-67"
-          ],
-          [
-            "37",
-            "JC28/11D-06-03",
-            "JC28/11D-06-03",
-            "Brake Drum",
-            "JC32B-01-07-00"
-          ],
-          [
-            "38",
-            "JC28/11D-06-02",
-            "JC28/11D-06-02",
-            "Not specified in source",
-            "JC28B-01-14"
-          ],
-          [
-            "39",
-            "; JC21A-01-02",
-            "JC21A-01-02",
-            "Not specified in source",
-            "JC28E-01-15"
-          ],
-          [
-            "40",
-            "Liners ; JC28/11D-06-01",
-            "JC28/11D-06-01",
-            "Not specified in source",
-            "JC28/11-06-19"
-          ],
-          [
-            "41",
-            "Washer JC28C-01-10",
-            "JC28C-01-10",
-            "Clutch",
-            "TPQ330"
-          ],
-          [
-            "42",
-            "; JC21A-01-03-00",
-            "JC21A-01-03-00",
-            "Z1/2",
-            "QJKT-2J1-Z10"
-          ],
-          [
-            "43",
-            "; SD-00E",
-            "SD-00E",
-            "L=700",
-            "L=700"
-          ],
-          [
-            "44",
-            "JC28/11-06-03",
-            "Not specified in source",
-            "PD190x225x18",
-            "HG4-692-67"
-          ],
-          [
-            "45",
-            "JC28/11-06-27",
-            "324WCB",
-            "234",
-            "GB276-64"
-          ],
-          [
-            "46",
-            "JC28K-01-03",
-            "Flange",
-            "Washer 20",
-            "GB/T855-1988"
-          ],
-          [
-            "47",
-            "WCB324",
-            "Brake",
-            "Z3/4",
-            "7N9-12"
-          ],
-          [
-            "48",
-            "QJKT-2J1-Z15",
-            "Z1/2",
-            "Z3/4",
-            "QJKT-2J1-Z15"
-          ],
-          [
-            "49",
-            "GB/T5782-2000",
-            "Bolt M20x65",
-            "Not specified in source",
-            "JC28/11-06-10"
-          ],
-          [
-            "50",
-            "QJKT-2J1-Z15",
-            "Z1",
-            "PD220x260x18",
-            "HG4-692-67"
-          ],
-          [
-            "51",
-            "JC28K-01-00",
-            "Assembly",
-            "Not specified in source",
-            "JC14-01-09-00"
-          ],
-          [
-            "52",
-            "JC28/11-06-11-00",
-            "Not specified in source",
-            "Not specified in source",
-            "JC21A-01-13A/B-00"
-          ],
-          [
-            "53",
-            "JC28/11-06-11-03",
-            "For (LEBUS)",
-            "Not specified in source",
-            "JC28/11-06-11-00"
-          ],
-          [
-            "54",
-            "JC28/11-03-05-00",
-            "Brake",
-            "Not specified in source",
-            "JC28K-01-00"
-          ],
-          [
-            "55",
-            "JC28A-02-05",
-            "Bolt Brake",
-            "Brake",
-            "JC18A-03-01-00"
-          ],
-          [
-            "56",
-            "JC28A-02-06",
-            "Bolt Brake",
-            "Brake",
-            "JC21A-03-01-00"
-          ],
-          [
-            "57",
-            "JC21A-03-01-00",
-            "Brake",
-            "Brake",
-            "JC28/11-03-05-00"
-          ],
-          [
-            "58",
-            "JC21A-03-13",
-            "Not specified in source",
-            "Brake Band",
-            "JC14-03-07-00"
-          ],
-          [
-            "59",
-            "JC21A-03-14",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC21A-03-13 / JC21A-03-14"
-          ],
-          [
-            "60",
-            "JC14/11-03-02-00",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC28A-02-05 / JC28A-02-06"
-          ],
-          [
-            "61",
-            "JC21A-01-13A/B-05-00",
-            "For LEBUS",
-            "Not specified in source",
-            "JC21/11-02-11-00"
+            "LT",
+            "Pneumatic air tube clutch"
           ]
         ]
       }
     },
     {
       "id": "tormoz-burovoy-lebedki-jc2811-06-12-00",
-      "name": "Drawworks Brake JC2811-06-12-00",
+      "name": "JC2811-06-12-00 Drawworks Brake",
       "name_ar": "فرامل ونش الحفر JC2811-06-12-00",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
+      "blurb": "Drawworks brake enquiry reference JC2811-06-12-00. Provide the original drawing, exact drawworks model and assembly photos to identify the required brake or related drum component before quotation.",
       "blurb_ar": "الحفارات وملحقات الونش",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/tormoz-burovoy-lebedki-jc2811-06-12-00-main.jpg",
+      "image": "/assets/images/drawworks-20261017/jc2811-drawworks-brake.webp",
       "slug": "tormoz-burovoy-lebedki-jc2811-06-12-00",
       "source_url": "https://www.pratt-oil.ru/%D1%82%D0%BE%D1%80%D0%BC%D0%BE%D0%B7-%D0%B1%D1%83%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D0%BA%D0%B8-jc2811-06-12-00_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "JC Series Drawworks Parts Reference",
         "headers": [
-          "1",
-          "50 X 50 X 200; Part Number: JC28/11D-06-09",
-          "JC28/11D-06-09",
-          "Upper",
-          "JC28/11D-03-04-00"
+          "Item",
+          "Component",
+          "Part / Drawing Reference",
+          "Component",
+          "Part / Drawing Reference"
         ],
         "rows": [
           [
-            "2",
-            "Pin; Part Number: JC28/11-03-21",
+            1,
+            "Key 50 x 50 x 200; Part number: JC28/11D-06-09",
+            "JC28/11D-06-09",
+            "Upper return system",
+            "JC28/11D-03-04-00"
+          ],
+          [
+            2,
+            "Pin; Part number: JC28/11-03-21",
             "JC28/11-03-21",
-            "Brake",
+            "Woven brake shoe",
             "JC28A-02-07"
           ],
           [
-            "3",
-            "Bushing ; Part Number: JC28/11d-06-18.",
+            3,
+            "Shaft bushing; Part number: JC28/11d-06-18.",
             "JC28/11d-06-18",
-            "Brake",
+            "Cast brake shoe",
             "JC28A-02-08"
           ],
           [
-            "4",
-            "Bushing ; Part Number: JC28/11D-06-14.",
+            4,
+            "Shaft bushing; Part number: JC28/11D-06-14.",
             "JC28/11D-06-14",
-            "Not specified in source",
+            "Right-hand-threaded rod",
             "JC28A-02-10"
           ],
           [
-            "5",
-            "Bushing ; Part Number: JC28/11D-06-07.",
+            5,
+            "Shaft bushing; Part number: JC28/11D-06-07.",
             "JC28/11D-06-07",
-            "Not specified in source",
+            "Connecting lever",
             "JC28A-02-12"
           ],
           [
-            "6",
-            "Bushing ; Part Number: JC28/11D-06-01.",
+            6,
+            "Shaft bushing; Part number: JC28/11D-06-01.",
             "JC28/11D-06-01",
-            "Bushing",
+            "Shaft bushing",
             "JC21A-03-32"
           ],
           [
-            "7",
-            "Bushing ; Part Number: JC28/11D-06-05.",
+            7,
+            "Shaft bushing; Part number: JC28/11D-06-05.",
             "JC28/11D-06-05",
-            "1212",
+            "Bearing 1212",
             "GB281-64"
           ],
           [
-            "8",
-            "Bushing ; Part Number: JC28/11D-06-16.",
+            8,
+            "Shaft bushing; Part number: JC28/11D-06-16.",
             "JC28/11D-06-16",
-            "Not specified in source",
+            "Bearing cover",
             "JC21A-03-34"
           ],
           [
-            "9",
-            "Bushing ; Part Number: JC28/11D-06-15.",
+            9,
+            "Shaft bushing; Part number: JC28/11D-06-15.",
             "JC28/11D-06-15.",
-            "Not specified in source",
+            "Bearing housing",
             "JC28A-02-21"
           ],
           [
-            "10",
-            "; Part Number: JC28/11D-06-08.",
+            10,
+            "Connecting plate; Part number: JC28/11D-06-08.",
             "JC28/11D-06-08",
-            "Not specified in source",
+            "Counterweight",
             "JC28A-02-15-00"
           ],
           [
-            "11",
-            "; Part Number: JC28/11D-06-11A.",
+            11,
+            "Shaft; Part number: JC28/11D-06-11A.",
             "JC28/11D-06-11A.",
-            "Not specified in source",
+            "Crank",
             "JC28A-02-13-00"
           ],
           [
-            "12",
-            "; Part Number: JC28/11D-06-23.",
+            12,
+            "Rigid water pipe; Part number: JC28/11D-06-23.",
             "JC28/11D-06-23",
-            "Not specified in source",
+            "Spring",
             "JC21A-03-12"
           ],
           [
-            "13",
-            "Flange; Part Number: JC28/11D-06-19A.",
+            13,
+            "Flange; Part number: JC28/11D-06-19A.",
             "JC28/11D-06-19A.",
-            "Not specified in source",
+            "Rod",
             "JC21/11-03-19"
           ],
           [
-            "14",
-            "L=400 18X1.5/T3 For Roller JC28/11D; Part Number: T_PL400X18X1 5",
+            14,
+            "Copper pipe L=400 18X1.5/T3 for the JC28/11D drawworks main roller assembly; Part number: T_PL400X18X1,5",
             "JC28/11D",
             "Pin",
             "JC28/11-03-21"
           ],
           [
-            "15",
+            15,
             "Flange JC28/11D-06-20",
             "JC28/11D-06-20",
-            "Not specified in source",
+            "Rod",
             "JC28/11-03-20"
           ],
           [
-            "16",
-            "32x32x230; JC28/11D-06-22",
+            16,
+            "Key 32x32x230; JC28/11D-06-22",
             "JC28/11D-06-22",
-            "Bushing",
+            "Locking bushing",
             "JC28K-01-00"
           ],
           [
-            "17",
+            17,
+            "Clutch ATD324H",
             "ATD324H",
-            "ATD324H",
-            "Not specified in source",
+            "Anti-collision lever",
             "JC21A-03-06"
           ],
           [
-            "18",
+            18,
+            "Bearing GB/T276-1994",
             "GB/T276-1994",
-            "GB/T276-1994",
-            "Brake",
+            "Brake stop",
             "JC21A-03-07"
           ],
           [
-            "19",
+            19,
+            "Adjusting shim JC28C-01-10",
             "JC28C-01-10",
-            "JC28C-01-10",
-            "Brake",
+            "Brake shaft",
             "JC28/11-03-11"
           ],
           [
-            "20",
+            20,
+            "Oil-system component (description to confirm against drawing)",
             "JC28/11-06-25",
-            "JC28/11-06-25",
-            "Not specified in source",
+            "Balance beam",
             "JC28K-02-01"
           ],
           [
-            "21",
-            "45x45x274 JC28/11D-06-21",
+            21,
+            "Key 45x45x274 JC28/11D-06-21",
             "JC28/11D-06-21",
-            "Nut",
+            "Right-hand-threaded nut",
             "JC28A-02-20"
           ],
           [
-            "22",
+            22,
+            "Clutch ATD330H",
             "ATD330H",
-            "ATD330H",
-            "Nut",
+            "Knurled adjusting nut",
             "JC28A-02-19"
           ],
           [
-            "23",
+            23,
+            "Bearing cover JC28/11D-06-17",
             "JC28/11D-06-17",
-            "JC28/11D-06-17",
-            "Nut",
+            "Left-hand-threaded nut",
             "JC28A-02-18"
           ],
           [
-            "24",
+            24,
+            "Clutch gear ring JC28/11-06-19",
             "JC28/11-06-19",
-            "JC28/11-06-19",
-            "Not specified in source",
+            "Left-hand-threaded rod",
             "JC28A-02-17A"
           ],
           [
-            "25",
+            25,
+            "Gear wheel JC28/11-06-18",
             "JC28/11-06-18",
-            "JC28/11-06-18",
-            "Brake",
+            "Brake band assembly",
             "JC28A-02-01-00"
           ],
           [
-            "26",
+            26,
+            "Wheel spoke JC28/11D-06-13",
             "JC28/11D-06-13",
-            "JC28/11D-06-13",
-            "Bushing",
+            "Locking bushing",
             "JC28/11-03-19"
           ],
           [
-            "27",
-            "Flange JC28/11F-06-15",
+            27,
+            "Spacer flange JC28/11F-06-15",
             "JC28/11F-06-15",
-            "Not specified in source",
+            "Lower crank lever",
             "JC28/11-03-16-00"
           ],
           [
-            "28",
-            "620102-00-0025",
+            28,
+            "Component gasket 620102-00-0025",
             "620102-00-0025",
             "Bushing",
             "JC28/11-03-18"
           ],
           [
-            "29",
-            "Flange JC28/11D-06-12",
+            29,
+            "Intermediate flange JC28/11D-06-12",
             "JC28/11D-06-12",
             "Bushing",
             "JC28/11-03-18"
           ],
           [
-            "30",
-            "; JC32A-01-11-00",
+            30,
+            "Drum body; JC32A-01-11-00",
             "JC32A-01-11-00",
-            "Bushing",
+            "Shaft bushing",
             "JC28/11-06-04"
           ],
           [
-            "31",
-            "Z1/2; 830102-01-0500",
+            31,
+            "Pipe connector Z1/2; 830102-01-0500",
             "830102-01-0500",
-            "Disc",
+            "Connecting disc",
             "JC28/11-06-05"
           ],
           [
-            "32",
-            "Brake Drum JC32B-01-07-00",
+            32,
+            "Brake drum JC32B-01-07-00",
             "JC32B-01-07-00",
-            "Not specified in source",
+            "Bearing housing",
             "JC28/11-06-06"
           ],
           [
-            "33",
+            33,
+            "Bearing cover JC28/11D-06-04",
             "JC28/11D-06-04",
-            "JC28/11D-06-04",
-            "Bushing",
+            "Shaft bushing",
             "JC28/11-06-07"
           ],
           [
-            "34",
-            "Flange JC21A-01-07",
+            34,
+            "Intermediate flange JC21A-01-07",
             "JC21A-01-07",
-            "Disc",
+            "Connecting disc",
             "JC28/11-06-08"
           ],
           [
-            "35",
-            "Flange JC28/11D-06-06",
+            35,
+            "Intermediate flange JC28/11D-06-06",
             "JC28/11D-06-06",
-            "Not specified in source",
+            "Drum body",
             "JC28K-01-01-00"
           ],
           [
-            "36",
+            36,
+            "Sprocket JC21A-01-06",
             "JC21A-01-06",
-            "JC21A-01-06",
-            "PD270x240x15",
+            "Oil seal PD270×240×15",
             "HG4-692-67"
           ],
           [
-            "37",
+            37,
+            "Wheel rib JC28/11D-06-03",
             "JC28/11D-06-03",
-            "JC28/11D-06-03",
-            "Brake Drum",
+            "Brake drum",
             "JC32B-01-07-00"
           ],
           [
-            "38",
+            38,
+            "Bearing cover JC28/11D-06-02",
             "JC28/11D-06-02",
-            "JC28/11D-06-02",
-            "Not specified in source",
+            "Wheel spoke",
             "JC28B-01-14"
           ],
           [
-            "39",
-            "; JC21A-01-02",
+            39,
+            "Clutch gear; JC21A-01-02",
             "JC21A-01-02",
-            "Not specified in source",
+            "Sprocket",
             "JC28E-01-15"
           ],
           [
-            "40",
-            "Liners ; JC28/11D-06-01",
+            40,
+            "Bushing shaft; JC28/11D-06-01",
             "JC28/11D-06-01",
-            "Not specified in source",
+            "Clutch outer gear ring",
             "JC28/11-06-19"
           ],
           [
-            "41",
-            "Washer JC28C-01-10",
+            41,
+            "Adjusting washer JC28C-01-10",
             "JC28C-01-10",
             "Clutch",
             "TPQ330"
           ],
           [
-            "42",
-            "; JC21A-01-03-00",
+            42,
+            "Oil-buffer protective cover; JC21A-01-03-00",
             "JC21A-01-03-00",
-            "Z1/2",
+            "Straight end fitting Z1/2\"",
             "QJKT-2J1-Z10"
           ],
           [
-            "43",
-            "; SD-00E",
+            43,
+            "Air and water guide; SD-00E",
             "SD-00E",
-            "L=700",
-            "L=700"
+            "Copper pipe L=700",
+            "Copper pipe L=700"
           ],
           [
-            "44",
+            44,
+            "Axle",
             "JC28/11-06-03",
-            "Not specified in source",
-            "PD190x225x18",
+            "Oil seal PD190×225×18",
             "HG4-692-67"
           ],
           [
-            "45",
+            45,
+            "324WCB gear-ring bore modification",
             "JC28/11-06-27",
-            "324WCB",
-            "234",
+            "Bearing 234",
             "GB276-64"
           ],
           [
-            "46",
+            46,
+            "Double guide flange",
             "JC28K-01-03",
-            "Flange",
-            "Washer 20",
+            "Double-tab lock washer 20",
             "GB/T855-1988"
           ],
           [
-            "47",
+            47,
+            "Auxiliary brake",
             "WCB324",
-            "Brake",
-            "Z3/4",
+            "Elbow fitting Z3/4\"",
             "7N9-12"
           ],
           [
-            "48",
+            48,
+            "Straight-end pipe connector Z1/2\"",
             "QJKT-2J1-Z15",
-            "Z1/2",
-            "Z3/4",
+            "Straight end fitting Z3/4\"",
             "QJKT-2J1-Z15"
           ],
           [
-            "49",
+            49,
+            "Bolt M20×65",
             "GB/T5782-2000",
-            "Bolt M20x65",
-            "Not specified in source",
+            "Rigid water pipe",
             "JC28/11-06-10"
           ],
           [
-            "50",
+            50,
+            "Straight-end pipe connector Z1\"",
             "QJKT-2J1-Z15",
-            "Z1",
-            "PD220x260x18",
+            "Oil seal PD220×260×18",
             "HG4-692-67"
           ],
           [
-            "51",
+            51,
+            "Main drum assembly",
             "JC28K-01-00",
-            "Assembly",
-            "Not specified in source",
+            "Main drum body",
             "JC14-01-09-00"
           ],
           [
-            "52",
+            52,
+            "Drum body",
             "JC28/11-06-11-00",
-            "Not specified in source",
-            "Not specified in source",
+            "Main drum body",
             "JC21A-01-13A/B-00"
           ],
           [
-            "53",
+            53,
+            "Wire-rope groove (LEBUS)",
             "JC28/11-06-11-03",
-            "For (LEBUS)",
-            "Not specified in source",
+            "Main drum body",
             "JC28/11-06-11-00"
           ],
           [
-            "54",
+            54,
+            "Brake band assembly",
             "JC28/11-03-05-00",
-            "Brake",
-            "Not specified in source",
+            "Main drum body",
             "JC28K-01-00"
           ],
           [
-            "55",
+            55,
+            "Brake bolt",
             "JC28A-02-05",
-            "Bolt Brake",
-            "Brake",
+            "Brake band assembly",
             "JC18A-03-01-00"
           ],
           [
-            "56",
+            56,
+            "Brake bolt",
             "JC28A-02-06",
-            "Bolt Brake",
-            "Brake",
+            "Brake band assembly",
             "JC21A-03-01-00"
           ],
           [
-            "57",
+            57,
+            "Brake band assembly",
             "JC21A-03-01-00",
-            "Brake",
-            "Brake",
+            "Brake band assembly",
             "JC28/11-03-05-00"
           ],
           [
-            "58",
+            58,
+            "Fasteners",
             "JC21A-03-13",
-            "Not specified in source",
-            "Brake Band",
+            "Brake band",
             "JC14-03-07-00"
           ],
           [
-            "59",
+            59,
+            "Fasteners",
             "JC21A-03-14",
-            "Not specified in source",
-            "Bolt/ Brake",
+            "Brake-block bolt/nut set",
             "JC21A-03-13 / JC21A-03-14"
           ],
           [
-            "60",
+            60,
+            "Sand drum body",
             "JC14/11-03-02-00",
-            "Not specified in source",
-            "Bolt/ Brake",
+            "Brake-block bolt/nut set",
             "JC28A-02-05 / JC28A-02-06"
           ],
           [
-            "61",
+            61,
+            "Wire-rope groove LEBUS",
             "JC21A-01-13A/B-05-00",
-            "For LEBUS",
-            "Not specified in source",
+            "Sand drum body",
             "JC21/11-02-11-00"
           ]
-        ]
+        ],
+        "note": "General JC series reference, not a confirmed bill of materials for JC2811-06-12-00. Confirm each drawing before ordering."
       }
     },
     {
       "id": "promyvochnaya-truba-sl135-sl160-sl170-sl225-sl315-sl450",
-      "name": "Wash Pipe SL135 SL160 SL170 SL225 SL315 SL450",
+      "name": "SL Series Drilling Swivel Washpipes",
       "name_ar": "أنبوب غسيل SL135 SL160 SL170 SL225 SL315 SL450",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
+      "blurb": "Drilling swivel washpipe enquiries for SL135, SL160, SL170, SL225, SL315 and SL450 references. Match the washpipe to the exact swivel model and drawing, including connection and sealing dimensions.",
       "blurb_ar": "الحفارات وملحقات الونش",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/promyvochnaya-truba-sl135-sl160-sl170-sl225-sl315-sl450-main.jpg",
+      "image": "/assets/images/drawworks-20261017/sl-swivel-washpipe.webp",
       "slug": "promyvochnaya-truba-sl135-sl160-sl170-sl225-sl315-sl450",
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D0%B2%D0%BE%D1%87%D0%BD%D0%B0%D1%8F-%D1%82%D1%80%D1%83%D0%B1%D0%B0-sl135-sl160-sl170-sl225-sl315-sl450_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "Model References",
         "headers": [
-          "1",
-          "50 X 50 X 200; Part Number: JC28/11D-06-09",
-          "JC28/11D-06-09",
-          "Upper",
-          "JC28/11D-03-04-00"
+          "Model Reference",
+          "Component Type"
         ],
         "rows": [
           [
-            "2",
-            "Pin; Part Number: JC28/11-03-21",
-            "JC28/11-03-21",
-            "Brake",
-            "JC28A-02-07"
+            "SL135",
+            "Drilling swivel washpipe"
           ],
           [
-            "3",
-            "Bushing ; Part Number: JC28/11d-06-18.",
-            "JC28/11d-06-18",
-            "Brake",
-            "JC28A-02-08"
+            "SL160",
+            "Drilling swivel washpipe"
           ],
           [
-            "4",
-            "Bushing ; Part Number: JC28/11D-06-14.",
-            "JC28/11D-06-14",
-            "Not specified in source",
-            "JC28A-02-10"
+            "SL170",
+            "Drilling swivel washpipe"
           ],
           [
-            "5",
-            "Bushing ; Part Number: JC28/11D-06-07.",
-            "JC28/11D-06-07",
-            "Not specified in source",
-            "JC28A-02-12"
+            "SL225",
+            "Drilling swivel washpipe"
           ],
           [
-            "6",
-            "Bushing ; Part Number: JC28/11D-06-01.",
-            "JC28/11D-06-01",
-            "Bushing",
-            "JC21A-03-32"
+            "SL315",
+            "Drilling swivel washpipe"
           ],
           [
-            "7",
-            "Bushing ; Part Number: JC28/11D-06-05.",
-            "JC28/11D-06-05",
-            "1212",
-            "GB281-64"
-          ],
-          [
-            "8",
-            "Bushing ; Part Number: JC28/11D-06-16.",
-            "JC28/11D-06-16",
-            "Not specified in source",
-            "JC21A-03-34"
-          ],
-          [
-            "9",
-            "Bushing ; Part Number: JC28/11D-06-15.",
-            "JC28/11D-06-15.",
-            "Not specified in source",
-            "JC28A-02-21"
-          ],
-          [
-            "10",
-            "; Part Number: JC28/11D-06-08.",
-            "JC28/11D-06-08",
-            "Not specified in source",
-            "JC28A-02-15-00"
-          ],
-          [
-            "11",
-            "; Part Number: JC28/11D-06-11A.",
-            "JC28/11D-06-11A.",
-            "Not specified in source",
-            "JC28A-02-13-00"
-          ],
-          [
-            "12",
-            "; Part Number: JC28/11D-06-23.",
-            "JC28/11D-06-23",
-            "Not specified in source",
-            "JC21A-03-12"
-          ],
-          [
-            "13",
-            "Flange; Part Number: JC28/11D-06-19A.",
-            "JC28/11D-06-19A.",
-            "Not specified in source",
-            "JC21/11-03-19"
-          ],
-          [
-            "14",
-            "L=400 18X1.5/T3 For Roller JC28/11D; Part Number: T_PL400X18X1 5",
-            "JC28/11D",
-            "Pin",
-            "JC28/11-03-21"
-          ],
-          [
-            "15",
-            "Flange JC28/11D-06-20",
-            "JC28/11D-06-20",
-            "Not specified in source",
-            "JC28/11-03-20"
-          ],
-          [
-            "16",
-            "32x32x230; JC28/11D-06-22",
-            "JC28/11D-06-22",
-            "Bushing",
-            "JC28K-01-00"
-          ],
-          [
-            "17",
-            "ATD324H",
-            "ATD324H",
-            "Not specified in source",
-            "JC21A-03-06"
-          ],
-          [
-            "18",
-            "GB/T276-1994",
-            "GB/T276-1994",
-            "Brake",
-            "JC21A-03-07"
-          ],
-          [
-            "19",
-            "JC28C-01-10",
-            "JC28C-01-10",
-            "Brake",
-            "JC28/11-03-11"
-          ],
-          [
-            "20",
-            "JC28/11-06-25",
-            "JC28/11-06-25",
-            "Not specified in source",
-            "JC28K-02-01"
-          ],
-          [
-            "21",
-            "45x45x274 JC28/11D-06-21",
-            "JC28/11D-06-21",
-            "Nut",
-            "JC28A-02-20"
-          ],
-          [
-            "22",
-            "ATD330H",
-            "ATD330H",
-            "Nut",
-            "JC28A-02-19"
-          ],
-          [
-            "23",
-            "JC28/11D-06-17",
-            "JC28/11D-06-17",
-            "Nut",
-            "JC28A-02-18"
-          ],
-          [
-            "24",
-            "JC28/11-06-19",
-            "JC28/11-06-19",
-            "Not specified in source",
-            "JC28A-02-17A"
-          ],
-          [
-            "25",
-            "JC28/11-06-18",
-            "JC28/11-06-18",
-            "Brake",
-            "JC28A-02-01-00"
-          ],
-          [
-            "26",
-            "JC28/11D-06-13",
-            "JC28/11D-06-13",
-            "Bushing",
-            "JC28/11-03-19"
-          ],
-          [
-            "27",
-            "Flange JC28/11F-06-15",
-            "JC28/11F-06-15",
-            "Not specified in source",
-            "JC28/11-03-16-00"
-          ],
-          [
-            "28",
-            "620102-00-0025",
-            "620102-00-0025",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "29",
-            "Flange JC28/11D-06-12",
-            "JC28/11D-06-12",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "30",
-            "; JC32A-01-11-00",
-            "JC32A-01-11-00",
-            "Bushing",
-            "JC28/11-06-04"
-          ],
-          [
-            "31",
-            "Z1/2; 830102-01-0500",
-            "830102-01-0500",
-            "Disc",
-            "JC28/11-06-05"
-          ],
-          [
-            "32",
-            "Brake Drum JC32B-01-07-00",
-            "JC32B-01-07-00",
-            "Not specified in source",
-            "JC28/11-06-06"
-          ],
-          [
-            "33",
-            "JC28/11D-06-04",
-            "JC28/11D-06-04",
-            "Bushing",
-            "JC28/11-06-07"
-          ],
-          [
-            "34",
-            "Flange JC21A-01-07",
-            "JC21A-01-07",
-            "Disc",
-            "JC28/11-06-08"
-          ],
-          [
-            "35",
-            "Flange JC28/11D-06-06",
-            "JC28/11D-06-06",
-            "Not specified in source",
-            "JC28K-01-01-00"
-          ],
-          [
-            "36",
-            "JC21A-01-06",
-            "JC21A-01-06",
-            "PD270x240x15",
-            "HG4-692-67"
-          ],
-          [
-            "37",
-            "JC28/11D-06-03",
-            "JC28/11D-06-03",
-            "Brake Drum",
-            "JC32B-01-07-00"
-          ],
-          [
-            "38",
-            "JC28/11D-06-02",
-            "JC28/11D-06-02",
-            "Not specified in source",
-            "JC28B-01-14"
-          ],
-          [
-            "39",
-            "; JC21A-01-02",
-            "JC21A-01-02",
-            "Not specified in source",
-            "JC28E-01-15"
-          ],
-          [
-            "40",
-            "Liners ; JC28/11D-06-01",
-            "JC28/11D-06-01",
-            "Not specified in source",
-            "JC28/11-06-19"
-          ],
-          [
-            "41",
-            "Washer JC28C-01-10",
-            "JC28C-01-10",
-            "Clutch",
-            "TPQ330"
-          ],
-          [
-            "42",
-            "; JC21A-01-03-00",
-            "JC21A-01-03-00",
-            "Z1/2",
-            "QJKT-2J1-Z10"
-          ],
-          [
-            "43",
-            "; SD-00E",
-            "SD-00E",
-            "L=700",
-            "L=700"
-          ],
-          [
-            "44",
-            "JC28/11-06-03",
-            "Not specified in source",
-            "PD190x225x18",
-            "HG4-692-67"
-          ],
-          [
-            "45",
-            "JC28/11-06-27",
-            "324WCB",
-            "234",
-            "GB276-64"
-          ],
-          [
-            "46",
-            "JC28K-01-03",
-            "Flange",
-            "Washer 20",
-            "GB/T855-1988"
-          ],
-          [
-            "47",
-            "WCB324",
-            "Brake",
-            "Z3/4",
-            "7N9-12"
-          ],
-          [
-            "48",
-            "QJKT-2J1-Z15",
-            "Z1/2",
-            "Z3/4",
-            "QJKT-2J1-Z15"
-          ],
-          [
-            "49",
-            "GB/T5782-2000",
-            "Bolt M20x65",
-            "Not specified in source",
-            "JC28/11-06-10"
-          ],
-          [
-            "50",
-            "QJKT-2J1-Z15",
-            "Z1",
-            "PD220x260x18",
-            "HG4-692-67"
-          ],
-          [
-            "51",
-            "JC28K-01-00",
-            "Assembly",
-            "Not specified in source",
-            "JC14-01-09-00"
-          ],
-          [
-            "52",
-            "JC28/11-06-11-00",
-            "Not specified in source",
-            "Not specified in source",
-            "JC21A-01-13A/B-00"
-          ],
-          [
-            "53",
-            "JC28/11-06-11-03",
-            "For (LEBUS)",
-            "Not specified in source",
-            "JC28/11-06-11-00"
-          ],
-          [
-            "54",
-            "JC28/11-03-05-00",
-            "Brake",
-            "Not specified in source",
-            "JC28K-01-00"
-          ],
-          [
-            "55",
-            "JC28A-02-05",
-            "Bolt Brake",
-            "Brake",
-            "JC18A-03-01-00"
-          ],
-          [
-            "56",
-            "JC28A-02-06",
-            "Bolt Brake",
-            "Brake",
-            "JC21A-03-01-00"
-          ],
-          [
-            "57",
-            "JC21A-03-01-00",
-            "Brake",
-            "Brake",
-            "JC28/11-03-05-00"
-          ],
-          [
-            "58",
-            "JC21A-03-13",
-            "Not specified in source",
-            "Brake Band",
-            "JC14-03-07-00"
-          ],
-          [
-            "59",
-            "JC21A-03-14",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC21A-03-13 / JC21A-03-14"
-          ],
-          [
-            "60",
-            "JC14/11-03-02-00",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC28A-02-05 / JC28A-02-06"
-          ],
-          [
-            "61",
-            "JC21A-01-13A/B-05-00",
-            "For LEBUS",
-            "Not specified in source",
-            "JC21/11-02-11-00"
+            "SL450",
+            "Drilling swivel washpipe"
           ]
         ]
       }
     },
     {
       "id": "pnevmaticheskiy-tip-mufta-nazhima-buro",
-      "name": "Drilling Rig Pneumatic Push-Type Clutch ATD224 ATD324 ATD236 ATD336",
+      "name": "ATD Pneumatic Push-Type Disc Clutches",
       "name_ar": "Drilling Rig Pneumatic Push-Type قابض ATD224 ATD324 ATD236 ATD336",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
-      "blurb": "Drilling Rigs and Drawworks Accessories",
+      "blurb": "Pneumatic push-type disc clutch enquiries for ATD224, ATD324, ATD236 and ATD336 references. Confirm the complete model designation and assembly drawing, including any suffix, before selecting a replacement.",
       "blurb_ar": "الحفارات وملحقات الونش",
-      "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/pnevmaticheskiy-tip-mufta-nazhima-buro-main.jpg",
+      "image": "/assets/images/drawworks-20261017/atd-disc-clutch.webp",
       "slug": "pnevmaticheskiy-tip-mufta-nazhima-buro",
       "source_url": "https://www.pratt-oil.ru/%D0%BF%D0%BD%D0%B5%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BF-%D0%BC%D1%83%D1%84%D1%82%D0%B0-%D0%BD%D0%B0%D0%B6%D0%B8%D0%BC%D0%B0-%D0%B1%D1%83%D1%80%D0%BE_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA/",
       "status": "published",
       "spec": {
-        "title": "Models and Technical Specifications",
+        "title": "Model References",
         "headers": [
-          "1",
-          "50 X 50 X 200; Part Number: JC28/11D-06-09",
-          "JC28/11D-06-09",
-          "Upper",
-          "JC28/11D-03-04-00"
+          "Model Reference",
+          "Component Type"
         ],
         "rows": [
           [
-            "2",
-            "Pin; Part Number: JC28/11-03-21",
-            "JC28/11-03-21",
-            "Brake",
-            "JC28A-02-07"
+            "ATD224",
+            "Pneumatic push-type disc clutch"
           ],
           [
-            "3",
-            "Bushing ; Part Number: JC28/11d-06-18.",
-            "JC28/11d-06-18",
-            "Brake",
-            "JC28A-02-08"
+            "ATD324",
+            "Pneumatic push-type disc clutch"
           ],
           [
-            "4",
-            "Bushing ; Part Number: JC28/11D-06-14.",
-            "JC28/11D-06-14",
-            "Not specified in source",
-            "JC28A-02-10"
+            "ATD236",
+            "Pneumatic push-type disc clutch"
           ],
           [
-            "5",
-            "Bushing ; Part Number: JC28/11D-06-07.",
-            "JC28/11D-06-07",
-            "Not specified in source",
-            "JC28A-02-12"
-          ],
-          [
-            "6",
-            "Bushing ; Part Number: JC28/11D-06-01.",
-            "JC28/11D-06-01",
-            "Bushing",
-            "JC21A-03-32"
-          ],
-          [
-            "7",
-            "Bushing ; Part Number: JC28/11D-06-05.",
-            "JC28/11D-06-05",
-            "1212",
-            "GB281-64"
-          ],
-          [
-            "8",
-            "Bushing ; Part Number: JC28/11D-06-16.",
-            "JC28/11D-06-16",
-            "Not specified in source",
-            "JC21A-03-34"
-          ],
-          [
-            "9",
-            "Bushing ; Part Number: JC28/11D-06-15.",
-            "JC28/11D-06-15.",
-            "Not specified in source",
-            "JC28A-02-21"
-          ],
-          [
-            "10",
-            "; Part Number: JC28/11D-06-08.",
-            "JC28/11D-06-08",
-            "Not specified in source",
-            "JC28A-02-15-00"
-          ],
-          [
-            "11",
-            "; Part Number: JC28/11D-06-11A.",
-            "JC28/11D-06-11A.",
-            "Not specified in source",
-            "JC28A-02-13-00"
-          ],
-          [
-            "12",
-            "; Part Number: JC28/11D-06-23.",
-            "JC28/11D-06-23",
-            "Not specified in source",
-            "JC21A-03-12"
-          ],
-          [
-            "13",
-            "Flange; Part Number: JC28/11D-06-19A.",
-            "JC28/11D-06-19A.",
-            "Not specified in source",
-            "JC21/11-03-19"
-          ],
-          [
-            "14",
-            "L=400 18X1.5/T3 For Roller JC28/11D; Part Number: T_PL400X18X1 5",
-            "JC28/11D",
-            "Pin",
-            "JC28/11-03-21"
-          ],
-          [
-            "15",
-            "Flange JC28/11D-06-20",
-            "JC28/11D-06-20",
-            "Not specified in source",
-            "JC28/11-03-20"
-          ],
-          [
-            "16",
-            "32x32x230; JC28/11D-06-22",
-            "JC28/11D-06-22",
-            "Bushing",
-            "JC28K-01-00"
-          ],
-          [
-            "17",
-            "ATD324H",
-            "ATD324H",
-            "Not specified in source",
-            "JC21A-03-06"
-          ],
-          [
-            "18",
-            "GB/T276-1994",
-            "GB/T276-1994",
-            "Brake",
-            "JC21A-03-07"
-          ],
-          [
-            "19",
-            "JC28C-01-10",
-            "JC28C-01-10",
-            "Brake",
-            "JC28/11-03-11"
-          ],
-          [
-            "20",
-            "JC28/11-06-25",
-            "JC28/11-06-25",
-            "Not specified in source",
-            "JC28K-02-01"
-          ],
-          [
-            "21",
-            "45x45x274 JC28/11D-06-21",
-            "JC28/11D-06-21",
-            "Nut",
-            "JC28A-02-20"
-          ],
-          [
-            "22",
-            "ATD330H",
-            "ATD330H",
-            "Nut",
-            "JC28A-02-19"
-          ],
-          [
-            "23",
-            "JC28/11D-06-17",
-            "JC28/11D-06-17",
-            "Nut",
-            "JC28A-02-18"
-          ],
-          [
-            "24",
-            "JC28/11-06-19",
-            "JC28/11-06-19",
-            "Not specified in source",
-            "JC28A-02-17A"
-          ],
-          [
-            "25",
-            "JC28/11-06-18",
-            "JC28/11-06-18",
-            "Brake",
-            "JC28A-02-01-00"
-          ],
-          [
-            "26",
-            "JC28/11D-06-13",
-            "JC28/11D-06-13",
-            "Bushing",
-            "JC28/11-03-19"
-          ],
-          [
-            "27",
-            "Flange JC28/11F-06-15",
-            "JC28/11F-06-15",
-            "Not specified in source",
-            "JC28/11-03-16-00"
-          ],
-          [
-            "28",
-            "620102-00-0025",
-            "620102-00-0025",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "29",
-            "Flange JC28/11D-06-12",
-            "JC28/11D-06-12",
-            "Bushing",
-            "JC28/11-03-18"
-          ],
-          [
-            "30",
-            "; JC32A-01-11-00",
-            "JC32A-01-11-00",
-            "Bushing",
-            "JC28/11-06-04"
-          ],
-          [
-            "31",
-            "Z1/2; 830102-01-0500",
-            "830102-01-0500",
-            "Disc",
-            "JC28/11-06-05"
-          ],
-          [
-            "32",
-            "Brake Drum JC32B-01-07-00",
-            "JC32B-01-07-00",
-            "Not specified in source",
-            "JC28/11-06-06"
-          ],
-          [
-            "33",
-            "JC28/11D-06-04",
-            "JC28/11D-06-04",
-            "Bushing",
-            "JC28/11-06-07"
-          ],
-          [
-            "34",
-            "Flange JC21A-01-07",
-            "JC21A-01-07",
-            "Disc",
-            "JC28/11-06-08"
-          ],
-          [
-            "35",
-            "Flange JC28/11D-06-06",
-            "JC28/11D-06-06",
-            "Not specified in source",
-            "JC28K-01-01-00"
-          ],
-          [
-            "36",
-            "JC21A-01-06",
-            "JC21A-01-06",
-            "PD270x240x15",
-            "HG4-692-67"
-          ],
-          [
-            "37",
-            "JC28/11D-06-03",
-            "JC28/11D-06-03",
-            "Brake Drum",
-            "JC32B-01-07-00"
-          ],
-          [
-            "38",
-            "JC28/11D-06-02",
-            "JC28/11D-06-02",
-            "Not specified in source",
-            "JC28B-01-14"
-          ],
-          [
-            "39",
-            "; JC21A-01-02",
-            "JC21A-01-02",
-            "Not specified in source",
-            "JC28E-01-15"
-          ],
-          [
-            "40",
-            "Liners ; JC28/11D-06-01",
-            "JC28/11D-06-01",
-            "Not specified in source",
-            "JC28/11-06-19"
-          ],
-          [
-            "41",
-            "Washer JC28C-01-10",
-            "JC28C-01-10",
-            "Clutch",
-            "TPQ330"
-          ],
-          [
-            "42",
-            "; JC21A-01-03-00",
-            "JC21A-01-03-00",
-            "Z1/2",
-            "QJKT-2J1-Z10"
-          ],
-          [
-            "43",
-            "; SD-00E",
-            "SD-00E",
-            "L=700",
-            "L=700"
-          ],
-          [
-            "44",
-            "JC28/11-06-03",
-            "Not specified in source",
-            "PD190x225x18",
-            "HG4-692-67"
-          ],
-          [
-            "45",
-            "JC28/11-06-27",
-            "324WCB",
-            "234",
-            "GB276-64"
-          ],
-          [
-            "46",
-            "JC28K-01-03",
-            "Flange",
-            "Washer 20",
-            "GB/T855-1988"
-          ],
-          [
-            "47",
-            "WCB324",
-            "Brake",
-            "Z3/4",
-            "7N9-12"
-          ],
-          [
-            "48",
-            "QJKT-2J1-Z15",
-            "Z1/2",
-            "Z3/4",
-            "QJKT-2J1-Z15"
-          ],
-          [
-            "49",
-            "GB/T5782-2000",
-            "Bolt M20x65",
-            "Not specified in source",
-            "JC28/11-06-10"
-          ],
-          [
-            "50",
-            "QJKT-2J1-Z15",
-            "Z1",
-            "PD220x260x18",
-            "HG4-692-67"
-          ],
-          [
-            "51",
-            "JC28K-01-00",
-            "Assembly",
-            "Not specified in source",
-            "JC14-01-09-00"
-          ],
-          [
-            "52",
-            "JC28/11-06-11-00",
-            "Not specified in source",
-            "Not specified in source",
-            "JC21A-01-13A/B-00"
-          ],
-          [
-            "53",
-            "JC28/11-06-11-03",
-            "For (LEBUS)",
-            "Not specified in source",
-            "JC28/11-06-11-00"
-          ],
-          [
-            "54",
-            "JC28/11-03-05-00",
-            "Brake",
-            "Not specified in source",
-            "JC28K-01-00"
-          ],
-          [
-            "55",
-            "JC28A-02-05",
-            "Bolt Brake",
-            "Brake",
-            "JC18A-03-01-00"
-          ],
-          [
-            "56",
-            "JC28A-02-06",
-            "Bolt Brake",
-            "Brake",
-            "JC21A-03-01-00"
-          ],
-          [
-            "57",
-            "JC21A-03-01-00",
-            "Brake",
-            "Brake",
-            "JC28/11-03-05-00"
-          ],
-          [
-            "58",
-            "JC21A-03-13",
-            "Not specified in source",
-            "Brake Band",
-            "JC14-03-07-00"
-          ],
-          [
-            "59",
-            "JC21A-03-14",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC21A-03-13 / JC21A-03-14"
-          ],
-          [
-            "60",
-            "JC14/11-03-02-00",
-            "Not specified in source",
-            "Bolt/ Brake",
-            "JC28A-02-05 / JC28A-02-06"
-          ],
-          [
-            "61",
-            "JC21A-01-13A/B-05-00",
-            "For LEBUS",
-            "Not specified in source",
-            "JC21/11-02-11-00"
+            "ATD336",
+            "Pneumatic push-type disc clutch"
           ]
         ]
       }

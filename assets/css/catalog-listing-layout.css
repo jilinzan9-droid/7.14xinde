@@ -1,0 +1,63 @@
+/* Compact page identity after removing the repeated catalogue introductions. */
+html[lang] body.catalog-listing-clean .ru-breadcrumb {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 48px;
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e5e7;
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+html[lang] body.catalog-listing-clean .product-breadcrumb-inner {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  width: calc(100% - 36px);
+  max-width: 1440px;
+  min-width: 0;
+  margin-inline: auto;
+  padding-inline: 4px;
+  text-align: start;
+}
+
+html[lang] body.catalog-listing-clean .product-breadcrumb-title {
+  display: inline;
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+}
+
+html[lang] body.catalog-listing-clean .ru-breadcrumb a,
+html[lang] body.catalog-listing-clean .ru-breadcrumb span {
+  color: #333;
+  font-weight: 400;
+}
+
+html[lang] body.catalog-listing-clean .product-entry-section {
+  padding-top: 28px;
+}
+
+html[lang="ar"] body.catalog-listing-clean .product-breadcrumb-inner {
+  direction: rtl;
+  padding-inline: 0;
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  html[lang] body.catalog-listing-clean .product-breadcrumb-inner {
+    gap: 6px 10px;
+  }
+}

@@ -1507,7 +1507,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/fracturing-pump-parts/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/mud-pump-liners-pistons-valves-seats/</loc>
@@ -1517,7 +1517,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/mud-pump-spare-parts/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/news/company-news/</loc>
@@ -1527,13 +1527,13 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/news/f1600-mud-pump-spare-parts-selection-support/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/news/f1600-mud-pump-spare-parts-selection-support/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/news/f1600-mud-pump-spare-parts-selection-support/" />
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/news/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/news/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/news/" />
   </url>
@@ -2271,7 +2271,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/klapany-burovyh-nasosov/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/products/klapany-burovyh-nasosov/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.pratt-oil.com/ar/products/klapany-burovyh-nasosov/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/products/klapany-burovyh-nasosov/" />
@@ -2646,7 +2646,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/qws2500-fracturing-pump-spare-parts/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/rabochiy-klyuch/</loc>
@@ -2783,7 +2783,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/spm-tws600-fracturing-pump-spare-parts/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/tormoz-burovoy-lebedki-jc2811-06-12-00/</loc>
@@ -2967,7 +2967,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/en/products/vtulki-burovogo-nasosa/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/products/vtulki-burovogo-nasosa/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.pratt-oil.com/ar/products/vtulki-burovogo-nasosa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/products/vtulki-burovogo-nasosa/" />
@@ -3119,7 +3119,7 @@
   </url>
   <url>
     <loc>https://www.pratt-oil.com/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.pratt-oil.com/ar/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/" />
@@ -3231,5 +3231,11 @@
     <lastmod>2026-10-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/news/slb-sldc-oman-kuwait-land-rig-records-2026/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/news/slb-sldc-oman-kuwait-land-rig-records-2026/" />
+  </url>
+  <url>
+    <loc>https://www.pratt-oil.com/en/products/f1600-mud-pump-spare-parts/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pratt-oil.com/en/products/f1600-mud-pump-spare-parts/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pratt-oil.com/en/products/f1600-mud-pump-spare-parts/" />
   </url>
 </urlset>

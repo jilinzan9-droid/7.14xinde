@@ -51,6 +51,12 @@ Product navigation points to the catalog pages. The existing landing pages and s
 
 ## Check a release
 
+The 19 October 2026 refinement keeps the complete static part-number tables and existing model URLs. Reference-table searches also normalize separators in the identifier column, including numeric identifiers and leading zeroes; ordinary description searches retain their previous behavior. The current live tables use `landing-catalog.js`; four older model-specific scripts retain the same identifier behavior if reused.
+
+Homepage product, supply and news cards have width-based WebP `srcset` choices in `assets/images/responsive-home/`. Original image URLs, primary hero image selection, product images and the complete imported descriptions and JC reference tables remain available. English language self-links retain the current page, Arabic menu labels use Arabic, and below-fold Arabic footer QR codes load lazily. Only pages with substantive copy changes receive a sitemap date update.
+
+GA4 custom events `contact_click` and `inquiry_draft_prepared` describe contact-link interaction and a prepared WhatsApp draft respectively. They are not delivery confirmations. Custom parameters contain fixed method, placement, form-kind and language values, with a canonical page URL that omits query strings and fragments. They exclude form values and full contact destinations. The WhatsApp fallback link exposes only the public business number; its click handler opens the visitor's complete draft. Existing automatic pageview and remote Enhanced Measurement settings remain independent of these custom events. Product inquiry drafts include the product's canonical URL for the sales team.
+
 Check the GitHub Actions run and `https://www.pratt-oil.com/__pratt_release.json`. The marker's `commit` must equal the deployed GitHub commit. The receiver returns a nonzero exit code on validation or health-check failure.
 
 ## Restore a previous release

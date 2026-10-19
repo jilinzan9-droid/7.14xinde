@@ -282,12 +282,21 @@ function openWhatsAppInquiry(form, message, statusSelector) {
       ? "مسودة WhatsApp جاهزة. راجع الرسالة واضغط إرسال في WhatsApp لإرسال طلبك."
       : "Your WhatsApp draft is ready. Review it and press Send in WhatsApp to send your inquiry.";
     const link = document.createElement("a");
-    link.href = url;
+    link.href = "https://api.whatsapp.com/send?phone=8615908080040";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = isArabic ? "افتح WhatsApp" : "Open WhatsApp";
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      window.open(url, "_blank", "noopener,noreferrer");
+    });
     status.append(" ", link);
   }
+  document.dispatchEvent(new CustomEvent("pratt:inquiry-draft-prepared", {
+    detail: {form_kind: form.hasAttribute("data-product-detail-inquiry") ? "product"
+      : form.hasAttribute("data-contact-inquiry") ? "contact"
+      : form.hasAttribute("data-quote-form") ? "homepage" : "other"}
+  }));
   window.open(url, "_blank", "noopener,noreferrer");
 }
 
@@ -393,6 +402,8 @@ document.querySelectorAll("[data-product-detail-inquiry]").forEach(function (for
       ".ru-product-detail-copy h1, .wcb-cn-hero-copy h1, .brake-band-summary-copy h1, main h1"
     );
     var product = productTitle ? productTitle.textContent.trim() : "Oilfield spare part";
+    var canonical = document.querySelector('link[rel="canonical"]');
+    var pageUrl = canonical ? canonical.href : window.location.origin + window.location.pathname;
     var isArabic = document.documentElement.lang === "ar";
     var lines = isArabic
       ? [
@@ -402,7 +413,8 @@ document.querySelectorAll("[data-product-detail-inquiry]").forEach(function (for
           "الاسم: " + value("name"),
           "البريد الإلكتروني: " + value("email"),
           "الهاتف: " + (value("phone") || "غير مذكور"),
-          "الرسالة: " + value("message")
+          "الرسالة: " + value("message"),
+          "رابط المنتج: " + pageUrl
         ]
       : [
           "Hello Pratt Oil, I need a quotation.",
@@ -411,7 +423,8 @@ document.querySelectorAll("[data-product-detail-inquiry]").forEach(function (for
           "Name: " + value("name"),
           "Email: " + value("email"),
           "Phone: " + (value("phone") || "Not provided"),
-          "Message: " + value("message")
+          "Message: " + value("message"),
+          "Product URL: " + pageUrl
         ];
     openWhatsAppInquiry(form, lines.join("\n"), "[data-product-detail-inquiry-status]");
   });

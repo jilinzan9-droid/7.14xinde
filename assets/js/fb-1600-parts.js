@@ -118,6 +118,15 @@ const isAr=document.documentElement.lang==="ar";
 const L=isAr?{s:"ابحث برقم القطعة أو اسمها",c:"قطعة",e:"لا توجد نتائج مطابقة.",p:"رقم القطعة",n:"اسم القطعة"}:{s:"Search by part number or part name",c:"parts",e:"No matching parts found.",p:"Part number",n:"Part name"};
 root.innerHTML=`<div class="parts-catalog-toolbar"><label class="parts-search-label"><span>${L.s}</span><input class="parts-search" type="search" placeholder="${L.s}" autocomplete="off"></label><strong class="parts-result-count" aria-live="polite"></strong></div><div class="parts-table-scroll"><table class="parts-catalog-table"><thead><tr><th>${L.p}</th><th>${L.n}</th><th>${L.p}</th><th>${L.n}</th></tr></thead><tbody></tbody></table></div><p class="parts-empty" hidden>${L.e}</p>`;
 const input=root.querySelector(".parts-search"),tbody=root.querySelector("tbody"),count=root.querySelector(".parts-result-count"),empty=root.querySelector(".parts-empty"),wrap=root.querySelector(".parts-table-scroll");
-function render(q=""){const n=q.trim().toLowerCase(),rows=parts.filter(x=>!n||x.partNumber.toLowerCase().includes(n)||(isAr?ar(x.name):x.name).toLowerCase().includes(n)),pairs=[];for(let i=0;i<rows.length;i+=2)pairs.push([rows[i],rows[i+1]]);tbody.innerHTML=pairs.map(([a,b])=>`<tr><td dir="ltr"><code>${a.partNumber}</code></td><td>${isAr?ar(a.name):a.name}</td>${b?`<td dir="ltr"><code>${b.partNumber}</code></td><td>${isAr?ar(b.name):b.name}</td>`:`<td class="parts-cell-empty"></td><td class="parts-cell-empty"></td>`}</tr>`).join("");count.textContent=`${rows.length} ${L.c}`;empty.hidden=rows.length!==0;wrap.hidden=rows.length===0}
+function matchesPartNumber(partNumber, query) {
+  const normalize = value => value.normalize("NFKC").toLowerCase();
+  const needle = normalize(query.trim());
+  const number = normalize(partNumber);
+  if (number.includes(needle)) return true;
+  if (!/\d/.test(needle)) return false;
+  const compact = value => value.replace(/[\s\p{Pd}_./]+/gu, "");
+  return compact(number).includes(compact(needle));
+}
+function render(q=""){const n=q.trim().toLowerCase(),rows=parts.filter(x=>!n||matchesPartNumber(x.partNumber,n)||(isAr?ar(x.name):x.name).toLowerCase().includes(n)),pairs=[];for(let i=0;i<rows.length;i+=2)pairs.push([rows[i],rows[i+1]]);tbody.innerHTML=pairs.map(([a,b])=>`<tr><td dir="ltr"><code>${a.partNumber}</code></td><td>${isAr?ar(a.name):a.name}</td>${b?`<td dir="ltr"><code>${b.partNumber}</code></td><td>${isAr?ar(b.name):b.name}</td>`:`<td class="parts-cell-empty"></td><td class="parts-cell-empty"></td>`}</tr>`).join("");count.textContent=`${rows.length} ${L.c}`;empty.hidden=rows.length!==0;wrap.hidden=rows.length===0}
 input.addEventListener("input",()=>render(input.value));render();
 })();

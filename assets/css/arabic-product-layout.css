@@ -1,0 +1,32 @@
+/* Let the shared RTL detail hero fit its available columns instead of 478px. */
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-hero {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-hero > .ru-product-detail-copy,
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-hero > .ru-product-detail-image {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-hero > .ru-product-detail-image {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-copy h1,
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-copy > p {
+  overflow-wrap: anywhere;
+}
+
+html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-copy .hero-actions {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  html[lang="ar"] body.ar-product-detail-page:not(.compact-product-range-page):not(.standard-product-page) .ru-product-detail-hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

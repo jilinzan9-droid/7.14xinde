@@ -15,7 +15,7 @@
     },
     {
       "id": "shtok-porshnya-burovogo-nasosa-3",
-      "name": "Piston Rod Mud Pump",
+      "name": "Mud Pump Piston Rod",
       "name_ar": "قضيب المكبس مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -28,7 +28,7 @@
     },
     {
       "id": "shtok-porshnya-burovogo-nasosa-2",
-      "name": "Piston Rod Mud Pump",
+      "name": "Mud Pump Piston Rod",
       "name_ar": "قضيب المكبس مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -94,7 +94,7 @@
     {
       "id": "plunzher-nasosa-vysokogo-davleniya",
       "name": "Plunger High-Pressure Pump",
-      "name_ar": "Plunger مضخة ضغط عال",
+      "name_ar": "مكبس غاطس لمضخة ضغط عال",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
       "blurb": "High-turnover replacement parts for drilling equipment maintenance and repair.",
@@ -159,7 +159,7 @@
     {
       "id": "klapan-v-sbore-dlya-burovogo-nasos-2",
       "name": "Valve Assembly For Pump",
-      "name_ar": "مجموعة الصمام For مضخة",
+      "name_ar": "مجموعة صمام المضخة",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
       "blurb": "High-turnover replacement parts for drilling equipment maintenance and repair.",
@@ -172,7 +172,7 @@
     {
       "id": "klapan-v-sbore-dlya-burovogo-nasos",
       "name": "Valve Assembly For Pump",
-      "name_ar": "مجموعة الصمام For مضخة",
+      "name_ar": "مجموعة صمام المضخة",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
       "blurb": "High-turnover replacement parts for drilling equipment maintenance and repair.",
@@ -184,7 +184,7 @@
     },
     {
       "id": "keramicheskaya-vtulka-burovogo-nasosa",
-      "name": "Ceramic Liner Mud Pump",
+      "name": "Ceramic Mud Pump Liner",
       "name_ar": "بطانة خزفية مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -198,7 +198,7 @@
     {
       "id": "kamera-pnevmaticheskoy-mufty",
       "name": "Pneumatic Clutch Tube",
-      "name_ar": "قابض هوائي Tube",
+      "name_ar": "أنبوب هواء القابض الهوائي",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
       "blurb": "High-turnover replacement parts for drilling equipment maintenance and repair.",
@@ -223,7 +223,7 @@
     },
     {
       "id": "vtulki-burovogo-nasosa-2",
-      "name": "Liners Mud Pump",
+      "name": "Mud Pump Liners",
       "name_ar": "بطانات مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -236,7 +236,7 @@
     },
     {
       "id": "bimetallicheskaya-vtulka-burovogo-nas-2",
-      "name": "Bimetal Liner Mud Pump",
+      "name": "Bimetal Mud Pump Liner",
       "name_ar": "بطانة ثنائية المعدن مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -249,7 +249,7 @@
     },
     {
       "id": "bimetallicheskaya-vtulka-burovogo-nas",
-      "name": "Bimetal Liner Mud Pump",
+      "name": "Bimetal Mud Pump Liner",
       "name_ar": "بطانة ثنائية المعدن مضخة الطين",
       "category": "Fast-Wear Parts",
       "category_ar": "أجزاء سريعة التآكل",
@@ -263,7 +263,7 @@
     {
       "id": "kompleksnye-postavki-zapchastey-dlya-b",
       "name": "Complete Spare Parts Supply For Drilling And Oilfield Equipment",
-      "name_ar": "توريد كامل لقطع الغيار For معدات الحفر وحقول النفط",
+      "name_ar": "توريد متكامل لقطع غيار معدات الحفر وحقول النفط",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -293,7 +293,7 @@
     {
       "id": "eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor",
       "name": "Eaton WCB Water-Cooled Auxiliary Brake",
-      "name_ar": "Eaton WCB Water-Cooled فرامل مساعدة WCB324 WCB224 WCB236 WCB336",
+      "name_ar": "فرامل Eaton WCB المساعدة المبردة بالماء WCB324 WCB224 WCB236 WCB336",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Water-cooled auxiliary brake enquiries for WCB224, WCB236, WCB324 and WCB336 references. Please provide the exact brake designation, nameplate photo and assembly drawing so the requested unit or replacement component can be matched.",
@@ -759,7 +759,7 @@
     {
       "id": "pnevmaticheskie-mufty-shpm-lt",
       "name": "LT Series Pneumatic Air Tube Clutches",
-      "name_ar": "قابض هوائيes LT",
+      "name_ar": "قوابض هوائية من سلسلة LT",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "LT series pneumatic air tube clutches for drawworks replacement enquiries. Share the existing clutch designation, part number, photos and key dimensions to identify the required assembly or component.",
@@ -2166,7 +2166,7 @@
     {
       "id": "pnevmaticheskiy-tip-mufta-nazhima-buro",
       "name": "ATD Pneumatic Push-Type Disc Clutches",
-      "name_ar": "Drilling Rig Pneumatic Push-Type قابض ATD224 ATD324 ATD236 ATD336",
+      "name_ar": "قابض قرصي هوائي من نوع الدفع ATD224 ATD324 ATD236 ATD336",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Pneumatic push-type disc clutch enquiries for ATD224, ATD324, ATD236 and ATD336 references. Confirm the complete model designation and assembly drawing, including any suffix, before selecting a replacement.",
@@ -2636,7 +2636,7 @@
     {
       "id": "shtok-porshnya-gh3161-05-18-dlya-burovoy-nasos-f1300f1600",
       "name": "Piston Rod GH3161-05.18 For Mud Pump F1300F1600",
-      "name_ar": "قضيب المكبس GH3161-05.18 For مضخة الطين F1300F1600",
+      "name_ar": "قضيب مكبس GH3161-05.18 لمضخة الطين F1300F1600",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -4118,7 +4118,7 @@
     {
       "id": "natyazhnoy-rychag-gh3161-04-12-g-dlya-burovoy-naso",
       "name": "GH3161-04.12(G) For Mud Pump F",
-      "name_ar": "GH3161-04.12(G) For مضخة الطين F",
+      "name_ar": "قطعة GH3161-04.12(G) لمضخة الطين من سلسلة F",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -4612,7 +4612,7 @@
     {
       "id": "kupit-gh3161-05-11-00g-klapan-v-sbore-dlya-burovoy-n",
       "name": "GH3161-05.11.00(G) Valve Assembly For Mud Pump F1300F1600",
-      "name_ar": "GH3161-05.11.00(G) مجموعة الصمام For مضخة الطين F1300F1600",
+      "name_ar": "مجموعة صمام GH3161-05.11.00(G) لمضخة الطين F1300F1600",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -5106,7 +5106,7 @@
     {
       "id": "vtulka-bimetallicheskaya-gh3161-05-21-dlya-burovo",
       "name": "Liner GH3161-05.21 For Mud Pump F1300F1600",
-      "name_ar": "بطانة GH3161-05.21 For مضخة الطين F1300F1600",
+      "name_ar": "بطانة GH3161-05.21 لمضخة الطين F1300F1600",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -5600,7 +5600,7 @@
     {
       "id": "klapana-burovogo-nasosa-gh3161-05-11-00",
       "name": "Mud Pump Valve GH3161-05.11.00",
-      "name_ar": "Mud صمام المضخة GH3161-05.11.00",
+      "name_ar": "صمام مضخة الطين GH3161-05.11.00",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -6094,7 +6094,7 @@
     {
       "id": "klapana-burovogo-nasosa-nb1602-01-05-00",
       "name": "Mud Pump Valve NB1602.01.05.00",
-      "name_ar": "Mud صمام المضخة NB1602.01.05.00",
+      "name_ar": "صمام مضخة الطين NB1602.01.05.00",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -6588,7 +6588,7 @@
     {
       "id": "korobka-gidravlicheskaya-gh3161-05-01-00-dlya-burovo",
       "name": "GH3161-05.01.00 For Mud Pump F13001600",
-      "name_ar": "GH3161-05.01.00 For مضخة الطين F13001600",
+      "name_ar": "قطعة GH3161-05.01.00 لمضخة الطين F13001600",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -7082,7 +7082,7 @@
     {
       "id": "korobka-gidravlicheskaya-nb1602-01-01-00-dlya-burovo",
       "name": "NB1602.01.01.00 For Mud Pump F1600HL",
-      "name_ar": "NB1602.01.01.00 For مضخة الطين F1600HL",
+      "name_ar": "قطعة NB1602.01.01.00 لمضخة الطين F1600HL",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -16144,7 +16144,7 @@
     {
       "id": "burovoy-gidravlicheskiy-klyuch-prikolo",
       "name": "Hydraulic Drilling Tong - Pin",
-      "name_ar": "مفتاح حفر هيدروليكي - Pin",
+      "name_ar": "دبوس كماشة أنابيب هيدروليكية",
       "category": "Wellhead Tools",
       "category_ar": "أدوات رأس البئر",
       "blurb": "Wellhead Tools",
@@ -20736,7 +20736,7 @@
     {
       "id": "korpus-v-sbore-pkr-560",
       "name": "PKR-560 Body Assembly",
-      "name_ar": "PKR-560 Body مجموعة",
+      "name_ar": "مجموعة جسم PKR-560",
       "category": "Wellhead Tools",
       "category_ar": "أدوات رأس البئر",
       "blurb": "Wellhead Tools",
@@ -26246,7 +26246,7 @@
     {
       "id": "burovoy-gidravlicheskiy-klyuch-serii-tq",
       "name": "TQ Series Drilling Hydraulic Tong",
-      "name_ar": "TQ سلسلة Drilling Hydraulic Tong",
+      "name_ar": "كماشات الأنابيب الهيدروليكية من سلسلة TQ",
       "category": "Wellhead Tools",
       "category_ar": "أدوات رأس البئر",
       "blurb": "Wellhead Tools",
@@ -27531,7 +27531,7 @@
     {
       "id": "atd-prodvigayuschaya-mufta",
       "name": "ATD Advancing Clutch",
-      "name_ar": "ATD Advancing قابض",
+      "name_ar": "قابض ATD",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -27737,7 +27737,7 @@
     {
       "id": "dvoynoy-napravlyayuschiy-kran-sd-00e",
       "name": "Double Directional Valve SD-00E",
-      "name_ar": "Double Directional صمام SD-00E",
+      "name_ar": "صمام تحكم اتجاهي مزدوج SD-00E",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -28730,7 +28730,7 @@
     {
       "id": "shesternya",
       "name": "Gear",
-      "name_ar": "Gear",
+      "name_ar": "ترس",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -29294,7 +29294,7 @@
     {
       "id": "wcb-eaton-vspomogatelnogo-tormoza-iznosnaya",
       "name": "WCB Eaton Auxiliary Brake - Wear Plate",
-      "name_ar": "WCB Eaton فرامل مساعدة - Wear لوحة",
+      "name_ar": "صفيحة تآكل فرامل Eaton WCB المساعدة",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
       "blurb": "Drawworks Brake System",
@@ -31174,7 +31174,7 @@
     {
       "id": "ruchka-tormoza",
       "name": "Brake Handle",
-      "name_ar": "فرامل Handle",
+      "name_ar": "مقبض الفرامل",
       "category": "Hydraulic Disc Brake System",
       "category_ar": "نظام الفرامل القرصية الهيدروليكية",
       "blurb": "Hydraulic Disc Brake System",
@@ -35200,7 +35200,7 @@
     {
       "id": "uzel-predohranitelnogo-tsilindra",
       "name": "Safety Cylinder Unit",
-      "name_ar": "أسطوانة أمان Unit",
+      "name_ar": "وحدة أسطوانة الأمان",
       "category": "Hydraulic Disc Brake System",
       "category_ar": "نظام الفرامل القرصية الهيدروليكية",
       "blurb": "Hydraulic Disc Brake System",
@@ -40168,7 +40168,7 @@
     {
       "id": "klapan-reversivnyy-elektromagnitnyy",
       "name": "Explosion-Proof Solenoid Reversing Valve BKD-Z-X1",
-      "name_ar": "Explosion-Proof Solenoid صمام عكسي BKD-Z-X1",
+      "name_ar": "صمام عكس كهرومغناطيسي مقاوم للانفجار BKD-Z-X1",
       "category": "Hydraulic Disc Brake System",
       "category_ar": "نظام الفرامل القرصية الهيدروليكية",
       "blurb": "Hydraulic Disc Brake System",
@@ -41961,7 +41961,7 @@
     {
       "id": "klapan-protivozataskivatelya-fp-l6",
       "name": "FP-L6 Anti-Drag Valve",
-      "name_ar": "FP-L6 Anti-Drag صمام",
+      "name_ar": "صمام FP-L6",
       "category": "Valves, Pumps and Hydraulic Components",
       "category_ar": "الصمامات والمضخات والمكونات الهيدروليكية",
       "blurb": "Valves, Pumps and Hydraulic Components",
@@ -42467,7 +42467,7 @@
     {
       "id": "wpt-stseplenie-treniya-otbor-moschnosti-wpt-type-1-pto",
       "name": "WPT Type 1 PTO Friction Clutch",
-      "name_ar": "WPT Type 1 PTO Friction قابض",
+      "name_ar": "قابض احتكاكي لمأخذ القدرة WPT Type 1 PTO",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -43611,7 +43611,7 @@
     },
     {
       "id": "tormoz-burovoy-lebedki-lenta-tormozn",
-      "name": "Drawworks Brake - Brake",
+      "name": "Drawworks Brake Band",
       "name_ar": "فرامل ونش الحفر - فرامل",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
@@ -45534,7 +45534,7 @@
     {
       "id": "gidrotsilindr-predohranitelnogo-sup",
       "name": "Safety Caliper Hydraulic Cylinder Assembly",
-      "name_ar": "Safety Caliper مجموعة أسطوانة هيدروليكية",
+      "name_ar": "مجموعة الأسطوانة الهيدروليكية لفرجار الأمان",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
       "blurb": "Drawworks Brake System",
@@ -45942,7 +45942,7 @@
     {
       "id": "rabochiy-klyuch",
       "name": "Working Tong",
-      "name_ar": "Working Tong",
+      "name_ar": "فرجار فرامل التشغيل",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
       "blurb": "Drawworks Brake System",
@@ -46935,7 +46935,7 @@
     {
       "id": "wcb-eaton-vspomogatelnogo-tormoza-ottyazhnaya",
       "name": "WCB Eaton Auxiliary Brake - Return Spring",
-      "name_ar": "WCB Eaton فرامل مساعدة - Return نابض",
+      "name_ar": "نابض إرجاع لفرامل Eaton WCB المساعدة",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
       "blurb": "Drawworks Brake System",
@@ -47520,7 +47520,7 @@
     {
       "id": "wcb-eaton-vspomogatelnogo-tormoza-kromochno",
       "name": "WCB Eaton Auxiliary Brake - Edge Seal",
-      "name_ar": "WCB Eaton فرامل مساعدة - Edge مانع تسرب",
+      "name_ar": "مانع تسرب طرفي لفرامل Eaton WCB المساعدة",
       "category": "Drawworks Brake System",
       "category_ar": "نظام فرامل ونش الحفر",
       "blurb": "Drawworks Brake System",
@@ -48740,7 +48740,7 @@
     {
       "id": "tsilindr-gidrousilitelya-rulya",
       "name": "Power Steering Cylinder",
-      "name_ar": "Power Steering أسطوانة",
+      "name_ar": "أسطوانة مؤازرة التوجيه",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -49086,7 +49086,7 @@
     {
       "id": "wpt-stseplenie-prodvigayuschego-diska",
       "name": "WPT Advancing Disc Clutch",
-      "name_ar": "WPT Advancing قرص قابض",
+      "name_ar": "قابض قرصي WPT",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -49359,7 +49359,7 @@
     },
     {
       "id": "tormoz-burovoy-lebedki-lenta-tormozn-2",
-      "name": "Drawworks Brake - Brake",
+      "name": "Drawworks Brake Band",
       "name_ar": "فرامل ونش الحفر - فرامل",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
@@ -49625,7 +49625,7 @@
     },
     {
       "id": "eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomo",
-      "name": "Eaton Airflex WCB Water-Cooled Brake Brake",
+      "name": "Eaton Airflex WCB Water-Cooled Auxiliary Brake",
       "name_ar": "Eaton Airflex WCB فرامل مبردة بالماء فرامل",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
@@ -49900,7 +49900,7 @@
     {
       "id": "kryuk-talevogo-bloka-burovogo-oborudo-2",
       "name": "Drilling Equipment Traveling Block Hook",
-      "name_ar": "Drilling Equipment خطاف البلوك المتحرك",
+      "name_ar": "خطاف البلوك المتحرك لمعدات الحفر",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -50043,7 +50043,7 @@
     {
       "id": "kryuk-talevogo-bloka-burovogo-oborudo",
       "name": "Drilling Equipment Traveling Block Hook",
-      "name_ar": "Drilling Equipment خطاف البلوك المتحرك",
+      "name_ar": "خطاف البلوك المتحرك لمعدات الحفر",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -50711,7 +50711,7 @@
     {
       "id": "rotora-burovoy-ustanovki-zp",
       "name": "ZP Drilling Rig Rotary Table",
-      "name_ar": "ZP Drilling Rig طاولة دوارة",
+      "name_ar": "طاولة دوارة للحفارة من سلسلة ZP",
       "category": "Drilling Rigs and Drawworks Accessories",
       "category_ar": "الحفارات وملحقات الونش",
       "blurb": "Drilling Rigs and Drawworks Accessories",
@@ -51889,7 +51889,7 @@
     {
       "id": "uplotnenie-plunzhera",
       "name": "Plunger Seal",
-      "name_ar": "Plunger مانع تسرب",
+      "name_ar": "مانع تسرب المكبس الغاطس",
       "category": "TPB600/TPC600/TPD600 Plunger Pump",
       "category_ar": "مضخة مكبس TPB600/TPC600/TPD600",
       "blurb": "Mud Pumps and Spare Parts",
@@ -52747,7 +52747,7 @@
     {
       "id": "plunzher-burovogo-nasosa-2",
       "name": "Mud Pump Plunger",
-      "name_ar": "Mud مكبس المضخة",
+      "name_ar": "مكبس غاطس لمضخة الطين",
       "category": "TPB600/TPC600/TPD600 Plunger Pump",
       "category_ar": "مضخة مكبس TPB600/TPC600/TPD600",
       "blurb": "Mud Pumps and Spare Parts",
@@ -55321,9 +55321,9 @@
     {
       "id": "plunzhernyy-nasos-probkovyy-kran",
       "name": "Plunger Pump Plug Valve",
-      "name_ar": "مضخة مكبس Plug صمام",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name_ar": "صمام سدادي لمضخة مكبسية",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/plunzhernyy-nasos-probkovyy-kran-main.webp",
@@ -55982,10 +55982,10 @@
     },
     {
       "id": "plunzhernyy-nasos-uplotnitelnaya-gay",
-      "name": "Plunger Pump -",
-      "name_ar": "مضخة مكبس -",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name": "Plunger Pump Sealing Nut",
+      "name_ar": "صامولة إحكام لمضخة مكبسية",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/plunzhernyy-nasos-uplotnitelnaya-gay-main.jpg",
@@ -56645,9 +56645,9 @@
     {
       "id": "uplotnenie-plunzhernogo-nasosa",
       "name": "Plunger Pump Seal",
-      "name_ar": "مضخة مكبس مانع تسرب",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name_ar": "مانع تسرب لمضخة مكبسية",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/uplotnenie-plunzhernogo-nasosa-main.webp",
@@ -57306,10 +57306,10 @@
     },
     {
       "id": "plunzhernyy-nasos-bolshoy-shtok",
-      "name": "Plunger Pump Large Rod",
-      "name_ar": "مضخة مكبس Large Rod",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name": "Large Plunger Pump Rod",
+      "name_ar": "قضيب لمضخة مكبسية",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/plunzhernyy-nasos-bolshoy-shtok-main.webp",
@@ -57969,7 +57969,7 @@
     {
       "id": "vertikalnaya-zaglushka",
       "name": "Vertical Plug",
-      "name_ar": "Vertical Plug",
+      "name_ar": "سدادة رأسية",
       "category": "TPB600/TPC600/TPD600 Plunger Pump",
       "category_ar": "مضخة مكبس TPB600/TPC600/TPD600",
       "blurb": "Mud Pumps and Spare Parts",
@@ -58827,9 +58827,9 @@
     {
       "id": "klapan-v-sbore-dlya-nasosa",
       "name": "Pump Valve Assembly",
-      "name_ar": "مضخة مجموعة الصمام",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name_ar": "مجموعة صمام المضخة",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/klapan-v-sbore-dlya-nasosa-main.webp",
@@ -59489,9 +59489,9 @@
     {
       "id": "plunzher-burovogo-nasosa",
       "name": "Mud Pump Plunger",
-      "name_ar": "Mud مكبس المضخة",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name_ar": "مكبس غاطس للمضخة",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/plunzher-burovogo-nasosa-main.webp",
@@ -60151,9 +60151,9 @@
     {
       "id": "plunzhernyy-nasos-kolenchatyy-val",
       "name": "Plunger Pump Crankshaft",
-      "name_ar": "مضخة مكبس عمود مرفقي",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "name_ar": "عمود مرفق مضخة مكبسية",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/plunzhernyy-nasos-kolenchatyy-val-main.webp",
@@ -60814,8 +60814,8 @@
       "id": "gidravlicheskiy-korpus-gidrokorobka",
       "name": "Fluid End Module",
       "name_ar": "وحدة الطرف السائل",
-      "category": "SPM TWS Mud Pump",
-      "category_ar": "مضخة الطين SPM TWS",
+      "category": "SPM TWS Well Service Pump Spare Parts",
+      "category_ar": "قطع غيار مضخات خدمة الآبار SPM TWS",
       "blurb": "Mud Pumps and Spare Parts",
       "blurb_ar": "مضخات الحفر وقطع الغيار",
       "image": "/demo/pratt-oil-oilfield/assets/images/ru-products/gidravlicheskiy-korpus-gidrokorobka-main.webp",
@@ -61475,7 +61475,7 @@
     {
       "id": "homut-vtulki-dlya-nasosa",
       "name": "Pump Liner Clamp",
-      "name_ar": "مضخة بطانة Clamp",
+      "name_ar": "مشبك بطانة المضخة",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
       "blurb": "Mud Pumps and Spare Parts",
@@ -62191,8 +62191,8 @@
     },
     {
       "id": "burovym-nasosam-serii-unbt-val-shester",
-      "name": "Pump Series -- For Mud Pump",
-      "name_ar": "مضخة سلسلة -- For مضخة الطين",
+      "name": "UNBT Series Mud Pump Pinion Shaft",
+      "name_ar": "قطعة لمضخة الطين من سلسلة UNBT",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
       "blurb": "Mud Pumps and Spare Parts",
@@ -62908,7 +62908,7 @@
     },
     {
       "id": "burovym-nasosam-serii-unbt-shtok-burov",
-      "name": "Pump Series - Mud Pump",
+      "name": "UNBT Series Mud Pump Rod",
       "name_ar": "مضخة سلسلة - مضخة الطين",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
@@ -63626,7 +63626,7 @@
     {
       "id": "klapan-dlya-burovogo-nasosa",
       "name": "Mud Pump Valve",
-      "name_ar": "Mud صمام المضخة",
+      "name_ar": "صمام مضخة الطين",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
       "blurb": "Mud Pumps and Spare Parts",
@@ -64342,7 +64342,7 @@
     },
     {
       "id": "burovym-nasosam-serii-unbt-porshen-bu",
-      "name": "Pump Series - Piston Mud Pump",
+      "name": "UNBT Series Mud Pump Piston",
       "name_ar": "مضخة سلسلة - مكبس مضخة الطين",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
@@ -65776,7 +65776,7 @@
     },
     {
       "id": "burovym-nasosam-serii-unbt-vtulka-bur",
-      "name": "Pump Series - Liner Mud Pump",
+      "name": "UNBT Series Mud Pump Liner",
       "name_ar": "مضخة سلسلة - بطانة مضخة الطين",
       "category": "UNBT Mud Pump",
       "category_ar": "مضخة الطين UNBT",
@@ -66494,7 +66494,7 @@
     {
       "id": "klapan-nabor-instrument-semnik",
       "name": "Valve Puller Tool Set",
-      "name_ar": "صمام Puller Tool Set",
+      "name_ar": "طقم أدوات سحب الصمامات",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -67088,7 +67088,7 @@
     {
       "id": "predohranitelnyy-klapan-so-sreznym",
       "name": "Shear Pin Safety Valve",
-      "name_ar": "Shear Pin Safety صمام",
+      "name_ar": "صمام أمان بدبوس قص",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -67778,7 +67778,7 @@
     {
       "id": "homut-shtoka-v-sbore-burovgo-nasosa",
       "name": "Mud Pump Rod Clamp Assembly",
-      "name_ar": "مضخة الطين Rod Clamp مجموعة",
+      "name_ar": "مجموعة مشبك قضيب مضخة الطين",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -68966,7 +68966,7 @@
     {
       "id": "burovoy-nasos-udlinitel-sterzhnya-2",
       "name": "Mud Pump Rod Extension",
-      "name_ar": "مضخة الطين Rod Extension",
+      "name_ar": "وصلة تمديد قضيب مضخة الطين",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -69560,7 +69560,7 @@
     {
       "id": "burovoy-nasos-iznos-plastiny",
       "name": "Mud Pump Wear Plate",
-      "name_ar": "مضخة الطين Wear لوحة",
+      "name_ar": "صفيحة تآكل مضخة الطين",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -70154,7 +70154,7 @@
     {
       "id": "diafragma-kompensatora-kb75-kb45",
       "name": "KB75 KB45 Pulsation Dampener Diaphragm",
-      "name_ar": "KB75 KB45 Pulsation Dampener Diaphragm",
+      "name_ar": "غشاء مخمّد النبضات KB75 KB45",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -70748,7 +70748,7 @@
     {
       "id": "kompensator-v-sbore-nasosa-kb45-kb75",
       "name": "KB45 KB75 Pump Pulsation Dampener Assembly",
-      "name_ar": "KB45 KB75 مضخة Pulsation Dampener مجموعة",
+      "name_ar": "مجموعة مخمّد نبضات المضخة KB45 KB75",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -71342,7 +71342,7 @@
     {
       "id": "klapan-dlya-burovyh-nasosov",
       "name": "Mud Pump Valve",
-      "name_ar": "Mud صمام المضخة",
+      "name_ar": "صمام مضخة الطين",
       "category": "HHF Series Mud Pump",
       "category_ar": "مضخة الطين سلسلة HHF",
       "blurb": "Mud Pumps and Spare Parts",
@@ -75315,7 +75315,7 @@
     {
       "id": "pruzhinnyy-predohranitelnyy-klapan",
       "name": "Spring Safety Valve",
-      "name_ar": "نابض Safety صمام",
+      "name_ar": "صمام أمان نابضي",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Mud Pumps and Spare Parts",
@@ -76318,7 +76318,7 @@
     {
       "id": "burovye-nasosy-iznos-plastiny",
       "name": "Mud Pump Wear Plate",
-      "name_ar": "مضخة الطين Wear لوحة",
+      "name_ar": "صفيحة تآكل مضخة الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Mud Pumps and Spare Parts",
@@ -77321,7 +77321,7 @@
     {
       "id": "polzun-burovogo-nasosa",
       "name": "Mud Pump Crosshead",
-      "name_ar": "مضخة الطين Crosshead",
+      "name_ar": "الرأس المتقاطع لمضخة الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Mud Pumps and Spare Parts",
@@ -78324,7 +78324,7 @@
     {
       "id": "burovoy-nasos-udlinitel-sterzhnya",
       "name": "Mud Pump Rod Extension",
-      "name_ar": "مضخة الطين Rod Extension",
+      "name_ar": "وصلة تمديد قضيب مضخة الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Mud Pumps and Spare Parts",
@@ -79327,7 +79327,7 @@
     {
       "id": "klapany-burovyh-nasosov",
       "name": "Mud Pump Valves",
-      "name_ar": "Mud صمام المضخةs",
+      "name_ar": "صمامات مضخة الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Replacement mud pump valves and valve components for F-series parts inquiries. Identify the valve assembly and mating seat from the equipment parts list before ordering.",
@@ -81333,7 +81333,7 @@
     {
       "id": "porshen-burovogo-nasosa",
       "name": "F-Series Mud Pump Piston",
-      "name_ar": "مضخة الطين مكبس",
+      "name_ar": "مكبس مضخة الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Replacement piston inquiries from the F-series mud pump catalog. Send the piston assembly number, liner bore and rod connection details to match the requested component.",
@@ -82336,7 +82336,7 @@
     {
       "id": "vtulki-burovogo-nasosa",
       "name": "Mud Pump Liners",
-      "name_ar": "مضخة الطين بطانات",
+      "name_ar": "بطانات مضخات الطين",
       "category": "BOMCO F Series Mud Pumps",
       "category_ar": "مضخات الطين BOMCO F Series",
       "blurb": "Replacement cylinder liner inquiries for F-series mud pumps. Confirm the pump manufacturer, full model, liner bore and component reference before selecting a liner.",

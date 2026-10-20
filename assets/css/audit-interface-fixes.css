@@ -1,0 +1,30 @@
+/* Fix the affected light-background sections without changing dark hero slides. */
+html[lang] body.country-supplier-page .page-hero .btn.secondary.dark-text {
+  color: #26333a;
+  background: #fff;
+  border-color: #b8c7ce;
+}
+html[lang="ar"] body #part-number .btn.secondary.light {
+  color: #075e50;
+  background: #fff;
+  border-color: #8caea7;
+}
+html[lang] body.country-supplier-page .country-company-reference {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #dce4e6;
+  background: #fff;
+}
+html[lang] body.country-supplier-page .country-company-reference img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+html[lang] body.country-supplier-page .country-company-reference figcaption {
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #52646d;
+}

@@ -1,0 +1,16 @@
+/* Keep the disabled-until-ready fieldset in the existing responsive form grid. */
+body.wcb-reference-cn-page .product-detail-inquiry-form > .wcb-inquiry-fields {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: inherit;
+  gap: inherit;
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body.wcb-reference-cn-page .wcb-inquiry-fields:disabled button {
+  cursor: not-allowed;
+  opacity: 0.65;
+}

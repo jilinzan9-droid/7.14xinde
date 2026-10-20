@@ -1,0 +1,586 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+UNBT-1180L2,УНБТ 02.00.00.000 СБ,UNBT-1180L2 pump general assembly reference,,,S1,PDF p. 7
+UNBT-1180L2,УНБТ 01.06.00.000 СБ,Hydraulic block assembly,,,S1,PDF p. 37
+UNBT-1180L2,96033.53.005 СБ,Valve assembly,,,S1,PDF p. 37
+UNBT-1180L2,96033.53.009 СБ,Valve cover assembly,,,S1,PDF p. 37
+UNBT-1180L2,66097.53.084 СБ,Clamp assembly,,,S1,PDF p. 37
+UNBT-1180L2,66097.53.071 СБ,Hydraulic box,,,S1,PDF p. 37
+UNBT-1180L2,66097.53.073 СБ,Hydraulic box,,,S1,PDF p. 37
+UNBT-1180L2,УНБТ 01.06.01.000 СБ,Discharge manifold,,,S1,PDF p. 37
+UNBT-1180L2,УНБТ 01.06.02.000 СБ,Suction manifold,,,S1,PDF p. 37
+UNBT-1180L2,66097.53.147 СБ,Cooling-fluid feed connection,,,S1,PDF p. 37
+UNBT-1180L2,66097.53.100 СБ,Deflector,,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230 СБ,"Piston assembly, diameter 180 mm",,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-01 СБ,"Piston assembly, diameter 170 mm",,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-02 СБ,"Piston assembly, diameter 160 mm",,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-03 СБ,"Piston assembly, diameter 150 mm",,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-04 СБ,"Piston assembly, diameter 140 mm",,,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-07 СБ,"Piston assembly, diameter 190 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034-01 СБ,"Bimetallic liner, diameter 180 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034 СБ,"Bimetallic liner, diameter 190 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034-02 СБ,"Bimetallic liner, diameter 170 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034-03 СБ,"Bimetallic liner, diameter 160 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034-04 СБ,"Bimetallic liner, diameter 150 mm",,,S1,PDF p. 37
+UNBT-1180L2,6606.53.034-05 СБ,"Bimetallic liner, diameter 140 mm",,,S1,PDF p. 37
+UNBT-1180L2,66097.53.225,Liner sealing ring for diameters 140 / 150 / 160 mm,,,S1,PDF p. 38
+UNBT-1180L2,66097.53.225-01,Liner sealing ring for diameters 170 / 180 / 190 mm,,,S1,PDF p. 38
+UNBT-1180L2,66097.53.024-01,"Hydraulic-seal ring, diameter 180 mm",,,S1,PDF p. 38
+UNBT-1180L2,66097.53.024,"Hydraulic-seal ring, diameter 190 mm",,,S1,PDF p. 38
+UNBT-1180L2,96074.53.233,"Piston cup, diameter 180 mm",,,S1,PDF p. 41
+UNBT-1180L2,96074.53.231,"Piston core, diameter 180 mm",,,S1,PDF p. 41
+UNBT-1180L2,66086.53.100 СБ,Crank-and-crosshead mechanism,,,S1,PDF p. 42
+UNBT-1180L2,96074.53.958 СБ,Connecting rod assembly,,,S1,PDF p. 44
+UNBT-1180L2,96074.53.960 СБ,Shaft assembly,,,S1,PDF p. 44
+UNBT-1180L2,66060.53.071,Crosshead rod,,,S1,PDF p. 44
+UNBT-1180L2,96074.53.956,Pin,,,S1,PDF p. 44
+UNBT-1180L2,96074.53.301-1,Crosshead,,,S1,PDF p. 44
+UNBT-1180L2,6029.35.270СБ,Jib crane,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96004.53.682СБ,Cap,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.004СБ,Cover,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.010СБ,Gasket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,66080.53.075СБ,Cover,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,УНБТ 01.03.00.000СБ,Frame,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,66086.53.060СБ,Lubrication system,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,УНБТ 01.02.00.000СБ,Piston cooling-fluid supply system,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,66086.53.105СБ,Transmission shaft,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.925СБ,Pulsation dampener,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,НБТ-2200.06.00.000СБ,Distribution block,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,НБТ-2200.06.00.000-03СБ,Distribution block,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,60040.70.000СБ,Table,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96090.53.725СБ,"Pulley, Ø710",Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.020СБ,"Pulley, Ø800",Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.078СБ,"Pulley, Ø1000",Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,УНБТ 01.00.00.100СБ,"Pulley, Ø1010",Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.551СБ,Frame bracket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.323СБ,Gasket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,УНБТ 01.06.00.000СБ,Fluid-end assembly,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,УНБТ 01.00.00.002,Blanking plug,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,6044.46.16,Sealing cup,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96004.53.669–1,Washer,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96004.53.689,Gasket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.406-1,Gasket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.407,Cover,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.561,Sight glass,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.558,Bolt,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.562,Stud,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.567,Gasket,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.922,Cover,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96011.53.007,Stud,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96011.53.008,Nut,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96011.53.005,Spherical washer,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96011.53.006,Washer,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96074.53.939,Angle piece,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96004.53.599,Nut,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96037.53.196,Stud,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-1180L2,96037.53.196-04,Stud,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,0.1110162,Spring,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,408417.501–09.005,Reducing bushing,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,409811.806–00.018,Locknut,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,0.11254–15,End fitting,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,408417.006–00.002,Nipple,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,01312052061,Valve,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,08815080964,Hose,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,08815080974,Hose,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,08815080804,Hose,Source-specific catalogue BOM; UNBT-1180L2,source catalogue part or assembly identifier,S1,PDF p. 11
+UNBT-1180L2,6029.35.275СБ,Mounting assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.260СБ,Jib,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.265СБ,Support post,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.269,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.124–1,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.268,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.177,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409815.007-00.006,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409891.013-00.003,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409811.013-00.009,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409811.213-00.003,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409514.110-18.000,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,04616131528,Bearing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,409781.005-06.000,Cotter pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,60211101291,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,01497583121,Hoist,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,01259020301,Grease fitting,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.036,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,6029.35.264,Stop,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,68006222001,Chains,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-1180L2,96004.53.683СБ,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-1180L2,409571.004-07.003,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-1180L2,09630.00.01,Cap,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-1180L2,09630.00.02,Screen,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-1180L2,09630.00.03,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-1180L2,УНБТ 01.03.01.000СБ,Pump housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96011.53.207СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.527СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.527–01СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.527–03СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,УНБТ 01.03.03.000СБ,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.134–2СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.447–1СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.162–1СБ,Oil collector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.495СБ,Blanking plug,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.979СБ,Crosshead extension-rod seal,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,УНБТ 01.03.02.000СБ,Heater,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,УНБТ 01.03.00.001,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.541,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.541–01,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.585–01,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.585–03,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.688,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.681,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,66097.53.121,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,6065.53.127–1,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.644–1,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.772,Pipe,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.782,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.491,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.519–1,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.373–1,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.833–2,Guide,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96004.53.834–2,Guide,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.138–1,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.538,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.542-1,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.442,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96090.53.454,Angle piece,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.582,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96074.53.583,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,96011.53.206,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,04172.00–01,Small clamp,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,0.11251–02,Connector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,0.11319–11,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,409811.801–00.013,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-1180L2,409811.806–00.018,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,0.11254,End fitting,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,0.11255,End fitting,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,0.11255–04,End fitting,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,401261.414–31.005,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,40890000320,Tee,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,409891.307–21.006,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,60261101205,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,60261101325,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,60261101193,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,60261102223,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,60561100125,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,62110461275,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,94311001630,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,62110460895,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,08815080974,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,08815081014,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,08815080924,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-1180L2,96090.53.890СБ,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,66097.53.161-1СБ,Manifold,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96037.53.346СБ,Manifold,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,66097.53.162-1СБ,Hose,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96081.53.831СБ,Tank,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,66097.53.163СБ,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96081.53.817СБ,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96037.53.330,Seal,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96074.53.749-2,Support post,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96074.53.749-3,Support post,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96074.53.777,Connector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96074.53.780,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96037.53.333,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96037.53.583,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 19
+UNBT-1180L2,96090.53.833СБ,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96074.53.420СБ,Cap,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96004.53.408,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96004.53.437,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96097.53.111,Shaft,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96004.53.596–1,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96004.53.597–1,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96090.53.149,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96090.53.183,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96090.53.184,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,96004.53.382,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-1180L2,6065.53.267-2СБ,Diaphragm,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.713-1СБ,Cap,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6044.53.517,Stabilizer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96074.53.927,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.720-1,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.732-1,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.733-1,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.754,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.815,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,6065.53.889-1,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96009.53.437,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96009.53.438,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96074.53.931,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96074.53.928,Housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96074.53.342-1,Seat,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96074.53.932,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409511.107-09.005,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409511.007-14.004,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409541.009-14.009,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409891.007-00.006,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,94311001600,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409943.537-20.006,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,94311001840,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,409943.545-20.009,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,0.11319-05,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,01322294001,Valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,08100157023,Pressure gauge,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 24
+UNBT-1180L2,96004.53.650СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.653СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.655СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.10.000СБ,Guard,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.10.000-03СБ,Guard,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.20.000СБ,Housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.20.000-03СБ,Housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,66086.53.092СБ,Throttle,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96074.53.472СБ,Panel,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96074.53.480СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.30.000СБ,Wall plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.30.000-03СБ,Wall plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,6018.53.679,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.662-1,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.663-1,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.664-1,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.665,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96004.53.667,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96090.53.619-01,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96090.53.621,Pipe connection,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96074.53.462,Reducing bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,96090.53.619,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.00.001,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.00.001-01,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.00.002,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,66086.53.086,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 26
+UNBT-1180L2,НБТ-2200.06.00.001-03,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,НБТ-2200.06.00.002-01,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,НБТ-2200.06.00.001-04,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,НБТ-2200.06.00.003,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,НБТ-2200.06.00.002-02,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,66086.53.086-02,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-1180L2,96074.53.481,Connector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,96074.53.482,Support,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,40820000310,Reducing bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,96074.53.484,Spring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,96074.53.485,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,40890000320,Tee,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,04691179863,Ball,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-1180L2,66086.53.093,Pipe connection,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,66087.53.176,Spool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,66087.53.177,Reducing bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,66087.53.178,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,409811.801–00.013,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,409811.804-00.012,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,91196400041,Security seal,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,"63510011941–0,2",Wire,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 32
+UNBT-1180L2,96090.53.725СБ,"Pulley, Ø710","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,6018.53.580,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.097,Collet,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.098,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.122-1,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.124,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.128,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.094-1,Pulley,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,60521100161,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96074.53.020СБ,"Pulley, Ø800","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96074.53.022,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96074.53.021,Pulley,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96074.53.078СБ,"Pulley, Ø1000","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.321-1,Pulley,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,УНБТ 01.00.00.100СБ,"Pulley, Ø1010","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96090.53.077,Collet,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,УНБТ 01.00.00.101,Pulley,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 34
+UNBT-1180L2,96004.53.125СБ,Sealing ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96090.53.910СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96033.53.030СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96033.53.655СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.084СБ,Clamp assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96033.53.005СБ,Valve assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96033.53.009СБ,Valve cover assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.071СБ,Hydraulic box,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.073СБ,Hydraulic box,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.945–1СБ,Pulsation dampener,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.065СБ,Pulsation dampener,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,УНБТ 01.06.01.000СБ,Discharge manifold,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,УНБТ 01.06.02.000СБ,Suction manifold,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.147СБ,Cooling-fluid feed connection,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66060.53.023,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66060.53.028СБ,Clamp,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.100СБ,Deflector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96081.53.060СБ,Drain pipe connection,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230СБ,"Piston assembly, diameter 180 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-01СБ,"Piston assembly, diameter 170 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-02СБ,"Piston assembly, diameter 160 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-03СБ,"Piston assembly, diameter 150 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-04СБ,"Piston assembly, diameter 140 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.230-07СБ,"Piston assembly, diameter 190 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034–01СБ,"Bimetallic liner, diameter 180 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034СБ,"Bimetallic liner, diameter 190 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034–02СБ,"Bimetallic liner, diameter 170 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034–03СБ,"Bimetallic liner, diameter 160 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034–04СБ,"Bimetallic liner, diameter 150 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6606.53.034–05СБ,"Bimetallic liner, diameter 140 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6065.53.855,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6065.53.856-1,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6065.53.858-1,Union nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,6044.53.211,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96004.53.049,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96004.53.124,Sealing ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.122,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96004.53.599,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96004.53.811–1,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96004.55.177,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66097.53.125,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,96074.53.428,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96090.53.490,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96090.53.847,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96074.53.149,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96074.53.154,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.124,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.069,Pipe bend,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.079,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.078,Cylinder-liner housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66060.53.021,Insert,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.080,Clamping flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024–01,"Hydraulic-seal ring, diameter 180 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024,"Hydraulic-seal ring, diameter 190 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024–02,"Hydraulic sealing ring, Ø170","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024–03,"Hydraulic sealing ring, Ø160","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024–04,"Hydraulic sealing ring, Ø150","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.024–05,"Hydraulic sealing ring, Ø140","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96037.53.193,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96011.53.138,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96037.53.193–04,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.139,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96037.53.189,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,409943.542–20.000,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,41010000500,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,0.11319-05,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,0.11319-33,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,409943.208–41.000,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,409943.231–16–008,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,409943.231–40–004,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,409943.231–40–008,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,40800000500,Angle piece,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,96074.53.253,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.061,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.062,Stud,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.225,Liner sealing ring for diameters 140 / 150 / 160 mm,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,66097.53.225-01,Liner sealing ring for diameters 170 / 180 / 190 mm,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,60261100833,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,60261102385,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 38
+UNBT-1180L2,60261103325,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60491140161,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60561100205,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60862040161,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,94311001750,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60561100245,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60891000245,Spherical washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,60890000245,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,013224101011,Valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,01345520044,Valve closure,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,66060.53.020,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,66084.53.018,Plug,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,66097.53.123,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,66060.53.022,Piston rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-1180L2,96033.53.047,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,6044.53.17,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96004.53.861-3,Valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96004.53.864-2,Seat,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96095.55.547,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96074.53.108,Seal,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96074.53.131,Spring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 40
+UNBT-1180L2,96074.53.233,"Piston cup, diameter 180 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.233-01,"Sealing cup, Ø170","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.233-02,"Sealing cup, Ø160","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.233-03,"Sealing cup, Ø150","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.233-04,"Sealing cup, Ø140","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.233-06,"Sealing cup, Ø190","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231,"Piston core, diameter 180 mm","Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231-01,Core,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231-02,Core,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231-03,Core,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231-04,Core,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.231-07,Core,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,94311001150,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.246,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-1180L2,96074.53.958СБ,Connecting rod assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.960СБ,Shaft assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.307СБ,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,66060.53.071,Crosshead rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96011.53.241,Trough,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96011.53.245,Trough,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,6065.53.28-1,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,6044.53.569,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,6018.53.204,Deflector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,6018.53.221,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,6018.53.232,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.191–3,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.192–4,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.193,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.194-1,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.956,Pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.196,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.304,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.198-2,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.319-1,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.321-1,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.331,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.965,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.333,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.334,Plate,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.335,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.336,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.301–1,Crosshead,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.346,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.348-2,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.358,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.368,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96004.53.553-2,Half ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96022.53.016–01,Wheel,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96090.53.509,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96090.53.510–1,Dowel,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.102,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.319,Gasket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,96074.53.062,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,409781.008-13.009,Cotter pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,409811.007-00.002,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-1180L2,409511.106-09.002,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,94311001240,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,04621164906,Bearing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,04622749735,Bearing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,04622268430,Bearing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,0881927004,Bearing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 45
+UNBT-1180L2,96074.53.312,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 46
+UNBT-1180L2,96004.53.959,Connecting rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 46
+UNBT-1180L2,96004.53.531-3,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 46
+UNBT-1180L2,96004.53.532-1,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 46
+UNBT-1180L2,66060.53.073,Crosshead extension rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-1180L2,66060.53.072,Bearing insert,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-1180L2,66060.53.074,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-1180L2,63510012081,Wire,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-1180L2,96074.53.161-1СБ,Crossbar,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.201СБ,Housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.229СБ,Valve operating mechanism,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.206-1СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.061СБ,Guard,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,44.66730СБ,Limit switch,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.253,Flange,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.275-1,Spring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.301-1,Eccentric,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.311,Pivot pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.312,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.911,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.607,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.630,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.635,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.636,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96090.53.643,Pivot pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.165,Handle,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.209,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.167,Spring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.168,Swivel joint,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.169,Pivot pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.170,Rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.172,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.173,Rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.174,Pivot pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.175,Indicator,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.176,Scale,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.177,Lever,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.178,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.179,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.171,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.223,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.224,Cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.212,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.213,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.066-1,Mounting pad,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96074.53.067-01,Link rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,96004.55.159,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,409811.313-00.026,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,505472.100-01.003,Clamp bracket,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-1180L2,0.11306-13,Pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,0.11308-15,Pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,0.11308-21,Pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409943.526-20.004,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409511.006-07.027,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,60251100115,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409511.104-07.028,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409541.004-07.020,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409571.002-02.028,Screw,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409811.005-00.022,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409891.002-00.027,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,60852040061,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409891.503-00.025,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409891.013-00.029,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,409781.004-02.012,Cotter pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,94311001020,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,94311001240,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,94311001100,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,408632.026-00.025,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 52
+UNBT-1180L2,96090.53.280,Pivot pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96074.53.219,Bushing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96074.53.217,Sealing cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96074.53.227,Rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96050.53.073,Crank,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96050.53.075,Connecting rod,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,409943.580-20.000,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96074.53.228,Nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,409781.005-06.068,Cotter pin,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,94311510200,Sealing cup,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-1180L2,96011.53.148СБ,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,96011.53.146СБ,Housing,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.072СБ,Cover,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,96011.53.141,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,96011.53.142,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.081,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.250,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.252,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66097.53.253,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.256,Support,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.257,Union nut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.258,Nipple,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,66087.53.271,Adapter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,409811.804-00.009,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,409811.803-00.006,Locknut,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,508751.007-00.001,Coupling,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,0.11251-02,Connector,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,0.11577-05,Plug,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,0.11577,Plug,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,0.11347-12,Angle piece,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,40800000200,Angle piece,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,40800000400,Angle piece,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,60261100835,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,60261101275,Bolt,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,94311001000,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,94311001800,Ring,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,60862040101,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,60862040121,Washer,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,01614303124,Unit assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,01312011071,Valve,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,01170240721,Filter,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-1180L2,96004.55.201–2СБ,Pin puller,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96004.55.100–4,Hydraulic puller,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,66060.55.010,Piston-to-rod assembly tool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96081.55.035,Air-line assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,66060.53.010,Air-line assembly,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96074.80.010,Cylinder-liner installation and removal tool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96074.80.000,Valve assembly tool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96074.80.020,Clamp installation tool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,96074.80.030,Hydraulic jack,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,66060.55.004,Piston-and-rod removal tool,"Source-specific catalogue BOM; UNBT-1180L1, UNBT-1180L2",source catalogue part or assembly identifier,S1,PDF p. 56
+UNBT-1180L2,44024.53.055,Triplex mud pump assembly,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14036.53.078,Pulley,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44024.53.060,Lubrication system,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14036.53.925-04,Pulsation dampener,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44013.53.070,Fluid-end assembly,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14036.53.230,Piston,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14077.53.005,Valve,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44024.53.075,Cover,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44024.53.080,Frame,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14036.53.979,Crosshead extension-rod seal,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44024.53.065,Pump housing,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44013.53.160,Piston cooling-fluid supply system,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14029.53.831,Tank,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,44024.53.105,Transmission shaft,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,14099.53.240,Crank-and-crosshead mechanism,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 186
+UNBT-1180L2,4081.35.270,Jib crane,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 187
+UNBT-1180L2,44024.55.000,Spare-parts kit,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 187
+UNBT-1180L2,14099.55.018,Accessory kit,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 187
+UNBT-1180L2,14099.55.002,Tool kit,"2004 operating manual Appendix 1; source model column(s): UNBT-1180L2, UNBT-1180L1",source assembly identifier,S2,PDF p. 187
+UNBT-1180L2,УНБТ 02.00.00.000 СБ,UNBT-1180L2 pump general assembly reference,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 7
+UNBT-1180L2,УНБТ 01.06.00.000 СБ,Hydraulic block assembly,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-1180L2,66086.53.100 СБ,Crank-and-crosshead mechanism,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 42

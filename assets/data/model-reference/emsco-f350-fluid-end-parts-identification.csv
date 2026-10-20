@@ -1,0 +1,538 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+EMSCO F-350,6318-0173-00,F-350 API-3 H.P. fluid-end assembly,,,S1,PDF p. 11
+EMSCO F-350,6318-0111-00,"Studded fluid end, page 11 configuration",,,S1,PDF p. 11
+EMSCO F-350,6318-0027-10,"Liner-lock housing, page 11 configuration",,,S1,PDF p. 11
+EMSCO F-350,6318-0084-00,Piston rod,,,S1,PDF p. 11
+EMSCO F-350,6318-0156-00,"F-350 fluid-end assembly, shared-sheet column",,,S1,PDF p. 12
+EMSCO F-350,6318-0151-00,"Studded fluid end, page 12 configuration",,,S1,PDF p. 12
+EMSCO F-350,MK-0146-40,"Liner, nominal size 4''",Liners and liner packing; source row 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 4''",Liners and liner packing; source row 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-44,"Liner, nominal size 4½''",Liners and liner packing; source row 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 4½''",Liners and liner packing; source row 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-50,"Liner, nominal size 5''",Liners and liner packing; source row 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 5''",Liners and liner packing; source row 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-54,"Liner, nominal size 5½''",Liners and liner packing; source row 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 5½''",Liners and liner packing; source row 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-60,"Liner, nominal size 6''",Liners and liner packing; source row 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 6''",Liners and liner packing; source row 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-62,"Liner, nominal size 6¼''",Liners and liner packing; source row 6¼'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 6¼''",Liners and liner packing; source row 6¼'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-64,"Liner, nominal size 6½''",Liners and liner packing; source row 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 6½''",Liners and liner packing; source row 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0146-66,"Liner, nominal size 6¾''",Liners and liner packing; source row 6¾'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,"Liner Packing, nominal size 6¾''",Liners and liner packing; source row 6¾'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0733,Valve Cover Gasket,Gaskets,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MKG-0281,Cylinder Head Gasket,Gaskets,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-U5B-05,Valve; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5DD-B1,Seat; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5710-111,Spring; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-UDD-5B,Urethane Insert; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-1700-5,Puller Head; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5DFO-V1,Valve; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5DFO-S1,Seat; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5710-030,Spring; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-5DFO-SI,Urethane Insert; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-1700-5FO,Puller Head; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0500117,Valve; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0508623,Seat; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-05147900,Spring; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0515844,Urethane Insert; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-1700-5BA,Puller Head; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0504991,Valve; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0508623,Seat; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-05144230,Spring; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0504888,Urethane Insert; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-1700-5BA,Puller Head; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-400-10,Red Thunder Bonded Pistons; nominal piston size 4'',Piston family Red Thunder Bonded Pistons; size 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I40HK10,Imperial Piston; nominal piston size 4'',Piston family Imperial Piston; size 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I40HK,Imperial Rubber Kits; nominal piston size 4'',Piston family Imperial Rubber Kits; size 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-400-10,Rubber Bonded; nominal piston size 4'',Piston family Rubber Bonded; size 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-400-10,Long Life (Urethane); nominal piston size 4'',Piston family Long Life (Urethane); size 4'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-440-10,Red Thunder Bonded Pistons; nominal piston size 4½'',Piston family Red Thunder Bonded Pistons; size 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I44HK10,Imperial Piston; nominal piston size 4½'',Piston family Imperial Piston; size 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I44HK,Imperial Rubber Kits; nominal piston size 4½'',Piston family Imperial Rubber Kits; size 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-440-10,Rubber Bonded; nominal piston size 4½'',Piston family Rubber Bonded; size 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-440-10,Long Life (Urethane); nominal piston size 4½'',Piston family Long Life (Urethane); size 4½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-500-10,Red Thunder Bonded Pistons; nominal piston size 5'',Piston family Red Thunder Bonded Pistons; size 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I50HB10,Imperial Piston; nominal piston size 5'',Piston family Imperial Piston; size 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I50HB,Imperial Rubber Kits; nominal piston size 5'',Piston family Imperial Rubber Kits; size 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-500-10,Rubber Bonded; nominal piston size 5'',Piston family Rubber Bonded; size 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-500-10,Long Life (Urethane); nominal piston size 5'',Piston family Long Life (Urethane); size 5'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-540-10,Red Thunder Bonded Pistons; nominal piston size 5½'',Piston family Red Thunder Bonded Pistons; size 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I54HB10,Imperial Piston; nominal piston size 5½'',Piston family Imperial Piston; size 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I54HB,Imperial Rubber Kits; nominal piston size 5½'',Piston family Imperial Rubber Kits; size 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-540-10,Rubber Bonded; nominal piston size 5½'',Piston family Rubber Bonded; size 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-540-10,Long Life (Urethane); nominal piston size 5½'',Piston family Long Life (Urethane); size 5½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-600-10,Red Thunder Bonded Pistons; nominal piston size 6'',Piston family Red Thunder Bonded Pistons; size 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I60HB10,Imperial Piston; nominal piston size 6'',Piston family Imperial Piston; size 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I60HB,Imperial Rubber Kits; nominal piston size 6'',Piston family Imperial Rubber Kits; size 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-600-10,Rubber Bonded; nominal piston size 6'',Piston family Rubber Bonded; size 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-600-10,Long Life (Urethane); nominal piston size 6'',Piston family Long Life (Urethane); size 6'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RT-640-10,Red Thunder Bonded Pistons; nominal piston size 6½'',Piston family Red Thunder Bonded Pistons; size 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I64HL10,Imperial Piston; nominal piston size 6½'',Piston family Imperial Piston; size 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-I64HL,Imperial Rubber Kits; nominal piston size 6½'',Piston family Imperial Rubber Kits; size 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-RB-640-10,Rubber Bonded; nominal piston size 6½'',Piston family Rubber Bonded; size 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-LL-640-10,Long Life (Urethane); nominal piston size 6½'',Piston family Long Life (Urethane); size 6½'',Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-0147,Piston Rod; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-16-0142,Extension Rod; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-24-0146,Rod Clamp; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-7403224,Piston Rod Nut; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 3
+EMSCO F-350,MK-6318-0151-00,"Fluid Module, Studded (Included Items 2 – 7)","Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item assembly; catalogue quantity (3) per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7507-2207-00,Stud – Frame,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 2; catalogue quantity 18 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7601-0630-17,Nut – Frame,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 3; catalogue quantity 18 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7507-3402-00,Stud – Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 4; catalogue quantity 36 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7601-0630-26,Nut – Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 5; catalogue quantity 36 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7507-3407-00,Stud – Discharge Manifold,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 6; catalogue quantity 12 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7601-0630-26,Nut – Discharge Manifold,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 7; catalogue quantity 12 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0148-00,Liner Cage,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 8; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0177-00,Lower Valve Guide with Bushing,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 9; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0153-00,Locking Clip,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 10; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7602-2200-34,Gasket – Liner,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 11; catalogue quantity 6 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0158-00,Cylinder Head Plug,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 12; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0130-00,Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 13; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0157-00,Cylinder Head,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 14; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6310-0084-00,Gasket – Valve Pot Cover,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 15; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7501-0051-00,Retainer Bolt,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 16; catalogue quantity 12 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6310-0133-00,Retainer Plate,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 17; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6397-0602-00,Upper Valve Guide,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 18; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6310-0016-01,Valve Pot Cover,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 19; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7602-1600-23,Gasket – Discharge Manifold,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 20; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-7602-1600-33,Gasket – Suction Manifold,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 21; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,MK-6318-0155-00,Lower Valve Guide Bushing,"Fluid-end module; catalogue joint header: EMSCO F-350, EMSCO F-500, EMSCO F-650; item 22; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 38
+EMSCO F-350,6318-0140-00,General assembly; source assembly/drawing reference,General assembly; source model column 1,source-assembly-drawing-reference,S1,PDF p. 5
+EMSCO F-350,6318-0090-00,Crosshead Assembly (PF~6-1),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0060-00,1 - Pinion Shaft Assembly (PF-7-1),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0080-00,Crankshaft Assembly (PF~8-1),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6397-0186-00,Breather Cap,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7507-0200-00,Breather Cap Stud,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7602-107013,Copper Wool (2 oz.),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7602-059016,Gear Case Cover Gasket,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-106006,6 #6 x 3/8 P.K. Drive Screw,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0266-00,Oil Level Indicator,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6316-0349-00,"Clean Out Cover (w/1-1/2"" Cplg.)",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-033099,Hx. Hd. Capscrew,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-063016,Hvy. Hx. Nut,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-106009,"8 #8 x 5/8"" P.K. Drive Screw",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0078-00,~=61~=«CTap Access Door,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7502-1057-00,Top Access Door Gasket,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-033050,"6 1/2"" x I-1/4"" Hx. Rd. Capscrew",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-273022,Male Connector,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7508-0110-40,"2 1/2"" Lubricator Tubing Assembly",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-033051,"1/2%-13 x 1-1/2"" Hx. Capscrew",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-072048,"4 1/2"" - 13 Locknut",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7508-0070-40,"2 1/2"" Lubricator Tube Assembly",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0104-00,Lube Oil Trough R.H. Side,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0105-00,Lube Oil Trough L.H. Side,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6321-0059-00,Shim Set (As Required),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0281-00,Oi Sump Drain Piping,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-133004,"8 1/2"" Plain Washer",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-033049,Hx. Hd. Capscrew,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-132018,12. Lockwasher,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7601-2610-00,wel 42 4 Hold Down Bolt - Long,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7506-0419-36,Ri 2 Name Plate (CECO),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,7510-0201-00,i RG 1 Inspection Door (CECO),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 5
+EMSCO F-350,6318-0088-00,Fluid End Assy. (Rev C),F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0087-00,Fluid End ~ Studded,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7507-2102-00,Stud,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6310-0084-00,Liner Seal,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0023-00,Liner Lock,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0027-00,Liner Lock Housing,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0034-00,Retainer-Upper Valve Guide,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7501-0051-00,Retainer Screw,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0099-00,Valve Guide ~ Lower,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0101-00,Bushing-Lower Valve Guide,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0041-00,Discharge Flange,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0081-00,Discharge - Blind Flange,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0085-00,Suction Manifold,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0092-00,Suction Manifold Shim Set,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6310-0022-10,Piston Rod Clamp,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0084-00,Piston Rod,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0079-00,Liner End Cover,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0088-00,F350 API valve pot no.4 fluid end; source assembly/drawing reference,F350 API valve pot no.4 fluid end,source-assembly-drawing-reference,S1,PDF p. 8
+EMSCO F-350,7602-159003,1/8'' Spray Nozzle,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7503-0024-06,Hose Assembly,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7602-160057,Suction Flange Gasket,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7602-160038,O-Ring,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7602-160025,O-Ring,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-034042,"3/4"" yy 1-3/4"" Ferry Hd Cpser",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-033139,"1"" x 5S"" HxHd Capscrew",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-063020,"Ll"" Heavy Hex Nut",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-063017,"1-1/2"" Heavy Hex Nut",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7602-528072,"1/16"" Soft Iron Wire x 6'",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-072017,Heavy Lock Nut,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-084062,Roll Pin,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-227036,Snap-Tite Coupler,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-227037,Snap-Tite Nipple,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-209011,Stratoflex Adapter,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-257039,"1/8"" 90-Elbow (Galv)",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-253035,"1/2"" x 1/8"" Bushing",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-033100,"3/4"" x-.3"""" HxHd Capscrew",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,7601-132018,"3/4"" Lock washer",F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0032-00,Fluid Baffle Disc,F350 API valve pot no.4 fluid end,source-parts-list-entry,S1,PDF p. 8
+EMSCO F-350,6318-0113-00,Fluid End Assembly (Rev. F),F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0111-00,Fluid End - Studded,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0102-00,Fluid Baffle Back-Up Plate,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0107-00,Fluid End Cover,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7602-220009,Cover Seal,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0161-00,Frame Adapter Ring (Not Reqd.w/,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0071-00,F350 API-3 H.P. plunger fluid end; source assembly/drawing reference,F350 API-3 H.P. plunger fluid end,source-assembly-drawing-reference,S1,PDF p. 9
+EMSCO F-350,6318-0031-00,Stuffing Box Seal,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0023-01,Stuffing Box Lock,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0027-10,"Housing, Stuffing Box Lock",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0109-00,Discharge Manifold,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0085-00,Suction Manifold,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0092-00,Suction Manifold Shims,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6397-0233-00,"Suction Flange 8"" Pipe Thread",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6310-0022-10,Piston Rod Clamp,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7503-0140-06,Hoge Assembly,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7602-160068,O-Ring (Manifold Gasket),F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7602-160038,O-Ring,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7602-160057,O-Ring (Suction Flange Gskt),F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-209032,Stratoflex Elbow,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-227036,Snap~Tite Coupler 3,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-227037,Snap-Tite Nipple,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-034054,"3/4"" x 1-3/4"" SktHd Capscrew",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-033139,"1"" x 5 HxHd Capscrew",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-063020,"1"" Heavy Hex Nut",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-253035,"1/2"" x 1/8"" Bushing",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-033100,"3/4"" x 3"" HxHd Capscrew",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-132018,"3/4"" Lock washer",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7602-161018,O-Ring,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7507-3453-00,Stud,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7507-2201-00,Stud,F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,7601-063017,"1-1/2"" Heavy Hex Nut",F350 API-3 H.P. plunger fluid end,source-parts-list-entry,S1,PDF p. 9
+EMSCO F-350,6318-0120-00,Stuffing Box Assy,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0163-00,Stuffing Box Assy,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0164-00,Stuffing Box Assy,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0165-00,Stuffing Box Assy,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0114-00,Stuffing Box Gland,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0114-00,Stuffing Box Gland,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0114-01,Stuffing Box Gland,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0114-01,Stuffing Box Gland,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0115-00,Stuffing Box,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0115-00,Stuffing Box,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0115-01,Stuffing Box,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0116-00,Gland Bushing,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0131-00,Gland Bushing,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0137-00,Gland Bushing,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0143-00,Gland Bushing,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0117-00,Bottom Bushing,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0132-00,Bottom Bushing,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0138-00,Bottom Bushing,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0144-00,Bottom Bushing,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0118-00,Lantern Ring -,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0133-00,Lantern Ring -,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0139-00,Lantern Ring -,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0119-00,Plunger,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0134-00,Plunger,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0141-00,Plunger,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0146-00,Plunger,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-168111,Packing Set,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-168112,Packing Set,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-168114,Packing Set,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-161018,O-Ring,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-161018,O-Ring,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-161018,O-Ring,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,7602-161018,O-Ring,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0123-00,Spacer,F350 stuffing box variants; source model column 1; 3-1/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0135-00,Spacer,F350 stuffing box variants; source model column 2; 3 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0142-00,Spacer,F350 stuffing box variants; source model column 3; 2-3/4 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0147-00,Spacer,F350 stuffing box variants; source model column 4; 2-1/2 inch plunger,source-parts-list-entry,S1,PDF p. 10
+EMSCO F-350,6318-0111-00,Fluid End - Studded,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0032-00,Baffle Disc,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0102-00,Baffle Back-up Plate,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0107-00,Fluid End Cover a,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0109-00,Discharge Manifold,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0085-00,Suction Manifold,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6397-0233-00,Suction Flange ~ 8'' Pipe Thd i,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0027-10,Liner Lock Housing,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0023-00,Liner Lock,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0161-00,Adapter Ring (Not Req'd w/,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0071-00,F350 API-3 H.P. piston and liner fluid end; source assembly/drawing reference,F350 API-3 H.P. piston and liner fluid end,source-assembly-drawing-reference,S1,PDF p. 11
+EMSCO F-350,6318-0084-00,Piston Rod,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6310-0022-10,Piston Rod Clamp,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7503-0160-19,Hose Assembly,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7602-160068,O-Ring (Manifold Gasket),F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7602-160038,O-Ring,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0173-00,F350 API-3 H.P. piston and liner fluid end; source assembly/drawing reference,F350 API-3 H.P. piston and liner fluid end,source-assembly-drawing-reference,S1,PDF p. 11
+EMSCO F-350,7601-072017,Heavy Lock Nut,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0226-00,Liner Wash Tubing Assembly,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-209036,Stratoflex Elbow,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-034054,"3/4"" x 1-3/4"" Skt Hd Capscrew",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-033139,"1"" x 5"" Hex Hd Capscrew",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-063020,"1"" Heavy Hex Nut",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-257087,"1/4"" x 90-Str Ell (Galv)",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-253034,"1/2"" x 1/4"" Bushing (Galv)",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-066128,Ring Joint Gasket,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-033100,"3/4"" x 3"" Hex Hd Capscrew",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-132018,"3/4"" Lock washer",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-275023,45—Male Ell,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-336009,"1/4"" Copper Tubing",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-277002,Wehd Nut,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7507-3453-00,Stud,F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,7601-063017,"1-1/2""-8 Heavy Hex Nut 18 4 )",F350 API-3 H.P. piston and liner fluid end,source-parts-list-entry,S1,PDF p. 11
+EMSCO F-350,6318-0156-00,Fluid end shared sheet; review F350/F500/F650 column; source assembly/drawing reference,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-assembly-drawing-reference,S1,PDF p. 12
+EMSCO F-350,6318-0156-00,Fluid End Assembly,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0148-00,Liner Cage,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0130-00,Thread Ring,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6310-0016-01,Valve Pot Cover,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6397-0602-00,Valve Guide - Upper,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6310-0133-00,Valve Guide Retainer~Upper,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-520036,"#11 Soft Iron Wire x 36""",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-033139,"i"" & x 5 Hx Hd Capscrew",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-063020,"1""-8 Heavy Hex Nut",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-160023,O-Ring,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0126-00,Suction Manifold,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-160038,O-Ring,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-034053,"3/4"" x 1-1/2"" Skt Hd Cpsrw i8",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6397-0233-00,21. | Suction Flange (8 Thrd),Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0154-00,Suction Manifold Shim Ser,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-160057,Suction Flange Gskt,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-253042,"i"" x 1/4"" Galv Pipe Bushing",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-257087,"£/4"" 90 E1L (Galv. Street)",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-209036,Stratoflex Elbow,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7503-0160-19,Hose Assembly,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-066003,RI | Ring Joint Gasket,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-206106,"4"" Thd. Flange",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-206135,"4"" Blind Flange L",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-126024,"Stud w/Nuts (1-1/4"" x 8"")",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0152-00,Lower Valve Guide,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-063017,"1-1/2""-8 Heavy Hex Nut",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7507-2207-00,R? Frame To Fluid End Stud,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-136131,"Liner (6"")",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-220034,Liner Seal,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6310-0084-00,Valve Cover Seal,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6310-0022-10,Piston Rod Clamp,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0224-00,Ri5 Liner End Cover,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0032-60,RES Baffle Disc,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-072017,i RIB ESNA Heavy Lock Nut,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0084-00,Piston Rod,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0226-00,Liner Wash Tubing Assembly,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-336009,"1/4"" Copper Tubing",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7602-072004,Clamp (#5236 Ideal),Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-033100,"3/4"" x 3"" Bx Hd Capscrew",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,7601-132018,"3/4"" Lock washer",Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0155-00,Lower Viv Guide Bushing,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6318-0153-00,Lower Viv Guide Locking Clip,Fluid end shared sheet; preserve F350/F500/F650 column; source model column 1,source-parts-list-entry,S1,PDF p. 12
+EMSCO F-350,6922-0073-00,L Bladder,Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0094-00,L Bladder,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0072-00,Support Rod,Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0095-00,Support Rod,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0100-00,Charging Flange 1,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0098-00,Adapter Flange 1,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0065-00,End Plug,Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0065-00,End Plug,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0076-00,Gasket j L,Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0097-00,Gasket j L,Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-033077,"5/8"" x 1-3/4"" Hex Head Capscrew",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-033077,"5/8"" x 1-3/4"" Hex Head Capscrew",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7602-291077,"Marsh 1/4"" Needle Valve L900-MFA",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7602-291077,"Marsh 1/4"" Needle Valve L900-MFA",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-253001,"1/4"" x 1/8"" Hex Pipe Bushing L 7601+253001",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7602-291805,"ll 1/8"" Air Tank Valve L",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6922-0075-00,Valve Guard,Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-033001,"1/4""-20 x 1/2"" Hex Head Capscrew 4",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-132038,"1/4"" Lockwasher",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-132038,"1/4"" Lockwasher",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-132030,"LS 5/8"" Lockwasher",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-132030,"LS 5/8"" Lockwasher",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-259008,"1/4"" Pipe Plug Grade 5",Suction desurger; preserve model column; source model column 1; SD-4 Rev B F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,7601-259008,"1/4"" Pipe Plug Grade 5",Suction desurger; preserve model column; source model column 2; SD-4A new F350-F650,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-350,6318-0179-00,Crosshead Extension,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6318-0021-00,Crosshead Pin,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-021277,Crosshead Bearing,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6318-0075-00,Crosshead Cover Gasket,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-034118,"Skt. Hd, Capscrew",Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-132042,"3/8"" Lockwasher",Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-033076,Hx. Hd. Capscrew,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-133005,Plain Washer Small 0.D,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-531120,a 14 #16 Stainless Steel Wire,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-163044,O-Ring,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-034069,Socket Head Capscrew,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-163054,O-Ring,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7503-0096-18,"1/4"" Hose Assembly",Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-209038,Stflx 90-Ei1,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7501-253033,"t/2"" x 3/8"" Pipe Bushing",Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-259008,"1/4"" Pipe Plug",Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-213635,Single Lip Oil Ses!,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-166025,O~Ring,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6397-0551-00,Stuffing Box Spring,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6397-0595-00,Stuffing Box Lock Spring,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7602-213272,Double Lip Oil Seal,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,7601-209016,Straight Adapter,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6318-0032-00,Fluid Baffle Dive,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6318-0043-00,Crosshead Door,Crosshead; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 21
+EMSCO F-350,6318-0060-00,Assembly,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,6318-0029-00,Pinion Shaft,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7502-0590-00,Pinion Bearing Carrier Gskt,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,6397-0558-00,e & Oil Seal Carrier,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7502-0589-00,Oil Seal Carrier Gasket,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,6397-0535-00,q - 6 Oil Seal Wear Ring (Spacer),Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,6318-0059-00,Pinion Shaft Cover,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7602-021036,Pinion Shaft Bearing,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7602-213082,Oil Seal,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7601-033219,"il 1/2""-13 X 1-1/4"" Hx Hd Capscrew",Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7601-033307,"3/4""-10 X 2"" Hex Head Capscrew",Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7601-033323,Hex Head Capscrew,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7601-132016,"1/2"" Lockwasher",Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7601-132018,"3/4"" Lockwasher",Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,7504-3010-00,RL Square Key,Pinion shaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 24
+EMSCO F-350,6318-0080-00,Assembly,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0070-00,Inner Race Retner.Qutboard Brg,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0265-00,Inner Race Retainer,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0249-00,Crnkshft Brg. Inner Retainer i,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0030-00,Eccentric Ring Gear,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0065-00,"qp 10 Cover Gasket, Main Brg",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0073-00,"Inner Race Retainer, Main Brg",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0250-00,"Main Bearing Carrier, Right i",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0083-00,"Spacer, Main Bearing",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6318-0094-00,"Shim Set, Main Bearing",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7501-0004-00,Drilled Hd. Capscrew -,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7501-0071-00,"Drid Hd. Capserw 1/2"" x 1-1/4"" ~",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7602-021278,Eccentric Bearing,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7602-020051,93% Main Bearing,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7601-0330-76,"z | ; 26 Hx. Hd. Capscrew 5/8"" x 1-1/2""",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7601-0333-31,Hx. Hd. Capscrew,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7601-1330-05,"a f 28 5/8"" Lock washer",Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7601-0720-15,ESNA Hvy. Hx. Lock Nut,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,7602-021277,Crosshead Bearing,Crankshaft; preserve F350/F500/F650/F750 column; source model column 1,source-parts-list-entry,S1,PDF p. 27
+EMSCO F-350,6310-0130-00,"Strainer Bousiog 4"" wPT Outlet",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0130-00,"Strainer Bousiog 4"" wPT Outlet",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-160040,i Strainer Gasket ARP~439 =,Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-160040,i Strainer Gasket ARP~439 =,Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0290-00,Discharge Manifold Strainer Assembly ——-,Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0290-00,Discharge Manifold Strainer Assembly ——-,Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0291-00,Strainer Cop -——-~,Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0291-00,Strainer Cop -——-~,Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0293-01,A a 1 Strainer ——,Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6397-0293-01,A a 1 Strainer ——,Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0129-00,"ae 9 k PD-2 Accessory Manifold w/2-3"" Side Outlets 631L0-0129-00 some",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0203-00,"or I PD-28P Acc. Manifold w/2+3"" Side Outlets",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0209-00,"or I PD-28P Acc. Manifold w/2+3"" Side Outlets",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0193-00,"or 1 PD-45 & PD-55 Acc. Manifold w/2-3"" Ouriete",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6310-0193-00,"or 1 PD-45 & PD-55 Acc. Manifold w/2-3"" Ouriete",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6318-0168-00,"or 1 K-10-5000 Hydril Acc. Manifold w/2-3"" Outiets -——",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6318-0127-00,"or 1 Relief Valve & Gauge Acc. Manifold w/3+2"" Gut. wwe",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066016,"L R.J. Gasket, PD-2 & PO-2HP Darepener (R-27)",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066016,"L R.J. Gasket, PD-2 & PO-2HP Darepener (R-27)",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066135,"or I R.J. Gasket, Aydril K-10-5000 Dawpener (R~38) “om",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066022,"or 1 R J Gasket PD-43,PD~53, K-20-3000 Damp. (~37)",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066002,"or 1 R J Gasket PD-43,PD~53, K-20-3000 Damp. (~37)",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066003,"or 1 R J Gasket PD-45,PD-55, K~20-5000 Damp. (R-39}",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7602-066003,"or 1 R J Gasket PD-45,PD-55, K~20-5000 Damp. (R-39}",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6923-0016-00,"Ri. C-£ 3"" Type 'S’ Shear Relief Valve",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6923-0016-00,"Ri. C-£ 3"" Type 'S’ Shear Relief Valve",Discharge strainer and accessory manifold; preserve model column; source model column 2; F350 H.P. column,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,7507-2201-00,"Stud - 5"" Flange ----",Discharge strainer and accessory manifold; preserve model column; source model column 1,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-350,6911-1129-00,#2 B & S Pump Assy,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7514-0010-00,"2"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7514-0002-00,"3/4"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7514-0450-00,"3/4"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,6296-3939-00,Spray Nozzle,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7602-233001,"3/4"" Sediment Separator",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7602-115003,Ashcroft Gauge (0-60 PSI),Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7602-107004,"SLD 3/4"" Marvel Filter",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7602-062004,Ideal Hygear Hose Clamp,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7514-0005-00,"1/2"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-455016,"2""* Dayco Hose x 1°4""",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7503-0400-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7503-0620-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7503-0420-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7503-0300-57,"3/4"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-209041,Pipe Adapter Ell,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-209029,Male Pipe Adapter,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,6911-1327-00,Pump chain lubrication; source model alternatives; source assembly/drawing reference,Pump chain lubrication; source model alternatives,source-assembly-drawing-reference,S1,PDF p. 39
+EMSCO F-350,7601-209024,Male Pipe Adapter,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-257113,"3/4"" 90-Street Ell (Black) L",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-257200,"3/4"" 45-Street Eli (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-259010,"3/4"" Pipe Plug (Galv) &",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-259098,"2"" Pipe Plug (Black) ‘",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-253130,"2"" x 3/4"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-258049,"2"" Close Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-258688,"1/2"" x 4"" Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-258017,"3/4"" x 3"" Nipple (Black) . §$",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-258428,"1/2"" x 3"" Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-261005,"3/4"" Tee (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-261078,"2"" Tee (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-258351,"2"" King Comb. Nipple",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-253005,"3/4"" x 1/2"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-253007,"3/4"" x 1/4"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-257108,"2"" 90-ELbow (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-257032,"3/4"" 90-Elbow (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,6911-1327-43,"Pipe 3/4"" Std x 7'10""",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,7601-259009,"i/2"" Pipe Plug (Galv)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,6911-2152-00,Oil Level Plate,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-350,6318-0244-00,Piston & Liner Wash (R.H.),"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7602-236289,P.D. - LA Sheave w/Hub },"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7602-184052,# 3 Brown & Sharpe Pump i,"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7602-072041,Hose Clamp,"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7503-0550-55,"3/4"" Hose Assembly","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7503-0400-49,"Ll 1/2"" Hose Assembly","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7503-0650-66,1” Hose Assembly,"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-209626,"Male Adapter (1/16"" x 3/4"" Pipe)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-209024,"Male Adapter (7/8"" x 3/4"" Pipe) L","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-209028,"Male Adapter (1-5/16"" X i"" Pipe) Hy","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-259013,"1-1/2"" Pipe Plug (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-253110,"2-1/2"" x i” Bushing Galv.) i","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-253061,"2-1/2"" x 3/4"" Bushing (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-253039,"1"" x 3/4"" Bushing (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-253036,"3/4"" x 1/2"" Bushing (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-257042,"3/4"" x 90 Elbow Gaiv.) i","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-257043,"i"" x 90 Elbow (Gaiv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-257018,"2-1/2"" x 45 Elbow","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258139,"3/4"" Close Nipple (Galv.) i","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-261020,"2-1/2"" Tee Galv.) L","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258233,"2-1/2"" Close Nipple (Galv.)} i","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258234,"2-1/2"" x» 4"" Nipple (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258125,"1/2"" Close Nipple (Galv.) i","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258141,"3/4"" x 2"" Nipple (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-258352,"2-1/2"" King Comb. Nipple (Galv.)","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7602-291017,"1/2"" Globe Vaive (125 PSI) Brass","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,7601-108069,"1/2%+13 x 3/4"" Fl Hd. Mach Scr","Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,6911-1080-00,Ri Belt Guard,"Early Brown and Sharpe piston/liner wash; F350 source heading64 vs index63 requires review, F500through50/F650through10; source model column 1",source-parts-list-entry,S1,PDF p. 41
+EMSCO F-350,6320-0178-00,Gallon Tank i,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6320-0177-00,Bp Support,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6320-0176-00,justment Plate,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6318-0288-00,ak Support Angle i,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6318-0289-00,nk Support Angle,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6318-0290-00,nk Support Angle i,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6318-0291-00,eave ~ P.D.-1LA i,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7602-182038,rdner-Denver CA~122 Cent. Pump t,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7602-291019,Globe Vaive t,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7503-0290-66,Hose Assembly,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-209028,Hose Adapter (1013-16-168),Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-257043,Elbow (Gaiv.) },Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-258166,' x» Close Nipple,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-258162,"' » 2-1/2"" Nipple",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-258857,"1/2” Nipple, Thd. One End",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-033076,"'S""~1] x 1-1/2"" He. Hd, Capser",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-061012,"'8""-L] Hex. Nut",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-132030,Lockwasher &,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-033094,"'4*-10-1-1/4"" Hx Hd Capscrew",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-132018,"4"" Lockwasher",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-134008,"4"" Plain Waher Wide 0.D",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-033031,{8-16 Hx. Hd. Capscrew,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-132014,Lockwasher,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7601-134022,"/8"" Plain Washer Wide O.D",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,7504-0254-00,"{4% x t/a"" x £/8"" Rey",Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6318-0292-01,elt Guard (R.H.) i i,Later piston and liner wash; source model/serial columns; source model column 1,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-350,6911-1130-00,Base,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,6911-1383-00,Pump Support,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,6911-1385-00,Shim Set,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7602-083115,Lovejoy L-100 Coupling,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7602-184048,#2 B & S Pump,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7601-033032,"3/8""-16 X 1-1/2"" Hx Hd Cpsrw",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7601-061005,"3/8""-16 Hex Nut",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7601-132014,"3/8"" Lockwasher",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7601-033030,"3/8""-16 x 1"" Hx Hd Cpscrw &",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,6911-1384-00,Coupling Guard,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7602-147033,Hp 9O0ORPM 230/460 V TEXP,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,7602-147057,Hp 9OORPM 575 V TEXP,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-350,6318-0013-00,Tool List,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301009,"Proto Socket (2-3/8"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301022,"Proto Socket (2"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301034,"Proto Socket (1-13/16"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301005,Proto Sliding Bar,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301048,Proto Sliding Plug i,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,7602-301007,"Proto 8"" Extension",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,6397-0700-00,Valve Cover Bar L,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-350,6316-0277-00,Cylinder Head Wrench,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48

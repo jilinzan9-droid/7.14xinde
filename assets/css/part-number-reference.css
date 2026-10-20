@@ -1,0 +1,79 @@
+/* All reference rows stay in HTML; scrolling replaces client-only pagination. */
+.product-reference-id,
+.f1600-table-scroll tr[id^="pn-"] {
+  scroll-margin-top: 180px;
+}
+
+.lp-detail .lp-reference .lp-table-scroll {
+  max-height: 600px;
+  min-width: 0;
+  max-width: 100%;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+.lp-detail .lp-reference .lp-table-scroll:focus-visible {
+  outline: 2px solid #126ad7;
+  outline-offset: 3px;
+}
+
+.lp-detail .lp-reference table {
+  table-layout: fixed;
+}
+
+.lp-detail .lp-reference thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #163a54;
+  background: #f2f6f8;
+}
+
+.lp-detail .lp-reference td {
+  overflow-wrap: anywhere;
+}
+
+.lp-detail .lp-reference td:first-child a,
+.lp-detail .lp-reference td:first-child code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.lp-detail .lp-reference tr[id^="pn-"] {
+  scroll-margin-block: 48px 12px;
+}
+
+.lp-detail .lp-reference tr[id^="pn-"]:target > td {
+  background: #fff3c4;
+  box-shadow: inset 0 1px #d1a53c, inset 0 -1px #d1a53c;
+}
+
+.part-reference-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  margin-block: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.part-reference-links > span {
+  color: #5b6b75;
+}
+
+.part-reference-links a,
+.lp-detail .lp-reference .pn-anchor,
+.lp-detail .lp-reference .part-number-anchor {
+  color: #126ad7;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.part-reference-links a:focus-visible,
+.lp-detail .lp-reference .pn-anchor:focus-visible,
+.lp-detail .lp-reference .part-number-anchor:focus-visible {
+  outline: 2px solid #126ad7;
+  outline-offset: 3px;
+}

@@ -1,0 +1,384 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+EMSCO FC-2200,6323-0110-10,FC-2200 general-assembly drawing reference; prefix PL,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0027-00,Pump-frame assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0080-00,Crankshaft assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0022-00,Pinion-shaft assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0060-10,Crosshead assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0100-20,Fluid-end assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0028-00,Internal lubrication assembly,,,S1,PDF p. 3
+EMSCO FC-2200,6323-0110-10,FC-2200 TRIPLEX MUD,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0027-00,"FRAME ASSEMBLY, PL",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0077-00,"SKID, MAIN",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0080-00,CRANKSHAFT ASSEME,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0022-00,PINION SHAFT ASSEMI,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0060-10,CROSSHEAD ASSEMBI,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0100-20,FLUID END ASSEMBLY,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0028-00,LUBRICATION ASSEME,General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6397-0264-00,"COVER, CLEAN-OUT",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6397-0186-00,"CAP, BREATHER",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6316-0127-00,"GASKET, COVER PLAT",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6316-0126-00,"PLATE, COVER",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0113-00,"CRANE, SERVICING",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0095-00,"SUPPORT FOOT, SUCT",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0119-00,"TANK, RECIRCULATING",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7502-0581-00,"GASKET, CLEAN-OUT C",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7502-0103-00,"GASKET, INSPECTION",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7506-0032-00,"NAMEPLATE, OIL LEVEL",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7507-0200-00,"STUD, BREATHER CAP",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7602-5940-24,"GASKET, GEAR CASE COVER -",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7602-1070-13,"WOOL, 20z. COPPER",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-1060-06,"SCREW, NO. 6X .38 DRIVE",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0330-96,"CAPSCREW, 3/4"" -10 X 1-3/4"" LG. HEX HEAD",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0610-14,"NUT, 3/4""- 10 HEX",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-1320-18,"WASHER, 3/4"" LOCK -",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0330-51,"CAPSCREW, 1/2"" - 13 X 1-1/2"" LG. HEX HEAD",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-1330-04,"WASHER, 1/2"" PLAIN",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0338-94,"CAPSCREW, 1”-8 x 3-1/2"" LG. GR. 8 ZINC PLTD. HEX HEAD",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0721-24,"NUT, 1""- 8 ZINC PLTD. LOCK",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-1430-03,"WASHER, 1” GALV. PLAIN",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0029-00,"COVER, GEAR CASE",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7510-0201-00,"DOOR, INSPECTION",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0095-04,"PLATE, SUPPORT",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0331-35,"CAPSCREW, 1""-8 X 3-1/2"" LG. HEX HEAD",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-0610-18,"NUT, 1”-8 HEX",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-1320-33,"WASHER, 1"" LOCK",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,7601-2070-08,"FITTING, 1/4"" GREASE",General assembly6323-0110-10,source-parts-list-entry,S1,PDF p. 3
+EMSCO FC-2200,6323-0100-20,"FLUID END ASSEMBLY, 7500 PSI",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0108-00,STUDDED FLUID END (DISCHARGE),Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0109-00,STUDDED FLUID END (SUCTION),Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-9087-90,"RETAINER, THREADED",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-9086-90,"RING, THREADED",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0083-00,"COVER, VALVE POT",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0103-00,"GUIDE WITH BUSHING, VALVE",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0126-00,"HANDLER, VALVE POT",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0085-00,"MANIFOLD, SUCTION",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6316-0105-95,"FLANGE, SUCTION",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6317-0074-95,"FLANGE, BLIND",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0084-10,"MANIFOLD, DISCHARGE (7500 PSI)",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-9097-90,"PLATE, WEAR",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0096-00,"RING, LINER THREAD",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0099-00,"LOCK, LINER",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0121-20,"PIPING ASSEMBLY, FEED",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0093-00,"RETAINER, VALVE GUIDE",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0128-00,"SEAL, FLUID END MODULAR",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0127-00,"SEAL, LINER",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7602-1600-52,"O-RING, SUCTION MANIFOLD",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7602-1600-61,"O-RING, SUCTION MANIFOLD TO FLUID END",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7602-1600-30,"O-RING, DISCHARAGE MANIFOLD TO FLUID END",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7501-0051-00,"SCREW, RETAINER",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7602-5310-00,"WIRE, .06 DIA. X 72"" LG. STAINLESS STEEL",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0331-39,"CAPSCREW, 1""- 8 X 5""LG. HEX HEAD",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0630-20,"NUT, 1""- 8 HEX",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0333-30,"CAPSCREW, 7/8""- 9 X 2-1/2"" LG. GR. 5 HEX HEAD",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0125-00,"SEAL, VALVE POT",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-2588-08,"NIPPLE, 1/2"" X 16""LG. GALV. PIPE (THD.ONEEND)",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0117-20,PISTON ROD ASSEMBLY,Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0058-20,"CLAMP, PISTON ROD",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0721-35,"NUT, 1-5/8""- 8 HEAVY LOCK",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0081-00,FLUID END MODULE (DISCHARGE),Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0082-00,FLUID END MODULE (SUCTION),Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0107-20,"COVER, LINER END",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0101-00,"RING, LINERLOCK °",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0102-00,"BUSHING, VALVE GUIDE",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0129-00,"DISC, FLUID BAFFLE",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7602-1600-45,O-RING,Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0630-06,"NUT, 1-3/4""- 8 HEAVY HEX",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0630-17,"NUT, 1-1/2""- 8 HEAVY HEX",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0630-24,"NUT, 1-1/4"" - 8 HEAVY HEX",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7601-0630-26,"NUT, 1-1/8""- 8 HEAVY HEX",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,7503-0470-49,"HOSE ASSEMBLY, 1/2”",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0098-00,"LINER, BASIC",Fluid end6323-0100-20,source-parts-list-entry,S1,PDF p. 4
+EMSCO FC-2200,6323-0005-01,FLUID END LOOSE PARTS (CONSISTS OF THE FOLLOWING),Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0058-20,"CLAMP, PISTON ROD",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0117-20,"PISTON ROD ASSEMBLY, TWO PIECE",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,7601-0721-35,"NUT, 1-5/8"" - 8 HEAVY LOCK (FOR PISTON ROD)",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,7602-0660-05,"GASKET, RING JOINT (R-46)",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,7602-1600-47,O-RING (FOR LINER LOCK RING),Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0101-00,"RING, LINER LOCK (TWO PIECE MATCH SET)",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0006-00,SET OF SEALS (PACKAGED),Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0107-20,"COVER, LINER END",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,7602-5160-09,"HOIST AND TROLLEY, 1/2 TON",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0131-00,"TOOL, LINER HANDLING",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0129-00,"DISC, FLUID BAFFLE",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,7601-2588-08,"PIPE, 1/2""X16""LG. GALV. (THD. ONE END ONLY)",Fluid end loose parts,source-parts-list-entry,S1,PDF p. 5
+EMSCO FC-2200,6323-0117-20,"PISTON RODASSEMBLY, TWO PIECE",Piston rod,source-parts-list-entry,S1,PDF p. 6
+EMSCO FC-2200,6323-0112-20,"ROD, EXTENSION END PISTON",Piston rod,source-parts-list-entry,S1,PDF p. 6
+EMSCO FC-2200,6323-0111-10,"ROD, PISTON END PISTON",Piston rod,source-parts-list-entry,S1,PDF p. 6
+EMSCO FC-2200,6323-0121-20,"FEED PIPING, LINER WASH (CONSISTS OF THE FOLLOWING)",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7503-0400-39,"HOSE ASSY., 1/2"" MALE NPT X 7/8""-14 FEMALE SAE",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7601-2090-40,"ELBOW, 1/2"" MPT X 7/8"" - 14 MSAE HOSE ADAPTER",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7601-2530-40,"BUSHING, 1/2"" X 1"" GALV. HEX HEAD PIPE",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7601-2570-89,"ELBOW, 1/2” X 90 DEG. GALV. STREET",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7601-2570-41,"ELBOW, 1/2” X 90 DEG. GALV. PIPE",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,7601-2584-36,"NIPPLE, 1/2"" X 7""LG. GALV. PIPE",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,6323-0059-00,"EXTENSION, CROSSHEAD",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,6323-0027-00,"FRAME ASSEMBLY, MACHINED",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,6323-0058-20,"CLAMP, PISTON ROD",Piston and liner,source-parts-list-entry,S1,PDF p. 7
+EMSCO FC-2200,6323-0022-00,PINION SHAFT ASSEMBLY (CONSISTS OF THE FOLLOWING),Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,6323-0021-00,"SHAFT, PINION",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,6323-0018-00,"CARRIER, BEARING",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,6323-0019-00,"CARRIER, OIL SEAL",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,6323-0020-00,"SPACER, BEARING",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7502-0997-00,"GASKET, OIL SEAL CARRIER",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7502-0998-00,"GASKET, CARRIER TO FRAME",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7602-0213-07,BEARING,Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7602-2133-02,"SEAL, OIL",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7601-0334-32,"CAPSCREW, 7/8"" - 9 UNC X 2-1/4"" LG. GR. 5 HEX HEAD",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7601-1320-19,"WASHER, 7/8"" LOCK",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7601-0332-20,"CAPSCREW, 1/2"" - 13 UNC X 1-1/2"" LG. GR. 5 HEX HEAD",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,7601-1320-16,"WASHER, 1/2"" LOCK",Pinion shaft,source-parts-list-entry,S1,PDF p. 8
+EMSCO FC-2200,6323-0080-00,CRANKSHAFT ASSEMBLY (CONSISTS OF THE FOLLOWING),Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0011-01,"CRANKSHAFT, MACHINED",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0012-00,"STRAP, ECCENTRIC",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0013-00,"RETAINER, ECCENTRIC OUTER RACE",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0014-00,"RETAINER, ECCENTRIC INNER RACE",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0070-00,"RETAINER, CENTER INNER RACE",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0065-00,"RETAINER, ECCENTRIC INNER BEARING",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0023-00,"GEAR, ECCENTRIC RING",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0078-00,"GASKET, MAIN BEARING COVER",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0039-00,"RETAINER, MAIN BEARING OUTER RACE",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0071-00,"RETAINER, MAIN BEARING INNER RACE",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0025-00,"CARRIER, BEARING (LEFT HAND)",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0024-00,"CARRIER, BEARING (RIGHT HAND)",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0072-00,"STUD, 3-1/4""-8 X 25-3/4"" LG. MAIN BEARING",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0130-00,"NUT, 3-1/4""- 8 MAIN BEARING STUD",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0076-10,"SHIM SET, MAIN BEARING CARRIER",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7501-0004-00,"CAPSCREW, 5/8"" - 114 X 1-1/2"" LG. DRILLED HEX HEAD",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7602-0213-06,"BEARING, ECCENTRIC",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7602-0201-67,"BEARING, MAIN",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7602-5289-60,"WIRE, .06” DIA. X 80 FT. SOFT IRON",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7602-5200-96,"WIRE, 11 GA. X8 FT. SOFT IRON",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7601-0330-77,"CAPSCREW, 5/8"" - 11 X 1-3/4"" LG. HEX HEAD",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7601-6330-76,"CAPSCREW, 1-3/4""-5 UNC X7""LG. GR. 5 HEX HEAD",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7601-0720-21,"NUT, 1-3/4""- & ESNA HEAVY HEX",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7601-1330-05,"WASHER, PLAIN",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0054-00,"COVER, MAIN BEARING",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,7602-0213-05,"BEARING, CROSSHEAD",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0068-00,"CAP, MAIN BEARING",Crankshaft,source-parts-list-entry,S1,PDF p. 9
+EMSCO FC-2200,6323-0060-10,CROSSHEAD ASSEMBLY (CONSISTS OF THE FOLLOWING),Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0043-00,"BOX, DIAPHRAGM STUFFING",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0073-00,GASKET,Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0059-10,"EXTENSION, CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0056-00,"PIN, CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0057-00,"RETAINER, CROSSHEAD PIN",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0010-00,CROSSHKEAD,Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0189-00,"GUIDE, UPPER CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0067-00,"PLATE, LOCKING",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0190-00,"GUIDE, LOWER CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0063-00,"GASKET, CROSSHEAD DOOR",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0041-00,"WIPER, DIAPHRAGM STUFFING BOX ROD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0044-00,"SPACER, STUFFING BOX",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0045-00,"RETAINER, ROD WIPER",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7508-0020-31,"TUBING ASSEMBLY, 3/8"" COPPER",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7501-0141-00,"CAPSCREW, 1""-8 X 2-1/4"" LG. GR. 5 DRILLED HEX HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7501-0139-00,"CAPSCREW, 1""-8 X 2-1/2"" LG. GR. 5 DRILLED HEX HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7602-1610-40,FRAME),Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7501-1269-00,"CAPSCREW, 1""- 8 X 2-1/2""LG. DRILLED SOCKET HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7602-5313-70,"WIRE, .06 DIA. X 370"" STAINLESS STEEL",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7602-2133-01,"SEAL, SINGLE LIP OIL",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7602-2160-09,"SEAL, DOUBLE LIP OIL",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7602-0213-05,"BEARING, CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-2580-08,"NIPPLE, 3/6"" X 2""LG. PIPE",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-2730-07,"CONNECTOR, 5/8"" - 18 X 3/8"" NPT TUBING",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-0340-16,"CAPSCREW, 3/8"" - 16 X 1-1/2"" LG. SOCKET HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-0330-33,"CAPSCREW, 3/8"" - 16 X 1-3/4"" LG. HEX HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-1320-14,"WASHER, 3/8"" LOCK",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-0330-76,"CAPSCREW, 5/8"" - 11 X 1-1/2"" LG. HEX HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-1330-05,"WASHER, 5/8” SMALL O.D. WASHER",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0012-00,"STRAP, ECCENTRIC",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0062-00,"DOOR, CROSSHEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0129-00,"DISC, FLUID BAFFLE",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-0330-77,"CAPSCREW, 5/8"" - 11 X 1-3/4"" LG. HEX HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-1320-49,"WASHER, 5/8"" LOCK",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0121-00,"PIPING, LINER WASH FEED",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,7601-0340-95,"CAPSCREW W/NYLOK LOCK, 3/4” - 10 X 3"" LG. SOCKET HEAD",Crosshead,source-parts-list-entry,S1,PDF p. 10
+EMSCO FC-2200,6323-0028-00,"LUBRICATION ASSEMBLY, POWER ENI",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7602-1070-03,"FILTER, 3/4"" NPT AIR",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7602-1150-98,"GAUGE (0-160 PSI), OIL PRESSURE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7602-2914-78,"VALVE, RELIEF",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6397-0316-01,"JET, OIL",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7602-1830-82,"PUMP WITHOUT RELIEF VALVE, Oil",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6319-0095-00,SHIM SET,Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6323-0079-00,"PLATE, MOUNTING",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6316-0169-00,"MANIFOLD, CROSSHEAD",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2091-39,"ADAPTER, 3/4"" FEMALE NPT X 1/2"" MAL",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7514-0212-06,"CLAMP, 3/8” SINGLE TUBING",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7514-0231-00,"CLAMP, 3/8"" TRIPLE TUBING",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7514-0007-00,"CLAMP, 1/2” SINGLE TUBING",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2580-56,"NIPPLE, 2” X 8"" LG. SCH. 40 PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2610-78,"TEE, 2” BLACK PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-0330-03,"CAPSCREW, 1/4"" - 20 X 3/4"" LG. HEX HEAD",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-1320-38,"WASHER, 1/4” LOCK",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-0330-32,"CAPSCREW, 3/8""- 16 X 1-1/2"" LG. HEX HEAD",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2730-08,CONNECTOR,Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6319-0094-00,"PUMP, 5.67 P.D. 16 TEETH GEAR OIL",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7504-0002-00,"KEY, 3/16"" X 3/16"" X 1"" LG",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2750-35,"ELBOW, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2550-27,"COUPLING, 1/2"" X 3000# PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2530-04,"BUSHING, 1/2"" X 1/8"" HEX HEAD PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0300-37,"TUBING ASSEMBLY, 71/2"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2550-85,"COUPLING, 1/2"" STD. PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2531-40,"BUSHING, 2"" X 1/2” HEX HEAD",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2810-03,UNION,Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2730-04,"CONNECTOR, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2730-86,"CONNECTOR, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2752-00,"ELBOW, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2810-02,UNION -,Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2750-04,"ELBOW, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2750-05,"ELBOW, MALE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2750-06,"ELBOW, MALE . -",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0920-28,"TUBING ASSEMBLY, 3/8"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0340-19,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0920-19,"TUBING ASSEMBLY, 5/16” OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0640-19,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0160-19,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0130-45,"TUBING ASSEMBLY, 5/8"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0270-45,"TUBING ASSEMBLY, 5/8"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0180-40,"TUBING ASSEMBLY, 1/2” OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-1050-19,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0780-19,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0260-22,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0420-22,"TUBING ASSEMBLY. 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0360-22,"TUBING ASSEMBLY, 5/16” OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0150-22,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0530-22,"TUBING ASSEMBLY, 5/16"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0460-22,"TUBING ASSEMBLY, 5/16” OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7508-0480-28,"TUBING ASSEMBLY, 3/8"" OD COPPER",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,7601-2585-86,"NIPPLE, 1/2"" NPT X8""LG. BLK. PIPE",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6397-0181-00,"DIPSTICK, OIL LEVEL",Lubrication,source-parts-list-entry,S1,PDF p. 11
+EMSCO FC-2200,6323-0120-00,"LINER WASH ASSEMBLY, LEFT HAND",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,6323-0122-00,"BRACKET, LINER WASH MOUNTING",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,6911-1366-00,"SHIM SET, MOTOR",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,6911-1365-00,"GUARD, COUPLING",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7518-0500-83,"HOSE ASSEMBLY, 1” X 50"" LG",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7514-0139-00,"CLAMP, 2-1/2"" PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-1820-34,"PUMP, 1” X 1-1/2” CENTRIFUGAL",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-0661-44,"GASKET, 1"" X 150# FLANGE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-0661-45,"GASKET, 1-1/2"" X 150# FLANGE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-0720-04,"CLAMP, HOSE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-0720-41,"CLAMP, HOSE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-2910-19,"VALVE, 1"" GLOBE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7602-0831-28,COUPLING,Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7504-0801-00,"KEY, 1/2"" X 1/2"" X 1-1/8"" LG",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2551-03,"COUPLING, 2-1/2” GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2063-17,"FLANGE, 1"" X 150# THREADED",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2060-13,"FLANGE, 1-1/2"" X 150# THREADED",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2091-40,"ADAPTER, 1-5/16""- 12 MALE SAE 37 DEG. X 1"" -11-1/2 MALE PIPE THD",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-3240-26,"HOSE, 1-1/2"" X 26"" LG",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-4310-18,"HOSE, 2-1/2"" X 18"" LG",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2570-91,"ELBOW, 1"" X 90 DEG. GALV. STREET",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2570-18,"ELBOW, 2-1/2” X 45 DEG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2570-95,"ELBOW, 2-1/2"" X 90 DEG. STREET",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2570-47,"ELBOW, 2-1/2"" X 90 DEG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2581-60,"NIPPLE, 1"" X CLOSE GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2582-34,"NIPPLE, 2-1/2"" X 4"" LG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2582-36,"NIPPLE, 2-1/2"" X 6"" LG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2582-39,"NIPPLE, 2-1/2"" X 8-1/2"" LG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2588-24,"NIPPLE, 2-1/2"" X 12"" LG. GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2583-84,"NIPPLE, 1-1/2” COMBINATION HOSE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2583-52,"NIPPLE, 2-1/2” COMBINATION HOSE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2530-98,"BUSHING, 2-1/2"" X 1-1/2"" LG. GALV. HEX HEAD PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-2590-15,"PLUG, 2-1/2"" GALV. PIPE",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-1261-19,"BOLT WITH NUTS, 1/2"" - 13 X 2-1/2"" LG. STUD",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-1261-20,"BOLT WITH NUTS, 1/2""- 13 X 2-3/4"" LG. STUD",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-0332-42,"CAPSCREW, 3/8"" - 16 X 1-5/8"" LG. HEX HEAD",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-0610-05,"NUT, 3/8"" - 16 HEX",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-1320-14,"WASHER, 3/8” LOCK",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-0330-78,"CAPSCREW, 5/8""- 11X 2"" LG. HEX HEAD",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-1320-30,"WASHER, 5/8"" LOCK",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-0610-12,"NUT, 5/8"" - 11 HEX",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,7601-1330-05,"WASHER, 5/8"" PLAIN",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,6323-0119-00,"TANK, 438 GALLON",Piston/liner wash LH,source-parts-list-entry,S1,PDF p. 12
+EMSCO FC-2200,6323-0124-00,"LINER WASH ASSEMBLY, RIGHT HAND",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,6323-0123-00,"BRACKET, LINER WASH MOUNTING",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,6911-1366-00,"SHIM SET, MOTOR",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,6911-1365-00,"GUARD, COUPLING",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7518-0440-66,"HOSE ASSEMBLY, 1” X 44"" LG",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7514-0139-00,"CLAMP, 2-1/2"" PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-1820-34,"PUMP, 1"" X 1-1/2"" CENTRIFUGAL",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-0661-44,"GASKET, 1"" X 150# FLANGE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-0661-45,"GASKET, 1-1/2"" X 150# FLANGE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-0720-04,"CLAMP, HOSE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-0720-41,"CLAMP, HOSE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-2910-19,"VALVE, 1” GLOBE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7602-0831-28,COUPLING,Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7504-0801-00,"KEY, 1/2"" X 1/2” X 1-1/8"" LG",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2551-03,"COUPLING, 2-1/2"" GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2063-17,"FLANGE, 1"" X 150# THREADED",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2060-13,"FLANGE, 1-1/2"" X 150# THREADED",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2090-28,"ADAPTER, HOSE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-3240-26,"HOSE, 1-1/2"" X 26"" LG",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-4310-18,"HOSE, 2-1/2"" X 18"" LG",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2570-91,"ELBOW, 1"" X 90 DEG. GALV. STREET",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2570-18,"ELBOW, 2-1/2"" X 45 DEG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2570-95,"ELBOW, 2-1/2"" X 90 DEG. STREET",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2570-47,"ELBOW, 2-1/2"" X 90 DEG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2581-60,"NIPPLE, 1"" X CLOSE GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2582-34,"NIPPLE, 2-1/2""X 4"" LG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2582-36,"NIPPLE, 2-1/2"" X 6"" LG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2582-39,"NIPPLE, 2-1/2"" X 8-1/2"" LG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2588-24,"NIPPLE, 2-1/2"" X 12"" LG. GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2583-84,"NIPPLE, 1-1/2"" COMBINATION HOSE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2583-52,"NIPPLE, 2-1/2” COMBINATION HOSE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2530-98,"BUSHING, 2-1/2"" X 1-1/2” LG. GALV. HEX HEAD PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-2590-15,"PLUG, 2-1/2” GALV. PIPE",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-1261-19,"BOLT WITH NUTS, 1/2"" - 13 X 2-1/2"" LG. STUD",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-1261-20,"BOLT WITH NUTS, 1/2” - 13 X 2-3/4"" LG. STUD",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-0332-42,"CAPSCREW, 3/8"" - 16 X 1-5/8"" LG. HEX HEAD",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-0610-05,"NUT, 3/8"" - 16 HEX",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-1320-14,"WASHER, 3/8"" LOCK",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-0330-77,"CAPSCREW, 5/8"" - 11 X 1-3/4"" LG. HEX HEAD",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,7601-1320-30,"WASHER, 5/8"" LOCK",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,6323-0119-00,"TANK, 138 GALLON",Piston/liner wash RH,source-parts-list-entry,S1,PDF p. 13
+EMSCO FC-2200,6922-0062-90,SD-8 SUCTION DESURGER ASSEMBLY,SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0054-00,BLADDER,SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0066-00,"ROD, SUPPORT",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0063-90,"FLANGE, CHARGING",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0048-90,"FLANGE, ADAPTER",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0065-00,"PLUG, END",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7602-0721-30,"CLAMP, HOSE",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0053-00,GASKET,SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-0330-77,"CAPSCREW, 5/8"" - 11 X 1-3/4"" LG. HEX HEAD",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7602-2910-77,"VALVE, 1/4"" NEEDLE",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-2530-01,"BUSHING, 1/4"" X 1/8"" HEX HEAD PIPE",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7602-2918-05,"VALVE WITH 1/8"" VALVE STEM, AIR TANK",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6922-0067-00,"GUARD, VALVE",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-0330-01,"CAPSCREW, 1/4"" - 20 X 1/2"" LG. HEX HEAD",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-1320-38,"WASHER, 1/4"" LOCK",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-1320-30,"WASHER, 5/8” LOCK",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,7601-2590-08,"PLUG, 1/4"" PIPE",SD8 suction desurger,source-parts-list-entry,S1,PDF p. 14
+EMSCO FC-2200,6323-0094-00,7500 PS! BLOCK MANIFOLD ASSEMBLY,Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,6323-0088-00,"BLOCK, MANIFOLD",Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,7507-3411-10,"STUD, 1-1/8""",Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,7601-0630-26,"NUT, 1-1/8"" - BUNC HEAVY HEX",Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,6323-0091-00,STRAINER ASSEMBLY,Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,7602-0662-56,"GASKET, BX-169",Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,6323-0089-00,STRAINER,Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,6323-0092-00,"FLANGE, STRAINER",Shock absorber,source-parts-list-entry,S1,PDF p. 15
+EMSCO FC-2200,6922-0021-00,PD-55 PULSATION DAMPENER ASSY,Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6922-0022-00,STUDDED ASSEMBLY,Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6922-0017-00,HEAD,Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6922-0008-00,"COVER, GUAGE",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6922-0003-00,BLADDER,Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6922-0019-00,"PLUG, BOTTOM",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7602-2910-00,"VALVE, NEEDLE",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7602-1153-03,"GAUGE (0-6000 PSI), PRESSURE",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7601-6582-79,"NIPPLE, 1/4” X CLOSE S.S. PIPE",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7601-2612-29,"TEE, 1/4"" STAINLESS STEEL PIPE",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7602-2938-29,"VALVE, 1/4"" S.S. BLEED",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7601-0340-29,"CAPSCREW, SOCKET HEAD",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7601-1320-16,"WASHER, 1/2"" LOCK",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6399-0088-00,CHARGING INSTRUCTIONS,Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,7602-0660-03,"GASKET, R-39 RING JOINT-",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6397-0498-00,"FLANGE, ADAPTER",Shear relief valve,source-parts-list-entry,S1,PDF p. 16
+EMSCO FC-2200,6323-0146-00,PRESSURE SWITCH INSTALLATION,Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-3380-16,"TUBING, 3/8"" OD X 16"" LG. COPPER",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-2752-59,"ELBOW, 3/8"" T. X 1/2"" M.P.T. X 90 DEG",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-2550-27,"COUPLING 1/2"" X 3000# BLK. PIPE",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7602-2641-96,"SWITCH, PRESSURE",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-2530-03,"BUSHING, 1/2"" X 1/4” BLK. PIPE",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-2730-03,"ADAPTER, 1/4"" T. X 1/4"" M.P.T. TUBING",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-2750-03,"ELBOW, 1/4"" T. X 1/4"" M.P.T. TUBING",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7508-0240-10,"TUBING ASSEMBLY, 1/4"" 0.0. COPPER",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-0330-03,"CAPSCREW, 1/4"" - 20 X 3/4"" LG. HEX HEAD",Liner wash pump,source-parts-list-entry,S1,PDF p. 17
+EMSCO FC-2200,7601-1320-38,"WASHER, 1/4"" LOCK",Liner wash pump,source-parts-list-entry,S1,PDF p. 17

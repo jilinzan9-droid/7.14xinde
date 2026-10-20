@@ -40,28 +40,44 @@ document.querySelectorAll('[data-parts-search]').forEach(input => {
   const region = input.closest('.lp-reference');
   const rows = [...region.querySelectorAll('tbody tr')];
   const status = region.querySelector('[data-parts-status]');
-  let currentPage = 0;
-  const pageSize = 20;
-  const pager = document.createElement('div');
-  pager.className = 'lp-pager';
-  const previous = document.createElement('button');
-  previous.type = 'button'; previous.textContent = '← Previous';
-  const next = document.createElement('button');
-  next.type = 'button'; next.textContent = 'Next →';
-  pager.append(previous, next);
-  region.append(pager);
   const update = () => {
     const query = input.value.trim().toLowerCase();
-    const matches = rows.filter(row => matchesCatalogSearch(row.textContent, query, row.cells[0].textContent));
-    rows.forEach(row => row.hidden = true);
-    const start = currentPage * pageSize;
-    matches.slice(start, start + pageSize).forEach(row => row.hidden = false);
-    status.textContent = matches.length ? `${start + 1}–${Math.min(start + pageSize, matches.length)} of ${matches.length} matching parts` : 'No matching parts. Send your part number or drawing for identification.';
-    previous.disabled = currentPage === 0;
-    next.disabled = start + pageSize >= matches.length;
+    let visible = 0;
+    rows.forEach(row => {
+      const match = !query || matchesCatalogSearch(row.textContent, query, row.cells[0].textContent);
+      row.hidden = !match;
+      visible += Number(match);
+    });
+    status.textContent = visible
+      ? `${visible} ${query ? 'matching parts' : 'parts in this reference'}`
+      : 'No matching parts. Send your part number or drawing for identification.';
   };
-  input.addEventListener('input', () => { currentPage = 0; update(); });
-  previous.addEventListener('click', () => { currentPage--; update(); });
-  next.addEventListener('click', () => { currentPage++; update(); });
+
+  const revealPart = () => {
+    let id;
+    try {
+      id = decodeURIComponent(window.location.hash.slice(1));
+    } catch (error) {
+      return;
+    }
+    if (!id.startsWith('pn-')) return;
+    const target = document.getElementById(id);
+    if (!rows.includes(target)) return;
+    input.value = '';
+    update();
+    target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    region.querySelector('.lp-table-scroll')?.scrollIntoView({ block: 'center', inline: 'nearest' });
+  };
+
+  input.addEventListener('input', update);
+  window.addEventListener('hashchange', revealPart);
+  region.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#pn-"]');
+    if (link && link.hash === window.location.hash) {
+      event.preventDefault();
+      revealPart();
+    }
+  });
   update();
+  revealPart();
 });

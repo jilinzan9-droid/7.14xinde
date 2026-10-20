@@ -86348,6 +86348,537 @@
   ],
   "posts": [
     {
+      "id": "national-7p50-mud-pump-parts-reference",
+      "title": "National 7-P-50 Mud Pump Parts: Using the EPL-1219 References",
+      "category": "公司新闻",
+      "excerpt": "Identify National 7-P-50 assemblies, piston rod alternatives and liner-related parts using the EPL-1219 catalog before preparing an RFQ.",
+      "slug": "en/news/national-7p50-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-8p80-mud-pump-parts-reference",
+      "title": "National 8-P-80 Mud Pump Parts: Rods, Liners and Assembly Matching",
+      "category": "公司新闻",
+      "excerpt": "Read the National 8-P-80 size designation and compare rod, crosshead and fluid-end references before requesting replacement parts.",
+      "slug": "en/news/national-8p80-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-9p100-mud-pump-parts-reference",
+      "title": "National 9-P-100 Mud Pump Parts: Power-End and Fluid-End References",
+      "category": "公司新闻",
+      "excerpt": "Use National 9-P-100 drawings and original part numbers to separate rod, crosshead, liner and fluid-end requirements in a maintenance RFQ.",
+      "slug": "en/news/national-9p100-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-10p130-mud-pump-parts-reference",
+      "title": "National 10-P-130 Mud Pump Parts: EPL-1100 Assembly and Spray-System Guide",
+      "category": "公司新闻",
+      "excerpt": "Separate National 10-P-130 fluid-end, power-end and piston/liner spray-system references when preparing a spare-parts quotation request.",
+      "slug": "en/news/national-10p130-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-12p160-valve-cover-parts-reference",
+      "title": "National 12-P-160 Mud Pump Parts and Drawing References",
+      "category": "公司新闻",
+      "excerpt": "The 12-P-160 EPL-967 catalog shows standard Fast-Change and optional Tapr-Lok fluid ends. Identify the installed cover before ordering parts.",
+      "slug": "en/news/national-12p160-valve-cover-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-14p220-legacy-blak-jak-parts-reference",
+      "title": "National 14-P-220 Parts: Checking Legacy and BLAK-JAK References",
+      "category": "公司新闻",
+      "excerpt": "Keep legacy EPL-955-1 and later 14-P-220 BLAK-JAK/HydraAlign part references separate. Compare valve-cover configurations before preparing an RFQ.",
+      "slug": "en/news/national-14p220-legacy-blak-jak-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-a1700pt-mud-pump-parts-reference",
+      "title": "National A1700-PT Mud Pump Parts: Fluid-End and Drawing References",
+      "category": "公司新闻",
+      "excerpt": "Read the National A1700-PT drawing index and preserve the original fluid-end commodity numbers when preparing a replacement-parts request.",
+      "slug": "en/news/national-a1700pt-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "weatherford-mp8-mud-pump-parts-reference",
+      "title": "Weatherford MP-8 Parts: Fluid Modules, Liners and Seal References",
+      "category": "公司新闻",
+      "excerpt": "Match Weatherford MP-8 fluid-end modules, liner materials and seals using the April 2013 manual and original part references.",
+      "slug": "en/news/weatherford-mp8-mud-pump-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "weatherford-mp10-two-piece-fluid-end-parts-reference",
+      "title": "Weatherford MP-10 Parts: Identifying the Two-Piece Fluid End",
+      "category": "公司新闻",
+      "excerpt": "Use the MP-10 two-piece fluid-end manual to distinguish suction and discharge modules, piston rods, liner retainers and seals.",
+      "slug": "en/news/weatherford-mp10-two-piece-fluid-end-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "weatherford-mp16-vov-two-piece-fluid-end-parts-reference",
+      "title": "Weatherford MP-16 Parts: Valve-over-Valve and Two-Piece Fluid Ends",
+      "category": "公司新闻",
+      "excerpt": "Keep Weatherford MP-16 Valve-over-Valve and L-style references separate when matching modules, piston rods, wear plates and crankshafts.",
+      "slug": "en/news/weatherford-mp16-vov-two-piece-fluid-end-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "bomco-f1300-southwest-8404a-fluid-end-parts-guide",
+      "title": "BOMCO F-1300 Parts: Identifying the Southwest 8404A Fluid End",
+      "category": "公司新闻",
+      "excerpt": "Identify Southwest 8404A fluid-end modules, retainers and seals listed for the BOMCO F-1300 configuration before preparing a parts RFQ.",
+      "slug": "en/news/bomco-f1300-southwest-8404a-fluid-end-parts-guide/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "f1600-southwest-8404a-rod-liner-parts-guide",
+      "title": "F1600 Mud Pump Parts: Southwest 8404A Rod and Liner References",
+      "category": "公司新闻",
+      "excerpt": "Use the Southwest 8404A references to separate F1600 piston rod components, liner material choices and configuration-specific pressure data.",
+      "slug": "en/news/f1600-southwest-8404a-rod-liner-parts-guide/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "8t-650-01-mud-pump-parts-drawing-numbers",
+      "title": "8T-650-01 Mud Pump Parts: Drawing Numbers and Matching Checks",
+      "category": "公司新闻",
+      "excerpt": "Identify 8T-650-01 mud pump parts using drawing references, liner sizes and source-specific specifications before preparing a replacement-parts enquiry.",
+      "slug": "en/news/8t-650-01-mud-pump-parts-drawing-numbers/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "unb-600-mud-pump-parts-hydraulic-block-guide",
+      "title": "UNB-600 Mud Pump Parts: Hydraulic Block and Drawing Reference Guide",
+      "category": "公司新闻",
+      "excerpt": "Find UNB-600 assembly and hydraulic-block drawing references, including valves, seats, rod seals and right-hand or left-hand hydraulic boxes.",
+      "slug": "en/news/unb-600-mud-pump-parts-hydraulic-block-guide/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "unbt-950a-mud-pump-parts-liners-pistons",
+      "title": "UNBT-950A Mud Pump Parts: Liners, Pistons and Matched Drawing Numbers",
+      "category": "公司新闻",
+      "excerpt": "Review UNBT-950A mud pump liner, piston, valve and rod references, with diameter-specific suffixes and matching checks from the supplied parts catalogue.",
+      "slug": "en/news/unbt-950a-mud-pump-parts-liners-pistons/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "unbt-950a2-mud-pump-parts-assembly-matching",
+      "title": "UNBT-950A2 Mud Pump Parts: Assembly, Pulley and Replacement Matching",
+      "category": "公司新闻",
+      "excerpt": "Identify UNBT-950A2 mud pump assemblies, pulley variants and fluid-end references using the correct pump drawing and installed configuration.",
+      "slug": "en/news/unbt-950a2-mud-pump-parts-assembly-matching/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "unbt-1180l1-mud-pump-parts-urbo-drawings",
+      "title": "UNBT-1180L1 Mud Pump Parts: URBO Drawings and Liner Identification",
+      "category": "公司新闻",
+      "excerpt": "Check UNBT-1180L1 mud pump parts against URBO assembly and liner references, with source-specific specifications and exact drawing-number suffixes.",
+      "slug": "en/news/unbt-1180l1-mud-pump-parts-urbo-drawings/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "unbt-1180l2-mud-pump-parts-bulanash-references",
+      "title": "UNBT-1180L2 Mud Pump Parts: Bulanash References and Seal Selection",
+      "category": "公司新闻",
+      "excerpt": "Review UNBT-1180L2 Bulanash drawing references for pistons, liners, valves and power-end parts, including bore-specific seal and suffix checks.",
+      "slug": "en/news/unbt-1180l2-mud-pump-parts-bulanash-references/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "pz-7-pzg-mud-pump-parts-reference-guide",
+      "title": "PZ-7 (PZG) Mud Pump Parts: Module and Supplier Reference Guide",
+      "category": "公司新闻",
+      "excerpt": "Identify PZ-7 PZG mud pump fluid-end modules, studs and valve-cover parts while keeping aftermarket supplier references separate from OEM numbers.",
+      "slug": "en/news/pz-7-pzg-mud-pump-parts-reference-guide/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "pz-8-pzh-mud-pump-parts-oem-list-matching",
+      "title": "PZ-8 (PZH) Mud Pump Parts: OEM List and Fluid-End Matching",
+      "category": "公司新闻",
+      "excerpt": "Match PZ-8 PZH frame and Wide Body fluid-end parts to the manufacturer parts list, retaining the exact reference and checking the installed configuration.",
+      "slug": "en/news/pz-8-pzh-mud-pump-parts-oem-list-matching/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "pz-9-pzj-mud-pump-parts-gasket-guide-references",
+      "title": "PZ-9 (PZJ) Mud Pump Parts: Gasket and Valve-Guide References",
+      "category": "公司新闻",
+      "excerpt": "Prepare a PZ-9 PZJ parts enquiry using valve-guide, wear-plate and gasket references, with clear separation of supplier codes and OEM part numbers.",
+      "slug": "en/news/pz-9-pzj-mud-pump-parts-gasket-guide-references/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f350-fluid-end-parts-identification",
+      "title": "EMSCO F-350 Parts: Identify the Fluid-End Version Before Ordering",
+      "category": "公司新闻",
+      "excerpt": "Identify EMSCO F-350 fluid-end versions and selected part numbers before preparing a parts enquiry.",
+      "slug": "en/news/emsco-f350-fluid-end-parts-identification/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f500-spare-parts-revision-matching",
+      "title": "EMSCO F-500 Spare Parts: Match the Revision-L Fluid-End Column",
+      "category": "公司新闻",
+      "excerpt": "Use the EMSCO F-500 fluid-end column to distinguish assembly, piston-rod and cylinder-head references.",
+      "slug": "en/news/emsco-f500-spare-parts-revision-matching/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f650-part-numbers-fluid-end-wear-parts",
+      "title": "EMSCO F-650 Part Numbers: Distinguish the Assembly and Wear Parts",
+      "category": "公司新闻",
+      "excerpt": "Check EMSCO F-650 assembly and individual component numbers before ordering fluid-end replacement parts.",
+      "slug": "en/news/emsco-f650-part-numbers-fluid-end-wear-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f750-fluid-end-part-numbers",
+      "title": "EMSCO F-750 Fluid-End Parts: Keep the F and FA Selections Separate",
+      "category": "公司新闻",
+      "excerpt": "Distinguish EMSCO F-750 from FA-750 fluid-end parts using the documented body, valve-guide and manifold numbers.",
+      "slug": "en/news/emsco-f750-fluid-end-part-numbers/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fa750-valve-guide-manifold-parts",
+      "title": "EMSCO FA-750 Parts Identification: Valve Guide and Manifold References",
+      "category": "公司新闻",
+      "excerpt": "Keep the FA-750 model prefix and check its studded fluid-end, valve-guide and discharge-manifold references.",
+      "slug": "en/news/emsco-fa750-valve-guide-manifold-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f800-serial-number-fluid-end-parts",
+      "title": "EMSCO F-800 Mud Pump Parts: Check the Serial Number and Fluid End",
+      "category": "公司新闻",
+      "excerpt": "Identify EMSCO F-800 fluid-end references and serial-dependent catalogue sections without confusing the Weatherford E-800.",
+      "slug": "en/news/emsco-f800-serial-number-fluid-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f1000-drawing-revision-part-numbers",
+      "title": "EMSCO F-1000 Part Numbers: Check Drawing Revisions and Serial Ranges",
+      "category": "公司新闻",
+      "excerpt": "Compare EMSCO F-1000 source drawing editions and preserve the serial context when identifying fluid-end and power-end parts.",
+      "slug": "en/news/emsco-f1000-drawing-revision-part-numbers/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f1300-fluid-end-crosshead-parts",
+      "title": "EMSCO F-1300 Parts: Read the Fluid-End and Crosshead References Separately",
+      "category": "公司新闻",
+      "excerpt": "Use the EMSCO F-1300 fluid-end drawing and serial-dependent crosshead index to prepare a clearer parts enquiry.",
+      "slug": "en/news/emsco-f1300-fluid-end-crosshead-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-f1600-serial-drawing-parts-guide",
+      "title": "EMSCO F-1600 Spare Parts: Preserve the Full Serial and Drawing Context",
+      "category": "公司新闻",
+      "excerpt": "Identify EMSCO F-1600 fluid-end references and preserve the catalogue serial exceptions for power-end parts.",
+      "slug": "en/news/emsco-f1600-serial-drawing-parts-guide/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fa1300-fluid-end-type-parts",
+      "title": "EMSCO FA-1300 Parts: Identify Type I, Type 1-1/2 or Type II",
+      "category": "公司新闻",
+      "excerpt": "Distinguish three documented EMSCO FA-1300 fluid-end types and retain their exact assembly-number endings.",
+      "slug": "en/news/emsco-fa1300-fluid-end-type-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fa1600-liner-lock-fluid-end-parts",
+      "title": "EMSCO FA-1600 Part Numbers: Match the Liner-Lock and Fluid-End Type",
+      "category": "公司新闻",
+      "excerpt": "Identify EMSCO FA-1600 liner-lock bodies, flanges, rings and basic liners within the correct fluid-end type.",
+      "slug": "en/news/emsco-fa1600-liner-lock-fluid-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fb1300-master-assembly-fluid-end-parts",
+      "title": "EMSCO FB-1300 Parts: Separate Master Assembly and Fluid-End References",
+      "category": "公司新闻",
+      "excerpt": "Use the EMSCO FB-1300 parts-list hierarchy to distinguish general assembly, fluid-end and power-end references.",
+      "slug": "en/news/emsco-fb1300-master-assembly-fluid-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fb1600-general-assembly-power-end-parts",
+      "title": "EMSCO FB-1600 Part Numbers: Match the General Assembly and Power End",
+      "category": "公司新闻",
+      "excerpt": "Trace EMSCO FB-1600 general-assembly, crankshaft, pinion and crosshead references before requesting replacement parts.",
+      "slug": "en/news/emsco-fb1600-general-assembly-power-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fc1600-low-temperature-fluid-end-parts",
+      "title": "EMSCO FC-1600 Parts: Check the Low-Temperature 5000 PSI Drawing Version",
+      "category": "公司新闻",
+      "excerpt": "Use the documented EMSCO FC-1600 low-temperature fluid-end reference and confirm drawing suffixes before ordering.",
+      "slug": "en/news/emsco-fc1600-low-temperature-fluid-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "emsco-fc2200-7500psi-general-assembly-parts",
+      "title": "EMSCO FC-2200 Parts: Trace the 7500 PSI General-Assembly Drawing",
+      "category": "公司新闻",
+      "excerpt": "Trace the EMSCO FC-2200 general-assembly drawing to its frame, crankshaft, pinion, crosshead and fluid-end references.",
+      "slug": "en/news/emsco-fc2200-7500psi-general-assembly-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "weatherford-e800-pump-manual-parts-reference",
+      "title": "Weatherford E-800 Parts: Use the Manual Configuration and Exact Numbers",
+      "category": "公司新闻",
+      "excerpt": "Identify Weatherford E-800 power-end, fluid-end and liner references using its manual and the installed pump configuration.",
+      "slug": "en/news/weatherford-e800-pump-manual-parts-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ellis-williams-e1600-fb-style-fluid-end-parts",
+      "title": "Ellis Williams E-1600 FB-Style Fluid-End Parts Identification",
+      "category": "公司新闻",
+      "excerpt": "Identify Ellis Williams E-1600 FB-style fluid-end references from the supplied drawing without assuming EMSCO FB-1600 compatibility.",
+      "slug": "en/news/ellis-williams-e1600-fb-style-fluid-end-parts/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-pah-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver PAH Mud Pump Parts: Small-OD and Large-OD Liner References",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver PAH liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-pah-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-pj8a-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver PJ8A Mud Pump Parts: Shared Expendables Sheet and Liner-OD Matching",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver PJ8A liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-pj8a-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-pz-10-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver PZ-10 Mud Pump Parts: Standard and L-Shaped Fluid-End References",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver PZ-10 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-pz-10-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-pz-11-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver PZ-11 Mud Pump Parts: Valve-Lock and L-Shaped Module Parts",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver PZ-11 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-pz-11-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-tee-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver TEE Mud Pump Parts: Abrasion-Resistant Valve and Liner References",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver TEE liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-tee-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "gardner-denver-tge-mud-pump-parts-mk-reference",
+      "title": "Gardner Denver TGE Mud Pump Parts: Valve-Service Components and Piston Matching",
+      "category": "公司新闻",
+      "excerpt": "Identify Gardner Denver TGE liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/gardner-denver-tge-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ideco-t-1000-mud-pump-parts-mk-reference",
+      "title": "IDECO T-1000 Mud Pump Parts: Rod, Liner and Module-Hardware Identification",
+      "category": "公司新闻",
+      "excerpt": "Identify IDECO T-1000 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/ideco-t-1000-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ideco-t-1300-mud-pump-parts-mk-reference",
+      "title": "IDECO T-1300 Mud Pump Parts: Conventional and L-Shaped Fluid-End Parts",
+      "category": "公司新闻",
+      "excerpt": "Identify IDECO T-1300 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/ideco-t-1300-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ideco-t-1600-mud-pump-parts-mk-reference",
+      "title": "IDECO T-1600 Mud Pump Parts: Liner-Size Options and Fluid-End Configuration",
+      "category": "公司新闻",
+      "excerpt": "Identify IDECO T-1600 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/ideco-t-1600-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ideco-t-500-mud-pump-parts-mk-reference",
+      "title": "IDECO T-500 Mud Pump Parts: Liner, Valve and Shared Module References",
+      "category": "公司新闻",
+      "excerpt": "Identify IDECO T-500 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/ideco-t-500-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "ideco-t-800-mud-pump-parts-mk-reference",
+      "title": "IDECO T-800 Mud Pump Parts: MK-0230 Liners and Module-Service References",
+      "category": "公司新闻",
+      "excerpt": "Identify IDECO T-800 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/ideco-t-800-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-jws-165-mud-pump-parts-mk-reference",
+      "title": "National JWS-165 Mud Pump Parts: Suction and Discharge Valve-Service References",
+      "category": "公司新闻",
+      "excerpt": "Identify National JWS-165 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/national-jws-165-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-jws-340-mud-pump-parts-mk-reference",
+      "title": "National JWS-340 Mud Pump Parts: Model-Specific Gasket and Valve-Position Matching",
+      "category": "公司新闻",
+      "excerpt": "Identify National JWS-340 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/national-jws-340-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "national-jws-400-mud-pump-parts-mk-reference",
+      "title": "National JWS-400 Mud Pump Parts: Liner Packing and G2 Valve References",
+      "category": "公司新闻",
+      "excerpt": "Identify National JWS-400 liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/national-jws-400-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "opi-700hdl-mud-pump-parts-mk-reference",
+      "title": "OPI 700HDL Mud Pump Parts: Liner Packing and Rod-Connection References",
+      "category": "公司新闻",
+      "excerpt": "Identify OPI 700HDL liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/opi-700hdl-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-1100-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-1100-PT Mud Pump Parts: Large-OD Liner and Adapter-Nut References",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-1100-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-1100-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-1400-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-1400-PT Mud Pump Parts: Model-Restricted Liner Adapter and L-Shaped Parts",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-1400-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-1400-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-350-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-350-PT Mud Pump Parts: References from the Joint A-350/600-PT Sheet",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-350-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-350-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-560-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-560-PT Mud Pump Parts: Liner Packing and Multi-Part Rod References",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-560-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-560-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-600-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-600-PT Mud Pump Parts: Shared Expendables and A-600 Module References",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-600-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-600-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
+      "id": "oilwell-a-850-pt-mud-pump-parts-mk-reference",
+      "title": "Oilwell A-850-PT Mud Pump Parts: Liner-OD Options and A-Series Module Boundaries",
+      "category": "公司新闻",
+      "excerpt": "Identify Oilwell A-850-PT liners, valve-service components and supplier references with source-page context before preparing a parts enquiry.",
+      "slug": "en/news/oilwell-a-850-pt-mud-pump-parts-mk-reference/",
+      "date": "2026-10-20",
+      "status": "published"
+    },
+    {
       "id": "aramco-slb-integrated-well-construction-contracts-2026",
       "title": "Aramco Awards SLB Four Well Construction Contracts in Saudi Arabia",
       "category": "行业新闻",

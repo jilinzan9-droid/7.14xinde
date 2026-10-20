@@ -1,0 +1,826 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+UNBT-950A2,14077.53.000СБ,UNBT-950A2 pump general assembly reference,,,S1,PDF p. 8
+UNBT-950A2,14088.53.020СБ,Hydraulic block assembly,,,S1,PDF p. 8
+UNBT-950A2,14036.53.925СБ,Pulsation dampener assembly,,,S1,PDF p. 8
+UNBT-950A2,4081.35.270СБ,Jib crane assembly,,,S1,PDF p. 8
+UNBT-950A2,14036.53.020СБ,"Pulley, diameter 800 mm",,,S1,PDF p. 8
+UNBT-950A2,14010.53.725СБ,"Pulley, diameter 710 mm",,,S1,PDF p. 8
+UNBT-950A2,14036.53.078СБ,"Pulley, diameter 1000 mm",,,S1,PDF p. 8
+UNBT-950A2,14088.53.035СБ,Transmission shaft assembly,,,S1,PDF p. 8
+UNBT-950A2,14072.53.006СБ,Piston stroke sensor installation,,,S1,PDF p. 8
+UNBT-950A2,14036.53.560-06СБ,Power-end housing / frame assembly,,,S1,PDF p. 8
+UNBT-950A2,14010.53.885СБ,Cooling-fluid supply system,,,S1,PDF p. 8
+UNBT-950A2,14036.53.460СБ,Distribution block assembly,,,S1,PDF p. 8
+UNBT-950A2,14006.53.682СБ,Ventilation hood,,,S1,PDF p. 8
+UNBT-950A2,14036.53.004СБ,Cover,,,S1,PDF p. 8
+UNBT-950A2,14036.53.408СБ,Cover,,,S1,PDF p. 8
+UNBT-950A2,14077.53.005СБ,Valve assembly,,,S1,PDF p. 13
+UNBT-950A2,14077.53.009СБ,Valve cover assembly,,,S1,PDF p. 13
+UNBT-950A2,14036.53.940СБ,Hydraulic box,,,S1,PDF p. 13
+UNBT-950A2,14010.53.880СБ,Piston rod,,,S1,PDF p. 13
+UNBT-950A2,14036.53.032СБ,Clamp,,,S1,PDF p. 13
+UNBT-950A2,14036.53.430СБ,"Bimetallic liner, diameter 180 mm",,,S1,PDF p. 13
+UNBT-950A2,14036.53.230СБ,"Piston assembly, diameter 180 mm",,,S1,PDF p. 13
+UNBT-950A2,14036.53.975СБ,Pump,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14077.53.000СБ,UNBT-950A2 pump general assembly reference,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14088.53.020СБ,Hydraulic block assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.925СБ,Pulsation dampener assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,4081.35.270СБ,Jib crane assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.020СБ,"Pulley, diameter 800 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14010.53.725СБ,"Pulley, diameter 710 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.078СБ,"Pulley, diameter 1000 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14088.53.035СБ,Transmission shaft assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14072.53.006CБ,Installation assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.004СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.408СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.560-06СБ,Power-end housing / frame assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.295СБ,Base frame,Source-specific catalogue BOM; UNBT-950A2; figure 1,source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14010.53.885СБ,Cooling-fluid supply system,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.551СБ,Frame bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.323СБ,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.460СБ,Distribution block assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,4036.53.568СБ,Support post,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14006.53.682СБ,Ventilation hood,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.540СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 8
+UNBT-950A2,14036.53.955СБ,Crank-and-crosshead mechanism,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14010.53.010СБ,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,ТУ 3148-001-20871731-94,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 9
+UNBT-950A2,14036.53.922,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.139,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.561,Sight glass,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.567,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14006.53.669-1,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,4066.46.16,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14006.53.416,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14086.53.011,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14086.53.012,Mounting pad,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14006.53.689,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.407,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.406,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.546,Cord,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 9
+UNBT-950A2,14036.53.921,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,14036.53.923,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 9
+UNBT-950A2,14036.53.558,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 9
+UNBT-950A2,СТП К420-76,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 9
+UNBT-950A2,СТП К352-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 9
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,14036.53.562,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 10
+UNBT-950A2,СТП А27-73,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,CТП А213-86,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,СТП К417-76,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,СТП К427-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,СТП Д594-81,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 22032-76,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 3032-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,СТП К214-82,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,СТП К352-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,ГОСТ 9650-80,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",standard specification,S1,PDF p. 10
+UNBT-950A2,14088.53.020СБ,Hydraulic block assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.945-1СБ,Pulsation dampener,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14077.53.030СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14077.53.030-01СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.948СБ,Discharge manifold,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14010.53.910СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.950СБ,Suction manifold,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.944СБ,Pulsation dampener,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14010.53.852СБ,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14077.53.005СБ,Valve assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.940СБ,Hydraulic box,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14077.53.009СБ,Valve cover assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14006.53.125СБ,Sealing-ring assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14010.53.835-03СБ,Deflector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14010.53.880СБ,Piston rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.032СБ,Clamp,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.430СБ,"Bimetallic liner, diameter 180 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.430-01СБ,"Bimetallic liner, diameter 170 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.430-02СБ,"Bimetallic liner, diameter 160 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.430-03СБ,"Bimetallic liner, diameter 150 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.430-04СБ,"Bimetallic liner, diameter 140 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.230СБ,"Piston assembly, diameter 180 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.230-01СБ,"Piston assembly, diameter 170 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 13
+UNBT-950A2,14036.53.230-02СБ,"Piston assembly, diameter 160 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.230-03СБ,"Piston assembly, diameter 150 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.230-04СБ,"Piston assembly, diameter 140 mm","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14010.53.870-1СБ,"Piston, diameter 180 mm, Pp 10 MPa as listed","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,4066.46.16,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14006.53.061-1,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.939,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14010.53.849,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,СТП А130-74,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 14
+UNBT-950A2,14036.53.253,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,СТП Д787-80,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 14
+UNBT-950A2,14010.53.490,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,ГОСТ 10094-75,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 14
+UNBT-950A2,14036.53.149,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 14
+UNBT-950A2,14036.53.154,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14010.53.497-1,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,4045.53.855,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,4045.53.856-1,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 14
+UNBT-950A2,СТП Д 356-71,Plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 14
+UNBT-950A2,СТП Д 787-80,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 14
+UNBT-950A2,14036.53.243,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.982-1,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.983,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14006.53.811-1,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.428,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 14
+UNBT-950A2,14036.53.943,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.197,"Hydraulic sealing ring, Ø140","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.197-01,"Hydraulic sealing ring, Ø150","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.197-02,"Hydraulic sealing ring, Ø160","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.197-03,"Hydraulic sealing ring, Ø170","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.197-04,"Hydraulic sealing ring, Ø180","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.246,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.246-01,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.246-02,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.246-03,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.246-04,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14036.53.104,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14010.53.464,Guide,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,4092.53.305,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14006.53.126,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14006.53.049,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14006.53.124,Sealing ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14006.55.177,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 15
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 15
+UNBT-950A2,14073.53.196-04,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,14006.53.599,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 15
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 15
+UNBT-950A2,ГОСТ 9068-75,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 15
+UNBT-950A2,ГОСТ 9064-75,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",standard specification,S1,PDF p. 15
+UNBT-950A2,14073.53.196,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,4045.53.858-1,Union nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,14010.53.847,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,4066.53.211,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,14036.53.191,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,СТП К214-82,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 16
+UNBT-950A2,14036.53.942,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,14006.53.874,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,14073.53.193,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,14073.53.193-04,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 16
+UNBT-950A2,ГОСТ 1476-93,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 16
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",standard specification,S1,PDF p. 16
+UNBT-950A2,14077.53.030СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14077.53.030-01СБ,Pressure-gauge protector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14010.53.826,Diaphragm,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14077.53.032,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14077.53.033,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14077.53.031,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14010.53.851,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,14010.53.828,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,ТУ311.002.255-90016,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,14010.53.824,Throttle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",source catalogue part or assembly identifier,S1,PDF p. 18
+UNBT-950A2,ГОСТ 9833-74,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,ГОСТ 1476-93,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,ГОСТ 9066-75,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,ГОСТ 1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 5",standard specification,S1,PDF p. 18
+UNBT-950A2,14010.53.910Сб,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 3",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.206-1СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.201СБ,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.161-1СБ,Crossbar,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.258СБ,Valve operating mechanism,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14050.53.061СБ,Guard,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,44.66730СБ,Limit switch,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.176,Scale,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.175,Indicator,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14010.53.275-1,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.172,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.173,Rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14010.53.301-1,Eccentric,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.174,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.165,Handle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14050.53.066-1,Mounting pad,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.169,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.170,Rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.167,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14036.53.168,Swivel joint,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14010.53.312,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14010.53.311,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 21
+UNBT-950A2,14010.53.607,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14006.55.159,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14010.53.643,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14036.53.177,Lever,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14036.53.209,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14010.53.253,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",standard specification,S1,PDF p. 22
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",standard specification,S1,PDF p. 22
+UNBT-950A2,14036.53.223,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14010.53.630,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14036.53.224,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14050.53.067-02,Link rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,СТП Д1094-79,Security seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",standard specification,S1,PDF p. 22
+UNBT-950A2,14010.53.636,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14036.53.178,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,14036.53.179,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,ГОСТ 13940-86,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",standard specification,S1,PDF p. 22
+UNBT-950A2,14036.53.213,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 7",source catalogue part or assembly identifier,S1,PDF p. 22
+UNBT-950A2,СТП Д602-88,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 22
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 22
+UNBT-950A2,ГОСТ 17473-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 22
+UNBT-950A2,0.11306-013,Pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,СТП К426-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,14036.53.212,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,0.11308-21,Pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,0.11308-15,Pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,ГОСТ 1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,СТП К451-81,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,14010.53.911,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",standard specification,S1,PDF p. 23
+UNBT-950A2,14010.53.635,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,14036.53.171,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 23
+UNBT-950A2,14036.53.258СБ,Valve operating mechanism,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 6",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14036.53.248,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14036.53.217,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14036.53.259,Rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,ГОСТ 14896-84,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",standard specification,S1,PDF p. 25
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",standard specification,S1,PDF p. 25
+UNBT-950A2,14010.53.280,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14050.53.075,Connecting rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14050.53.073,Crank,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,14036.53.254,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",source catalogue part or assembly identifier,S1,PDF p. 25
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 8",standard specification,S1,PDF p. 25
+UNBT-950A2,14077.53.005СБ,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,4066.53.17,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14006.53.861-3,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14073.53.131,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14077.53.047,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14015.55.547-1,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14036.53.108,Seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14006.53.864-2,Seat,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 9",source catalogue part or assembly identifier,S1,PDF p. 27
+UNBT-950A2,14077.53.009СБ,Valve cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 29
+UNBT-950A2,14077.53.012СБ,Guard,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 10",source catalogue part or assembly identifier,S1,PDF p. 29
+UNBT-950A2,14036.53.142,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 10",source catalogue part or assembly identifier,S1,PDF p. 29
+UNBT-950A2,14036.53.141-1,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 10",source catalogue part or assembly identifier,S1,PDF p. 29
+UNBT-950A2,ГОСТ 17475-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 10",standard specification,S1,PDF p. 29
+UNBT-950A2,14010.53.835СБ,Deflector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-950A2,14010.53.836СБ,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-950A2,14010.53.838,Deflector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-950A2,14010.53.839,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-950A2,14036.53.424-1,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",source catalogue part or assembly identifier,S1,PDF p. 31
+UNBT-950A2,ГОСТ 17475-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",standard specification,S1,PDF p. 31
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",standard specification,S1,PDF p. 31
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 11",standard specification,S1,PDF p. 31
+UNBT-950A2,14010.53.880СБ,Piston rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 33
+UNBT-950A2,14036.53.131-2СБ,Guard,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",source catalogue part or assembly identifier,S1,PDF p. 33
+UNBT-950A2,14010.53.879,Rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",source catalogue part or assembly identifier,S1,PDF p. 33
+UNBT-950A2,14010.53.877,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",source catalogue part or assembly identifier,S1,PDF p. 33
+UNBT-950A2,ГОСТ 14896-84,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",standard specification,S1,PDF p. 33
+UNBT-950A2,ГОСТ 397-97,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",standard specification,S1,PDF p. 33
+UNBT-950A2,14006.53.599-01,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",source catalogue part or assembly identifier,S1,PDF p. 33
+UNBT-950A2,СТП К409-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",standard specification,S1,PDF p. 33
+UNBT-950A2,ГОСТ 1482-84,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 12",standard specification,S1,PDF p. 33
+UNBT-950A2,14036.53.032СБ,Clamp,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 35
+UNBT-950A2,14036.53.033,Clamp,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",source catalogue part or assembly identifier,S1,PDF p. 35
+UNBT-950A2,14036.53.034,Clamp,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",source catalogue part or assembly identifier,S1,PDF p. 35
+UNBT-950A2,СТП К409-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",standard specification,S1,PDF p. 35
+UNBT-950A2,СТП К214-82,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",standard specification,S1,PDF p. 35
+UNBT-950A2,ГОСТ 9650-80,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",standard specification,S1,PDF p. 35
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 13",standard specification,S1,PDF p. 35
+UNBT-950A2,14036.53.230СБ,"Piston, Ø180","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.233СБ,"Sealing cup, Ø180","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.231,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",standard specification,S1,PDF p. 37
+UNBT-950A2,14036.53.230-01СБ,"Piston, Ø170","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.233-01СБ,"Sealing cup, Ø170","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.231-01,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.230-02СБ,"Piston, Ø160","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.233-02СБ,"Sealing cup, Ø160","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.231-02,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.230-03СБ,"Piston, Ø150","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.233-03СБ,"Sealing cup, Ø150","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.231-03,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.230-04СБ,"Piston, Ø140","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.233-04СБ,"Sealing cup, Ø140","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14036.53.231-04,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 14",source catalogue part or assembly identifier,S1,PDF p. 37
+UNBT-950A2,14010.53.870-1СБ,"Piston, Ø180","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 4",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,14010.53.875-1СБ,Seal kit,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,14036.53.231-01,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,14010.53.872,Core,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",standard specification,S1,PDF p. 39
+UNBT-950A2,14010.53.871,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,ГОСТ 22704-77,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",standard specification,S1,PDF p. 39
+UNBT-950A2,ГОСТ 22704-77,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",standard specification,S1,PDF p. 39
+UNBT-950A2,14010.53.873,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 15",source catalogue part or assembly identifier,S1,PDF p. 39
+UNBT-950A2,14036.53.925СБ,Pulsation dampener,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.276-2СБ,Diaphragm,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.713-1СБ,Cap,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,14036.53.989-,Seat,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,14036.53.928,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4066.53.517,Stabilizer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,14036.53.931,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,ТУ 26-07-1220-81,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 41
+UNBT-950A2,ТУ 25-02.180335-84,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 41
+UNBT-950A2,4045.53.733-1,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,0.11319-05,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.889-1,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.732-1,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 41
+UNBT-950A2,ГОСТ 9833-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 41
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 41
+UNBT-950A2,14036.53.932,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.720-1,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,14001.53.438,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,14001.53.437,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 41
+UNBT-950A2,4045.53.815,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 42
+UNBT-950A2,14036.53.927,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 42
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 42
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 42
+UNBT-950A2,4045.53.754,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",source catalogue part or assembly identifier,S1,PDF p. 42
+UNBT-950A2,ГОСТ 1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 16",standard specification,S1,PDF p. 42
+UNBT-950A2,4081.53.270СБ,Jib crane,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,4081.35.275СБ,Mounting assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,4081.35.260СБ,Jib,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,ТУ 24.00.4911-88,Hoist,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,4081.35.265СБ,Support post,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,4081.35.269,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,4081.35.268,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,4081.35.124-1,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,01259020301,Grease fitting,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,ГОСТ 520-89,Bearing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,4081.35.177,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",source catalogue part or assembly identifier,S1,PDF p. 44
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,ГОСТ 1482-84,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,СТП К427-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,СТП К429-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,СТП К334-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,ТУ12.0173856.009-88,Chain,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 17",standard specification,S1,PDF p. 44
+UNBT-950A2,14036.53.020СБ,"Pulley, Ø800","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14036.53.021,"Pulley, Ø800","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14010.53.097,Collet,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14010.53.098,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14010.53.725СБ,"Pulley, Ø710","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14010.53.094-1,"Pulley, Ø710","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14036.53.078СБ,"Pulley, Ø1000","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14010.53.321-1,"Pulley, Ø1000","Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14026.53.077,Collet,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 18",source catalogue part or assembly identifier,S1,PDF p. 47
+UNBT-950A2,14006.53.682СБ,Cap,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 49
+UNBT-950A2,14006.53.683СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 19",source catalogue part or assembly identifier,S1,PDF p. 49
+UNBT-950A2,04081.00.09,Cap,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 19",source catalogue part or assembly identifier,S1,PDF p. 49
+UNBT-950A2,04081.00.04-01,Screen,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 19",source catalogue part or assembly identifier,S1,PDF p. 49
+UNBT-950A2,04081.00.03-01,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 19",source catalogue part or assembly identifier,S1,PDF p. 49
+UNBT-950A2,ГОСТ 17473-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 19",standard specification,S1,PDF p. 49
+UNBT-950A2,14088.53.035СБ,Transmission shaft,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14010.53.833СБ,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14036.53.420СБ,Cap,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14010.53.184,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14010.53.183,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,ГОСТ 8790-79,Key,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,14006.53.437,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14006.53.596-1,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14006.53.408,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14088.53.036,Pinion shaft,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14006.53.597-1,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,14006.53.382,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,СТП Д385-72,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,СТП Д386-72,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,14010.53.149,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",source catalogue part or assembly identifier,S1,PDF p. 51
+UNBT-950A2,ГОСТ 7798-78,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,ГОСТ 1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 20",standard specification,S1,PDF p. 51
+UNBT-950A2,14036.53.560-06СБ,Frame,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14036.53.640СБ,Pump housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14036.53.495СБ,Blanking plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14036.53.979СБ,Crosshead extension-rod seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.524СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.162-1СБ,Oil collector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.134-2СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.527-03СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.447-1СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.527СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.527-01СБ,Pipe assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,04172.00-01СБ,Small clamp,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14036.53.642-1СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.520СБ,Swivel joint,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.575СБ,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,ОСТ 2с41-2-80е,Filter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 53
+UNBT-950A2,14036.53.445СБ,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14010.53.544-1СБ,Cable,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,14006.53.582-4СБ,Unit assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 53
+UNBT-950A2,ТУ3148-001-20871731,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 53
+UNBT-950A2,ТУ3148-001-20871731,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,14006.53.688,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.834-2,Guide,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.690,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.772,Pipe,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14010.53.454,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,0.11254,End fitting,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.782,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,0.11255,End fitting,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14036.53.491,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.833-2,Guide,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.585-01,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.585-03,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14010.53.138-1,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.681,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14006.53.691,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,СТП А92-70,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,СТП А146-75,Tee,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,СТП А168-75,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,14036.53.644-1,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,СТП А130-74,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,СТП А159-73,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,14010.53.543-02,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,0.11255-04,End fitting,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,14010.53.543,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 54
+UNBT-950A2,СТП А145-74,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 54
+UNBT-950A2,14010.53.543-01,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,СТП А223-71,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,14010.53.574,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,0.11251-02,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,14036.53.582,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,0.11577-03,Plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,14010.53.541,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,14010.53.541-01,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,14010.53.538,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,14010.53.373-1,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,0.11319-11,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,СТП А274-87,End fitting,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,СТП А150-75,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,ГОСТ 9086-74,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,СТП К364-73,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,14006.53.519-1,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,14006.53.695-1,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,4045.53.127-1,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 55
+UNBT-950A2,ГОСТ 22032-76,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 55
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 56
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",standard specification,S1,PDF p. 56
+UNBT-950A2,14036.53.979СБ,Crosshead extension-rod seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,14010.53.486-2,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,14036.53.976,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,ГОСТ 14896-84,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",standard specification,S1,PDF p. 58
+UNBT-950A2,14036.53.452,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,14036.53.453,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,14010.53.561,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,14036.53.451,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",standard specification,S1,PDF p. 58
+UNBT-950A2,14010.53.487,Sealing ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",source catalogue part or assembly identifier,S1,PDF p. 58
+UNBT-950A2,СТП Д386-72,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",standard specification,S1,PDF p. 58
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 22",standard specification,S1,PDF p. 58
+UNBT-950A2,14010.53.520СБ,Swivel joint,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 60
+UNBT-950A2,14010.53.535,Coupling half,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 23",source catalogue part or assembly identifier,S1,PDF p. 60
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 23",standard specification,S1,PDF p. 60
+UNBT-950A2,14010.53.536,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 23",source catalogue part or assembly identifier,S1,PDF p. 60
+UNBT-950A2,14010.53.537,Coupling half,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 23",source catalogue part or assembly identifier,S1,PDF p. 60
+UNBT-950A2,14036.53.445СБ,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 62
+UNBT-950A2,14010.53.531-1,Coupling half,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",source catalogue part or assembly identifier,S1,PDF p. 62
+UNBT-950A2,14010.53.533-1,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",source catalogue part or assembly identifier,S1,PDF p. 62
+UNBT-950A2,14010.53.532,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",source catalogue part or assembly identifier,S1,PDF p. 62
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",standard specification,S1,PDF p. 62
+UNBT-950A2,14010.53.534-2,Coupling half,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",source catalogue part or assembly identifier,S1,PDF p. 62
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 24",standard specification,S1,PDF p. 62
+UNBT-950A2,14006.53.582-4СБ,Unit assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 21",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,14006.53.583-2СБ,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,ГОСТ 15107-79,Pump,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,04461.00СБ,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,ГОСТ 23360-78,Key,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,14006.53.587-1,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,ГОСТ 520-89,Bearing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,14006.53.586-2,Shaft,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,14036.53.782,Support post,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,14010.53.567,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,ГОСТ 8338-75,Bearing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,14006.53.671-1,Gear,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,14006.53.589,Shim,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,14006.53.589-01,Shim,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,ГОСТ 5918-73,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 64
+UNBT-950A2,14010.53.568,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",source catalogue part or assembly identifier,S1,PDF p. 64
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 65
+UNBT-950A2,ГОСТ 3129-70,Pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 65
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 25",standard specification,S1,PDF p. 65
+UNBT-950A2,14010.53.885СБ,System assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14036.53.744СБ,Drain sleeve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14010.53.890СБ,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14072.53.410СБ,Tank,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14010.53.894СБ,Manifold,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14036.53.770СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14010.53.898СБ,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14073.53.346СБ,Manifold,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,ТУ 3631-023-00217923-95,Unit assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,ТУ 1412-003-42368375-01,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,СТП А145-74,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,14036.53.777,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,14073.53.333,Flange,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,СТП Д787-80,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,ГОСТ9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 68
+UNBT-950A2,14010.53.886,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,СТП Д604-88,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 68
+UNBT-950A2,ГОСТ9086-74,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 68
+UNBT-950A2,14073.53.583,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14036.53.780,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,14073.53.330,Seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 68
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",standard specification,S1,PDF p. 69
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 22032-76,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,14072.53.410СБ,Tank,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 26",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,1036.53.628СБ,Grille,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,14036.53.621СБ,Baffle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,14072.53.405СБ,Tank,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,ГОСТ9650-80,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,14036.53.832-1,Latch,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,СТП Д787-80,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,14072.53.411,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,14072.53.412,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",source catalogue part or assembly identifier,S1,PDF p. 69
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 69
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 70
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 70
+UNBT-950A2,СТП Д356-71,Plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 27",standard specification,S1,PDF p. 70
+UNBT-950A2,14036.53.460СБ,Distribution block,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 1",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14036.53.470СБ,Throttle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14006.53.650СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14006.53.655СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14036.53.465СБ,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14036.53.472СБ,Panel,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14006.53.653СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14036.53.455СБ,Guard,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14036.53.480СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14010.53.619-01,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,СТП А92-70,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 72
+UNBT-950A2,ТУ 3148-001-20871731-94,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 72
+UNBT-950A2,14006.53.667,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,14006.53.662-1,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,СТП А132-74,Tee,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 72
+UNBT-950A2,14006.53.663-1,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,СТП А213-86,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 72
+UNBT-950A2,14006.53.664-1,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 72
+UNBT-950A2,СТП Д787-80,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 72
+UNBT-950A2,ТУ25-02.101293-83,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,ТУ 25.7310.0045-87,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14036.53.463,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,ТУ 25-733.033-86,Thermometer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,СТП А148-74,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14010.53.621,Pipe connection,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,СТП Д789-73,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14006.53.665,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,ТУ 3148-001-20871731-94,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,СТП А168-75,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14036.53.462,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,СТП А147-75,Crosspiece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14010.53.384-01,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,ТУ 2-053-1628-83,Hydraulic valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,СТП А145-74,Angle piece,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,14010.53.619,Nipple,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,4092.53.679,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 73
+UNBT-950A2,СТП А602-88,Clamp bracket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,СТП К352-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 73
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,ГОСТ 17473-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,СТП К444-80,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,14036.53.455СБ,Guard,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 74
+UNBT-950A2,14006.53.640СБ,Base frame,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 74
+UNBT-950A2,14036.53.456СБ,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 74
+UNBT-950A2,14006.53.647,Seal,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 74
+UNBT-950A2,14006.53.648,Sight glass,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 74
+UNBT-950A2,СТП К427-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,ГОСТ 1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",standard specification,S1,PDF p. 74
+UNBT-950A2,14036.53.470СБ,Throttle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 76
+UNBT-950A2,14036.53.477,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",source catalogue part or assembly identifier,S1,PDF p. 76
+UNBT-950A2,14036.53.476,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",source catalogue part or assembly identifier,S1,PDF p. 76
+UNBT-950A2,СТП А146-75,Tee,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",standard specification,S1,PDF p. 76
+UNBT-950A2,14036.53.475,Spool,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",source catalogue part or assembly identifier,S1,PDF p. 76
+UNBT-950A2,14036.53.471,Pipe connection,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",source catalogue part or assembly identifier,S1,PDF p. 76
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 29",standard specification,S1,PDF p. 76
+UNBT-950A2,14036.53.480СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 28",source catalogue part or assembly identifier,S1,PDF p. 78
+UNBT-950A2,14036.53.481,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",source catalogue part or assembly identifier,S1,PDF p. 78
+UNBT-950A2,14036.53.482,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",source catalogue part or assembly identifier,S1,PDF p. 78
+UNBT-950A2,СТП А152-74,Reducing bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",standard specification,S1,PDF p. 78
+UNBT-950A2,14036.53.484,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",source catalogue part or assembly identifier,S1,PDF p. 78
+UNBT-950A2,14036.53.485,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",source catalogue part or assembly identifier,S1,PDF p. 78
+UNBT-950A2,ГОСТ 3722-81,Ball,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",standard specification,S1,PDF p. 78
+UNBT-950A2,СТП А146-75,Tee,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",standard specification,S1,PDF p. 78
+UNBT-950A2,СТП А153-86,Locknut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 30",standard specification,S1,PDF p. 78
+UNBT-950A2,14036.53.955СБ,Crank-and-crosshead mechanism,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 2",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.308СБ,Crosshead extension rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.958СБ,Connecting rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.960СБ,Shaft,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.307СБ,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.191-3,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.553-2,Half ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.321-1,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.972,Wheel,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.102,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.331,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.198-2,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.319-1,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.192-4,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14010.53.509,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.193,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",standard specification,S1,PDF p. 80
+UNBT-950A2,14006.53.194-1,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.301-1,Crosshead,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.333,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14036.53.965,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 80
+UNBT-950A2,14006.53.368,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14036.53.304,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.358,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14036.53.956,Pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.196,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.335,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.336,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14036.53.319,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.348-2,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,4092.53.204,Deflector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,4092.53.221,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.334,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,4066.53.569,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",standard specification,S1,PDF p. 81
+UNBT-950A2,14036.53.062,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14006.53.346,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",standard specification,S1,PDF p. 81
+UNBT-950A2,4045.53.28-1,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,14010.53.510-1,Dowel,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,4092.53.232,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 81
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",standard specification,S1,PDF p. 81
+UNBT-950A2,14036.53.308СБ,Crosshead extension rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 83
+UNBT-950A2,14036.53.974,Crosshead extension rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 32",source catalogue part or assembly identifier,S1,PDF p. 83
+UNBT-950A2,14036.53.002,Bearing insert,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 32",source catalogue part or assembly identifier,S1,PDF p. 83
+UNBT-950A2,14036.53.003,Cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 32",source catalogue part or assembly identifier,S1,PDF p. 83
+UNBT-950A2,ГОСТ 3282-74,Wire,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 32",standard specification,S1,PDF p. 83
+UNBT-950A2,14036.53.958СБ,Connecting rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 31",source catalogue part or assembly identifier,S1,PDF p. 85
+UNBT-950A2,14036.53.959,Connecting rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 33",source catalogue part or assembly identifier,S1,PDF p. 85
+UNBT-950A2,14036.53.312,Cover,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 33",source catalogue part or assembly identifier,S1,PDF p. 85
+UNBT-950A2,14006.53.532-1,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 33",source catalogue part or assembly identifier,S1,PDF p. 85
+UNBT-950A2,14006.53.531-3,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 33",source catalogue part or assembly identifier,S1,PDF p. 85
+UNBT-950A2,14006.55.201СБ,Pin puller,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 34",source catalogue part or assembly identifier,S1,PDF p. 87
+UNBT-950A2,14006.55.205-01СБ,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 34",source catalogue part or assembly identifier,S1,PDF p. 87
+UNBT-950A2,СТП К409-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 34",standard specification,S1,PDF p. 87
+UNBT-950A2,14006.55.204-02,Stud,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 34",source catalogue part or assembly identifier,S1,PDF p. 87
+UNBT-950A2,14010.55.103СБ,Hydraulic jack,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,14010.55.120-3,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,40.62 909,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",standard specification,S1,PDF p. 89
+UNBT-950A2,14010.55.128,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,14010.55.129,Piston,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,14010.55.167,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,14010.55.139,Rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",standard specification,S1,PDF p. 89
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",standard specification,S1,PDF p. 89
+UNBT-950A2,СТП 999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",standard specification,S1,PDF p. 89
+UNBT-950A2,4045.53.395-1,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",source catalogue part or assembly identifier,S1,PDF p. 89
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 35",standard specification,S1,PDF p. 89
+UNBT-950A2,14010.55.134СБ,Service tool,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",source catalogue part or assembly identifier,S1,PDF p. 91
+UNBT-950A2,14010.55.138-01,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",source catalogue part or assembly identifier,S1,PDF p. 91
+UNBT-950A2,14010.55.138,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",source catalogue part or assembly identifier,S1,PDF p. 91
+UNBT-950A2,ГОСТ 9650-80,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",standard specification,S1,PDF p. 91
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",standard specification,S1,PDF p. 91
+UNBT-950A2,СТП К214-82,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",standard specification,S1,PDF p. 91
+UNBT-950A2,ГОСТ 3032-76,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 36",standard specification,S1,PDF p. 91
+UNBT-950A2,14006.55.191-3СБ,Puller,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,14006.55.037-2СБ,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,14006.55.214-01,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,14006.55.194-01,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,4092.53.615-1,Fork,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,4092.53.616-1,Crossbar,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,4092.53.617-02,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 93
+UNBT-950A2,СТП К365-85,Lock,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",standard specification,S1,PDF p. 93
+UNBT-950A2,14006.55.037-2СБ,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 37",source catalogue part or assembly identifier,S1,PDF p. 95
+UNBT-950A2,14006.55.038-01,Crossbar,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 38",source catalogue part or assembly identifier,S1,PDF p. 95
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 38",standard specification,S1,PDF p. 95
+UNBT-950A2,14006.55.012-1,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 38",source catalogue part or assembly identifier,S1,PDF p. 95
+UNBT-950A2,ГОСТ 6874-75,Bearing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 38",standard specification,S1,PDF p. 95
+UNBT-950A2,4092.53.613-02,Spring ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 38",source catalogue part or assembly identifier,S1,PDF p. 95
+UNBT-950A2,14010.55.104СБ,Hydraulic puller,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14006.55.140-2СБ,Hydraulic jack,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14029.55.101СБ,Gripper,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14006.55.310-01СБ,Hand-operated hydraulic unit,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14006.55.214-03,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14029.55.103-1,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14006.55.151-01,Link rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14006.55.152-01,Link rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,14050.55.006-02,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 97
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",standard specification,S1,PDF p. 97
+UNBT-950A2,14006.55.140-2СБ,Hydraulic jack,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,14006.55.147-02,Plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,14006.55.146-02,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,14006.55.145,Piston,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,14006.55.144,Cylinder,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,14006.55.148,Plate,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",standard specification,S1,PDF p. 99
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",standard specification,S1,PDF p. 99
+UNBT-950A2,ГОСТ9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",standard specification,S1,PDF p. 99
+UNBT-950A2,14006.55.141-1СБ,Handle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",source catalogue part or assembly identifier,S1,PDF p. 99
+UNBT-950A2,ГОСТ1491-80,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 40",standard specification,S1,PDF p. 99
+UNBT-950A2,14006.55.310-01СБ,Hand-operated hydraulic unit,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 39",source catalogue part or assembly identifier,S1,PDF p. 101
+UNBT-950A2,14006.55.280-03СБ,Pump,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 101
+UNBT-950A2,14006.55.245СБ,Quick-release coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 101
+UNBT-950A2,14036.55.075СБ,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 101
+UNBT-950A2,14006.55.242,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 101
+UNBT-950A2,14006.55.280-03СБ,Pump,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.111-1СБ,Oil-level indicator,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.227СБ,Tank,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.281-01СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.288СБ,Plunger,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.234,Lever,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.275,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.290,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 104
+UNBT-950A2,14006.55.294,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.117,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.295,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.137,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.307,Handle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.138,Link rod,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.240,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.297,Plug,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.296,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.127,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.291,Seat,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.292,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.293,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 104
+UNBT-950A2,14006.55.301,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.302,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,СТП Д923-75,Handle,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,14006.55.300,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.299,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.304,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.298,Seat,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.132,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,14006.55.160,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,СТП Д999-75,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,14006.55.306,Pivot pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 105
+UNBT-950A2,ТУ 25.02.180335-84,Pressure gauge,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 3722-81,Ball,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 22704-77,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 22704-77,Sealing cup,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,СТП К451-81,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 397-79,Cotter pin,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 7798-70,Bolt,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,ГОСТ 6402-70,Washer,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 43",standard specification,S1,PDF p. 105
+UNBT-950A2,14006.55.281-01СБ,Pressure-relief valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 42",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.282,Cylinder,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.284,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.238,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.285,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.286,Bushing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,14006.55.283,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",source catalogue part or assembly identifier,S1,PDF p. 108
+UNBT-950A2,ГОСТ 3722-81,Ball,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",standard specification,S1,PDF p. 108
+UNBT-950A2,ГОСТ 1476-93,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",standard specification,S1,PDF p. 108
+UNBT-950A2,ГОСТ 5915-70,Nut,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",standard specification,S1,PDF p. 108
+UNBT-950A2,ГОСТ 1482-82,Screw,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 44",standard specification,S1,PDF p. 108
+UNBT-950A2,14006.55.245СБ,Quick-release coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 41",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.246,Housing,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.247,Spring ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.248,Guide,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.249,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.250,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.251,Valve,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.252,Spring ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.253,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,14006.55.254,Spring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",source catalogue part or assembly identifier,S1,PDF p. 110
+UNBT-950A2,СТП Д1129-89,Gasket,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",standard specification,S1,PDF p. 110
+UNBT-950A2,ГОСТ 9833-73,Ring,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",standard specification,S1,PDF p. 110
+UNBT-950A2,ГОСТ 3722-81,Ball,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 45",standard specification,S1,PDF p. 110
+UNBT-950A2,14029.55.035СБ,Air-line assembly,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",source catalogue part or assembly identifier,S1,PDF p. 112
+UNBT-950A2,4092.55.006СБ,Pipe bend,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",source catalogue part or assembly identifier,S1,PDF p. 112
+UNBT-950A2,14029.55.036,Adapter,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",source catalogue part or assembly identifier,S1,PDF p. 112
+UNBT-950A2,СТП А307-2002,Hose,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",standard specification,S1,PDF p. 112
+UNBT-950A2,СТП А213-86,Connector,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",standard specification,S1,PDF p. 112
+UNBT-950A2,4092.55.002-01,Coupling,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 46",source catalogue part or assembly identifier,S1,PDF p. 112
+UNBT-950A2,14006.55.212-1,Support,"Source-specific catalogue BOM; UNBT-950A, UNBT-950A2; figure 47",source catalogue part or assembly identifier,S1,PDF p. 114
+UNBT-950A2,4081.35.036,Ring,Alphabetical index only; source-specific reference not separately located in the preceding BOM table; no serial-specific compatibility claim,source alphabetical-index identifier,S1,PDF p. 123
+UNBT-950A2,14072.53.006СБ,Piston stroke sensor installation,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 8

@@ -1,0 +1,263 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+8T-650-01,412-113-001-Д,Crankshaft,,,S1,PDF p. 5
+8T-650-01,412-112-001-Д,Drive shaft,,,S1,PDF p. 5
+8T-650-01,412-114-001-Е-01,Crosshead,,,S1,PDF p. 5
+8T-650-01,412-114-130 ВМ,Stuffing-box chamber,,,S1,PDF p. 5
+8T-650-01,412-118-000,Lubrication system,,,S1,PDF p. 5
+8T-650-01,412-125-000,Hydraulic block,,,S1,PDF p. 5
+8T-650-01,412-126-000,Piston assembly,,,S1,PDF p. 5
+8T-650-01,412-127-000,Piston-assembly flushing system,,,S1,PDF p. 5
+8T-650-01,8Т650ВМ.600.000,High-pressure pulsation dampener,,,S1,PDF p. 5
+8T-650-01,8Т650ВМ.700.000,Low-pressure pulsation dampener,,,S1,PDF p. 5
+8T-650-01,8Т650ВМ.400.000-01,Safety valve,,,S1,PDF p. 5
+8T-650-01,412-113-001-Д,Crankshaft,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-112-001-Д,Drive shaft,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-114-001-Е-01,Crosshead,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-114-130 ВМ,Stuffing-box chamber,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-118-000,Lubrication system,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-125-000,Hydraulic block,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-126-000,Piston assembly,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-127-000,Piston-assembly flushing system,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.600.000,High-pressure pulsation dampener,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.700.000,Low-pressure pulsation dampener,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.400.000-01,Safety valve,Prior individually reviewed source/model scope,source catalogue part or assembly identifier,S1,PDF p. 5
+8T-650-01,412-113-001-Д,Crankshaft assembly,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-112-001-Д,Drive shaft assembly,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-114-001-Е-01,Crosshead assembly,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-114-130 ВМ,Seal chamber,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-118-000,Lubrication system,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-125-000,Fluid end,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-126-000,Piston assembly,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-127-000,Piston-wash system,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.600.000,Low-pressure pulsation dampener,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.700.000,High-pressure pulsation dampener,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,8Т650ВМ.400.000-01,Safety valve,"Catalogue main assembly index, source model 8Т-650-01",source catalogue part or assembly drawing identifier,S1,PDF p. 5
+8T-650-01,412-113-002-Е-02,Crankshaft,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-030,Connecting rod,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-004-С,Left bearing housing,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-005-С,Right bearing housing,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-006-С,Half ring,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-007-С-01,Ring,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-008-В,Retaining ring,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-009-В,Disc,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-010-В,Retaining ring,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-011-В,Gasket,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-012-ВМ,Pipe plug,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-050-ВМ,Cover,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-014-С,Oil pickup,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-015-С,Lubrication pocket,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-022-С,Right oil collector,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-023-В,"Bolt, S=50",Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-025-ВМ,"Castellated nut, S=50",Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-024-В,"Bolt, S=24",Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-101-ВМ,Gear wheel,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-002,Crankshaft,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-113-007-С-02,Ring,Crankshaft assembly 412-113-001-Д; catalogue Figure 1 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 6
+8T-650-01,412-112-101-ВМ-01,Drive shaft,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-002,Bearing cup,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-003-С,Bushing,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-004-С,Flange,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-005-С,Cap,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-006-В,Gasket,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-007-В,Gasket,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-112-008,Wall plate,Drive shaft assembly 412-112-001-Д; catalogue Figure 2 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 8
+8T-650-01,412-114-002-D,Crosshead,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-003-С,Upper guide,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-004-С,Lower guide,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-005-С-01,Connecting-rod pin,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-006-С,Oil collector,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,414-114-007-В,Screw,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,414-114-008-В,Plate nut,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-012,Rod,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-414-013,Bearing insert,Crosshead assembly 412-114-001-Е-01; catalogue Figure 3 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 9
+8T-650-01,412-114-140-ВМ,Seal-chamber housing,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,412-114-107,Sealing cup,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,412-114-121,Gasket,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,412-114-133-ВМ,Ring,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,412-114-134-ВМ,Cover,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,414-114-120-В,Gasket,Seal chamber 412-114-130 ВМ; catalogue Figure 4 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 13
+8T-650-01,412-116-100-ВМ,Oil trough,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-300-ВМ,Manifold,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-400-ВМ,Pump assembly,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-500-ВМ,Straight connection,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-600-ВМ,Angled connection,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-060,Tee,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-070,Flange,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-900-ВМ,Tee,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-100,Filter,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,8Т310.130.020,Bypass valve,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-020,Support post,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,8Т310.130.113,Gasket,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-071-01,Flange,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-002-ВМ,Elbow,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-003-ВМ,Tube,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-004-ВМ,Pipe nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-004-ВМ-01,Pipe nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-005-ВМ,Pipe nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-005-ВМ-01,Pipe nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-005-ВМ-02,Pipe nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-006-ВМ,Elbow,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-007-ВМ,Tube,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-011-ВМ,Jet,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-015-ВМ-02,Gasket,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-015-ВМ-03,Gasket,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-201-ВМ,Nut,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-502-ВМ,Nut,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-116-503-ВМ,Nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 14
+8T-650-01,412-118-018,Gasket,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-007,Connector,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-008,Nipple,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-009,Bolt,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-014,Guard,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-015,Angle bracket,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-006,Adapter,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,413-118-023,Tee,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-024,Connector,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-025,Indicator,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-118-026,Gasket,Lubrication system 412-118-000; catalogue Figure 5 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 15
+8T-650-01,412-124-002-С,Suction manifold assembly,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-124-010,Discharge unit assembly,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,414-120-009-С,Cover lock,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,414-120-013-С,Valve guide,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,414-122-201-Т-ВМ,Valve,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,8Т650ВМ.600.000,Low-pressure pulsation dampener,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,8Т650ВМ.700.000,PK40/320 pulsation dampener,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-125-010,Plug,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-117-002-В/6-ВМ-01,Gasket,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/1,Nut,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/2,Nut,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/3-ВМ-01,Flange,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/3-ВМ-02,Flange,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/5-ВМ,Nipple,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/6-ВМ,Nut,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/7-ВМ,Pipe nipple,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-001-Е/8-ВМ,Plug,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-010-С,Threaded ring,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-011-С,Outer coupling,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-012-С,Inner coupling,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-025,Support ring,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-120-026,Thrust ring,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,412-124-010-ВМ/3,Ring,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,414-120-006-В,Stud,Fluid end 412-125-000; catalogue Figure 6 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 19
+8T-650-01,414-120-015-В-ВМ,Valve guide,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-120-020-В,Stud,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-122-101-Т-ВМ,Spring,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-122-301-Т-ВМ,Valve seat,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-123-033,Wear plate,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-123-002-N-ВМ,Seal,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,8Т310.100.115-04,Seal,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-124-001,Adapter,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-124-004-В,Gasket,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-124-005-В,Gasket,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-124-009-В,Flange plug,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,8Т650ВМ.020.001,Adapter,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-001,Fluid-end body,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-006,Valve-guide holder,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-007,Plug,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-008,Stud,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-008-01,Stud,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-008-02,Stud,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,412-125-009,Protective ring,Fluid end 412-125-000; catalogue Figure 6 / BOM continuation,source catalogue part or assembly drawing identifier,S1,PDF p. 20
+8T-650-01,414-123-003 В,Wear plate,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 2,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,414-123-004 В,Reflector baffle,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 3,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,414-123-005 В,Reflector plate,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 4,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,414-123-006 В,Locknut,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 5,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,414-126-011,Piston rod,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 6,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,414-123-09 В,Clamp assembly,Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; 7,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,8Т310.100.115-04,"Seal, D100–160",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 2 D100–160,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,412-126-002,"Cylinder liner, D100",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 3 D100,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,412-126-100,"Piston assembly, D190",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D190,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,412-126-200,"Piston assembly, D160",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D160,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,412-126-300,"Piston assembly, D125",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D125,source catalogue part or assembly drawing identifier,S1,PDF p. 25
+8T-650-01,239TBB045A,"Piston assembly, 4½ inches (114.3 mm)",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D4½ inches,alphanumeric piston identifier printed in this source catalogue; manufacturer provenance not independently established,S1,PDF p. 25
+8T-650-01,241TBB045A,"Piston assembly, 5 inches (127 mm)",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D5 inches,alphanumeric piston identifier printed in this source catalogue; manufacturer provenance not independently established,S1,PDF p. 25
+8T-650-01,243TBB045A,"Piston assembly, 5½ inches (139.7 mm)",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D5½ inches,alphanumeric piston identifier printed in this source catalogue; manufacturer provenance not independently established,S1,PDF p. 25
+8T-650-01,245TBL045A,"Piston assembly, 6 inches (152.4 mm)",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D6 inches,alphanumeric piston identifier printed in this source catalogue; manufacturer provenance not independently established,S1,PDF p. 25
+8T-650-01,202TBL045A,"Piston assembly, 6½ inches (165.1 mm)",Piston assembly 412-126-000; catalogue piston/liner/seal tables; source version only; Table 4 D6½ inches,alphanumeric piston identifier printed in this source catalogue; manufacturer provenance not independently established,S1,PDF p. 25
+8T-650-01,412-127-100,Tank,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-200,Screen,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-300,Guard,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-400,Cover,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-002-В-ВМ,Manifold,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-014-Д-ВМ,Pipe connection,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-014-Д-ВМ-01,Pipe connection,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-001,Connector,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-002,Hose 20×29-1.6,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-003,Hose 38×49-1.6,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-004,Hose 38×49-1.6,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/1-ВМ,Gasket,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/1-ВМ-01,Gasket,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/2-ВМ,Nipple,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/3-ВМ,Nipple,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/4-ВМ,Clamp,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/4-ВМ-01,Clamp,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/5-ВМ,Pipe nipple,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-116-009-ВМ-01,Connector,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-117-001Е/6-ВМ,Nipple,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-116-201-ВМ-02,Nut,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,8Т310.130.122,Seal,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-119-001-ВМ,Gasket,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-119-002-ВМ,Nut,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,6Р13.8.59,Voltage warning sign,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-006,Bolt,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,8Т310.300.011,Cap,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-400-01,Cover,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,412-127-008,Tubular electric heater,Piston-wash system 412-127-000; catalogue Figure 8 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 27
+8T-650-01,8Т650ВМ.700.100,Housing,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.200,Punch assembly,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.300,Diaphragm,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.600.100,Shutoff valve,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.001,Cover,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.002,Seat,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.009,Cap,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.010,Nameplate,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.011,Washer,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.012,Membrane,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.013,Bushing,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.700.014,Screw,High-pressure pulsation dampener 8Т650ВМ.700.000; catalogue Figure 9 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 30
+8T-650-01,8Т650ВМ.600.300,Housing for 8Т650ВМ.600.000,Low-pressure pulsation dampener 8Т650ВМ.600.000 or 8Т650ВМ.600.000-01; catalogue Figure 10 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 32
+8T-650-01,8Т650ВМ.600.300-01,Housing for 8Т650ВМ.600.000-01,Low-pressure pulsation dampener 8Т650ВМ.600.000 or 8Т650ВМ.600.000-01; catalogue Figure 10 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 32
+8T-650-01,8Т650ВМ.400.100,Piston,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.200,Guard,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.001,Housing for 8Т650ВМ.400.000,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.001-01,Housing for 8Т650ВМ.400.000-01,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.010,Adapter,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.016,Knife for 8Т650ВМ.400.000,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.019,Knife for 8Т650ВМ.400.000-01,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.004,Bushing,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.005,Rod,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.006,Shaft,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.021,Plate for 8Т650ВМ.400.000,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.018,Plate for 8Т650ВМ.400.000-01,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.008,Damper,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.009,Pivot pin,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.023,Nameplate for 8Т650ВМ.400.000,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.400.023-01,Nameplate for 8Т650ВМ.400.000-01,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,8Т650ВМ.010.004,Union nut,Safety valve 8Т650ВМ.400.000 or 8Т650ВМ.400.000-01; catalogue Figure 11 / BOM,source catalogue part or assembly drawing identifier,S1,PDF p. 34
+8T-650-01,412-128-000,Crankcase steam pipe,Lubrication system 412-118-000; catalogue BOM continuation; starred items not shown in Figure 5,source catalogue part or assembly drawing identifier,S1,PDF p. 16
+8T-650-01,412-129-003,Tubular electric heater,Lubrication system 412-118-000; catalogue BOM continuation; starred items not shown in Figure 5,source catalogue part or assembly drawing identifier,S1,PDF p. 16
+8T-650-01,412-126-002,"Cylinder liner, D100 mm","Table A.1; D100 mm, mass 84.5 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,412-126-100,"Piston assembly, D190 mm","Table A.2; D190 mm, mass 11.1 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,412-126-200,"Piston assembly, D160 mm","Table A.2; D160 mm, mass 8.47 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,412-126-300,"Piston assembly, D125 mm","Table A.2; D125 mm, mass 4.81 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,8Т310.100.115-02,Seal for cylinder liner D100 mm,Table A.3; liner bore D100 mm; mass 0.020 kg; this manual version only. Catalogue page 25 has a different seal-to-bore table.,source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,8Т310.100.115-03,Seal for cylinder liner D110 / 125 mm,Table A.3; liner bore D110 / 125 mm; mass 0.024 kg; this manual version only. Catalogue page 25 has a different seal-to-bore table.,source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,8Т310.100.115-04,Seal for cylinder liner D140 / 150 / 160 mm,Table A.3; liner bore D140 / 150 / 160 mm; mass 0.029 kg; this manual version only. Catalogue page 25 has a different seal-to-bore table.,source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,8Т310.100.115-05,Seal for cylinder liner D170 / 180 mm,Table A.3; liner bore D170 / 180 mm; mass 0.031 kg. The next bore cell is blank in this scan; no D190 assignment inferred. This manual version only; catalogue PDF25 differs.,source catalogue part or assembly drawing identifier,S2,PDF p. 57
+8T-650-01,412-126-300,Piston assembly,"Appendix A, figure A.8",source catalogue part or assembly drawing identifier,S2,PDF p. 58
+8T-650-01,412-126-200,Piston assembly,"Appendix A, figure A.9",source catalogue part or assembly drawing identifier,S2,PDF p. 59
+8T-650-01,412-126-100,Piston assembly,"Appendix A, figure A.10",source catalogue part or assembly drawing identifier,S2,PDF p. 60
+8T-650-01,412-126-002,"Cylinder liner, D100 mm","Figure A.22, base row D100 mm, mass 84.5 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 74
+8T-650-01,414-123-302-ВМ,"Piston core, D100 mm","Figure A.23; D100 mm, mass 1.6 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 75
+8T-650-01,414-123-111ВМ,"Piston core, diameter 150 mm","Figure A.24; outer diameter 150 mm, mass 3.8 kg; source prints no hyphen before ВМ",source catalogue part or assembly drawing identifier,S2,PDF p. 76
+8T-650-01,414-123-111ВМ-01,"Piston core, diameter 160 mm","Figure A.24; outer diameter 160 mm, mass 4.2 kg; source prints no hyphen before ВМ",source catalogue part or assembly drawing identifier,S2,PDF p. 76
+8T-650-01,414-123-111ВМ-02,"Piston core, diameter 170 mm","Figure A.24; outer diameter 170 mm, mass 4.7 kg; source prints no hyphen before ВМ",source catalogue part or assembly drawing identifier,S2,PDF p. 76
+8T-650-01,414-123-111ВМ-03,"Piston core, diameter 180 mm","Figure A.24; outer diameter 180 mm, mass 5.2 kg; source prints no hyphen before ВМ",source catalogue part or assembly drawing identifier,S2,PDF p. 76
+8T-650-01,414-123-111ВМ-04,"Piston core, diameter 190 mm","Figure A.24; outer diameter 190 mm, mass 5.8 kg; source prints no hyphen before ВМ",source catalogue part or assembly drawing identifier,S2,PDF p. 76
+8T-650-01,412-126-110,Piston cup,"Figure A.25; source D=189.8 mm, mass 3.39 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 77
+8T-650-01,412-126-210,Piston cup,"Figure A.26; source D=159.8 mm, mass 2.57 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 78
+8T-650-01,412-126-310,Piston cup,"Figure A.27; source D=124.8 mm, mass 1.01 kg",source catalogue part or assembly drawing identifier,S2,PDF p. 79
+8T-650-01,8Т310.100.115,"Seal, D89 mm","Figure A.30; source dimension D89 ±1 mm, mass 0.013 kg; base code only",source catalogue part or assembly drawing identifier,S2,PDF p. 82
+8T-650-01,412-114-004-С,Lower crosshead guide,Figure A.33 sheet 2; full identifier printed at top; paired drawing sheet 1 on PDF85,source catalogue part or assembly drawing identifier,S2,PDF p. 86
+8T-650-01,412-114-003-С,Upper crosshead guide,Figure A.34 sheet 2; full identifier printed at top; paired drawing sheet 1 on PDF87,source catalogue part or assembly drawing identifier,S2,PDF p. 88
+8T-650-01,413-000-001,Company nameplate,Appendix B nonferrous materials table; not an operating or delivery specification,source catalogue part or assembly drawing identifier,S2,PDF p. 95

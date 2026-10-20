@@ -1,0 +1,492 @@
+﻿Model,Part / drawing number,Component,Configuration,Reference kind,Source,PDF page
+EMSCO F-800,6320-0085-01,F-800 fluid-end assembly,,,S1,PDF p. 14
+EMSCO F-800,6320-0076-00,F-800 discharge manifold,,,S1,PDF p. 14
+EMSCO F-800,6320-0079-00,F-800 suction manifold,,,S1,PDF p. 14
+EMSCO F-800,6320-0072-00,F-800 piston-rod clamp,,,S1,PDF p. 14
+EMSCO F-800,6320-0030-00,F-800 piston rod,,,S1,PDF p. 14
+EMSCO F-800,6319-0027-00,Valve-pot cover on the combined sheet,,,S1,PDF p. 14
+EMSCO F-800,MK-0148-40,"Liner, nominal size 4''",Liners and liner packing; source row 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 4''",Liners and liner packing; source row 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-44,"Liner, nominal size 4½''",Liners and liner packing; source row 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 4½''",Liners and liner packing; source row 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-50,"Liner, nominal size 5''",Liners and liner packing; source row 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 5''",Liners and liner packing; source row 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-54,"Liner, nominal size 5½''",Liners and liner packing; source row 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 5½''",Liners and liner packing; source row 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-60,"Liner, nominal size 6''",Liners and liner packing; source row 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 6''",Liners and liner packing; source row 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-62,"Liner, nominal size 6¼''",Liners and liner packing; source row 6¼'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 6¼''",Liners and liner packing; source row 6¼'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-64,"Liner, nominal size 6½''",Liners and liner packing; source row 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 6½''",Liners and liner packing; source row 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0148-66,"Liner, nominal size 6¾''",Liners and liner packing; source row 6¾'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,"Liner Packing, nominal size 6¾''",Liners and liner packing; source row 6¾'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0740,Valve Cover Gasket,Gaskets,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MKG-0282,Cylinder Head Gasket,Gaskets,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-U5B-EH,Valve; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6ADD-B6,Seat; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-5710-111,Spring; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-UDD-6AB,Urethane Insert; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6,Puller Head; catalogue valve family MKP-4 WEB,Valve family MKP-4 WEB,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-U5B-EHHT,Valve; catalogue valve family MKP-4 WEB HIGH TEMP,Valve family MKP-4 WEB HIGH TEMP,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6ADD-B6,Seat; catalogue valve family MKP-4 WEB HIGH TEMP,Valve family MKP-4 WEB HIGH TEMP,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-5710-111,Spring; catalogue valve family MKP-4 WEB HIGH TEMP,Valve family MKP-4 WEB HIGH TEMP,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-UDD-6ABHT,Urethane Insert; catalogue valve family MKP-4 WEB HIGH TEMP,Valve family MKP-4 WEB HIGH TEMP,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6,Puller Head; catalogue valve family MKP-4 WEB HIGH TEMP,Valve family MKP-4 WEB HIGH TEMP,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6FO-V1,Valve; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6FO-S1,Seat; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-5710-115,Spring; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6FO-SI,Urethane Insert; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6FO,Puller Head; catalogue valve family MKP-FULL OPEN,Valve family MKP-FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1560995,Valve; catalogue valve family MKP-G2,Valve family MKP-G2,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1561380,Seat; catalogue valve family MKP-G2,Valve family MKP-G2,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1560701,Spring; catalogue valve family MKP-G2,Valve family MKP-G2,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1560587,Urethane Insert; catalogue valve family MKP-G2,Valve family MKP-G2,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6G2,Puller Head; catalogue valve family MKP-G2,Valve family MKP-G2,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RN6-V1,Valve; catalogue valve family MKP-ROUGHNECK,Valve family MKP-ROUGHNECK,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RN6-S6,Seat; catalogue valve family MKP-ROUGHNECK,Valve family MKP-ROUGHNECK,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-5710-110L,Spring; catalogue valve family MKP-ROUGHNECK,Valve family MKP-ROUGHNECK,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RN6-I,Urethane Insert; catalogue valve family MKP-ROUGHNECK,Valve family MKP-ROUGHNECK,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6FO,Puller Head; catalogue valve family MKP-ROUGHNECK,Valve family MKP-ROUGHNECK,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-773-1,Valve; catalogue valve family MKP-SW FULL OPEN,Valve family MKP-SW FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-873-2,Seat; catalogue valve family MKP-SW FULL OPEN,Valve family MKP-SW FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-951,Spring; catalogue valve family MKP-SW FULL OPEN,Valve family MKP-SW FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-973,Urethane Insert; catalogue valve family MKP-SW FULL OPEN,Valve family MKP-SW FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6SW,Puller Head; catalogue valve family MKP-SW FULL OPEN,Valve family MKP-SW FULL OPEN,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0500119,Valve; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0520008,Seat; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-05139890,Spring; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0515845,Urethane Insert; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6BA,Puller Head; catalogue valve family MKP-DOUBLE ANGLE,Valve family MKP-DOUBLE ANGLE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0505038,Valve; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0520008,Seat; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-05139880,Spring; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0504890,Urethane Insert; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-1700-6BA,Puller Head; catalogue valve family MKP-PLATE TYPE,Valve family MKP-PLATE TYPE,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-400,Red Thunder Bonded Pistons; nominal piston size 4'',Piston family Red Thunder Bonded Pistons; size 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I40HK14/15,Imperial Piston; nominal piston size 4'',Piston family Imperial Piston; size 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I40HK,Imperial Rubber Kits; nominal piston size 4'',Piston family Imperial Rubber Kits; size 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-400,Rubber Bonded; nominal piston size 4'',Piston family Rubber Bonded; size 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-400,Long Life (Urethane); nominal piston size 4'',Piston family Long Life (Urethane); size 4'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-440,Red Thunder Bonded Pistons; nominal piston size 4½'',Piston family Red Thunder Bonded Pistons; size 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I44HK14/15,Imperial Piston; nominal piston size 4½'',Piston family Imperial Piston; size 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I44HK,Imperial Rubber Kits; nominal piston size 4½'',Piston family Imperial Rubber Kits; size 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-440,Rubber Bonded; nominal piston size 4½'',Piston family Rubber Bonded; size 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-440,Long Life (Urethane); nominal piston size 4½'',Piston family Long Life (Urethane); size 4½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-500,Red Thunder Bonded Pistons; nominal piston size 5'',Piston family Red Thunder Bonded Pistons; size 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I50HB14/15,Imperial Piston; nominal piston size 5'',Piston family Imperial Piston; size 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I50HB,Imperial Rubber Kits; nominal piston size 5'',Piston family Imperial Rubber Kits; size 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-500,Rubber Bonded; nominal piston size 5'',Piston family Rubber Bonded; size 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-500,Long Life (Urethane); nominal piston size 5'',Piston family Long Life (Urethane); size 5'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-540,Red Thunder Bonded Pistons; nominal piston size 5½'',Piston family Red Thunder Bonded Pistons; size 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I54HB14/15,Imperial Piston; nominal piston size 5½'',Piston family Imperial Piston; size 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I54HB,Imperial Rubber Kits; nominal piston size 5½'',Piston family Imperial Rubber Kits; size 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-540,Rubber Bonded; nominal piston size 5½'',Piston family Rubber Bonded; size 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-540,Long Life (Urethane); nominal piston size 5½'',Piston family Long Life (Urethane); size 5½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-600,Red Thunder Bonded Pistons; nominal piston size 6'',Piston family Red Thunder Bonded Pistons; size 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I60HB14/15,Imperial Piston; nominal piston size 6'',Piston family Imperial Piston; size 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I60HB,Imperial Rubber Kits; nominal piston size 6'',Piston family Imperial Rubber Kits; size 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-600,Rubber Bonded; nominal piston size 6'',Piston family Rubber Bonded; size 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-600,Long Life (Urethane); nominal piston size 6'',Piston family Long Life (Urethane); size 6'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RT-640,Red Thunder Bonded Pistons; nominal piston size 6½'',Piston family Red Thunder Bonded Pistons; size 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I64HL14/15,Imperial Piston; nominal piston size 6½'',Piston family Imperial Piston; size 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-I64HL,Imperial Rubber Kits; nominal piston size 6½'',Piston family Imperial Rubber Kits; size 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-RB-640,Rubber Bonded; nominal piston size 6½'',Piston family Rubber Bonded; size 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-LL-640,Long Life (Urethane); nominal piston size 6½'',Piston family Long Life (Urethane); size 6½'',Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-0150,Piston Rod; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-16-0150,Extension Rod; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-24-0150,Rod Clamp; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-7403364,Piston Rod Nut; part no.,Rod arrangement PART NO.,Mud King supplier catalogue number,S2,PDF p. 6
+EMSCO F-800,MK-6999-0086-02,"Fluid Module, Studded (Included Items 2 – 8)","Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 1; catalogue quantity (3) per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6999-0087-02,"Fluid Module, Only","Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 2; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7507-2108-00,Stud – Discharge Manifold,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 3; catalogue quantity 12 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7601-0630-24,Nut – Discharge Manifold,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 4; catalogue quantity 12 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7507-2205-00,Stud – Frame,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 5; catalogue quantity 18 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7601-0630-17,Nut – Frame,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 6; catalogue quantity 18 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7507-2150-00,Stud – Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 7; catalogue quantity 30 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7601-0630-26,Nut – Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 8; catalogue quantity 30 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0026-00,Liner Cage,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 9; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6999-0089-00,Threaded Ring,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 10; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0090-00,Cylinder Head,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 11; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0027-00,Valve Pot Cover,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 12; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0031-00,Cylinder Head Plug,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 13; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6397-0575-00,Upper Valve Guide,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 14; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6397-0603-00,Retainer Plate,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 15; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7602-1610-46,"O-Ring, Discharge Manifold","Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 16; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0076-00,Seal – Valve Pot Cover,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 17; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7501-0051-00,Retainer Bolt,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 18; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7602-1600-61,O-Ring – Suction Manifold,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 19; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6316-0096-00,Lower Valve Guide Bushing,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 20; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0089-00,Locking Clip,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 21; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-6319-0087-00,Lower Valve Guide with Bushing,"Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 22; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,MK-7602-2200-32,"Seal – Liner, Cylinder Head Plug","Fluid-end module; catalogue joint header: EMSCO F-800, EMSCO F-1000; item 23; catalogue quantity 3 per pump (not quotation quantity)",Mud King supplier catalogue number,S2,PDF p. 40
+EMSCO F-800,6320-0083-01,Frame Assembly,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0036-00,Crankshaft Assembly,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0038-00,Pinion Shaft Assembly,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0073-00,BA 1 Lubrication Assembly,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0100-00,Cover Plate,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7506-0032-00,Oil Level Rame Pilate,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6316-0259-06,Shiw Set (as required),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6397-0264-00,Clean Out Cover,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7502-0581-00,Clean Out Cover Casket,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7602-0590-13,Gear Case Cover Gasket,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7502-0103-00,Inspection Door Gasket,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6397-0186-00,Breather Cap,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7307-0200-00,Breather Cap Stud,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7602-1070-13,Copper Wool (2 az.),General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6316-0349-00,"Clean Out Cover w/l-1/2"" Cpig",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7601-1060-06,"6 #6 x 3/8"" P.K. Drive Screw",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7601-1066-09,"& #8 x 5/8"" PLR. Drive Screw",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7601-1320-33,"t"" Lockwasher",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0084-00,Skid,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6320-0077-06,Gear Case Cover,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7510-0201-00,C-£ Co. Inspection Door,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7506-0419-37,C-E Name Plate,General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7601-0330-52,"RS 24 E/2""-13 x 1+3/4"" Hxltd CpScrew",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,7601-1320-16,"RO 26 1/2"" Lockwasher",General assembly; source model column 1,source-parts-list-entry,S1,PDF p. 6
+EMSCO F-800,6319-0026-00,Liner Cage,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6319-0027-00,Valve Pot Cover,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6999-0089-00,Thread Ring,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6319-0031-00,Cylinder Head Plug,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0079-00,Suction Manifold,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0080-00,Shim Set,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6999-0086-02,Fluid End (Studded),Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6397-0575-00,Valve Guide - Upper,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0081-06,Suction Flange,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0082-00,ll Blind Suction Flange,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6319-0090-00,Cylinder Head,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7503-0210-19,Hose Assembly,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-253042,"i""xL/4"" Pipe Bushing Galv",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-257087,"1/4"" 90 Street Ell (Galv.)",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6397-0603-00,Retainer - Upper Viv Guide,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-033122,Rx. Hd. Capscrew,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-063023,Reavy Hex Nut,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-160049,Suction Flange Gasket,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-160061,"Suction Manf. ""O"" Ring",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-528072,"od 29 1/16"" Soft Iron Wire 6'-0"" i",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0072-00,Piston Rod Clamp,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0030-00,Piston Rod,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6319-0076-00,Valve Cover Seal,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0085-01,Fluid end; review F800/F1000 column; source assembly/drawing reference,Fluid end; preserve F800/F1000 column; source model column 1,source-assembly-drawing-reference,S1,PDF p. 14
+EMSCO F-800,6397-0691-00,Valve Cover Bar,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-072058,"1-1/2"" Heavy Lock Nut",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-220032,RIL Liner Seal,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-301007,"RL3. Proto 8"" Extension #5861 1",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-301009,Proto Hvy Duty Socket #5776 1 ',Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-301022,Proto Hvy Duty Socker #5764,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-301049,Proto Hvy Duty Socket #5770,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6319-0087-00,R17? Valve Guide-Lower w/Bushing,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6316-0096-00,Bushing-Lower Viv. Guide,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7507-2108-00,"R22. 1-1/4"" Stud",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7507-2205-00,"1-1/2"" Stud",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-033102,2A Hx Capscrew,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-063017,"R27. 1-1/2"" - 8 Hvy Hx. Nut",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-132018,Lockwasher,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-063028,"1-3/8"" Rvy Hx. Nut",Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6999-0087-02,R32. Fluid End,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7602-136120,Liner,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,7601-206187,Companion Flange,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6320-0028-00,Fluid Baffle Disc,Fluid end; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 14
+EMSCO F-800,6922-0069-00,L Bladder,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0068-00,Support Rod,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0063-00,Charging Flange 1,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0064-00,Adapter Flange 1,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0096-00,End Plug,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7602-072130,Hose Clamp | 4,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0053-00,Gasket j L,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-033077,"5/8"" x 1-3/4"" Hex Head Capscrew",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7602-291077,"Marsh 1/4"" Needle Valve L900-MFA",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-253001,"1/4"" x 1/8"" Hex Pipe Bushing L 7601+253001",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7602-291805,"ll 1/8"" Air Tank Valve L",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6922-0067-00,Valve Guard,Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-033001,"1/4""-20 x 1/2"" Hex Head Capscrew 4",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-132038,"1/4"" Lockwasher",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-132030,"LS 5/8"" Lockwasher",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,7601-259008,"1/4"" Pipe Plug Grade 5",Suction desurger; preserve model column; source model column 3; SD-6 Rev B F800,source-parts-list-entry,S1,PDF p. 20
+EMSCO F-800,6320-0037-00,Crusshead Assembly,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6397-0560-00,i Diaphragm Stuffing Box,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7602-161020,O-Ring,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7501-1275-00,Socket Hd. Drid. Capscrw,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0042-00,Crosshead Pin Retainer,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7602-021290,Crosshead Bearing 3 =,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0043-00,1a) Crosshead Guide,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0027-00,ii Clamp Nut (Crs.Hd. Guid},"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0025-00,Lock Pin,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7501-1105-00,Crosshead Guide Screw,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0062-00,NI 14 Gasket (Crosshead Cver),"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7501-0025-00,i 16 Drid. Hx. Hd. Capscrew,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7601-132039,"3/8"" Lockwasher","Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7601-133004,Plain Washer Smali 0.D,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7602-528240,"1/16"" Soft Iron Wire","Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7601-258008,"3/8"" x 2"" Nipple","Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7601-273007,"3/8"" Wthd Male Connector","Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7508-0014-31,"3/8"" Copper Tubing Assy 3 -","Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7501-1106-00,Crosshead Guide Screw 12>,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0026-00,Clamp Nut,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6305-0071-00,Split Oi! Seal,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7602-160033,RA O-Ring,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6397-0564-00,RS Stuffing Box Spring,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0028-00,Fluid Baffle Disc,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6397-0565-00,Stuffing Box Lock Spring,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0069-00,Crosshead Door,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0039-00,RLO Eccentric Strap,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,7601-033052,Hex Head Capscrew,"Early crosshead: F800 S/N1-5, F1000 S/N1-11, F1300 S/N1-43, F1600 S/N1-38 and42; source model column 1",source-parts-list-entry,S1,PDF p. 22
+EMSCO F-800,6320-0129-00,Crosshead Assembly,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0012-00,Crosshead,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0127-00,Crosshead Guide (Upper),Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0042-00,Crosshead Pin Retainer,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0011-00,Crosshead Pin,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0041-00,Crosshead Extension,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0128-00,Crosshead Guide (Lower),Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6397-0560-00,? Diaphragm Stuffing Box,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7602-021290,Crosshead Bearing,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0126-00,Locking Plate,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7602-213197,Singie Lip Oil Seal,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0025-00,Lock Pin,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0063-00,Diaph. Plate Gasket,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6320-0062-00,13. Gasket - Crosshead Cover z,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6397-0565-00,Diaph Stuff Bx Lk Spring,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7602-161020,O-Ring,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7601-273007,"3/8"" Male Connector",Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7508-0014-31,"17. 3/8"" Copper Tubing Assy",Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7601-258008,"3/8"" x 2"" Pipe Nipple",Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6397-0564-00,Stuffing Box Spring,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,7501-0142-00,Drive Hd. Capscrew,Later crosshead: exact serial ranges per source heading; source model column 1,source-parts-list-entry,S1,PDF p. 23
+EMSCO F-800,6316-0183-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0022-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0181-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0026-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0087-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0028-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0182-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6397-0544-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6301-0038-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6319-0131-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7602-213147,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6316-0081-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6397-0546-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7602-161022,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7601-273007,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7508-0020-31,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7601-258008,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6397-0548-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7501-1107-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,7501-0141-00,Later crosshead: exact serial ranges per source heading; source assembly/drawing reference,Later crosshead: exact serial ranges per source heading; source model column 1,source-assembly-drawing-reference,S1,PDF p. 23
+EMSCO F-800,6320-0038-00,Assembly,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,6320-0035-00,Pinion Bearing Carrier,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,6320-0032-00,Pinion Bearing Carrier Gasket,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,6320-0034-00,Oil Seal Carrier,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,6320-0009-00,Pinion Shaft Cover,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7602-021109,Pinion Shaft Bearing,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7602-213104,Oil Seal,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7601-033220,"HxHd Cap Screw (1/2"" x 1-1/2"")",Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7601-033307,HxHd Cap Screw,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7601-132016,"Lock washer (1/2"")",Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7601-132018,Lock washer,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,7504-4301-00,RL Square Key,Pinion shaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 25
+EMSCO F-800,6320-0036-00,Assembly L,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0040-01,L Crankshaft,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0039-00,2. Eecentric Strap,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0013-00,"Outer Race Retainer, Ecc. Brg",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0014-00,"Inner Race Retner, Outboard Brg",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0015-00,"Inner Race Retainer, Center Brg i",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0145-00,Crankshaft Brg. Inner Retainer i,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0017-00,Eccentric Ring Gear,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0024-00,Main Bearing Cover Gasket,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0020-00,"Ll Outer Race Retainer, Main Brg",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0021-00,"Inner Race Retainer, Main Bre",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0149-00,"Bearing Carrier, Right",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0019-00,"Spacer, Main Bearing",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0045-00,"Shim Set, Main Bearing",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7501-0004-00,Drilled Head Capscrew,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7501-1256-00,Drilled Socket Hd. Capscrew,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7602-021289,Eccentric Bearing,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7602-020054,Main Bearing,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7601-033077,"5/8"" x 1-3/4"" Hx. Hd. Capsw",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7601-033586,"1-1/4"" x 4"" Hx. Hd. Capsw",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7601-133005,"5/8"" Plain Washer Small 0.D",Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7501-072019,ESNA Heavy Hx. Lock Nut,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6320-0022-00,Main Bearing Cover,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,7602-021290,Crosshead Bearing,Crankshaft; preserve F800/F1000 column; source model column 1,source-parts-list-entry,S1,PDF p. 28
+EMSCO F-800,6317-0039-00,"Flanged Diechsrge Manifold Assy 5"" Ouclet ---~ §316-01 70-00 <one aad 63t0-0189-00",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6317-0099-00,"or 1 Flanged Dischsrge Manifold Assy 6"" Outlet atte o—— lead a soe",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6317-0097-00,"or 1 Strainer Housing, 6"" Outlet -——— —— oo “mae ——",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7602-160040,i Strainer Gasket ARP~439 =,Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6397-0290-00,Discharge Manifold Strainer Assembly ——-,Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6397-0293-01,A a 1 Strainer ——,Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6317-0114-00,"or I PD-28P Acc. Manifold w/2+3"" Side Outlets",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6317-0098-00,"OF, t pp-43 & PD-53 Acc. Hanifotd w/2-3"" Outlets 6322-0 100-00 anne",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6317-0040-10,"or 1 PD-45 & PD-55 Acc. Manifold w/2-3"" Ouriete",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7602-066002,"or 1 R J Gasket PD-43,PD~53, K-20-3000 Damp. (~37)",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7602-066003,"or 1 R J Gasket PD-45,PD-55, K~20-5000 Damp. (R-39}",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6923-0016-00,"Ri. C-£ 3"" Type 'S’ Shear Relief Valve",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7602-066005,"or L Rij. Gasket, (B-46) 6"" Fig.-Nor Included aa",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7507-2201-00,"Stud - 5"" Flange ----",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7507-2743-00,"or «12 Stud - 6"" Flange",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7601-063017,"Heavy Bex Rut (1-1/2""), 5° Flange ~~ 7601-06307 onan -————",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,7601-063028,"ior 12 Heavy Hex tut (1-3/8), 6"" Flange mamas ow ase= etetad wnoe",Discharge strainer and accessory manifold; preserve model column; source model column 6,source-parts-list-entry,S1,PDF p. 30
+EMSCO F-800,6320-0073-00,Lubrication Assembly,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7602-107003,Air Maze Filter #0OHN,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7602-115006,Marsh Press Gauge W0306,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7602-291478,"t/2"" Lunk Relief Valve L",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,6296-0224-07,Oil Jet,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,6920-0259-00,Manifold t,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7504-0002-00,Key,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7602-183082,Valve,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,6319-0695-00,Shim Set,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,6320-0157-00,Oil Pump Mtg. Plate,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7514-0202-00,"5/16"" Tbg. Clamp-Single",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7514-0007-00,"1/2"" Tubing Clamp &",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-259094,"1/4"" Countersunk Pipe Plug",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-033003,"1/4"" x 3/4"" Hx Hd Capscrew",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-132038,"1/4"" Lockwasher",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-033032,"3/8"" x 1-1/2"" Hx Hd Capscrew",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-132014,"3/8"" Lockwasher &",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-275035,Wthd 90 Male Ell,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0240-37,"1/2"" Copper Tbg Assy",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-255003,"1/2"" Pipe Coupling",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-255024,"1/8"" Pipe Coupling",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-259076,"1/4"" Pipe Plug",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-259075,"3/4"" Pipe Plug -",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-273004,"$Wthd Inv. Conn. , &",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-281002,Wthd Inv. Union,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-275004,Wthd Inv. Ell Conn,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7602-275005,Wthd Inv. Male E11,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-275200,Wthd Inv. Maie Ell,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-275009,Wthd Inv. Male Eli,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7601-275006,Wthd Inv. Male E11,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0080-19,"5/16"" Copper Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0350-19,"5/16"" Copper Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0380-19,"5/16"" Copper Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0570-19,"5/16"" Copper Tbhg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0310-40,"1/2"" Copper Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0250-45,"5/8"" Copper Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0510-19,"5/16"" Copper Thg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0170-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0240-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0200-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0100-22,"5/16"" Lube Thg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0350-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0280-22,"5/16"" Lube Tbhg Ass'y L",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0400-22,5/16 Lube Tbg Ags'y,F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0060-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,7508-0510-22,"5/16"" Lube Tbg Ass'y",F800 lubrication,source-parts-list-entry,S1,PDF p. 34
+EMSCO F-800,6911-1129-00,#2 B & S Pump Assy,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7514-0010-00,"2"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7514-0002-00,"3/4"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7514-0450-00,"3/4"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,6296-3939-00,Spray Nozzle,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7602-233001,"3/4"" Sediment Separator",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7602-115003,Ashcroft Gauge (0-60 PSI),Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7602-107004,"SLD 3/4"" Marvel Filter",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7602-062004,Ideal Hygear Hose Clamp,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7514-0005-00,"1/2"" Pipe Clamp",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-455016,"2""* Dayco Hose x 1°4""",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7503-0400-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7503-0620-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7503-0420-49,"1/2"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7503-0300-57,"3/4"" Hose Assembly",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-209041,Pipe Adapter Ell,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-209029,Male Pipe Adapter,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,6911-1327-00,Pump chain lubrication; source model alternatives; source assembly/drawing reference,Pump chain lubrication; source model alternatives,source-assembly-drawing-reference,S1,PDF p. 39
+EMSCO F-800,7601-209024,Male Pipe Adapter,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-257113,"3/4"" 90-Street Ell (Black) L",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-257200,"3/4"" 45-Street Eli (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-259010,"3/4"" Pipe Plug (Galv) &",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-259098,"2"" Pipe Plug (Black) ‘",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-253130,"2"" x 3/4"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-258049,"2"" Close Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-258688,"1/2"" x 4"" Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-258017,"3/4"" x 3"" Nipple (Black) . §$",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-258428,"1/2"" x 3"" Nipple (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-261005,"3/4"" Tee (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-261078,"2"" Tee (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-258351,"2"" King Comb. Nipple",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-253005,"3/4"" x 1/2"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-253007,"3/4"" x 1/4"" Bushing (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-257108,"2"" 90-ELbow (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-257032,"3/4"" 90-Elbow (Black)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,6911-1327-43,"Pipe 3/4"" Std x 7'10""",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,7601-259009,"i/2"" Pipe Plug (Galv)",Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,6911-2152-00,Oil Level Plate,Pump chain lubrication; source model alternatives,source-parts-list-entry,S1,PDF p. 39
+EMSCO F-800,6320-0144-00,Piston & Liner Wash (R.H.),F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,6320-0130-00,Recirculating Tank L,F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7602-184052,#3 Brown & Sharpe Pump,F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7602-236288,6.5 P.D 1A Sheave ;} ot,F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7602-031097,"""A"" Sect. Veelos Supreme Belt (97"")",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7602-072041,Hose Clamp,F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7503-0360-49,"1/2"" Hose Assembly 1 oo",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7503-0480-55,"3/4"" Hose Assembly i",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7503-0360-66,"1"" Hose Assembly",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-431036,"2-1/2"" I.D. Hose (Gates 35W x 3') t",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-209040,"Hose Adapter Elbow (7/8"" To 1/2"") , i",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-209043,"Hose Adapter Elbow 1-1/16"" To 3/4""",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-209028,"Male Adapter 1-5/16"" To 1"" Pipe",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-261020,"2-1/2"" Pipe Tee (Galv.) Fo o-",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-261015,"3/4"" Pipe Tee (Galv.) i oo",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-257042,"3/4"" x 90 Elbow (Galv.) '",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-257043,i* x 90 Elbow (Galv.),F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-257047,"2-1/2"" x 90 Elbow (Galv.) L",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258139,"3/4"" Close Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-253036,"3/4"" x 1/2"" Bushing (Galv.) t",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-253039,"1"" x 3/4"" Bushing (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-253155,"2-1/2"" x 1/2"" Bushing (Galv.) /",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7501-253110,"2-1/2"" x 1” Bushing (Galv.) hk",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258142,"3/4"" x 2"" Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258163,"1"" x 3"" Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258234,"2-1/2"" x 4"" Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258352,"2-1/2"" King Comp. Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258125,"1/2"" Close Nipple | 2",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7602-291017,"1/2"" Globe Valve (125 PSI) Brass",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-037012,"1/4""+20 x 1/2"" Cup Pt. Set Ser",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258143,"3/4"" x 3% Nipple (Galv.) a oe",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-258236,"2-1/2"" x 6"" Nipple (Galv.)",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-257018,"2-1/2"" x 45 Elbow (Galv.) Lk",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-257090,"3/4"" x 90 Nipple (Galv.) Poy",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,7601-259013,"{-1/2"" Pipe Plug (Galv.) j; 2°",F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,6320-0008-00,—- Belt Guard,F800 piston and liner wash through S/N66,source-parts-list-entry,S1,PDF p. 42
+EMSCO F-800,6320-0174-00,rton & Liner Assembly 6 3£8-0293-06,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6320-0182-00,nk Support Angle,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6320-0179-00,Spacer Plate t owen Saat,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6320-0180-00,eave ~ P.D.-1LA i,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7602-182038,rdner-Denver CA~122 Cent. Pump t,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7602-236404,P.D.-14~Sheave w/QD-SH Hub i,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7602-033034,Belt i,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7503-0180-66,Hose Assembly,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7503-0120-66,Rose Assembly 1,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-209028,Hose Adapter (1013-16-168),Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-257091,x 90 Street Ei 4 7601-25709% {3},Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-258870,"1/2” Nipple, Thd. One End",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-033076,"'S""~1] x 1-1/2"" He. Hd, Capser",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-033080,"'BY-EL x 2-1/2"" Hx. Hd. Capscrew 1 sees sess",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-061012,"'8""-L] Hex. Nut",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-132030,Lockwasher &,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-132018,"4"" Lockwasher",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-134008,"4"" Plain Waher Wide 0.D",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,7601-134022,"/8"" Plain Washer Wide O.D",Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6320-0175-01,elt Guard (L.H.) l,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6320-0175-00,elt Guard (R.H.) i i,Later piston and liner wash; source model/serial columns; source model column 4,source-parts-list-entry,S1,PDF p. 43
+EMSCO F-800,6911-1130-00,Base,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,6911-1383-00,Pump Support,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,6911-1385-00,Shim Set,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7602-083115,Lovejoy L-100 Coupling,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7602-184048,#2 B & S Pump,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7601-033032,"3/8""-16 X 1-1/2"" Hx Hd Cpsrw",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7601-061005,"3/8""-16 Hex Nut",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7601-132014,"3/8"" Lockwasher",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7601-033030,"3/8""-16 x 1"" Hx Hd Cpscrw &",No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,6911-1384-00,Coupling Guard,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7602-147033,Hp 9O0ORPM 230/460 V TEXP,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,7602-147057,Hp 9OORPM 575 V TEXP,No.2 Brown and Sharpe chain lubrication pump,source-parts-list-entry,S1,PDF p. 46
+EMSCO F-800,6320-0004-00,Tool List,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301009,"Proto Socket (2-3/8"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301022,"Proto Socket (2"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301005,Proto Sliding Bar,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301048,Proto Sliding Plug ol,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301007,"Proto 8"" Extension",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,6397-0691-00,Valve Cover Bar,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,6316-0280-00,Cylinder Head Wrench,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301052,Snap-On Socket,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,7602-301049,"Proto Socket (2~-3/16"")",Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,6316-0281-00,*kkPor F-1300 & F-1600 Use,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48
+EMSCO F-800,6316-0276-00,For FA-1300 & FA-1600 Use,Tool list; preserve model columns and note-specific wrench numbers; source model column 1,source-parts-list-entry,S1,PDF p. 48

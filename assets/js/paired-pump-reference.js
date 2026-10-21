@@ -1,0 +1,13 @@
+
+(()=>{'use strict';const table=document.querySelector('[data-pump-reference-table]');if(!table)return;const input=document.querySelector('[data-pump-filter]'),status=document.querySelector('[data-pump-filter-status]'),media=matchMedia('(max-width:640px)');
+const normalize=v=>v.normalize('NFKC').toLowerCase().trim(),compact=v=>normalize(v).replace(/[^\p{L}\p{N}]+/gu,'');
+const labels=new Map([...table.querySelectorAll('[data-reference-source-heading]')].map(e=>[e.dataset.referenceSourceHeading,e.textContent]));
+const entries=[...table.querySelectorAll('[data-reference-entry]')].map(cell=>({cell,name:cell.nextElementSibling,index:Number(cell.dataset.referenceOrder),source:cell.dataset.referenceSource,id:cell.id})).sort((a,b)=>a.index-b.index);
+for(const e of entries){e.number=e.cell.textContent;e.text=e.number+' '+e.name.textContent;}const byId=new Map(entries.map(e=>[e.id,e]));
+function render(){const q=normalize(input?input.value:''),n=/\d/.test(q)?compact(q):'';const shown=entries.filter(e=>!q||normalize(e.text).includes(q)||(n&&compact(e.number).includes(n)));for(const body of [...table.tBodies])body.remove();const groups=new Map();for(const e of shown){if(!groups.has(e.source))groups.set(e.source,[]);groups.get(e.source).push(e)}let index=0;
+for(const [source,list] of groups){const body=document.createElement('tbody');body.dataset.source=source;if(labels.has(source)){const row=body.insertRow(),heading=document.createElement('th');row.className='reference-version-row';heading.colSpan=media.matches?3:5;heading.scope='colgroup';heading.textContent=labels.get(source);row.append(heading)}const half=media.matches?list.length:Math.ceil(list.length/2);
+for(let i=0;i<half;i++){const row=body.insertRow();row.dataset.pairRow='';const indexCell=row.insertCell();indexCell.className='reference-row-index';indexCell.textContent=String(++index);for(const e of media.matches?[list[i]]:[list[i],list[i+half]]){if(e){row.append(e.cell,e.name)}else{row.insertCell().setAttribute('aria-hidden','true');row.insertCell().setAttribute('aria-hidden','true')}}}table.append(body)}
+if(status)status.textContent=q?`${shown.length} of ${entries.length} parts`:`${entries.length.toLocaleString('en-US')} parts`;}
+function reveal(){let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(!byId.has(id))return;if(input&&input.value){input.value='';render()}byId.get(id).cell.scrollIntoView({block:'center',behavior:'instant'});}
+if(input)input.addEventListener('input',render);media.addEventListener('change',()=>{render();reveal()});window.addEventListener('hashchange',reveal);render();requestAnimationFrame(reveal);
+})();

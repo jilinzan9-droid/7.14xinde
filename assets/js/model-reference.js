@@ -6,11 +6,15 @@
   if (!table || !input || !status) return;
   const rows = [...table.tBodies[0].rows];
   const normalize = value => value.normalize('NFKC').toLowerCase().trim();
+  const compact = value => normalize(value).replace(/[^\p{L}\p{N}]+/gu, '');
   function filter() {
     const query = normalize(input.value);
+    const numberQuery = /\d/.test(query) ? compact(query) : '';
     let count = 0;
     rows.forEach(row => {
-      row.hidden = Boolean(query) && !normalize(row.textContent).includes(query);
+      const textMatch = normalize(row.textContent).includes(query);
+      const numberMatch = Boolean(numberQuery) && compact(row.cells[0].textContent).includes(numberQuery);
+      row.hidden = Boolean(query) && !textMatch && !numberMatch;
       if (!row.hidden) count += 1;
     });
     status.textContent = count + ' of ' + rows.length + ' reference entries';

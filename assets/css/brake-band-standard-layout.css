@@ -1,0 +1,23 @@
+/* Keep the original brake-band references within the shared product layout. */
+body.brake-band-standard-layout .ru-product-detail-hero { width:100%; max-width:none; }
+body.brake-band-standard-layout .ru-product-detail-copy { min-width:0; }
+body.brake-band-standard-layout .hero-actions { flex-wrap:wrap; }
+body.brake-band-standard-layout .brake-band-block { margin:36px 0 24px; }
+body.brake-band-standard-layout .brake-band-block h2 { margin:0 0 18px; color:#263c45; font-size:22px; }
+body.brake-band-standard-layout .brake-band-block p,
+body.brake-band-standard-layout .brake-band-fitment-list { color:#455b65; font-size:16px; line-height:1.8; }
+body.brake-band-standard-layout .brake-band-fitment-list { padding-inline-start:22px; }
+body.brake-band-standard-layout .brake-band-drawing,
+body.brake-band-standard-layout .brake-band-shop-photo { margin:32px 0; max-width:100%; }
+body.brake-band-standard-layout .brake-band-drawing img,
+body.brake-band-standard-layout .brake-band-shop-photo img { display:block; width:100%; height:auto; object-fit:contain; }
+body.brake-band-standard-layout .brake-band-table-scroll { width:100%; overflow-x:auto; }
+body.brake-band-standard-layout .brake-band-parts-table { width:100%; min-width:800px; border-collapse:collapse; font-size:14px; }
+body.brake-band-standard-layout .brake-band-parts-table th { background:#126ad7; color:#fff; }
+body.brake-band-standard-layout .brake-band-parts-table th,
+body.brake-band-standard-layout .brake-band-parts-table td { padding:12px; border:1px solid #dce5e8; text-align:start; }
+body.brake-band-standard-layout .brake-band-parts-table tbody tr:nth-child(even) { background:#f5f8fa; }
+body.brake-band-standard-layout .brake-band-contact { width:100%; max-width:100%; box-sizing:border-box; }
+@media(max-width:900px) {
+  body.brake-band-standard-layout .ru-product-detail-copy .hero-actions { margin-top:20px; }
+}

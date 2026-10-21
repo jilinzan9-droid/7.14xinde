@@ -1,0 +1,1395 @@
+{
+  "version": "20261021",
+  "routes": [
+    {
+      "source": "/ar/about-us/",
+      "target": "/en/about-us/",
+      "reason": "No Arabic landing page; use its existing English counterpart"
+    },
+    {
+      "source": "/ar/bomco-f-series-mud-pumps/",
+      "target": "/ar/products/bomco-f-series-mud-pumps/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/burovoy-gidravlicheskiy-klyuch-serii-tq/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-tq/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/burovoy-klyuch-zq203/",
+      "target": "/ar/products/burovoy-klyuch-zq203/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/contact/",
+      "target": "/en/contact/",
+      "reason": "No Arabic landing page; use its existing English counterpart"
+    },
+    {
+      "source": "/ar/drawworks-brake-band-system-parts/",
+      "target": "/ar/products/drawworks-brake-band-system-parts/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/drilling-rig-accessories-valves-pumps/",
+      "target": "/ar/products/drilling-rig-accessories-valves-pumps/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/drilling-rigs-and-drawworks-accessories/",
+      "target": "/ar/products/drilling-rigs-and-drawworks-accessories/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/elevator-burilnoy-truby-cdz/",
+      "target": "/ar/products/elevator-burilnoy-truby-cdz/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/gidravlicheskiy-nasos-jm12l-f0-8f2/",
+      "target": "/ar/products/gidravlicheskiy-nasos-jm12l-f0-8f2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/korpus-v-sbore-pkr-560/",
+      "target": "/ar/products/korpus-v-sbore-pkr-560/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/mud-pump-spare-parts/",
+      "target": "/en/mud-pump-spare-parts/",
+      "reason": "No Arabic landing page; use its existing English counterpart"
+    },
+    {
+      "source": "/ar/news/3nb-1600hl-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/3nb-1600hl-mud-pump-spare-parts/",
+      "reason": "Removed Arabic catalogue: current same-model English reference; no Arabic replacement exists"
+    },
+    {
+      "source": "/ar/news/3nb-2200-mud-pump-spare-parts-catalog/",
+      "target": "/en/news/honghua-3nb-2200-nb2200g-parts-reference/",
+      "reason": "Removed Arabic catalogue: current same-model English reference; no Arabic replacement exists"
+    },
+    {
+      "source": "/ar/news/fb-1300-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/fb1300-mud-pump-spare-parts/",
+      "reason": "Removed Arabic catalogue: current same-model English reference; no Arabic replacement exists"
+    },
+    {
+      "source": "/ar/news/fb-1600-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/fb1600-mud-pump-spare-parts/",
+      "reason": "Removed Arabic catalogue: current same-model English reference; no Arabic replacement exists"
+    },
+    {
+      "source": "/ar/oilfield-equipment-supplier-saudi-arabia/",
+      "target": "/en/oilfield-equipment-supplier-saudi-arabia/",
+      "reason": "No Arabic landing page; use its existing English counterpart"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-maslyanaya-forsunka/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-maslyana/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-prikoloch/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-prikolo/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-gidromotor/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-gi/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-plashka-k-klyuchu/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-pl/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-rolik/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-ro/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-sborka-chelyustnoy-plastiny/",
+      "target": "/ar/products/burovoy-gidravlicheskiy-klyuch-serii-sb/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/drilling-rigs-and-drawworks-accessories/page-2/",
+      "target": "/ar/products/drilling-rigs-and-drawworks-accessories/page/2/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/ar/products/drilling-rigs-and-drawworks-accessories/page-3/",
+      "target": "/ar/products/drilling-rigs-and-drawworks-accessories/page/3/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/ar/products/eaton-wcb-vodyanoy-tormoz-wcb324-wcb224-wcb236-wcb336/",
+      "target": "/ar/products/eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/gidravlicheskaya-lebedka/",
+      "target": "/ar/products/gidravlicheskaya-ebedka/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/kompleksnye-postavki-zapchastey-dlya-burovogo-i-neftepromyslovogo-oborudovaniya/",
+      "target": "/ar/products/kompleksnye-postavki-zapchastey-dlya-b/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/kryuk-talevogo-bloka-burovogo-oborudovaniya-2/",
+      "target": "/ar/products/kryuk-talevogo-bloka-burovogo-oborudo-2/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/pnevmaticheskiy-tip-mufta-nazhima-burovoy-ustanovki-atd224-atd324-atd236-atd336/",
+      "target": "/ar/products/pnevmaticheskiy-tip-mufta-nazhima-buro/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/ar/products/spm-tws-حفر-mud-مضخة/",
+      "target": "/ar/products/spm-tws-drilling-mud-pump/",
+      "reason": "Previously translated URL segment"
+    },
+    {
+      "source": "/ar/products/wellhead-tools/page-2/",
+      "target": "/ar/products/wellhead-tools/page/2/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/ar/products/هيدروليكي-disc-فرامل-نظام/",
+      "target": "/ar/products/hydraulic-disc-brake-system/",
+      "reason": "Previously translated URL segment"
+    },
+    {
+      "source": "/ar/rotornye-klinya-sds-sdml-sdxl/",
+      "target": "/ar/products/rotornye-klinya-sds-sdml-sdxl/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/ar/spm-tws-drilling-mud-pump/",
+      "target": "/ar/products/spm-tws-drilling-mud-pump/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/assets/favicon.ico",
+      "target": "/assets/images/logo/logo-pratt-oil-transparent.webp",
+      "reason": "Use existing company logo for legacy icon requests"
+    },
+    {
+      "source": "/assets/favicon.png",
+      "target": "/assets/images/logo/logo-pratt-oil-transparent.webp",
+      "reason": "Use existing company logo for legacy icon requests"
+    },
+    {
+      "source": "/assets/images/ru-products/kryuk-talevogo-bloka-burovogo-oborudovaniya-2-main.webp",
+      "target": "/assets/images/ru-products/kryuk-talevogo-bloka-burovogo-oborudo-2-main.png",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/pnevmaticheskiy-tip-mufta-nazhima-burovoy-ustanovki-atd224-atd324-atd236-atd336-main.webp",
+      "target": "/assets/images/drawworks-20261017/atd-disc-clutch.webp",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/reversivnyy-klapan-gdfw-02-2b2-d24a52-main.webp",
+      "target": "/assets/images/ru-products/reversivnyy-klapan-gdfw-02-2b2-d24a52-description-1.webp",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/tsilindr-gidrousilitelya-rulya-z02030900002aa-main.webp",
+      "target": "/assets/images/ru-products/tsilindr-gidrousilitelya-rulya-z02030900002aa-description-1.webp",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-maslyanaya-forsunka.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-maslyana-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-prikoloch.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-prikolo-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-serii-gidromotor.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-serii-gi-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-serii-plashka-k-klyuchu.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-serii-pl-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-serii-rolik.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-serii-ro-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/burovoy-gidravlicheskiy-klyuch-serii-sborka-chelyustnoy-plastiny.webp",
+      "target": "/assets/images/ru-products/burovoy-gidravlicheskiy-klyuch-serii-sb-main.jpg",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/images/ru-products/wellhead-tools/shtrop-odnoplechnyy-serii-dh.webp",
+      "target": "/assets/images/ru-products/shtrop-odnoplechnyy-serii-dh-main.webp",
+      "reason": "Renamed image: verified current image for the same product"
+    },
+    {
+      "source": "/assets/img/favicon.ico",
+      "target": "/assets/images/logo/logo-pratt-oil-transparent.webp",
+      "reason": "Use existing company logo for legacy icon requests"
+    },
+    {
+      "source": "/assets/صور/home-products/spm-tws-حفر-mud-مضخة.webp",
+      "target": "/assets/images/home-products/spm-tws-drilling-mud-pump.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/burovye-vertlyug-sl-main.webp",
+      "target": "/assets/images/ru-products/burovye-vertlyug-sl-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/burovyh-nasosov-vypusknoy-kompensator-v-sbore-main.webp",
+      "target": "/assets/images/ru-products/burovyh-nasosov-vypusknoy-kompensator-v-sbore-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/kryuk-talevogo-bloka-burovogo-oborudovaniya-main.webp",
+      "target": "/assets/images/ru-products/kryuk-talevogo-bloka-burovogo-oborudovaniya-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/plunzher-burovogo-nasosa-main.webp",
+      "target": "/assets/images/ru-products/plunzher-burovogo-nasosa-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/plunzhernyy-nasos-kolenchatyy-val-main.webp",
+      "target": "/assets/images/ru-products/plunzhernyy-nasos-kolenchatyy-val-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/plunzhernyy-nasos-uplotnitelnaya-gayka-main.webp",
+      "target": "/assets/images/ru-products/plunzhernyy-nasos-uplotnitelnaya-gayka-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/porshen-burovogo-nasosa-main.webp",
+      "target": "/assets/images/ru-products/porshen-burovogo-nasosa-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/rabochiy-tsilindr-main.webp",
+      "target": "/assets/images/ru-products/rabochiy-tsilindr-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/rotora-burovoy-ustanovki-zp-main.webp",
+      "target": "/assets/images/ru-products/rotora-burovoy-ustanovki-zp-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/udlinitel-porshnevogo-shtoka-main.webp",
+      "target": "/assets/images/ru-products/udlinitel-porshnevogo-shtoka-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/uplotnenie-plunzhernogo-nasosa-2-main.webp",
+      "target": "/assets/images/ru-products/uplotnenie-plunzhernogo-nasosa-2-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/vtulka-burovogo-nasosa-main.webp",
+      "target": "/assets/images/ru-products/vtulka-burovogo-nasosa-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/assets/صور/ru-products/vtulki-burovogo-nasosa-main.webp",
+      "target": "/assets/images/ru-products/vtulki-burovogo-nasosa-main.webp",
+      "reason": "Accidentally translated image directory"
+    },
+    {
+      "source": "/demo/pratt-oil-oilfield",
+      "target": "/",
+      "reason": "Old deployment root without trailing slash"
+    },
+    {
+      "source": "/en/about/",
+      "target": "/en/about-us/",
+      "reason": "Former About URL"
+    },
+    {
+      "source": "/en/atd-prodvigayuschaya-mufta/",
+      "target": "/en/products/atd-prodvigayuschaya-mufta/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovoy-gidravlicheskiy-klyuch-prikoloch/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-prikolo/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovoy-nasos-iznos-plastiny/",
+      "target": "/en/products/burovoy-nasos-iznos-plastiny/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovoy-nasos-udlinitel-sterzhnya-2/",
+      "target": "/en/products/burovoy-nasos-udlinitel-sterzhnya-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovoy-nasos-udlinitel-sterzhnya/",
+      "target": "/en/products/burovoy-nasos-udlinitel-sterzhnya/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovye-gidravlicheskiy-klyuch-tq178-16-tq178-16y-tq340-35-tq356-55-gidravlicheskiy-klyuch-serii/",
+      "target": "/en/products/burovye-gidravlicheskiy-klyuch-tq178-16-tq178-16y-tq340-35-tq356-55-gidravlicheskiy-klyuch-serii/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovye-vertlyug-sl/",
+      "target": "/en/products/burovye-vertlyug-sl/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovyh-nasosov-gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/burovyh-nasosov-gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovym-nasosam-serii-unbt-gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovym-nasosam-serii-unbt-shtok-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-shtok-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/burovym-nasosam-serii-unbt-vtulka-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-vtulka-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/cb-shinno-pnevmaticheskaya-mufta/",
+      "target": "/en/products/cb-shinno-pnevmaticheskaya-mufta/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/drilling-rig-accessories-valves-pumps/",
+      "target": "/en/products/drilling-rig-accessories-valves-pumps/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/dvoynoy-napravlyayuschiy-kran-sd-00e/",
+      "target": "/en/products/dvoynoy-napravlyayuschiy-kran-sd-00e/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/",
+      "target": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/elevator-burilnoy-truby-cdz/",
+      "target": "/en/products/elevator-burilnoy-truby-cdz/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/en/about-us/",
+      "target": "/en/about-us/",
+      "reason": "Duplicate language prefix"
+    },
+    {
+      "source": "/en/en/contact/",
+      "target": "/en/contact/",
+      "reason": "Duplicate language prefix"
+    },
+    {
+      "source": "/en/en/news/",
+      "target": "/en/news/",
+      "reason": "Duplicate language prefix"
+    },
+    {
+      "source": "/en/en/services/",
+      "target": "/en/services/",
+      "reason": "Duplicate language prefix"
+    },
+    {
+      "source": "/en/friktsionnye-nakladki-gidravlicheskogo-diskovogo-tormoza/",
+      "target": "/en/products/friktsionnye-nakladki-gidravlicheskogo-diskovogo-tormoza/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/gidravlicheskie-silovye-ustanovki-serii-yzb-yzc/",
+      "target": "/en/products/gidravlicheskie-silovye-ustanovki-serii-yzb-yzc/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/gidravlicheskiy-diskovyy-tormoznoy-rotor/",
+      "target": "/en/products/gidravlicheskiy-diskovyy-tormoznoy-rotor/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/gidravlicheskiy-korpus-gidrokorobka/",
+      "target": "/en/products/gidravlicheskiy-korpus-gidrokorobka/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/gidravlicheskiy-nasos-p25x378beiu25-7/",
+      "target": "/en/products/gidravlicheskiy-nasos-p25x378beiu25-7/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/homut-shtoka-v-sbore-burovgo-nasosa/",
+      "target": "/en/products/homut-shtoka-v-sbore-burovgo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/homut-vtulki-dlya-nasosa/",
+      "target": "/en/products/homut-vtulki-dlya-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapan-dlya-burovogo-nasosa/",
+      "target": "/en/products/klapan-dlya-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapan-nabor-instrument-semnik/",
+      "target": "/en/products/klapan-nabor-instrument-semnik/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapan-protivozataskivatelya-fp-l6/",
+      "target": "/en/products/klapan-protivozataskivatelya-fp-l6/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapan-reversivnyy-elektromagnitnyy-vzryvozaschischennyy-bkd-z-x1/",
+      "target": "/en/products/klapan-reversivnyy-elektromagnitnyy-vzryvozaschischennyy-bkd-z-x1/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapan-v-sbore-dlya-nasosa/",
+      "target": "/en/products/klapan-v-sbore-dlya-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/klapany-burovyh-nasosov/",
+      "target": "/en/products/klapany-burovyh-nasosov/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/kolenval-burovogo-nasosa-v-sbore/",
+      "target": "/en/products/kolenval-burovogo-nasosa-v-sbore/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/kompensator-v-sbore-nasosa-kb45-kb75/",
+      "target": "/en/products/kompensator-v-sbore-nasosa-kb45-kb75/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/kompleksnye-postavki-zapchastey-dlya-burovogo-i-neftepromyslovogo-oborudovaniya/",
+      "target": "/en/products/kompleksnye-postavki-zapchastey-dlya-b/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/korpus-v-sbore-pkr-560/",
+      "target": "/en/products/korpus-v-sbore-pkr-560/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/kronblok-serii-tc/",
+      "target": "/en/products/kronblok-serii-tc/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/kryuk-talevogo-bloka-burovogo-oborudovaniya-2/",
+      "target": "/en/products/kryuk-talevogo-bloka-burovogo-oborudo-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/news/3nb-1600hl-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/3nb-1600hl-mud-pump-spare-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/3nb-2200-mud-pump-spare-parts-catalog/",
+      "target": "/en/news/honghua-3nb-2200-nb2200g-parts-reference/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/drawworks-brake-system-parts-middle-east/",
+      "target": "/en/drawworks-brake-system-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/drilling-mud-pump-supply-spare-parts/",
+      "target": "/en/mud-pump-spare-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/f-series-mud-pump-spare-parts-selection/",
+      "target": "/en/products/bomco-f-series-mud-pumps/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/fast-wearing-oilfield-parts-drilling-consumables/",
+      "target": "/en/fast-wearing-oilfield-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/fb-1300-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/fb1300-mud-pump-spare-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/fb-1600-mud-pump-spare-parts-catalog/",
+      "target": "/en/products/fb1600-mud-pump-spare-parts/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/middle-east-oilfield-spare-parts-inquiry-support/",
+      "target": "/en/contact/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/mud-pump-liners-pistons-valves-seats-maintenance/",
+      "target": "/en/mud-pump-liners-pistons-valves-seats/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/oilfield-equipment-spare-parts-sourcing-support/",
+      "target": "/en/services/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/news/oilfield-spare-parts-export-packaging-quotation-support/",
+      "target": "/en/export-support/",
+      "reason": "Removed news: equivalent model catalogue or service page, checked against Git history"
+    },
+    {
+      "source": "/en/plunzher-burovogo-nasosa-2/",
+      "target": "/en/products/plunzher-burovogo-nasosa-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzher-burovogo-nasosa/",
+      "target": "/en/products/plunzher-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzhernyy-nasos-bkd-z3/",
+      "target": "/en/products/plunzhernyy-nasos-bkd-z3/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzhernyy-nasos-bolshoy-shtok/",
+      "target": "/en/products/plunzhernyy-nasos-bolshoy-shtok/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzhernyy-nasos-kolenchatyy-val/",
+      "target": "/en/products/plunzhernyy-nasos-kolenchatyy-val/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzhernyy-nasos-probkovyy-kran/",
+      "target": "/en/products/plunzhernyy-nasos-probkovyy-kran/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/plunzhernyy-nasos-uplotnitelnaya-gayka/",
+      "target": "/en/products/plunzhernyy-nasos-uplotnitelnaya-gayka/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/polzun-burovogo-nasosa/",
+      "target": "/en/products/polzun-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/porshen-burovogo-nasosa-2/",
+      "target": "/en/products/porshen-burovogo-nasosa-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/porshen-burovogo-nasosa/",
+      "target": "/en/products/porshen-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/predohranitelnyy-klapan-so-sreznym-shtiftom/",
+      "target": "/en/products/predohranitelnyy-klapan-so-sreznym-shtiftom/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/predohranitelnyy-tsilindr/",
+      "target": "/en/products/predohranitelnyy-tsilindr/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/privod-otbora-moschnosti-852hvakr-f6xs/",
+      "target": "/en/products/privod-otbora-moschnosti-852hvakr-f6xs/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-maslyanaya-forsunka/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-maslyana/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-prikoloch/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-prikolo/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-gidromotor/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-gi/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-plashka-k-klyuchu/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-pl/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-rolik/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-ro/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-sborka-chelyustnoy-plastiny/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-sb/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/drilling-rigs-and-drawworks-accessories/page-2/",
+      "target": "/en/products/drilling-rigs-and-drawworks-accessories/page/2/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/en/products/drilling-rigs-and-drawworks-accessories/page-3/",
+      "target": "/en/products/drilling-rigs-and-drawworks-accessories/page/3/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/en/products/eaton-wcb-vodyanoy-tormoz-wcb324-wcb224-wcb236-wcb336/",
+      "target": "/en/products/eaton-wcb-vodyanoy-tormoz-vspomogatelnyy-tor/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/gidravlicheskaya-lebedka/",
+      "target": "/en/products/gidravlicheskaya-ebedka/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/kompleksnye-postavki-zapchastey-dlya-burovogo-i-neftepromyslovogo-oborudovaniya/",
+      "target": "/en/products/kompleksnye-postavki-zapchastey-dlya-b/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/kryuk-talevogo-bloka-burovogo-oborudovaniya-2/",
+      "target": "/en/products/kryuk-talevogo-bloka-burovogo-oborudo-2/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/pnevmaticheskiy-tip-mufta-nazhima-burovoy-ustanovki-atd224-atd324-atd236-atd336/",
+      "target": "/en/products/pnevmaticheskiy-tip-mufta-nazhima-buro/",
+      "reason": "Legacy full slug: matched product name and current catalogue"
+    },
+    {
+      "source": "/en/products/wellhead-tools/page-2/",
+      "target": "/en/products/wellhead-tools/page/2/",
+      "reason": "Old numbered pagination URL"
+    },
+    {
+      "source": "/en/pruzhinnyy-predohranitelnyy-klapan/",
+      "target": "/en/products/pruzhinnyy-predohranitelnyy-klapan/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/ps-seriya-ustanoka-gidravlicheskoe-diskovoe-tormoznoe-ustroystvo/",
+      "target": "/en/products/ps-seriya-ustanoka-gidravlicheskoe-diskovoe-tormoznoe-ustroystvo/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/rabochiy-tsilindr-v-sbore/",
+      "target": "/en/products/rabochiy-tsilindr-v-sbore/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/rabochiy-tsilindr/",
+      "target": "/en/products/rabochiy-tsilindr/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/reguliruyuschiy-klapan-hd-2-fx/",
+      "target": "/en/products/reguliruyuschiy-klapan-hd-2-fx/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/reversivnyy-klapan-gdfw-02-2b2-d24a52/",
+      "target": "/en/products/reversivnyy-klapan-gdfw-02-2b2-d24a52/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/rotora-burovoy-ustanovki-zp/",
+      "target": "/en/products/rotora-burovoy-ustanovki-zp/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/rotornye-klinya-sds-sdml-sdxl/",
+      "target": "/en/products/rotornye-klinya-sds-sdml-sdxl/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/ruchka-tormoza/",
+      "target": "/en/products/ruchka-tormoza/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/shesterenchatyy-nasos-7049112042/",
+      "target": "/en/products/shesterenchatyy-nasos-7049112042/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/shtok-porshnya-burovogo-nasosa/",
+      "target": "/en/products/shtok-porshnya-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/shtrop-odnoplechnyy-serii-dh/",
+      "target": "/en/products/shtrop-odnoplechnyy-serii-dh/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/spm-tws-drilling-mud-pump/",
+      "target": "/en/products/spm-tws-drilling-mud-pump/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/tormoz-burovoy-lebedki-lenta-tormoznaya/",
+      "target": "/en/products/tormoz-burovoy-lebedki-lenta-tormoznaya/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/tormoznoy-klapan-bk-f-s/",
+      "target": "/en/products/tormoznoy-klapan-bk-f-s/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/tormoznoy-klapan-lt07mka-2x/",
+      "target": "/en/products/tormoznoy-klapan-lt07mka-2x/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/udlinitel-porshnevogo-shtoka/",
+      "target": "/en/products/udlinitel-porshnevogo-shtoka/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/uplotnenie-plunzhera/",
+      "target": "/en/products/uplotnenie-plunzhera/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/uplotnenie-plunzhernogo-nasosa-2/",
+      "target": "/en/products/uplotnenie-plunzhernogo-nasosa-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/uplotnenie-vtulki/",
+      "target": "/en/products/uplotnenie-vtulki/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/uzel-predohranitelnogo-tsilindra/",
+      "target": "/en/products/uzel-predohranitelnogo-tsilindra/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/vertikalnaya-zaglushka/",
+      "target": "/en/products/vertikalnaya-zaglushka/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/vozdushnyy-klapan-xj-15/",
+      "target": "/en/products/vozdushnyy-klapan-xj-15/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/vtulki-burovogo-nasosa/",
+      "target": "/en/products/vtulki-burovogo-nasosa/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/vyhodnoy-val-2/",
+      "target": "/en/products/vyhodnoy-val-2/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/vyhodnoy-val/",
+      "target": "/en/products/vyhodnoy-val/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/wpt-stseplenie-prodvigayuschego-diska/",
+      "target": "/en/products/wpt-stseplenie-prodvigayuschego-diska/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/wpt-stseplenie-treniya-otbor-moschnosti-wpt-type-1-pto/",
+      "target": "/en/products/wpt-stseplenie-treniya-otbor-moschnosti-wpt-type-1-pto/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/en/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
+      "target": "/en/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
+      "reason": "Old flat product URL: exact existing product slug"
+    },
+    {
+      "source": "/favicon.ico",
+      "target": "/assets/images/logo/logo-pratt-oil-transparent.webp",
+      "reason": "Use existing company logo for legacy icon requests"
+    },
+    {
+      "source": "/ru/",
+      "target": "/",
+      "reason": "Retired Russian site section: current English homepage"
+    },
+    {
+      "source": "/ru/contact/",
+      "target": "/en/contact/",
+      "reason": "Retired Russian section: current contact page"
+    },
+    {
+      "source": "/ru/products/",
+      "target": "/en/products/",
+      "reason": "Retired Russian section: current catalogue"
+    },
+    {
+      "source": "/ru/products/atd-prodvigayuschaya-mufta/",
+      "target": "/en/products/atd-prodvigayuschaya-mufta/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/bolshaya-peredacha-p3100007aa/",
+      "target": "/en/products/bolshaya-peredacha-p3100007aa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovoy-gidravlicheskiy-klyuch-serii-tq/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-tq/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "target": "/en/products/burovoy-gidravlicheskiy-klyuch-serii-zq/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovoy-nasos-iznos-plastiny/",
+      "target": "/en/products/burovoy-nasos-iznos-plastiny/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovoy-nasos-udlinitel-sterzhnya-2/",
+      "target": "/en/products/burovoy-nasos-udlinitel-sterzhnya-2/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovoy-nasos-udlinitel-sterzhnya/",
+      "target": "/en/products/burovoy-nasos-udlinitel-sterzhnya/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovye-gidravlicheskiy-klyuch-tq178-16-tq178-16y-tq340-35-tq356-55-gidravlicheskiy-klyuch-serii/",
+      "target": "/en/products/burovye-gidravlicheskiy-klyuch-tq178-16-tq178-16y-tq340-35-tq356-55-gidravlicheskiy-klyuch-serii/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovye-nasosy-iznos-plastiny/",
+      "target": "/en/products/burovye-nasosy-iznos-plastiny/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovye-vertlyug-sl/",
+      "target": "/en/products/burovye-vertlyug-sl/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovyh-nasosov-gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/burovyh-nasosov-gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovyh-nasosov-vypusknoy-kompensator-v-sbore/",
+      "target": "/en/products/burovyh-nasosov-vypusknoy-kompensator-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovym-nasosam-serii-unbt-gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovym-nasosam-serii-unbt-porshen-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-porshen-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovym-nasosam-serii-unbt-shtok-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-shtok-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovym-nasosam-serii-unbt-val-shesternya-dlya-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-val-shesternya-dlya-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/burovym-nasosam-serii-unbt-vtulka-burovogo-nasosa/",
+      "target": "/en/products/burovym-nasosam-serii-unbt-vtulka-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/cb-shinno-pnevmaticheskaya-mufta/",
+      "target": "/en/products/cb-shinno-pnevmaticheskaya-mufta/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/diafragma-kompensatora-kb75-kb45/",
+      "target": "/en/products/diafragma-kompensatora-kb75-kb45/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/dvoynoy-napravlyayuschiy-kran-sd-00e/",
+      "target": "/en/products/dvoynoy-napravlyayuschiy-kran-sd-00e/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/",
+      "target": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/elevator-burilnoy-truby-cd/",
+      "target": "/en/products/elevator-burilnoy-truby-cd/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/elevator-burilnoy-truby-cdz/",
+      "target": "/en/products/elevator-burilnoy-truby-cdz/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/friktsionnye-nakladki-gidravlicheskogo-diskovogo-tormoza/",
+      "target": "/en/products/friktsionnye-nakladki-gidravlicheskogo-diskovogo-tormoza/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskie-silovye-ustanovki-serii-yzb-yzc/",
+      "target": "/en/products/gidravlicheskie-silovye-ustanovki-serii-yzb-yzc/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskiy-diskovyy-tormoznoy-rotor/",
+      "target": "/en/products/gidravlicheskiy-diskovyy-tormoznoy-rotor/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskiy-korpus-gidrokorobka/",
+      "target": "/en/products/gidravlicheskiy-korpus-gidrokorobka/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskiy-nasos-ms35-ava/",
+      "target": "/en/products/gidravlicheskiy-nasos-ms35-ava/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskiy-nasos-p25x378beiu25-7/",
+      "target": "/en/products/gidravlicheskiy-nasos-p25x378beiu25-7/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidravlicheskiy-tsilindr-v-sbore/",
+      "target": "/en/products/gidravlicheskiy-tsilindr-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/gidrokorobka/",
+      "target": "/en/products/gidrokorobka/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/homut-shtoka-v-sbore-burovgo-nasosa/",
+      "target": "/en/products/homut-shtoka-v-sbore-burovgo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/homut-vtulki-dlya-nasosa/",
+      "target": "/en/products/homut-vtulki-dlya-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-dlya-burovogo-nasosa/",
+      "target": "/en/products/klapan-dlya-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-dlya-burovyh-nasosov/",
+      "target": "/en/products/klapan-dlya-burovyh-nasosov/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-nabor-instrument-semnik/",
+      "target": "/en/products/klapan-nabor-instrument-semnik/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-protivozataskivatelya-fp-l6/",
+      "target": "/en/products/klapan-protivozataskivatelya-fp-l6/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-reversivnyy-elektromagnitnyy-vzryvozaschischennyy-bkd-z-x1/",
+      "target": "/en/products/klapan-reversivnyy-elektromagnitnyy-vzryvozaschischennyy-bkd-z-x1/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapan-v-sbore-dlya-nasosa/",
+      "target": "/en/products/klapan-v-sbore-dlya-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/klapany-burovyh-nasosov/",
+      "target": "/en/products/klapany-burovyh-nasosov/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/kolenchatyy-val/",
+      "target": "/en/products/kolenchatyy-val/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/kolenval-burovogo-nasosa-v-sbore/",
+      "target": "/en/products/kolenval-burovogo-nasosa-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/kompensator-v-sbore-nasosa-kb45-kb75/",
+      "target": "/en/products/kompensator-v-sbore-nasosa-kb45-kb75/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/korpus-v-sbore-pkr-560/",
+      "target": "/en/products/korpus-v-sbore-pkr-560/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/kronblok-serii-tc/",
+      "target": "/en/products/kronblok-serii-tc/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/kryuk-talevogo-bloka-burovogo-oborudovaniya/",
+      "target": "/en/products/kryuk-talevogo-bloka-burovogo-oborudovaniya/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/mednyy-disk-vspomogatelnogo-tormoza-burovoy-ustanovki/",
+      "target": "/en/products/mednyy-disk-vspomogatelnogo-tormoza-burovoy-ustanovki/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/parkovochnyy-klapan-bk-f-z/",
+      "target": "/en/products/parkovochnyy-klapan-bk-f-z/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/parkovochnyy-klapan-dg17v-3-2n-60/",
+      "target": "/en/products/parkovochnyy-klapan-dg17v-3-2n-60/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzher-burovogo-nasosa-2/",
+      "target": "/en/products/plunzher-burovogo-nasosa-2/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzher-burovogo-nasosa/",
+      "target": "/en/products/plunzher-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-a10vso10dr52r-ppa14n00/",
+      "target": "/en/products/plunzhernyy-nasos-a10vso10dr52r-ppa14n00/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-bkd-z3/",
+      "target": "/en/products/plunzhernyy-nasos-bkd-z3/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-bolshoy-shtok/",
+      "target": "/en/products/plunzhernyy-nasos-bolshoy-shtok/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-kolenchatyy-val/",
+      "target": "/en/products/plunzhernyy-nasos-kolenchatyy-val/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-probkovyy-kran/",
+      "target": "/en/products/plunzhernyy-nasos-probkovyy-kran/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/plunzhernyy-nasos-uplotnitelnaya-gayka/",
+      "target": "/en/products/plunzhernyy-nasos-uplotnitelnaya-gayka/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/polzun-burovogo-nasosa/",
+      "target": "/en/products/polzun-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/porshen-burovogo-nasosa-2/",
+      "target": "/en/products/porshen-burovogo-nasosa-2/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/porshen-burovogo-nasosa/",
+      "target": "/en/products/porshen-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/predohranitelnyy-klapan-so-sreznym-shtiftom/",
+      "target": "/en/products/predohranitelnyy-klapan-so-sreznym-shtiftom/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/predohranitelnyy-tsilindr/",
+      "target": "/en/products/predohranitelnyy-tsilindr/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/privod-otbora-moschnosti-852hvakr-f6xs/",
+      "target": "/en/products/privod-otbora-moschnosti-852hvakr-f6xs/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/promezhutochnyy-val/",
+      "target": "/en/products/promezhutochnyy-val/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/pruzhinnyy-predohranitelnyy-klapan/",
+      "target": "/en/products/pruzhinnyy-predohranitelnyy-klapan/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/ps-seriya-ustanoka-gidravlicheskoe-diskovoe-tormoznoe-ustroystvo/",
+      "target": "/en/products/ps-seriya-ustanoka-gidravlicheskoe-diskovoe-tormoznoe-ustroystvo/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/rabochiy-tsilindr-v-sbore/",
+      "target": "/en/products/rabochiy-tsilindr-v-sbore/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/rabochiy-tsilindr/",
+      "target": "/en/products/rabochiy-tsilindr/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/raspredelitel-solenoidnyy-ak4z60a-149119425/",
+      "target": "/en/products/raspredelitel-solenoidnyy-ak4z60a-149119425/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/raspredelitel-solenoidnyy-bk-f-w3/",
+      "target": "/en/products/raspredelitel-solenoidnyy-bk-f-w3/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/reguliruyuschiy-klapan-hd-2-fx/",
+      "target": "/en/products/reguliruyuschiy-klapan-hd-2-fx/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/reversivnyy-klapan-gdfw-02-2b2-d24a52/",
+      "target": "/en/products/reversivnyy-klapan-gdfw-02-2b2-d24a52/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/rotora-burovoy-ustanovki-zp/",
+      "target": "/en/products/rotora-burovoy-ustanovki-zp/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/rotornye-klinya-sds-sdml-sdxl/",
+      "target": "/en/products/rotornye-klinya-sds-sdml-sdxl/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/ruchka-tormoza/",
+      "target": "/en/products/ruchka-tormoza/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/shesterenchatyy-nasos-7049112042/",
+      "target": "/en/products/shesterenchatyy-nasos-7049112042/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/shesternya/",
+      "target": "/en/products/shesternya/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/shinno-pnevmaticheskaya-mufta/",
+      "target": "/en/products/shinno-pnevmaticheskaya-mufta/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/shtok-porshnya-burovogo-nasosa/",
+      "target": "/en/products/shtok-porshnya-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/shtrop-odnoplechnyy-serii-dh/",
+      "target": "/en/products/shtrop-odnoplechnyy-serii-dh/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/tormoz-burovoy-lebedki-lenta-tormoznaya/",
+      "target": "/en/products/tormoz-burovoy-lebedki-lenta-tormoznaya/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/tormoznoy-klapan-bk-f-s/",
+      "target": "/en/products/tormoznoy-klapan-bk-f-s/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/tormoznoy-klapan-lt07mka-2x/",
+      "target": "/en/products/tormoznoy-klapan-lt07mka-2x/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/tsilindr-gidrousilitelya-rulya-z02030900002aa/",
+      "target": "/en/products/tsilindr-gidrousilitelya-rulya-z02030900002aa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/udlinitel-porshnevogo-shtoka/",
+      "target": "/en/products/udlinitel-porshnevogo-shtoka/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/uplotnenie-plunzhera/",
+      "target": "/en/products/uplotnenie-plunzhera/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/uplotnenie-plunzhernogo-nasosa-2/",
+      "target": "/en/products/uplotnenie-plunzhernogo-nasosa-2/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/uplotnenie-plunzhernogo-nasosa/",
+      "target": "/en/products/uplotnenie-plunzhernogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/uplotnenie-vtulki/",
+      "target": "/en/products/uplotnenie-vtulki/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/uzel-predohranitelnogo-tsilindra/",
+      "target": "/en/products/uzel-predohranitelnogo-tsilindra/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/val-shesternya-dlya-burovogo-nasosa/",
+      "target": "/en/products/val-shesternya-dlya-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/vertikalnaya-zaglushka/",
+      "target": "/en/products/vertikalnaya-zaglushka/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/vozdushnyy-klapan-xj-15/",
+      "target": "/en/products/vozdushnyy-klapan-xj-15/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/vtulka-burovogo-nasosa/",
+      "target": "/en/products/vtulka-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/vtulki-burovogo-nasosa/",
+      "target": "/en/products/vtulki-burovogo-nasosa/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/vyhodnoy-val/",
+      "target": "/en/products/vyhodnoy-val/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/wpt-stseplenie-prodvigayuschego-diska/",
+      "target": "/en/products/wpt-stseplenie-prodvigayuschego-diska/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/wpt-stseplenie-treniya-otbor-moschnosti-wpt-type-1-pto/",
+      "target": "/en/products/wpt-stseplenie-treniya-otbor-moschnosti-wpt-type-1-pto/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ru/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
+      "target": "/en/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
+      "reason": "Retired Russian prefix: same existing product identifier"
+    }
+  ]
+}

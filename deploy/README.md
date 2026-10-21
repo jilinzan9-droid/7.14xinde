@@ -89,7 +89,15 @@ PY
 
 Verify the homepage and marker after recovery. A subsequent successful push to `main` publishes that new commit again. Updating `admin/seed.json` does not clear data already stored in a visitor's browser localStorage.
 
-## Static delivery settings
+## Historical URLs and product layout repair (21 October 2026)
+
+`legacy-redirects.json` records 278 reviewed historical paths and their specific current destinations. `legacy_redirects.py` generates 1,547 exact Nginx map entries, including trailing-slash, `index.html` and old deployment-prefix variants. Removed model news links go to the matching model reference or catalogue; old product slugs, former language prefixes, pagination and renamed image URLs go to verified equivalents. An unavailable Arabic replacement explicitly falls back to the matching English content. No catch-all redirect is used: unknown or invalid paths retain HTTP 404. Query strings are preserved, and redirect destinations must exist without another redirect in this map.
+
+Generate with `python deploy/legacy_redirects.py`; check with `python deploy/legacy_redirects.py --check`. The site validator also checks these destinations and every URL/CSV/fragment in the part-number search dataset, so future missing targets block publication. Map source files are administrative configuration and are excluded from website release archives. An administrator must install `nginx-legacy-redirects.conf` as `/etc/nginx/conf.d/pratt-legacy-redirects.conf` and `nginx-legacy-redirects-server.conf` as `/etc/nginx/snippets/pratt-legacy-redirects-server.conf`, with the latter included in the existing HTTPS server. Back up the original domain configuration outside the web root, run `nginx -t`, reload, and verify known redirects and an unknown 404. To roll back, restore the backed-up domain file and remove only these two newly installed files, validate, then reload. The production backup for this installation is `/var/backups/pratt-oil/legacy-redirects-20261021T082914Z`.
+
+The English and Arabic `tormoz-burovoy-lebedki-lenta-tormoznaya` pages now use the shared blue product layout and WhatsApp/email buttons. Original drawing numbers, table cells and all three content images are preserved. The shared `product-visual-polish.css` also removes fixed 478px hero children that previously overflowed at laptop widths. Its version query is bumped wherever loaded; catalogue and news content remain unchanged.
+
+## Static delivery configuration
 
 On 2026-10-13, the existing Tencent HTTPS server received the reviewed static delivery settings in `nginx-seo-static-cache.conf` and `nginx-seo-static-delivery.conf`. The first file is installed in `/etc/nginx/conf.d/` and defines the HTTP-context cache map. The second is installed in `/etc/nginx/snippets/` and included by the existing Pratt domain HTTPS server. These administrative configuration files are excluded from website archives; an ordinary website deployment cannot change them.
 

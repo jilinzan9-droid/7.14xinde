@@ -2,6 +2,7 @@
 """Check the actual static website before publishing, using only the standard library."""
 
 from html.parser import HTMLParser
+from functools import lru_cache
 import json
 from pathlib import Path
 import re
@@ -9,6 +10,7 @@ import sys
 from urllib.parse import unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
 from build_release import allowed_path
+from legacy_redirects import validate as validate_legacy_redirects
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://www.pratt-oil.com'
@@ -27,7 +29,11 @@ def target(url):
     parsed = urlsplit(url)
     if parsed.scheme not in ('http', 'https') or parsed.hostname not in HOSTS:
         return None
-    path = unquote(parsed.path)
+    return target_path(unquote(parsed.path))
+
+
+@lru_cache(maxsize=None)
+def target_path(path):
     if path == PREFIX:
         path = '/'
     elif path.startswith(PREFIX + '/'):
@@ -36,9 +42,9 @@ def target(url):
     if path.endswith('/') or candidate.is_dir():
         candidate /= 'index.html'
     if not candidate.resolve().is_relative_to(ROOT.resolve()):
-        raise ValueError(f'Internal URL escapes the website directory: {url}')
+        raise ValueError(f'Internal URL escapes the website directory: {path}')
     if not allowed_path(candidate.relative_to(ROOT).as_posix()):
-        raise ValueError(f'Internal URL is outside the deployable static files: {url}')
+        raise ValueError(f'Internal URL is outside the deployable static files: {path}')
     return candidate
 
 
@@ -116,6 +122,12 @@ class Page(HTMLParser):
 
 def validate():
     errors = []
+    target_path.cache_clear()
+    try:
+        redirect_count = validate_legacy_redirects(ROOT)
+    except (ValueError, OSError, KeyError) as exc:
+        errors.append(f'Legacy redirects: {exc}')
+        redirect_count = 0
     pages = {}
     verification_files = 0
     for file in sorted(ROOT.rglob('*.html')):
@@ -139,6 +151,20 @@ def validate():
                 errors.append(f'{page.relative}: invalid JSON-LD: {exc}')
     references = [(file, line, url) for file, page in pages.items()
                   for line, url in page.references]
+    # Lookup results are generated from JSON, so an HTML-only crawl misses them.
+    lookup = ROOT / 'assets/data/part-number-lookup.json'
+    def lookup_references(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key in ('url', 'csv') and isinstance(item, str):
+                    references.append((lookup, 1, urljoin(ORIGIN, item)))
+                else:
+                    lookup_references(item)
+        elif isinstance(value, list):
+            for item in value:
+                lookup_references(item)
+    if lookup.is_file():
+        lookup_references(json.loads(lookup.read_text(encoding='utf-8-sig')))
     for file in ROOT.rglob('*.css'):
         if '.git' in file.parts:
             continue
@@ -146,11 +172,14 @@ def validate():
         for match in CSS_URL.finditer(text):
             references.append((file, text[:match.start()].count('\n') + 1,
                                urljoin(ORIGIN + '/' + file.relative_to(ROOT).as_posix(), match[2])))
+    checked_files = {}
     for file, line, url in references:
         candidate = target(url)
         if candidate is None:
             continue
-        if not candidate.is_file():
+        if candidate not in checked_files:
+            checked_files[candidate] = candidate.is_file()
+        if not checked_files[candidate]:
             errors.append(f'{file.relative_to(ROOT)}:{line}: missing target {url}')
         else:
             fragment = unquote(urlsplit(url).fragment)
@@ -191,7 +220,7 @@ def validate():
         return 1
     print(f'Validated {len(pages)} HTML pages, {len(references)} URL references, '
           f'{len(urls)} sitemap URLs, hreflang and all JSON-LD; '
-          f'{verification_files} Google verification files.')
+          f'{verification_files} Google verification files; {redirect_count} legacy redirects.')
     return 0
 
 

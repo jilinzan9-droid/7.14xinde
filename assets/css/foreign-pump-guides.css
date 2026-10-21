@@ -55,9 +55,15 @@ body.foreign-pump-guide { color:#233840; background:#fff; }
 .pump-archive-media { background:#fff !important; }
 .news-card-media.pump-archive-media img,.news-reference-media.pump-archive-media img { object-fit:contain; padding:14px; background:#fff; }
 .pump-news-pagination { display:flex; justify-content:center; flex-wrap:wrap; gap:8px; margin:28px 0; clear:both; }
+.news-reference-layout > .pump-news-pagination,
+body.news-category-page .news-list-section > .pump-news-pagination { grid-column:2 / -1; min-width:0; margin:8px 0 0; }
 .pump-news-pagination a,.pump-news-pagination span { min-width:38px; padding:8px 12px; border:1px solid #cbdce4; font-size:14px; text-align:center; border-radius:3px; color:#125b8b; }
 .pump-news-pagination [aria-current] { background:#146ad5; border-color:#146ad5; color:#fff; }
 .foreign-pump-guide :focus-visible { outline:3px solid #0b76df; outline-offset:3px; }
+@media(max-width:720px) {
+ .news-reference-layout > .pump-news-pagination,
+ body.news-category-page .news-list-section > .pump-news-pagination { grid-column:1 / -1; margin-top:28px; }
+}
 @media(max-width:900px) {
  .pump-guide-layout { grid-template-columns:minmax(0,1fr); gap:24px; }
  .pump-guide-aside { position:static; }

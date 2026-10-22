@@ -51,6 +51,14 @@ Product navigation points to the catalog pages. The existing landing pages and s
 
 ## Check a release
 
+### Shared product detail presentation (22 October 2026)
+
+At the owner's request, all 401 actual product detail pages use the reference layout: a large contained product picture, a light-gray information panel, compact category/inquiry fields, the existing sales email and WhatsApp destination, and two quotation buttons. Product names, page titles, canonical URLs, original technical tables and drawing anchors are unchanged. Category listings, news and the contact page are excluded, including the four Arabic category templates that contain a legacy hidden hero.
+
+`assets/css/product-overview.css` styles only `.product-overview`; the existing header/footer and lower product descriptions remain in place. The 11 standalone pump/model pages retain their bounded content widths. On mobile the image and information panel stack before the category directory. Full descriptions are retained rather than cut off to fit a card.
+
+Sixteen detail pages have existing description pictures available as thumbnail choices. `assets/js/product-overview.js` switches the main preview among those existing images with native accessible buttons and restores the previous image on a load failure. Original description images remain in the lower content. No external reference-site logo, product picture, contact details or certification claims were copied. With JavaScript disabled the original main image and all original lower descriptions remain visible.
+
 ### WCB brake components (22 October 2026)
 
 The owner requested retaining the original category and product names. Visible headings, card names, title metadata and structured-data names have been restored to their pre-optimization wording in both languages. Future keyword work must not rename these products. The verified number corrections, part lookup, internal links and improved descriptions remain in place.

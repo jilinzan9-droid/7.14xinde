@@ -51,6 +51,16 @@ Product navigation points to the catalog pages. The existing landing pages and s
 
 ## Check a release
 
+### WCB brake components (22 October 2026)
+
+The WCB category and six product URLs are retained. English and Arabic product introductions distinguish wear plates, friction discs and subassemblies, lip seals, release springs and cylinders. Each component links to its own selected part-number reference and related WCB products. The original assembly tables and images remain available; the secondary tables are explicitly described as shared assembly/kit references.
+
+Sixteen selected component numbers were cross-checked against the standard 24WCB2/36WCB2 references in Airflex WCB11070, sections 6.1 and 6.2, and added to the shared part search. Existing records are preserved. Seal references retain the site's asterisk spelling and display the manual's X spelling, so either query finds the component. This is a selected reference list, not a complete validated bill of materials or a stock/compatibility commitment. CSV: `assets/catalogs/wcb2-component-parts-reference.csv`.
+
+Three evidenced mapping corrections are applied consistently to the existing English and Arabic tables: the 236WCB2 clamp tube is 308204-02 instead of the pressure-plate subassembly number 513985-03; the 24WCB2 kit's lip seals are 000402*0023/0024 rather than the 36WCB2 references 000402*0005/0006; the 24WCB2 reaction-plate wear-plate kit is 107727E rather than cylinder seal kit 107727C (WCB11070 section 7.6). These are 24 cell corrections across copied tables. Other numbers, including incomplete gear references, are retained for drawing confirmation and are not added to the selected component lookup.
+
+`wcb-products.css` is scoped to these pages and places product content ahead of the category directory on mobile. Brand/manufacturer claims are omitted from Product schema unless independently established. No inquiry is submitted during validation; WhatsApp and email links prepare drafts. Search volume, Google indexing and ranking outcomes remain unverified.
+
 ### Power tongs and handling tools (22 October 2026)
 
 The `wellhead-tools` category keeps its existing URL and compact breadcrumb heading. English product copy separates TQ casing tongs, ZQ drill-pipe tongs, handling equipment and component inquiries. The four ZQ203, TQ340-35Y, JM12L-F0.8F2 and general tong spare-parts cards now link to their own detail pages in both languages. Existing product URLs, reciprocal language links, images and every original table data cell are retained. Do not rename the Russian-transliterated URLs without a reviewed HTTP redirect migration.

@@ -1,0 +1,26 @@
+/* Scoped WCB catalogue improvements; existing full reference tables stay visible. */
+.wcb-optimized .product-category-main{min-width:0}
+.wcb-optimized .wcb-selection,.wcb-optimized .wcb-part-reference,.wcb-optimized .wcb-reference-note{margin:28px 0;max-width:100%;scroll-margin-top:190px}
+.wcb-optimized .wcb-selection h2,.wcb-optimized .wcb-part-reference h2,.wcb-optimized .wcb-reference-note h2{font-size:21px;margin:0 0 12px}
+.wcb-optimized .wcb-selection p,.wcb-optimized .wcb-part-reference p,.wcb-optimized .wcb-reference-note p{line-height:1.7}
+.wcb-optimized .wcb-reference-scroll{overflow-x:auto;border:1px solid #dbe4e8;border-radius:4px}
+.wcb-optimized .wcb-selected-parts{width:100%;min-width:580px;border-collapse:collapse;font-size:14px}
+.wcb-optimized .wcb-selected-parts th{background:#1466cf;color:#fff;text-align:start;padding:12px 14px}
+.wcb-optimized .wcb-selected-parts td{padding:12px 14px;border-bottom:1px solid #dbe4e8;vertical-align:top}
+.wcb-optimized .wcb-selected-parts tr:nth-child(even){background:#f6f9fa}
+.wcb-optimized .wcb-selected-parts tr:target{background:#fff2c4;outline:2px solid #d39b28;outline-offset:-2px;scroll-margin-top:190px}
+.wcb-optimized .wcb-selected-parts code{white-space:nowrap;display:inline-block}
+.wcb-optimized .wcb-reference-source{font-size:12px;color:#516775}
+.wcb-optimized .wcb-reference-source a{margin-inline-end:14px}
+.wcb-optimized .wcb-related-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin:22px 0 32px;font-size:14px}
+.wcb-optimized .wcb-related-links a{color:#1466cf;text-decoration:underline;text-underline-offset:3px}
+.wcb-optimized .wcb-reference-note p{font-size:14px;color:#516775}
+.wcb-optimized a:focus-visible,.wcb-optimized .wcb-reference-scroll:focus-visible{outline:2px solid #1466cf;outline-offset:3px}
+@media(max-width:760px){
+ .wcb-optimized .product-category-layout{display:flex;flex-direction:column}
+ .wcb-optimized .product-category-main{order:0;width:100%}
+ .wcb-optimized .product-sidebar{order:1;width:100%;margin-top:30px}
+ .wcb-optimized .ru-product-detail-copy h1{font-size:25px;overflow-wrap:anywhere}
+ .wcb-optimized .hero-actions{flex-wrap:wrap}
+ .wcb-optimized .wcb-selected-parts th,.wcb-optimized .wcb-selected-parts td{padding:10px}
+}

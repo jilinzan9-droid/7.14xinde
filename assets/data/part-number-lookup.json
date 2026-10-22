@@ -1,5 +1,5 @@
 {
-  "version": "20261022-wellhead",
+  "version": "20261022-wcb",
   "catalogs": [
     {
       "model": "12-P-160",
@@ -339,6 +339,37 @@
           "description": "Pin 4*30",
           "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb91-86",
           "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+        }
+      ]
+    },
+    {
+      "model": "WCB2 brake components",
+      "slug": "wcb-eaton-auxiliary-brake",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-parts-reference",
+      "row_count": 16,
+      "unique_numbers": 16,
+      "csv": "/assets/catalogs/wcb2-component-parts-reference.csv",
+      "samples": [
+        {
+          "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+          "number": "508459",
+          "description": "Wear plate",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-508459",
+          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+        },
+        {
+          "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+          "number": "416527",
+          "description": "Wear plate",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-416527",
+          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+        },
+        {
+          "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+          "number": "508725",
+          "description": "Friction disc",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-508725",
+          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
         }
       ]
     }
@@ -226177,6 +226208,118 @@
       "description": "Nut M24",
       "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86-5",
       "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "508459",
+      "description": "Wear plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-508459",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "416527",
+      "description": "Wear plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-416527",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "508725",
+      "description": "Friction disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-508725",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "513658",
+      "description": "Friction disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513658",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "510745",
+      "description": "Friction disc core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-510745",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "513667",
+      "description": "Friction disc core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513667",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "513964-01",
+      "description": "Friction disc subassembly",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513964-01",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "513990",
+      "description": "Friction disc subassembly",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513990",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "000402*0023",
+      "description": "Inner lip seal (manual reference 000402X0023)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0023",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "000402*0024",
+      "description": "Outer lip seal (manual reference 000402X0024)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0024",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "000402*0005",
+      "description": "Inner lip seal (manual reference 000402X0005)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0005",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "000402*0006",
+      "description": "Outer lip seal (manual reference 000402X0006)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0006",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "416751-02",
+      "description": "Release spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-part-416751-02",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "416751-01",
+      "description": "Release spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-part-416751-01",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "number": "513264",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-part-513264",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+    },
+    {
+      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "number": "513988",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-part-513988",
+      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
     }
   ],
   "notes": "Identifiers are strings. Separators and leading zeros are preserved. Model-specific references are not cross-model compatibility claims."

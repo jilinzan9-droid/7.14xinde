@@ -1,0 +1,51 @@
+/* Scoped to the wellhead product details. Keep catalogue introductions compact. */
+.wellhead-selection,
+.wellhead-related {
+  padding-block: 22px;
+  border-top: 1px solid #e1e7ec;
+}
+.wellhead-selection h2,
+.wellhead-related h2 {
+  margin: 0 0 12px;
+  font-size: 21px;
+  line-height: 1.35;
+}
+.wellhead-selection p,
+.wellhead-reference-note {
+  max-width: 80ch;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.wellhead-related ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wellhead-related li { max-width: 100%; }
+.wellhead-related a,
+.wellhead-reference-actions a {
+  color: #1268c8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+.wellhead-reference-actions { line-height: 1.9; }
+[id^="drawing-"] { scroll-margin-top: 145px; }
+[id^="drawing-"]:target {
+  background: #fff2bf;
+  outline: 2px solid #b37a00;
+  outline-offset: -2px;
+}
+@media (max-width: 760px) {
+  /* Let a mobile buyer reach the requested product before the category directory. */
+  .product-category-layout { display: flex; flex-direction: column; }
+  .product-category-main { order: 0; width: 100%; min-width: 0; }
+  .product-sidebar { order: 1; width: 100%; margin-top: 24px; }
+  .wellhead-related ul { display: block; }
+  .wellhead-related li { margin-bottom: 12px; }
+  .wellhead-selection h2,
+  .wellhead-related h2 { font-size: 19px; }
+}

@@ -51,6 +51,14 @@ Product navigation points to the catalog pages. The existing landing pages and s
 
 ## Check a release
 
+### Power tongs and handling tools (22 October 2026)
+
+The `wellhead-tools` category keeps its existing URL and compact breadcrumb heading. English product copy separates TQ casing tongs, ZQ drill-pipe tongs, handling equipment and component inquiries. The four ZQ203, TQ340-35Y, JM12L-F0.8F2 and general tong spare-parts cards now link to their own detail pages in both languages. Existing product URLs, reciprocal language links, images and every original table data cell are retained. Do not rename the Russian-transliterated URLs without a reviewed HTTP redirect migration.
+
+The ZQ203 and TQ340-35Y model lists now expose stable drawing anchors, CSV exports and 398 numbered reference entries in the existing part-number lookup (148 ZQ203 and 250 TQ340-35Y). Blank-number entries remain visible in the HTML but are not assigned invented identifiers; repeated rowspan cells are indexed once. Numbers and leading zeroes remain strings. Search-index entries point to the model reference instead of duplicating the same assembly list across individual component pages. These are reference entries, not a count of unique purchasable products or a compatibility guarantee.
+
+Component pages distinguish a shared assembly reference from a product-specific bill of materials. In particular, the inherited JM12L-F0.8F2 table is a related TQ340-35Y assembly list, and the motor designation JML12-F0.8H must not be silently substituted. Elevator pages also label their shared mixed-model table. Do not convert these references into stock, certification or interchangeability claims. The scoped `wellhead-products.css` places product content before the category directory on small screens. WhatsApp/email drafts carry the product URL and model context; no inquiry is submitted automatically.
+
 The 19 October 2026 refinement keeps the complete static part-number tables and existing model URLs. Reference-table searches also normalize separators in the identifier column, including numeric identifiers and leading zeroes; ordinary description searches retain their previous behavior. The current live tables use `landing-catalog.js`; four older model-specific scripts retain the same identifier behavior if reused.
 
 Homepage product, supply and news cards have width-based WebP `srcset` choices in `assets/images/responsive-home/`. Original image URLs, primary hero image selection, product images and the complete imported descriptions and JC reference tables remain available. English language self-links retain the current page, Arabic menu labels use Arabic, and below-fold Arabic footer QR codes load lazily. Only pages with substantive copy changes receive a sitemap date update.

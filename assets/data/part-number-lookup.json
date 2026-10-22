@@ -1,5 +1,5 @@
 {
-  "version": "20261021-honghua1",
+  "version": "20261022-wellhead",
   "catalogs": [
     {
       "model": "12-P-160",
@@ -277,6 +277,68 @@
           "description": "Main Pressure Ring",
           "url": "/en/products/spm-tws600-fracturing-pump-spare-parts/#pn-5300250033",
           "context": "TWS600S catalog reference"
+        }
+      ]
+    },
+    {
+      "model": "ZQ203",
+      "slug": "burovoy-klyuch-zq203",
+      "url": "/en/products/burovoy-klyuch-zq203/",
+      "row_count": 148,
+      "unique_numbers": 104,
+      "csv": "/assets/catalogs/zq203-power-tong-parts-reference.csv",
+      "samples": [
+        {
+          "model": "ZQ203",
+          "number": "01.04-10M",
+          "description": "Fork",
+          "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-10m",
+          "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+        },
+        {
+          "model": "ZQ203",
+          "number": "GB/T882-1986",
+          "description": "Pin B30×95",
+          "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986",
+          "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+        },
+        {
+          "model": "ZQ203",
+          "number": "GB/T91-2000",
+          "description": "Cotter pin 6.3×40",
+          "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000",
+          "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+        }
+      ]
+    },
+    {
+      "model": "TQ340-35Y",
+      "slug": "burovye-gidravlicheskiy-klyuch-tq340-35y",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/",
+      "row_count": 250,
+      "unique_numbers": 209,
+      "csv": "/assets/catalogs/tq340-35y-power-tong-parts-reference.csv",
+      "samples": [
+        {
+          "model": "TQ340-35Y",
+          "number": "56.511.00B",
+          "description": "Right door",
+          "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-511-00b",
+          "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+        },
+        {
+          "model": "TQ340-35Y",
+          "number": "GB6172-86",
+          "description": "Nut M24",
+          "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6172-86",
+          "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+        },
+        {
+          "model": "TQ340-35Y",
+          "number": "GB91-86",
+          "description": "Pin 4*30",
+          "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb91-86",
+          "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
         }
       ]
     }
@@ -223329,6 +223391,2792 @@
       "description": "Guard seal",
       "url": "/en/news/honghua-nb005-quintuple-pump-parts-drawing-reference/#pn-nb004.12.09.00-2",
       "context": "NB005 quintuple pump; assembly heading in legacy 3D parts list; Assembly drawing reference; S1, PDF p. 26"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-10M",
+      "description": "Fork",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-10m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Pin B30×95",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 6.3×40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T70.1-2000",
+      "description": "Screw M8×30",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t70-1-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-87",
+      "description": "Washer 8",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-87",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-09M",
+      "description": "Gland",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-09m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "HG4-332-66",
+      "description": "Seal ring J 40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-hg4-332-66",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-08M",
+      "description": "Spacer Ring",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-08m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 65×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4264-97",
+      "description": "Seal ring Y×d40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4264-97",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-06M",
+      "description": "Bushing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-06m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-2000",
+      "description": "Nut M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Washer 20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-07M",
+      "description": "Front Cover",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-07m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-05M",
+      "description": "Angle Coupling",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-05m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 105×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-01M",
+      "description": "Stud M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-05M",
+      "description": "Cylinder Liner",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-05m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-02M",
+      "description": "Rear Cover",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T9459-1988",
+      "description": "Nut M30×2",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t9459-1988",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 6.3×60",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4264-97",
+      "description": "Seal ring Y× D100",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4264-97-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-03M",
+      "description": "Piston",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 35×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.04-04M",
+      "description": "Piston Rod",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-04-04m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-04M",
+      "description": "Washer",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-04m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-03M",
+      "description": "Threaded Rod",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 6,3×50",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-01M",
+      "description": "Cotter pin 40×275",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-02M",
+      "description": "U-shaped frame",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "Y60",
+      "description": "Magnetic Pressure Gauge, 0-1,6 MPa",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-y60",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.02-01MA",
+      "description": "Connecting nut",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-02-01ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 10×1,9",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.02-02MA",
+      "description": "Connecting bolt",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-02-02ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.02-03MA",
+      "description": "Ball",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-02-03ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-05M",
+      "description": "Angle Joint",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-05m-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4448-1986",
+      "description": "Plug R3/4",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4448-1986",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Cotter pin 25×100",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 5×45",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-16M",
+      "description": "Adjusting screw M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-16m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-86",
+      "description": "Nut M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-86",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.05-14M",
+      "description": "Adjusting screw M24",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-05-14m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-2000",
+      "description": "Nut M24",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-2000-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06.01.00M",
+      "description": "Brake Band",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-01-00m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Pin B22×75",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 4×40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5783-2000",
+      "description": "Bolt M12×20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5783-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-01M",
+      "description": "Connecting plate",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-02M",
+      "description": "Connecting tie rod",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-03M",
+      "description": "Setting screw",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-04M",
+      "description": "Left Square-Head Bolt",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-04m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06.02.00M",
+      "description": "Tube",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-02-00m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-06M",
+      "description": "Spring",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-06m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-05M",
+      "description": "Sliding bushing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-05m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-07M",
+      "description": "Right Square-Head Bolt",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-07m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-09M",
+      "description": "Post",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-09m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.06-08M",
+      "description": "Retaining Bushing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-06-08m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "Y60",
+      "description": "Magnetic Pressure Gauge, 0-1,6 MPa",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-y60-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.02.00MA",
+      "description": "Gauge Joint",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-02-00ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-05M",
+      "description": "Angle Joint",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-05m-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01.00MB",
+      "description": "Air-Valve Panel",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-00mb",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "04.06-02M",
+      "description": "Washer",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-04-06-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.08-07M",
+      "description": "Ball joint",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-08-07m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.08-09M",
+      "description": "Washer",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-08-09m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "QF514C",
+      "description": "Quick-release valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-qf514c",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-01M",
+      "description": "Straight connector M22×1.5-R1/4",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-02M",
+      "description": "Angle Connector M22×1.5-R1/4",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "QF501B",
+      "description": "Triple valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-qf501b",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-03M",
+      "description": "Angle Connector M22×1.5-R1/4",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01.02.00M",
+      "description": "Hinge",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-02-00m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5781-2000",
+      "description": "Bolt M8×18",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5781-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Spring Washer 8",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01.01.00MB",
+      "description": "Panel air valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-01-00mb",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-2000",
+      "description": "Screw M8×16",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-2000-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-06MB",
+      "description": "Support valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-06mb",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "34SH-B20H-T",
+      "description": "Manual reversing valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-34sh-b20h-t",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T70.1-2000",
+      "description": "Screw M12×65",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t70-1-2000-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-87",
+      "description": "Spring Washer 12",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-87-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T70.1-2000",
+      "description": "Screw M10×60",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t70-1-2000-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-87",
+      "description": "Spring washer 10",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-87-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "07.01-02M",
+      "description": "Straight Connector NPT1-M30×1.5C",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-07-01-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "F48.200-01B",
+      "description": "Straight Connector NPT1-M42×2D",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-f48-200-01b",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.11-01ME",
+      "description": "30° Adjustable Fitting",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-11-01me",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.11-03ME",
+      "description": "Valve block",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-11-03me",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4447-97",
+      "description": "Plug NPT3/4",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4447-97",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.12-03M",
+      "description": "Drain Fitting",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-12-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "19.750-14",
+      "description": "Straight Tee Fitting",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-19-750-14",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JML12-F0.8H",
+      "description": "Hydraulic Motor",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jml12-f0-8h",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.14..01.00M",
+      "description": "Pressure Gauge Guard",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-14-01-00m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T65-2000",
+      "description": "Screw M5×12",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t65-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "YBFK100-Ⅲ",
+      "description": "Magnetic gauge",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-ybfk100",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4447-97",
+      "description": "Plug NPT1/2",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4447-97-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5781-2000",
+      "description": "Bolt M8×12",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5781-2000-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Spring Washer 8",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.14-04M",
+      "description": "Joint",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-14-04m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "HFJ2-P2-3-P-290",
+      "description": "Miniature High-Pressure Hose",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-hfj2-p2-3-p-290",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.14-03M",
+      "description": "Straight Swivel Fitting NPT1/4-M14×1.5",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-14-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T70.1-2000",
+      "description": "Screw M16×85",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t70-1-2000-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-87",
+      "description": "Spring Washer 16",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-87-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "YF-B20H3S",
+      "description": "Safety Valve",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-yf-b20h3s",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-2000",
+      "description": "Nut M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-2000-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "03.01.00",
+      "description": "Clamp",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-03-01-00",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Spring washer 20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5782-2000",
+      "description": "Bolt M20×70",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5782-2000",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "03-01M",
+      "description": "Universal coupling",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-03-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Headed Pin 30×135",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 6.3×40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-6",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02.00MA",
+      "description": "Cylinder Switching Mechanism",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-00ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5976-1986",
+      "description": "Cable Clamp 12",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5976-1986",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T8918-1996",
+      "description": "Steel cable 12×2000",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t8918-1996",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB561-1965",
+      "description": "Turnbuckle E1.2",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb561-1965",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Headed Pin 30×190",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.02-08M",
+      "description": "Upper part",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-02-08m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.02-01M",
+      "description": "Lower part",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-02-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T882-1986",
+      "description": "Headed Pin 30×95",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t882-1986-6",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6170-2000",
+      "description": "Nut M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6170-2000-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Washer 20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-01M",
+      "description": "Rear Cover",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-01m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "01.08.01-05M",
+      "description": "Angle Coupling",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-01-08-01-05m-4",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 120×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-19M",
+      "description": "Screw rod M20",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-19m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-06M",
+      "description": "Outer Cylinder Liner",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-06m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-10M",
+      "description": "Liner shaft",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-10m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4265-97",
+      "description": "Seal ring Y×d100",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4265-97",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-09M",
+      "description": "Front Cover",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-09m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-11M",
+      "description": "Spacer Ring",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-11m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "HG-4-332-66",
+      "description": "Seal ring J 100",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-hg-4-332-66",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-13M",
+      "description": "Gland",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-13m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T5781-2000",
+      "description": "Bolt M8×25",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t5781-2000-3",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T93-1987",
+      "description": "Spring Washer 8",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t93-1987-6",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T70.1-2000",
+      "description": "Screw M8×16",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t70-1-2000-5",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-13M",
+      "description": "Gland",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-13m-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-16M",
+      "description": "Front Housing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-16m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 75×5.7",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-6",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "HG-332-66",
+      "description": "Seal ring J 40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-hg-332-66",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-14M",
+      "description": "Spacer Ring",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-14m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4265-97",
+      "description": "Seal ring Y×d40",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4265-97-2",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-17M",
+      "description": "Liner shaft",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-17m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-07MA",
+      "description": "Inner Cylinder Liner",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-07ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4603-86",
+      "description": "Seal ring Y×D120",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4603-86",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-02M",
+      "description": "Large piston",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-02m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 95×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-7",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-23MA",
+      "description": "Lock Washer",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-23ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-18MA",
+      "description": "Rear Housing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-18ma",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T6179-86",
+      "description": "Nut M30×2",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t6179-86",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "GB/T91-2000",
+      "description": "Cotter pin 6.3×60",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-gb-t91-2000-7",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "02-03M",
+      "description": "Pressure bushing",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-02-03m",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "ZQ203",
+      "number": "JB/ZQ4224-97",
+      "description": "Seal ring 40×3.1",
+      "url": "/en/products/burovoy-klyuch-zq203/#drawing-jb-zq4224-97-8",
+      "context": "ZQ203 assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.511.00B",
+      "description": "Right door",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-511-00b",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6172-86",
+      "description": "Nut M24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6172-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB91-86",
+      "description": "Pin 4*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb91-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.330.00",
+      "description": "Right support",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-330-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB882-86",
+      "description": "Shaft Pin 18*94",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb882-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB31.1-88",
+      "description": "Bolt M24*85",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb31-1-88",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.510-01B",
+      "description": "Tension Spring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-510-01b",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6170-86",
+      "description": "Nut M24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.512.00B",
+      "description": "Inner hook",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-512-00b",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.513.00B",
+      "description": "Left door",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-513-00b",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB70-85",
+      "description": "Screw M6*8",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb70-85",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.510-05",
+      "description": "Right- and Left-Door Catcher Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-510-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 6",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 27",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB119-86",
+      "description": "Pin 6*20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb119-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5801-94",
+      "description": "Bearing RNA4904",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5801-94",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.140-03",
+      "description": "Small shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-140-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.510-06",
+      "description": "Adjusting Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-510-06",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.140-04",
+      "description": "Speed-Measuring Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-140-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "22.511-07",
+      "description": "Ejector Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-22-511-07",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T276-1994",
+      "description": "Bearing 6004",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t276-1994",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87-4",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB893.1-1986",
+      "description": "Labyrinth Seal 42",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb893-1-1986",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6180-86",
+      "description": "Nut 24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6180-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.140-05",
+      "description": "Bearing Support Housing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-140-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/T7940.1-95",
+      "description": "Oiler M10*1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-t7940-1-95",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB41-1986",
+      "description": "Nut M16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb41-1986",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.540-03",
+      "description": "Stationary Washer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-540-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-1987",
+      "description": "Washer 16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-1987",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.540-06",
+      "description": "Rotating Washer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-540-06",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.400-06",
+      "description": "Lever",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-400-06",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.540-04A",
+      "description": "Large roller shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-540-04a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "22.540-05",
+      "description": "Fixed washer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-22-540-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "26.230-01",
+      "description": "Ejector-Wheel Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-26-230-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.540-02",
+      "description": "Body",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-540-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5801-86",
+      "description": "Bearing 4624906",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5801-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.540-01",
+      "description": "Washer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-540-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "26.230-02",
+      "description": "Ejector Wheel",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-26-230-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB894.1-86",
+      "description": "Labyrinth Seal 20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb894-1-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.220.00",
+      "description": "2-Gear Cluster",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-220-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.600-04",
+      "description": "Inclined board",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-600-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.230.00A",
+      "description": "Idler Bolt Ⅰ",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-230-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB70-85",
+      "description": "Screw M10*16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb70-85-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.550.00A",
+      "description": "Idler Bolt Ⅱ",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-550-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB119-86",
+      "description": "Pin 10*20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb119-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400-05",
+      "description": "Shaft Pin",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB119-86",
+      "description": "Pin 10*25",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb119-86-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T91",
+      "description": "Pin 6.3*40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t91",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB879-86",
+      "description": "Pin 6*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb879-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.212.00",
+      "description": "Tail Plate",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-212-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.610.00",
+      "description": "51/2″ Jaw Assembly",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-610-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.211.00D",
+      "description": "Side Plate",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-211-00d",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.530-04",
+      "description": "Cover eye",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-530-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.530-05",
+      "description": "Sealing Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-530-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.620.00",
+      "description": "7″ Jaw Assembly",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-620-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5780-86",
+      "description": "Bolt M10*20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5780-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.630.00",
+      "description": "95/8″ Jaw Assembly",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-630-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.100-01",
+      "description": "Holder",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-100-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.640.00B",
+      "description": "133/8″ Jaw Assembly",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-640-00b",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.210-02",
+      "description": "Lower panel",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-210-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.100-03",
+      "description": "Teeth",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-100-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.600-03A",
+      "description": "Cutout Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-600-03a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.610-02",
+      "description": "Roller Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-610-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.600-01",
+      "description": "Lower Jaw Frame",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-600-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.640-02A",
+      "description": "Roller Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-640-02a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T70.1",
+      "description": "Screw M10*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t70-1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.610-03",
+      "description": "Roller φ100",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-610-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/T7940.1",
+      "description": "Oiler M10*1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-t7940-1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-10C",
+      "description": "Front bearing cover",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-10c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.620-02",
+      "description": "Roller φ75",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-620-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T288",
+      "description": "Bearing 22211C/W33",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t288",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.640-03",
+      "description": "Roller φ50",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-640-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-08C",
+      "description": "Gasket Ring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-08c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB70-85",
+      "description": "Screw M10*16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb70-85-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-09C",
+      "description": "Two-Gear Cluster Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-09c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.120-04",
+      "description": "Fixing Bar",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-120-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-07C",
+      "description": "Bearing Set",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-07c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5780-86",
+      "description": "Bolt M10*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5780-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T119.1",
+      "description": "Pin 8*10",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t119-1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.120-01",
+      "description": "Ejector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-120-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-06C",
+      "description": "Spline Box",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-06c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.120-02",
+      "description": "Spring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-120-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-05C",
+      "description": "Splined Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-05c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.120-03",
+      "description": "Spring Base",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-120-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-04C",
+      "description": "Shield",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-04c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.120-05",
+      "description": "Insulating Housing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-120-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T32.1",
+      "description": "Bolt M10*20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t32-1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.210-01",
+      "description": "Upper panel",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-210-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-03C",
+      "description": "Gearbox Cover",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-03c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5781-86",
+      "description": "Bolt M10*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5781-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T70.1",
+      "description": "Screw M12*130",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t70-1-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.230-02",
+      "description": "Fixed Housing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-230-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T119.1",
+      "description": "Pin 10*24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t119-1-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.605-02",
+      "description": "Fixed Housing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-605-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-24C",
+      "description": "Bearing Cover",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-24c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.230-01",
+      "description": "Bolt M20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-230-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-01C",
+      "description": "Bushing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-01c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.605-01",
+      "description": "Bolt M12",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-605-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T70.1",
+      "description": "Screw M10*25",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t70-1-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.650-02",
+      "description": "Small roller shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-650-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T5782",
+      "description": "Bolt M12*35",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t5782",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.650-01",
+      "description": "Bushing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-650-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-02C",
+      "description": "Spline Set",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-02c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB41-86",
+      "description": "Nut M12",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb41-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-23C",
+      "description": "Upper thrust bearing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-23c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/T7940.1-95",
+      "description": "Oiler M6",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-t7940-1-95-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.120-01C",
+      "description": "Reduction Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-120-01c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6170-86",
+      "description": "Nut M10",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.120-02C",
+      "description": "Inner and inner gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-120-02c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB96-85",
+      "description": "Washer 10",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb96-85",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-20C",
+      "description": "Insulating Ring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-20c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.110-06",
+      "description": "Brake spring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-110-06",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "K45*53*20",
+      "description": "Needle Bearing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-k45-53-20",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.110-04",
+      "description": "Fixed block",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-110-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-13C",
+      "description": "Upper Insulating Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-13c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.521.00",
+      "description": "Brake Band",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-521-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-12C",
+      "description": "Output Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-12c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5780-86",
+      "description": "Bolt M10*80",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5780-86-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-15C",
+      "description": "Rim clutch",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-15c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.660.00",
+      "description": "Upper frame jaw",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-660-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-11C",
+      "description": "Lower insulation gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-11c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5781-86",
+      "description": "BoltM16*25",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5781-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "K50*58*20",
+      "description": "Needle Bearing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-k50-58-20",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5781-86",
+      "description": "BoltM16*45",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5781-86-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T894.1",
+      "description": "Labyrinth Seal 110",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t894-1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.310.00",
+      "description": "Left support",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-310-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.110-01C",
+      "description": "Pitch-Shift Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-110-01c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "14.05-05",
+      "description": "Adjustment Bolt",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-14-05-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.110-02C",
+      "description": "Large Speed-Increase Gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-110-02c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6170-86",
+      "description": "Nut M16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.110-03C",
+      "description": "Clamping Tong",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-110-03c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.210-01",
+      "description": "Fork",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-210-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-14C",
+      "description": "Lower thrust bearing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-14c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/T271.1-94",
+      "description": "Ball Handle (Red), BM12 × 40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-t271-1-94",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T288",
+      "description": "Bearing 22210C/W33",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t288-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.210-02",
+      "description": "Screw",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-210-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-16C",
+      "description": "Rear bearing cover",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-16c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB95-85",
+      "description": "Washer 16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb95-85",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-18C",
+      "description": "Lower guide base",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-18c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.210-03",
+      "description": "Connecting shield",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-210-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T6173",
+      "description": "Nut M22*1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t6173",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB41-86",
+      "description": "Nut M20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb41-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-17C",
+      "description": "Lock",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-17c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87-5",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-19C",
+      "description": "Shaft lock",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-19c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.210-04",
+      "description": "Fixing Bar",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-210-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T5786",
+      "description": "Bolt M10*1*30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t5786",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.110-05",
+      "description": "Brake-Band Latch",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-110-05",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T6173",
+      "description": "Nut M10*1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t6173-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.100-02",
+      "description": "Jaw Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-100-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "26.100-14",
+      "description": "Spring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-26-100-14",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "01.05-16M",
+      "description": "Bolt M20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-01-05-16m",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T308",
+      "description": "Steel ball 8.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t308",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6170-86",
+      "description": "Nut M20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86-4",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100-21C",
+      "description": "Upper guide base",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-21c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.320.00A",
+      "description": "Suspension pointer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-320-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "59.280-16",
+      "description": "Plate Coupling",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-59-280-16",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB91-86",
+      "description": "Pin 6.3*40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb91-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "59.280-15",
+      "description": "Support",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-59-280-15",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "22.210-02",
+      "description": "Adjustment Lever",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-22-210-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T882",
+      "description": "Shaft pin B10*40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t882",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "22.210-03",
+      "description": "Lever Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-22-210-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.131.00C",
+      "description": "Lever",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-131-00c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/ZQ4224-97",
+      "description": "O-Ring 30*3.1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-zq4224-97",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T882",
+      "description": "Shaft pin B10*25",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t882-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "DB20-1-50/31.5",
+      "description": "Overflow Valve",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-db20-1-50-31-5",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T91",
+      "description": "Pin 3.2*20",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t91-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.410-01",
+      "description": "Hinged Bolt G3/4",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-410-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.430.00C",
+      "description": "Torque Meter Protective Case",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-430-00c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.410-02",
+      "description": "Hinged head M36*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-410-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "YN150",
+      "description": "Pressure/Torque Gauge (0–25 MPa, 45 kN·m)",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-yn150",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.480-01",
+      "description": "Relief Valve",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-480-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400-01A",
+      "description": "Torque Meter Retainer",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-01a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.480-04A",
+      "description": "Right-Angle Connector NPT3/4-M36*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-480-04a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-08",
+      "description": "Torque Meter Connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-08",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.480-05A",
+      "description": "Right-Angle Connector NPT1-M42*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-480-05a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-15",
+      "description": "Copper Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-15",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.481.00A",
+      "description": "Mounting support",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-481-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-16",
+      "description": "Double-Ended Locknut M20×1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-16",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB65-85",
+      "description": "Screw M6*8",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb65-85",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-10A",
+      "description": "Connector M20×1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-10a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.140-01",
+      "description": "Dust Boot",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-140-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "SZB-L",
+      "description": "Manual oil pump",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-szb-l",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.10.40.00",
+      "description": "1″ self-sealing connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-10-40-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/ZQ4224-97",
+      "description": "O-Ring 22×2.4",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-zq4224-97-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.10.50.00",
+      "description": "1-1/4″ Self-Sealing Connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-10-50-00",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "LF0400",
+      "description": "Shutoff Valve",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-lf0400",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400.00D",
+      "description": "Hydraulic Torque-Measurement Assembly",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-00d",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T5781-2000",
+      "description": "Screw M8×10",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t5781-2000",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB982-77",
+      "description": "Washer 27",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb982-77",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-09",
+      "description": "Outlet Connector M14×1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-09",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.400-07A",
+      "description": "Switch connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-400-07a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.421.00D",
+      "description": "Main body",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-421-00d",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB982-77",
+      "description": "Washer 33",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb982-77-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/ZQ4447-97",
+      "description": "Threaded Plug NPT1/4",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-zq4447-97",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "BJM1-300HP1",
+      "description": "Hydraulic Motor",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-bjm1-300hp1",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.410.00A",
+      "description": "Fixed base",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-410-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.610-03D",
+      "description": "Straight Connector NPT3/4-NPT1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-610-03d",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T75-2000",
+      "description": "Screw M18×16",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t75-2000",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.480-03",
+      "description": "Straight Connector NPT1-NPT11/4",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-480-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400-01A",
+      "description": "Welding bushing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-01a-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB1885",
+      "description": "High-Pressure Hose Assembly with Crimped Fittings, Type A, 22Ⅲ*340（two 90° elbows）",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb1885",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GSD0650",
+      "description": "Stepped ring for hole 65",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gsd0650",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB1885",
+      "description": "High-Pressure Hose Assembly with Crimped Fittings, Type A, 32Ⅰ*450（two 90° elbows）",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb1885-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400-05",
+      "description": "Shaft Pin",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-05-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/ZQ4224-97",
+      "description": "O-Ring 35*3.1",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-zq4224-97-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T91-2000",
+      "description": "Pin 6.3×40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t91-2000",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB1885",
+      "description": "High-Pressure Hose Assembly with Crimped Fittings, Type A, 22Ⅲ*420（two 90° elbows）",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb1885-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.13.10-05A",
+      "description": "Cylinder Cover",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-13-10-05a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "59.420-01A",
+      "description": "Connector G3/4-M36*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-59-420-01a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.13.10-03",
+      "description": "Piston",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-13-10-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.431.00A",
+      "description": "Gauge Body",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-431-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.13.10-02",
+      "description": "Copper housing",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-13-10-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "YN-60",
+      "description": "Gauge（0-25 MPa）",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-yn-60",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB1235-1976",
+      "description": "Labyrinth Seal 40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb1235-1976",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.430-05A",
+      "description": "Nut M24*1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-430-05a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB78-85",
+      "description": "Screw M8×12",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb78-85",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.430-04A",
+      "description": "Gauge connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-430-04a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "ZB21.19-67",
+      "description": "High-Pressure Plug",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-zb21-19-67",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-16",
+      "description": "Double-Ended Nut M20*1.5",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-16-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.13.10-04",
+      "description": "Cylinder Liner",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-13-10-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.430-03A",
+      "description": "Right-Angle Connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-430-03a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB78-85",
+      "description": "Screw M8×8",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb78-85-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.600-09",
+      "description": "Sealing Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-600-09",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "20.13.10-01",
+      "description": "Ring nut",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-20-13-10-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.420-15",
+      "description": "Copper Gasket",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-420-15-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/ZQ4427-86",
+      "description": "High-Pressure Rubber Hose Assembly 6.3Ⅱ×1000",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-zq4427-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.210-03",
+      "description": "Anti-Friction Plate",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-210-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "24.400-03",
+      "description": "Connector",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-24-400-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.410-03C",
+      "description": "Long connector M36*2-M30*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-410-03c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB/T7940.2-95",
+      "description": "Grease Fitting M10×1(45°)",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb-t7940-2-95",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "JB982-77",
+      "description": "Washer30",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-jb982-77-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T6172-86",
+      "description": "Nut M24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t6172-86",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "DL-F20L-T/Y-T/0",
+      "description": "Multiswitch",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-dl-f20l-t-y-t-0",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB95-85",
+      "description": "Washer 24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb95-85-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.440-03",
+      "description": "Connector M33*2-M42*2",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-440-03",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.550-01",
+      "description": "Thrust Ring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-550-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T5781",
+      "description": "Bolt M12*50",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t5781",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.570-04",
+      "description": "Double-Crown Gear Shaft",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-570-04",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB/T95-2002",
+      "description": "Washer12",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb-t95-2002",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB5801-86",
+      "description": "Bearing 4084106",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb5801-86-2",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.400-01",
+      "description": "Bolt M12",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-400-01",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "56.550-02",
+      "description": "Spacer Ring",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-56-550-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.400-02",
+      "description": "Fixed column",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-400-02",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.221.00A",
+      "description": "Double-crown gear",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-221-00a",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "52.100.00C",
+      "description": "Variable-Speed Drive",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-52-100-00c",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB93-87",
+      "description": "Washer 24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb93-87-6",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB91-86",
+      "description": "Pin5*40",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb91-86-3",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
+    },
+    {
+      "model": "TQ340-35Y",
+      "number": "GB6170-86",
+      "description": "Nut M24",
+      "url": "/en/products/burovye-gidravlicheskiy-klyuch-tq340-35y/#drawing-gb6170-86-5",
+      "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
     }
   ],
   "notes": "Identifiers are strings. Separators and leading zeros are preserved. Model-specific references are not cross-model compatibility claims."

@@ -53,6 +53,8 @@ Product navigation points to the catalog pages. The existing landing pages and s
 
 ### WCB brake components (22 October 2026)
 
+The owner requested retaining the original category and product names. Visible headings, card names, title metadata and structured-data names have been restored to their pre-optimization wording in both languages. Future keyword work must not rename these products. The verified number corrections, part lookup, internal links and improved descriptions remain in place.
+
 The WCB category and six product URLs are retained. English and Arabic product introductions distinguish wear plates, friction discs and subassemblies, lip seals, release springs and cylinders. Each component links to its own selected part-number reference and related WCB products. The original assembly tables and images remain available; the secondary tables are explicitly described as shared assembly/kit references.
 
 Sixteen selected component numbers were cross-checked against the standard 24WCB2/36WCB2 references in Airflex WCB11070, sections 6.1 and 6.2, and added to the shared part search. Existing records are preserved. Seal references retain the site's asterisk spelling and display the manual's X spelling, so either query finds the component. This is a selected reference list, not a complete validated bill of materials or a stock/compatibility commitment. CSV: `assets/catalogs/wcb2-component-parts-reference.csv`.

@@ -9,9 +9,9 @@ html[lang] body.site-typography #home .pratt-hero-shell{position:relative;max-wi
 html[lang] body.site-typography #home .pratt-hero-content{width:720px;max-width:100%;padding-bottom:0}
 html[lang] body.site-typography #home .pratt-hero-kicker{display:flex;align-items:center;gap:12px;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.8px;line-height:1.5;margin:0 0 14px}
 html[lang] body.site-typography #home .pratt-hero-kicker>span{width:30px;height:2px;background:#edb247}
-html[lang] body.site-typography #home .pratt-hero .pratt-hero-title{font:700 clamp(32px,2.8vw,48px)/1.15 Arial,"Helvetica Neue",sans-serif;letter-spacing:-.7px;margin:0 0 16px;color:#fff;white-space:normal;text-wrap:initial}
+html[lang] body.site-typography #home .pratt-hero .pratt-hero-title{font:700 clamp(34px,3vw,54px)/1.15 Arial,"Helvetica Neue",sans-serif;letter-spacing:-.7px;margin:0 0 18px;color:#fff;white-space:normal;text-wrap:initial}
 html[lang] body.site-typography #home .pratt-hero .pratt-hero-title span{color:#fff}
-html[lang] body.site-typography #home .pratt-hero-intro{max-width:500px;font-size:15px;line-height:1.65;color:#edf2f5;margin:0 0 20px}
+html[lang] body.site-typography #home .pratt-hero-intro{max-width:520px;font-size:16px;line-height:1.65;color:#edf2f5;margin:0 0 22px}
 html[lang] body.site-typography #home .pratt-hero-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 html[lang] body.site-typography #home .pratt-hero-actions>a{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;min-height:48px;padding:13px 20px;box-sizing:border-box;font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;border:1px solid transparent;border-radius:0}
 html[lang] body.site-typography #home .pratt-hero-primary{background:#efb246;color:#142638}
@@ -48,8 +48,13 @@ html[lang] body[data-hero-header="overlay"] .site-header[data-primary-nav="unifi
 }
 html[lang] body[data-hero-header="overlay"].site-typography #home .pratt-hero {
   box-sizing:border-box;
-  height:clamp(500px,68svh,720px);
+  height:80.8svh;
   padding-top:var(--hero-header-height,134px);
+}
+
+/* Keep the product inserts in view when the browser is unusually tall. */
+@media(min-width:1200px) and (max-aspect-ratio:3/2) {
+  html[lang] body.site-typography #home .pratt-hero-scene img:first-child {object-position:65% center}
 }
 html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) {
   background:linear-gradient(180deg,rgba(4,20,35,.36),rgba(4,20,35,.08));

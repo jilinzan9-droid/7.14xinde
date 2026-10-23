@@ -1,0 +1,188 @@
+/* Shared type scale for public content. Header sizing is defined separately. */
+:root {
+  --site-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --site-mono: Consolas, "Liberation Mono", monospace;
+  --site-body-size: 16px;
+  --site-h1-size: clamp(28px, 2.5vw, 36px);
+  --site-h2-size: 28px;
+  --site-h3-size: 20px;
+  --site-card-title-size: 18px;
+}
+
+html[lang="ar"] { --site-font: Tahoma, Arial, sans-serif; }
+
+html[lang] body.site-typography {
+  font-family: var(--site-font);
+  font-size: var(--site-body-size);
+  line-height: 1.7;
+}
+
+/* Include content roots with older page-specific typography rules. */
+html[lang] body.site-typography :is(main, #home, #featured-products),
+html[lang] body.site-typography :is(main, #home, #featured-products) :where(*) {
+  font-family: var(--site-font);
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(p, li, dd, address) {
+  font-size: var(--site-body-size);
+  line-height: 1.7;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--site-font);
+  font-weight: 700;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) h1 { font-size: var(--site-h1-size); line-height: 1.25; }
+html[lang] body.site-typography :is(main, #home, #featured-products) h2 { font-size: var(--site-h2-size); line-height: 1.3; }
+html[lang] body.site-typography :is(main, #home, #featured-products) h3 { font-size: var(--site-h3-size); line-height: 1.4; }
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(h4, h5, h6) { font-size: 18px; line-height: 1.4; }
+
+html[lang] body.site-typography #home .landing-hero :is(h1, h2) {
+  font-size: clamp(36px, 3.4vw, 48px);
+  line-height: 1.15;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) .product-overview-info h1 {
+  font-size: clamp(26px, 2.2vw, 32px);
+  line-height: 1.3;
+}
+
+/* Cards have a compact title level and can grow to fit complete product names. */
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(.product-card, .ru-product-card, .news-card, .lp-card, .f1600-part-card, [data-product-reference="true"], .news-picture-title) :is(h2, h3) {
+  font-size: var(--site-card-title-size);
+  line-height: 1.4;
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  white-space: normal;
+  -webkit-line-clamp: unset;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(h1, h2, h3) a {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(.product-card, .ru-product-card, .news-card, .lp-card, .f1600-part-card) p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) .product-sidebar h2 { font-size: 22px; line-height: 1.3; }
+html[lang] body.site-typography :is(main, #home, #featured-products) .product-sidebar :is(a, button) {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+html[lang] body.site-typography main .contact-card-heading h2 { font-size: 22px; line-height: 1.35; }
+html[lang] body.site-typography main .contact-card-heading p { font-size: 15px; line-height: 1.65; }
+html[lang] body.site-typography main .contact-card-heading .contact-name { font-size: 16px; font-weight: 700; }
+html[lang] body.site-typography main .contact-detail-list dt { font-size: 13px; line-height: 1.5; }
+html[lang] body.site-typography main .contact-detail-list a { font-size: 15px; font-weight: 600; line-height: 1.5; }
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(.eyebrow, .pump-kicker, .lp-kicker, .supply-solutions-kicker, .news-badge) {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .5px;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(small, figcaption, .article-publisher, .pump-publisher, .lp-small, .f1600-small, .product-reference-id, .part-reference-links, .pump-breadcrumb, .lp-crumbs, .f1600-crumbs, .wcb-reference-source, .reference-provenance, .pump-source-notes) {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(input, textarea, select) {
+  font-family: var(--site-font);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(.btn, .button, .lp-primary, .lp-secondary, .lp-view, .lp-quote, .product-overview-actions > a) {
+  font-family: var(--site-font);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: normal;
+  white-space: normal;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(.product-overview-facts, .product-overview-contacts, .product-overview-reference-links),
+html[lang] body.site-typography :is(main, #home, #featured-products) .product-overview-facts dd {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Keep dense reference data readable without changing table structure or content. */
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(table, th, td, caption) {
+  font-family: var(--site-font);
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) table :is(p, li, span, a, strong, b, small) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+html[lang] body.site-typography :is(main, #home, #featured-products) :is(code, .reference-number, .pn-anchor, .part-number-anchor) {
+  font-family: var(--site-mono);
+  font-size: 14px;
+  line-height: 1.6;
+  font-variant-ligatures: none;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: normal;
+}
+
+html[lang="ar"] body.site-typography :is(main, #home, #featured-products) {
+  letter-spacing: normal;
+}
+
+html[lang="ar"] body.site-typography :is(main, #home, #featured-products) :is(.eyebrow, .pump-kicker, .lp-kicker, .news-badge) {
+  letter-spacing: normal;
+}
+
+html[lang="ar"] body.site-typography :is(main, #home, #featured-products) :is(code, .reference-number, .pn-anchor, .part-number-anchor) {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+html[lang] body.site-typography :is(footer, .footer),
+html[lang] body.site-typography :is(footer, .footer) :is(p, a, li, address, small, em) {
+  font-family: var(--site-font);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+html[lang] body.site-typography :is(footer, .footer) :is(h2, h3, h4) {
+  font-family: var(--site-font);
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  :root { --site-h1-size: 28px; --site-h2-size: 24px; --site-h3-size: 19px; }
+  html[lang] body.site-typography #home .landing-hero :is(h1, h2) { font-size: clamp(30px, 8vw, 36px); line-height: 1.2; }
+  html[lang] body.site-typography :is(main, #home, #featured-products) .product-overview-info h1 { font-size: 26px; }
+}
+
+@media (max-width: 640px) {
+  html[lang] body.site-typography main .paired-reference-table .index-col { width: 48px; }
+  html[lang] body.site-typography main .paired-reference-table .number-col { width: 43%; }
+  html[lang] body.site-typography main .paired-reference-table .name-col { width: auto; }
+  html[lang] body.site-typography main .paired-reference-table :is(th, td):first-child { white-space: nowrap; }
+}

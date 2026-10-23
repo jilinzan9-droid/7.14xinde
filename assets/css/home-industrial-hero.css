@@ -1,0 +1,131 @@
+/* Homepage: full-width industrial photography and concise copy. */
+html[lang] body.site-typography #home .pratt-hero{position:relative;isolation:isolate;overflow:hidden;background:#142c3d;color:#fff}
+html[lang] body.site-typography #home .pratt-hero-scene,html[lang] body.site-typography #home .pratt-hero-shade{position:absolute;inset:0;z-index:-1}
+html[lang] body.site-typography #home .pratt-hero-scene img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;visibility:hidden;display:block;max-width:none;transform:translateX(0)}
+html[lang] body.site-typography #home .pratt-hero-scene img.is-active{opacity:1;visibility:visible}
+html[lang] body.site-typography #home .pratt-hero-scene img.is-moving{will-change:transform}
+html[lang] body.site-typography #home .pratt-hero-shade{background:linear-gradient(90deg,rgba(5,22,35,.84) 0%,rgba(5,22,35,.65) 30%,rgba(5,22,35,.16) 62%,rgba(5,22,35,.06) 100%),linear-gradient(0deg,rgba(5,22,35,.65),transparent 28%)}
+html[lang] body.site-typography #home .pratt-hero-shell{position:relative;max-width:1320px;height:100%;min-height:0;box-sizing:border-box;margin:auto;padding:20px 32px 64px;display:flex;flex-direction:column;justify-content:center}
+html[lang] body.site-typography #home .pratt-hero-content{width:800px;max-width:100%;padding-bottom:0}
+html[lang] body.site-typography #home .pratt-hero-kicker{display:flex;align-items:center;gap:14px;color:#fff;font-size:12px;font-weight:700;letter-spacing:2px;line-height:1.5;margin:0 0 16px}
+html[lang] body.site-typography #home .pratt-hero-kicker>span{width:30px;height:2px;background:#edb247}
+html[lang] body.site-typography #home .pratt-hero .pratt-hero-title{font:700 clamp(36px,3.4vw,56px)/1.12 Arial,"Helvetica Neue",sans-serif;letter-spacing:-1px;margin:0 0 18px;color:#fff;white-space:normal;text-wrap:initial}
+html[lang] body.site-typography #home .pratt-hero .pratt-hero-title span{color:#fff}
+html[lang] body.site-typography #home .pratt-hero-intro{max-width:530px;font-size:16px;line-height:1.6;color:#edf2f5;margin:0 0 22px}
+html[lang] body.site-typography #home .pratt-hero-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+html[lang] body.site-typography #home .pratt-hero-actions>a{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:52px;padding:15px 24px;box-sizing:border-box;font-size:15px;font-weight:700;line-height:1.4;text-decoration:none;border:1px solid transparent;border-radius:0}
+html[lang] body.site-typography #home .pratt-hero-primary{background:#efb246;color:#142638}
+html[lang] body.site-typography #home .pratt-hero-primary:hover{background:#fac86c}
+html[lang] body.site-typography #home .pratt-hero-actions .pratt-hero-secondary{border-color:rgba(255,255,255,.65);color:#fff;background:rgba(9,28,41,.12)}
+html[lang] body.site-typography #home .pratt-hero-secondary:hover{background:rgba(255,255,255,.15)}
+html[lang] body.site-typography #home .pratt-hero-slides{position:absolute;right:32px;bottom:32px;display:flex;gap:10px}
+html[lang] body.site-typography #home .pratt-hero-slides button{width:44px;min-height:44px;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:4px 0;border:0;background:transparent;color:#fff;cursor:pointer;font:700 12px/1.5 Arial,sans-serif;text-align:left;opacity:.7}
+html[lang] body.site-typography #home .pratt-hero-slides button::after{content:"";height:2px;width:100%;background:rgba(255,255,255,.5)}
+html[lang] body.site-typography #home .pratt-hero-slides button.is-selected{opacity:1}
+html[lang] body.site-typography #home .pratt-hero-slides button.is-selected::after{background:#efb246;height:3px}
+
+
+
+
+
+
+
+
+html[lang] body.site-typography #home .pratt-hero :is(a,button):focus-visible{outline:3px solid #efb246;outline-offset:5px}
+@media(prefers-reduced-motion:reduce){html[lang] body.site-typography #home .pratt-hero-scene img{transition:none}}
+
+html[lang] body.site-typography #home .pratt-hero-copy[hidden]{display:none!important}
+html[lang] body.site-typography #home .pratt-hero-copy{min-height:0}
+
+/* The same moving photograph continues behind both header rows. */
+html[lang] body[data-hero-header="overlay"] .site-header[data-primary-nav="unified"] {
+  position:fixed;
+  inset:0 0 auto;
+  width:100%;
+  background:#fff;
+  backdrop-filter:none;
+  transition:background-color .25s ease,box-shadow .25s ease;
+}
+html[lang] body[data-hero-header="overlay"].site-typography #home .pratt-hero {
+  box-sizing:border-box;
+  height:50vw;
+  padding-top:var(--hero-header-height,134px);
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) {
+  background:linear-gradient(180deg,rgba(4,20,35,.36),rgba(4,20,35,.08));
+  border-bottom-color:rgba(255,255,255,.2);
+  box-shadow:none;
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) .header-utility {
+  color:rgba(255,255,255,.85);
+  background:transparent;
+  border-bottom-color:rgba(255,255,255,.18);
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) .header-utility-email {
+  color:rgba(255,255,255,.85);
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) :is(.brand-logo,.header-social-entry img) {
+  filter:brightness(0) invert(1);
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) .header-social-entry img {
+  opacity:.85;
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) :is(.language-button,.menu-toggle) {
+  color:#fff;
+  background:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.5);
+  box-shadow:none;
+}
+html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) .nav-quick-link {
+  color:#fff;
+}
+@media(min-width:1121px) {
+  html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) #navLinks :is(.nav-main-link,.nav-dropdown-toggle) {
+    color:#fff;
+    background:transparent;
+  }
+  html[lang] body[data-hero-header="overlay"] .site-header:not(.is-past-hero) #navLinks .nav-main-link:is(:hover,:focus-visible,.is-active) {
+    color:#fff;
+    background:rgba(255,255,255,.12);
+  }
+}
+@media(max-width:1120px) {
+  html[lang] body[data-hero-header="overlay"] .site-header #navLinks.open {
+    box-shadow:0 12px 24px rgba(4,20,35,.15);
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  html[lang] body[data-hero-header="overlay"] .site-header {transition:none}
+}
+
+/* On narrow screens, keep the whole landscape image above the copy. */
+@media(max-width:1199px) {
+  html[lang] body[data-hero-header="overlay"].site-typography #home .pratt-hero {
+    height:auto;
+    padding-top:0;
+  }
+  html[lang] body.site-typography #home .pratt-hero-scene {
+    position:relative;
+    height:50vw;
+    margin-top:var(--hero-header-height,112px);
+  }
+  html[lang] body.site-typography #home .pratt-hero-shade {
+    background:linear-gradient(180deg,rgba(5,22,35,.08),transparent 35%,#142c3d 75%);
+  }
+  html[lang] body.site-typography #home .pratt-hero-shell {
+    height:auto;
+    padding:32px 24px 28px;
+  }
+  html[lang] body.site-typography #home .pratt-hero .pratt-hero-title {
+    font-size:clamp(30px,5vw,44px);
+    letter-spacing:-.5px;
+  }
+  html[lang] body.site-typography #home .pratt-hero-intro {max-width:620px}
+  html[lang] body.site-typography #home .pratt-hero-slides {
+    position:static;
+    align-self:flex-start;
+    margin-top:24px;
+  }
+  html[lang] body.site-typography #home .pratt-hero-actions {gap:12px}
+  html[lang] body.site-typography #home .pratt-hero-actions>a {padding:13px 16px;min-height:48px;font-size:14px}
+}

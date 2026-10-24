@@ -28,7 +28,8 @@ html[lang] body.catalog-listing-clean .product-breadcrumb-inner {
   text-align: start;
 }
 
-html[lang] body.catalog-listing-clean .product-breadcrumb-title {
+/* Keep breadcrumb H1s at the navigation scale above the shared heading rules. */
+html[lang] body.catalog-listing-clean :is(main, #home, #featured-products) .product-breadcrumb-title {
   display: inline;
   min-width: 0;
   max-width: none;

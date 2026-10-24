@@ -5,6 +5,10 @@ html[lang] body .product-overview{
 }
 html[lang] body .product-overview.lp-shell{width:min(1240px,calc(100% - 64px));margin-inline:auto}
 html[lang] body .product-overview.f1600-shell{width:min(1240px,calc(100% - 48px));margin-inline:auto}
+/* Standalone details retain the two-column overview without the legacy full-viewport width. */
+html[lang] body.ru-product-detail-page.standard-product-page main > .ru-bomco-product-range > .product-category-layout{
+ width:calc(100% - 48px);max-width:1240px;margin-inline:auto;min-width:0;
+}
 html[lang] body .product-overview-gallery{min-width:0;margin:0;order:0}
 html[lang] body .product-overview-media{
  position:relative;display:block;width:100%;height:auto;max-width:none;min-width:0;
@@ -63,6 +67,7 @@ html[lang="ar"] body .product-overview-contacts>div{grid-template-columns:22px 8
  html[lang] body .product-overview-contacts a{grid-column:2}
 }
 @media(max-width:760px){
+ html[lang] body.ru-product-detail-page.standard-product-page main > .ru-bomco-product-range > .product-category-layout{width:calc(100% - 36px)}
  html[lang] body .product-overview.lp-shell{width:calc(100% - 36px)}
  html[lang] body .product-overview.f1600-shell{width:calc(100% - 32px)}
  html[lang] body .product-category-layout:has(.product-overview){display:flex;flex-direction:column}

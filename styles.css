@@ -12893,3 +12893,12 @@ body.ru-product-detail-page .ru-related-products {
     margin-top: 42px !important;
   }
 }
+
+/* Keep ZQ specification cards readable on their shared dark-green surface. */
+body.standard-product-page .standard-product-highlight-grid article strong {
+  color: #fff;
+}
+body.standard-product-page .standard-product-highlight-grid article span,
+body.standard-product-page .standard-product-highlight-grid article small {
+  color: #e1ebe7;
+}

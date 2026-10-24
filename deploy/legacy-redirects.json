@@ -1390,6 +1390,31 @@
       "source": "/ru/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
       "target": "/en/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/",
       "reason": "Retired Russian prefix: same existing product identifier"
+    },
+    {
+      "source": "/ar/shtrop-odnoplechnyy-serii-dh/",
+      "target": "/ar/products/shtrop-odnoplechnyy-serii-dh/",
+      "reason": "Historical product link missing the products directory; identical product slug"
+    },
+    {
+      "source": "/en/burovyh-nasosov-vypusknoy-kompensator-v-sbore/",
+      "target": "/en/products/burovyh-nasosov-vypusknoy-kompensator-v-sbore/",
+      "reason": "Historical product link missing the products directory; identical product slug"
+    },
+    {
+      "source": "/en/products/kolenchatyy-val-burovogo-nasosa/",
+      "target": "/en/products/kolenchatyy-val/",
+      "reason": "Historical mud-pump crankshaft URL; current crankshaft product"
+    },
+    {
+      "source": "/en/products/plunzhernyy-nasos-bolshoy-shtok-2/",
+      "target": "/en/products/plunzhernyy-nasos-bolshoy-shtok/",
+      "reason": "Retired numbered alias for the large plunger pump rod"
+    },
+    {
+      "source": "/en/products/drilling-rigs-and-drawworks-accessories/page/4/",
+      "target": "/en/products/drilling-rigs-and-drawworks-accessories/",
+      "reason": "Retired fourth catalog page; return to the same category current listing"
     }
   ]
 }

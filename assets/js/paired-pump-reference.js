@@ -9,5 +9,20 @@ for(const [source,list] of groups){const body=document.createElement('tbody');bo
 for(let i=0;i<half;i++){const row=body.insertRow();row.dataset.pairRow='';const indexCell=row.insertCell();indexCell.className='reference-row-index';indexCell.textContent=String(++index);for(const e of media.matches?[list[i]]:[list[i],list[i+half]]){if(e){row.append(e.cell,e.name)}else{row.insertCell().setAttribute('aria-hidden','true');row.insertCell().setAttribute('aria-hidden','true')}}}table.append(body)}
 if(status)status.textContent=q?`${shown.length} of ${entries.length} parts`:`${entries.length.toLocaleString('en-US')} parts`;}
 function reveal(){let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(!byId.has(id))return;if(input&&input.value){input.value='';render()}byId.get(id).cell.scrollIntoView({block:'center',behavior:'instant'});}
+  // Clicking the current fragment does not emit hashchange. Reveal it again
+  // when a table filter has hidden or removed the selected reference entry.
+  document.addEventListener('click', event => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target?.closest?.('a[href]');
+    if (!link || link.hasAttribute('download') || (link.target && link.target.toLowerCase() !== '_self')) return;
+    let destination;
+    try { destination = new URL(link.href, location.href); } catch { return; }
+    if (destination.origin !== location.origin || destination.pathname !== location.pathname || destination.search !== location.search || !destination.hash || destination.hash !== location.hash) return;
+    let id;
+    try { id = decodeURIComponent(destination.hash.slice(1)); } catch { return; }
+    if (!byId.has(id)) return;
+    event.preventDefault();
+    reveal();
+  });
 if(input)input.addEventListener('input',render);media.addEventListener('change',()=>{render();reveal()});window.addEventListener('hashchange',reveal);render();requestAnimationFrame(reveal);
 })();

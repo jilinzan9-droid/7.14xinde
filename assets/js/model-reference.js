@@ -27,6 +27,22 @@
     if (input.value) { input.value = ''; filter(); }
     target.scrollIntoView({ block: 'center', behavior: 'instant' });
   }
+  // Clicking the current fragment does not emit hashchange. Reveal it again
+  // when a table filter has hidden or removed the selected reference entry.
+  document.addEventListener('click', event => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target?.closest?.('a[href]');
+    if (!link || link.hasAttribute('download') || (link.target && link.target.toLowerCase() !== '_self')) return;
+    let destination;
+    try { destination = new URL(link.href, location.href); } catch { return; }
+    if (destination.origin !== location.origin || destination.pathname !== location.pathname || destination.search !== location.search || !destination.hash || destination.hash !== location.hash) return;
+    let id;
+    try { id = decodeURIComponent(destination.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    if (!target || !table.contains(target)) return;
+    event.preventDefault();
+    revealTarget();
+  });
   input.addEventListener('input', filter);
   window.addEventListener('hashchange', revealTarget);
   requestAnimationFrame(revealTarget);

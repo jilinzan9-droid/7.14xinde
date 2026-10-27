@@ -1,0 +1,22 @@
+.zq-selection{padding:28px 0;border-block:1px solid #dce4e8}
+.zq-selection h2,.zq-faq h2,.zq-quote h2{font-size:24px;line-height:1.35;margin:0 0 12px;color:#183542}
+.zq-selection p,.zq-faq p,.zq-quote p{font-size:15px;line-height:1.75;color:#395362}
+.zq-selection-links{display:flex;gap:12px 24px;flex-wrap:wrap;margin-top:16px}
+.zq-selection a,.zq-faq a,.zq-model-quote{color:#1266cf;text-decoration:underline;text-underline-offset:3px}
+.standard-product-model-card .zq-model-quote{display:block;margin:16px 20px;font-size:14px;font-weight:600}
+.zq-faq{padding:32px 0}
+.zq-faq details{padding:16px 0;border-bottom:1px solid #dce4e8}
+.zq-faq summary{cursor:pointer;font-size:16px;font-weight:600;color:#183542;line-height:1.5}
+.zq-faq p{margin:10px 0 0;max-width:85ch}
+.zq-quote{scroll-margin-top:150px;padding:28px!important;border:1px solid #dce4e8;background:#f6f8fa;border-radius:4px}
+.zq-quote form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.zq-quote label{display:flex;flex-direction:column;gap:7px;font-size:14px;font-weight:600;color:#183542;min-width:0}
+.zq-quote input,.zq-quote select,.zq-quote textarea{box-sizing:border-box;width:100%;min-width:0;padding:12px;border:1px solid #abbcc6;border-radius:3px;background:white;color:#183542;font:inherit;font-size:16px;min-height:46px}
+.zq-quote textarea{min-height:100px;resize:vertical}
+.zq-quote .zq-wide{grid-column:1/-1}
+.zq-quote-actions{display:flex;flex-wrap:wrap;gap:12px}
+.zq-quote button{padding:13px 22px;border:1px solid #1266cf;border-radius:3px;background:#1266cf;color:#fff;font:inherit;font-size:15px;font-weight:600;cursor:pointer;min-height:48px}
+.zq-quote button[value=email]{background:#fff;color:#1266cf}
+.zq-quote [data-zq-status],.zq-quote .zq-note{font-size:13px;line-height:1.6;color:#52636d;margin:0}
+.zq-quote :focus-visible,.zq-faq summary:focus-visible{outline:3px solid #1266cf;outline-offset:3px}
+@media(max-width:600px){.zq-quote{padding:20px!important}.zq-quote form{grid-template-columns:1fr}.zq-quote-actions{display:grid;grid-template-columns:1fr}.zq-selection h2,.zq-faq h2,.zq-quote h2{font-size:21px}}

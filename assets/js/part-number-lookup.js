@@ -15,7 +15,13 @@
           if (!response.ok) throw new Error('Reference catalog unavailable');
           return response.json();
         })
-        .then(data => data.records)
+        .then(data => data.records.map(record => ({
+          record,
+          exactNumber: normalize(record.number),
+          identifier: compact(record.number),
+          model: compact(record.model),
+          text: normalize(record.number + ' ' + record.description + ' ' + record.model)
+        })))
         .catch(error => { catalogPromise = undefined; throw error; });
     }
     return catalogPromise;
@@ -24,8 +30,8 @@
     const current = ++request;
     const query = normalize(input.value);
     results.replaceChildren();
-    if (query.length < 3) {
-      status.textContent = 'Enter at least 3 characters, or browse the reference catalogs below.';
+    if (query.length < 2) {
+      status.textContent = 'Enter at least 2 characters, or browse the reference catalogs below.';
       return;
     }
     status.textContent = 'Searching the reference catalogs…';
@@ -33,14 +39,14 @@
       const records = await load();
       if (current !== request) return;
       const numberQuery = compact(query);
-      const matches = records.map((record, order) => {
-        const identifier = compact(record.number);
-        const exact = identifier === numberQuery;
+      const matches = records.map(({ record, exactNumber, identifier, model, text }, order) => {
+        const exact = exactNumber === query;
+        const formattedMatch = numberQuery.length > 0 && identifier === numberQuery;
         const numberMatch = /\d/.test(query) && identifier.includes(numberQuery);
-        const modelMatch = /[a-z]/.test(query) && /\d/.test(query) && compact(record.model).includes(numberQuery);
-        const textMatch = normalize(record.number + ' ' + record.description + ' ' + record.model).includes(query);
-        return { record, order, score: exact ? 0 : numberMatch ? 1 : modelMatch || textMatch ? 2 : 3 };
-      }).filter(item => item.score < 3).sort((a, b) => a.score - b.score || a.order - b.order);
+        const modelMatch = /[a-z]/.test(query) && /\d/.test(query) && model.includes(numberQuery);
+        const textMatch = text.includes(query);
+        return { record, order, score: exact ? 0 : formattedMatch ? 1 : numberMatch ? 2 : modelMatch || textMatch ? 3 : 4 };
+      }).filter(item => item.score < 4).sort((a, b) => a.score - b.score || a.order - b.order);
       if (!matches.length) {
         status.textContent = 'No matching entry in these references. Send the full part number, equipment model and drawing for identification.';
         return;

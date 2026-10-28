@@ -28,6 +28,13 @@ body.part-number-lookup-page .pn-shell {
 .part-number-lookup-page .pn-samples code { overflow-wrap: anywhere; }
 .part-number-lookup-page .pn-catalog-link { display: inline-block; margin-top: 12px; font-size: 14px; font-weight: 700; }
 .part-number-lookup-page .pn-extra { margin-top: 40px; max-width: 920px; }
+.part-number-lookup-page .pn-browse { margin: 0 0 36px; }
+.part-number-lookup-page .pn-browse p { margin: 0 0 12px; font-weight: 700; font-size: 14px; }
+.part-number-lookup-page .pn-browse ul { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin: 0; padding: 0; }
+.part-number-lookup-page .pn-browse a { display: block; padding: 9px 13px; border: 1px solid #d6e1e5; border-radius: 3px; font-size: 14px; }
+.part-number-lookup-page .pn-drawing-directory { columns: 2; column-gap: 36px; padding-left: 20px; }
+.part-number-lookup-page .pn-drawing-directory li { break-inside: avoid; margin: 0 0 12px; line-height: 1.6; font-size: 14px; }
+.part-number-lookup-page .pn-shell [id] { scroll-margin-top: 170px; }
 .part-number-lookup-page .pn-extra h2 { margin-top: 32px; }
 .part-number-lookup-page .pn-extra li { margin-bottom: 8px; overflow-wrap: anywhere; }
 .part-number-lookup-page .pn-contact { display: inline-block; margin: 8px 18px 8px 0; font-weight: 700; }
@@ -49,4 +56,6 @@ body.part-number-lookup-page .pn-shell {
   .part-number-lookup-page .pn-lookup { padding: 19px; }
   .part-number-lookup-page .pn-model-grid { grid-template-columns: minmax(0, 1fr); }
   .part-number-lookup-page .pn-model-card { padding: 20px; }
+  .part-number-lookup-page .pn-drawing-directory { columns: 1; }
+  .part-number-lookup-page .pn-shell [id] { scroll-margin-top: 120px; }
 }

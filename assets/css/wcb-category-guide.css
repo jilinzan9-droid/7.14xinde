@@ -1,0 +1,143 @@
+/* English WCB category guidance; preserve the page width and image treatment. */
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .ru-product-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-intro {
+  margin: 0 0 24px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-intro p,
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance :is(p, li) {
+  margin: 0 0 12px;
+  color: #40515d;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Shared reference cards hide their descriptions; reveal only this page's new copy. */
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .ru-product-card[data-product-reference="true"] .ru-product-card-body > p {
+  display: block;
+  height: auto;
+  max-height: none;
+  margin: 0 16px 20px;
+  padding: 0;
+  overflow: visible;
+  color: #40515d;
+  font-size: 16px;
+  line-height: 1.65;
+  white-space: normal;
+  -webkit-line-clamp: unset;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .ru-product-card[data-product-reference="true"] h3 {
+  margin-bottom: 10px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px 32px;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #dbe4e8;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance h2 {
+  margin: 0 0 12px;
+  scroll-margin-top: 170px;
+  color: #172c3b;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-models ul {
+  margin: 0 0 12px;
+  padding-inline-start: 20px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-models li {
+  margin-bottom: 6px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance p a {
+  color: #1466cf;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #1466cf;
+  border-radius: 4px;
+  background: #1466cf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-button-secondary {
+  background: #fff;
+  color: #1466cf;
+}
+
+html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-button:hover {
+  background: #0c4fa5;
+  border-color: #0c4fa5;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .ru-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .product-category-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .product-category-main {
+    order: 0;
+    width: 100%;
+  }
+
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .product-sidebar {
+    order: 1;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .wcb-category-guidance h2 {
+    scroll-margin-top: 120px;
+  }
+}
+
+@media (max-width: 520px) {
+  html[lang="en"] body.wcb-category-guide #wcb-eaton-auxiliary-brake-products .ru-product-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}

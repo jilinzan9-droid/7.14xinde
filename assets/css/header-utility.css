@@ -92,11 +92,11 @@
 }
 
 .header-utility .header-utility-email:hover {
-  color: #073f35;
+  color: #15344e;
 }
 
 .header-utility a:focus-visible {
-  outline: 2px solid #0f6b57;
+  outline: 2px solid #1266cf;
   outline-offset: 2px;
   border-radius: 2px;
 }

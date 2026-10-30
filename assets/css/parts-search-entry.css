@@ -1,0 +1,34 @@
+/* Compact link to the existing part-number and model-reference search. */
+body.site-typography main .parts-search-entry {
+  display: flex;
+  margin: 0 0 22px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  scroll-margin-top: 170px;
+}
+body.site-typography main .parts-search-entry a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 17px;
+  border: 1px solid #d5e2f2;
+  border-radius: 5px;
+  background: #f5f8fc;
+  color: #1266cf;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+body.site-typography main .parts-search-entry svg { flex: 0 0 auto; width: 19px; height: 19px; }
+body.site-typography main .parts-search-entry a:hover { background: #eaf2fd; border-color: #8db2e5; color: #0d50a5; }
+body.site-typography main .parts-search-entry a:focus-visible { outline: 3px solid #c49d49; outline-offset: 3px; }
+@media (max-width: 600px) {
+  body.site-typography main .parts-search-entry { margin-bottom: 18px; scroll-margin-top: 180px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.site-typography main .parts-search-entry a { transition: none; }
+}

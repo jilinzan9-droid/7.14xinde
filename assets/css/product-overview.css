@@ -22,7 +22,7 @@ html[lang] body .product-overview-media img{
 html[lang] body .product-overview-media figcaption{padding:10px 14px;font-size:12px;line-height:1.5;color:#61707b;background:#fff}
 html[lang] body .product-overview-info{
  display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;
- order:1;background:#f2f3f3;padding:clamp(22px,2.4vw,38px);margin:0;
+ order:1;background:#f2f2f3;padding:clamp(22px,2.4vw,38px);margin:0;
  width:100%;height:auto;min-height:0;min-width:0;box-sizing:border-box;text-align:start;
 }
 html[lang] body .product-overview-info h1{
@@ -54,7 +54,7 @@ html[lang] body .product-overview-email:hover{background:#e5a027}
 html[lang] body .product-overview-reference-links{margin-top:18px;font-size:14px;line-height:1.6}
 html[lang] body .product-overview-reference-links a{color:#1266cf;text-decoration:underline;text-underline-offset:3px}
 html[lang] body .product-overview-thumbs{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-html[lang] body .product-overview-thumbs button{display:block;border:1px solid #dce1e3;background:#f4f5f5;padding:5px;width:76px;height:76px;cursor:pointer;border-radius:0}
+html[lang] body .product-overview-thumbs button{display:block;border:1px solid #dce1e3;background:#f4f4f5;padding:5px;width:76px;height:76px;cursor:pointer;border-radius:0}
 html[lang] body .product-overview-thumbs img{display:block;width:64px;height:64px;object-fit:contain;background:#fff}
 html[lang] body .product-overview-thumbs button[aria-pressed="true"]{border:2px solid #1266cf;padding:4px}
 html[lang] body .product-overview a:focus-visible,html[lang] body .product-overview button:focus-visible{outline:3px solid #1266cf;outline-offset:3px}

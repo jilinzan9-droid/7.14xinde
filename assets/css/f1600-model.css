@@ -28,7 +28,7 @@ body.f1600-parts-page th, body.f1600-parts-page td { padding: 12px; border-botto
 body.f1600-parts-page thead th { background: #126ad7; color: #fff; }
 body.f1600-parts-page tbody th { font-weight: 500; }
 body.f1600-parts-page code { font-size: 13px; overflow-wrap: anywhere; }
-body.f1600-parts-page .f1600-quote { margin-top: 16px; padding-block: 36px; background: #f2f6f4; }
+body.f1600-parts-page .f1600-quote { margin-top: 16px; padding-block: 36px; background: #f2f4f6; }
 body.f1600-parts-page main a:not(.btn) { color: #126ad7; text-decoration: underline; text-underline-offset: 3px; }
 body.f1600-parts-page .f1600-text-link { display: inline-block; margin-top: 18px; font-size: 14px; }
 body.f1600-parts-page main .btn.secondary { color: #26333a; background: #fff; border-color: #cfd9de; }

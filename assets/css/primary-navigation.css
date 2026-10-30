@@ -4,9 +4,9 @@ html[lang="en"] body .site-header[data-primary-nav="unified"] {
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom: 1px solid rgba(7, 61, 52, .14);
+  border-bottom: 1px solid rgba(15, 31, 53, .14);
   background: rgba(255, 255, 255, .96);
-  box-shadow: 0 5px 18px rgba(7, 61, 52, .06);
+  box-shadow: 0 5px 18px rgba(15, 31, 53, .06);
   backdrop-filter: blur(16px);
   font-family: Arial, "Helvetica Neue", sans-serif;
   font-size: 16px;
@@ -110,11 +110,11 @@ html[lang="en"] body .site-header[data-primary-nav="unified"] .language-button {
   min-width: 104px;
   min-height: 42px;
   padding: 10px 14px;
-  border: 1px solid rgba(0, 70, 58, .34);
+  border: 1px solid rgba(15, 32, 55, .34);
   border-radius: 4px;
   color: var(--green);
-  background: linear-gradient(180deg, #fff 0%, #f2f8f6 100%);
-  box-shadow: 0 8px 22px rgba(0, 70, 58, .08);
+  background: linear-gradient(180deg, #fff 0%, #f2f5f8 100%);
+  box-shadow: 0 8px 22px rgba(15, 32, 55, .08);
   font-family: inherit;
   font-size: 16px;
   font-weight: 800;

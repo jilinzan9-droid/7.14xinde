@@ -1,15 +1,15 @@
 /* Shared links to equipment-specific spare parts supply pages. */
 .supply-solutions-section {
   padding: 64px clamp(20px, 4vw, 72px);
-  background: #f3f7f4;
-  border-top: 1px solid #e0e8e2;
+  background: #f3f5f7;
+  border-top: 1px solid #dee3ea;
   scroll-margin-top: 150px;
 }
 .supply-solutions-shell { max-width: 1320px; margin: 0 auto; }
 .supply-solutions-heading { max-width: 760px; margin-bottom: 32px; }
 .supply-solutions-kicker {
   margin: 0 0 12px;
-  color: #0f6b57;
+  color: #1266cf;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -17,7 +17,7 @@
 }
 .supply-solutions-heading h2 {
   margin: 0 0 14px;
-  color: #073f35;
+  color: #15344e;
   font-size: clamp(28px, 3vw, 40px);
   line-height: 1.18;
   letter-spacing: -.7px;
@@ -39,17 +39,17 @@
   align-items: stretch;
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dbe5df;
+  border: 1px solid #d9dfe7;
   border-radius: 12px;
   background: #fff;
   color: #102026;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(7, 63, 53, .04);
+  box-shadow: 0 4px 16px rgba(15, 32, 55, .04);
   transition: border-color .18s ease, box-shadow .18s ease;
 }
 .supply-solution-card:hover {
-  border-color: #0f6b57;
-  box-shadow: 0 8px 24px rgba(7, 63, 53, .1);
+  border-color: #1266cf;
+  box-shadow: 0 8px 24px rgba(15, 32, 55, .1);
 }
 .supply-solution-card:focus-visible,
 .supply-context-link a:focus-visible,
@@ -64,7 +64,7 @@
   min-width: 0;
   padding: 12px;
   background: #fff;
-  border-right: 1px solid #edf1ee;
+  border-right: 1px solid #edeff1;
 }
 .supply-solution-media img {
   display: block;
@@ -76,7 +76,7 @@
 }
 .supply-solution-copy { display: flex; flex-direction: column; padding: 26px 24px; }
 .supply-solution-copy > span:first-child {
-  color: #0f6b57;
+  color: #1266cf;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 1.1px;
@@ -84,7 +84,7 @@
 }
 .supply-solution-copy h3 {
   margin: 12px 0;
-  color: #073f35;
+  color: #15344e;
   font-size: 23px;
   line-height: 1.22;
   font-weight: 700;
@@ -102,8 +102,8 @@
   gap: 12px;
   margin-top: auto;
   padding-top: 12px;
-  border-top: 1px solid #e8eeea;
-  color: #0f6b57;
+  border-top: 1px solid #e8ebee;
+  color: #1266cf;
   font-size: 13px;
   font-weight: 700;
 }
@@ -115,13 +115,13 @@
   gap: 10px 24px;
   margin: 24px 0;
   padding: 18px 22px;
-  border-left: 3px solid #0f6b57;
-  background: #f3f7f4;
+  border-left: 3px solid #1266cf;
+  background: #f3f5f7;
   font-size: 14px;
   line-height: 1.6;
 }
 .supply-context-link p { flex: 1 1 300px; margin: 0; color: #5c6970; }
-.supply-context-link a { color: #0f6b57; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.supply-context-link a { color: #1266cf; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .supply-related {
   width: min(1120px, calc(100% - 40px));
   margin: 40px auto;
@@ -156,7 +156,7 @@
   margin: 0 auto;
   padding: 24px 0 32px;
   border-top: 1px solid rgba(255, 255, 255, .18);
-  color: #d6e5df;
+  color: #d5dce6;
 }
 .supply-footer-nav--standard h3 { color: #c89b3c; text-transform: uppercase; }
 footer.has-supply-solutions { flex-wrap: wrap; }
@@ -170,7 +170,7 @@ footer.has-supply-solutions { flex-wrap: wrap; }
 }
 @media (max-width: 1000px) {
   .supply-solution-card { grid-template-columns: 1fr; }
-  .supply-solution-media { padding: 14px 28px; border-right: 0; border-bottom: 1px solid #edf1ee; }
+  .supply-solution-media { padding: 14px 28px; border-right: 0; border-bottom: 1px solid #edeff1; }
   .supply-solution-media img { max-height: 220px; }
   .supply-solution-copy { padding: 22px; }
 }

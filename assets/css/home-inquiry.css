@@ -18,46 +18,46 @@ html[lang] body.home-en.site-typography #home #part-number.inquiry-section {
   gap:64px;
   padding-block:72px;
   background:#fff;
-  color:#193b35;
+  color:#19283b;
 }
 #part-number .inquiry-intro { min-width:0; }
 html[lang] body.home-en.site-typography #home #part-number .inquiry-eyebrow {
   display:flex; align-items:center; gap:10px;
-  margin:0 0 14px; color:#23786b; font-size:12px; font-weight:700; letter-spacing:1.3px;
+  margin:0 0 14px; color:#1266cf; font-size:12px; font-weight:700; letter-spacing:1.3px;
 }
 #part-number .inquiry-eyebrow::before { content:""; width:25px; height:2px; background:#d6aa36; }
 html[lang] body.home-en.site-typography #home #part-number h2 {
-  margin:0 0 15px; color:#153e36; font-size:34px; font-weight:650; line-height:1.2; letter-spacing:-.7px;
+  margin:0 0 15px; color:#15273e; font-size:34px; font-weight:650; line-height:1.2; letter-spacing:-.7px;
 }
 html[lang] body.home-en.site-typography #home #part-number .inquiry-lead {
-  margin:0 0 26px; color:#65716f; font-size:15px; line-height:1.7;
+  margin:0 0 26px; color:#656a71; font-size:15px; line-height:1.7;
 }
 #part-number .inquiry-photo { margin:0; overflow:hidden; border-radius:6px; }
 #part-number .inquiry-photo img { display:block; width:100%; height:auto; aspect-ratio:1400/933; object-fit:contain; }
 #part-number .inquiry-contacts { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:22px; }
-#part-number .inquiry-contacts a { position:relative; min-width:0; padding:0 18px 14px 0; border-bottom:1px solid #dce5e1; text-decoration:none; color:#224c42; }
-#part-number .inquiry-contacts a>span:first-child { display:block; margin-bottom:5px; color:#6d7b76; font-size:12px; line-height:1.4; }
+#part-number .inquiry-contacts a { position:relative; min-width:0; padding:0 18px 14px 0; border-bottom:1px solid #d9e0e8; text-decoration:none; color:#22344c; }
+#part-number .inquiry-contacts a>span:first-child { display:block; margin-bottom:5px; color:#6d737b; font-size:12px; line-height:1.4; }
 #part-number .inquiry-contacts strong { display:block; font-size:14px; line-height:1.5; font-weight:600; }
 #part-number .inquiry-link-arrow { position:absolute; right:0; top:17px; font-size:20px; }
-#part-number .inquiry-contacts a:hover { color:#087a60; border-color:#087a60; }
-#part-number .inquiry-form { min-width:0; padding:32px; border:1px solid #e2e8e5; border-radius:10px; background:#f7f9f8; box-shadow:none; }
+#part-number .inquiry-contacts a:hover { color:#1266cf; border-color:#1266cf; }
+#part-number .inquiry-form { min-width:0; padding:32px; border:1px solid #dfe4eb; border-radius:10px; background:#f7f8f9; box-shadow:none; }
 #part-number .inquiry-form-top { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:25px; }
-html[lang] body.home-en.site-typography #home #part-number .inquiry-form-top h3 { margin:0; font-size:23px; line-height:1.3; font-weight:650; color:#183e35; }
-#part-number .inquiry-form-top>span { color:#78827e; font-size:11px; white-space:nowrap; }
+html[lang] body.home-en.site-typography #home #part-number .inquiry-form-top h3 { margin:0; font-size:23px; line-height:1.3; font-weight:650; color:#18283e; }
+#part-number .inquiry-form-top>span { color:#787c82; font-size:11px; white-space:nowrap; }
 #part-number .inquiry-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px 20px; }
-html[lang] body.home-en.site-typography #home #part-number .inquiry-fields label { display:grid; gap:7px; min-width:0; color:#334e46; font-size:13px; font-weight:600; line-height:1.5; }
+html[lang] body.home-en.site-typography #home #part-number .inquiry-fields label { display:grid; gap:7px; min-width:0; color:#333f4e; font-size:13px; font-weight:600; line-height:1.5; }
 #part-number .inquiry-fields em { color:#8a6c28; font-style:normal; }
 #part-number .inquiry-field-wide { grid-column:1/-1; }
-html[lang] body.home-en.site-typography #home #part-number .inquiry-fields :is(input,textarea) { display:block; box-sizing:border-box; width:100%; min-width:0; padding:12px 13px; border:1px solid #d9e1dd; border-radius:4px; background:#fff; color:#213c33; font-family:inherit; font-size:14px; font-weight:400; line-height:1.4; }
+html[lang] body.home-en.site-typography #home #part-number .inquiry-fields :is(input,textarea) { display:block; box-sizing:border-box; width:100%; min-width:0; padding:12px 13px; border:1px solid #d5dce5; border-radius:4px; background:#fff; color:#212d3c; font-family:inherit; font-size:14px; font-weight:400; line-height:1.4; }
 #part-number .inquiry-fields input { height:44px; }
 #part-number .inquiry-fields textarea { min-height:88px; resize:vertical; }
-#part-number .inquiry-fields :is(input,textarea)::placeholder { color:#8a9590; opacity:1; }
-#part-number .inquiry-fields :is(input,textarea):focus-visible { outline:2px solid #167761; outline-offset:2px; }
-#part-number .inquiry-submit { display:flex; align-items:center; justify-content:center; gap:20px; width:100%; min-height:48px; margin-top:22px; padding:12px 18px; border:0; border-radius:4px; background:#075b48; color:#fff; font-family:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+#part-number .inquiry-fields :is(input,textarea)::placeholder { color:#8a8f95; opacity:1; }
+#part-number .inquiry-fields :is(input,textarea):focus-visible { outline:2px solid #1266cf; outline-offset:2px; }
+#part-number .inquiry-submit { display:flex; align-items:center; justify-content:center; gap:20px; width:100%; min-height:48px; margin-top:22px; padding:12px 18px; border:0; border-radius:4px; background:#1266cf; color:#fff; font-family:inherit; font-size:14px; font-weight:600; cursor:pointer; }
 #part-number .inquiry-submit span { font-size:19px; line-height:1; }
-#part-number .inquiry-submit:hover { background:#064b3c; }
-#part-number .inquiry-submit:focus-visible, #part-number .inquiry-contacts a:focus-visible { outline:2px solid #167761; outline-offset:4px; }
-html[lang] body.home-en.site-typography #home #part-number .inquiry-note { margin:13px 0 0; color:#78837d; font-size:12px; line-height:1.6; text-align:center; }
+#part-number .inquiry-submit:hover { background:#0d50a5; }
+#part-number .inquiry-submit:focus-visible, #part-number .inquiry-contacts a:focus-visible { outline:2px solid #1266cf; outline-offset:4px; }
+html[lang] body.home-en.site-typography #home #part-number .inquiry-note { margin:13px 0 0; color:#787d83; font-size:12px; line-height:1.6; text-align:center; }
 @media(max-width:1100px) {
   html[lang] body.home-en.site-typography #home #part-number.inquiry-section { gap:36px; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); }
   #part-number .inquiry-form { padding:26px; }

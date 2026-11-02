@@ -1,0 +1,24 @@
+/* Contextual links in existing copy; keep product names and page layout intact. */
+.seo-context-links a:not(.btn) {
+  color: #126ad7;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.seo-context-links a:not(.btn):hover {
+  color: #0b4d9e;
+}
+.seo-context-links a:focus-visible {
+  outline: 2px solid #126ad7;
+  outline-offset: 4px;
+}
+.wear-parts-page .page-hero .hero-actions .btn.dark-text {
+  color: #126ad7;
+  border-color: #126ad7;
+  background: #fff;
+}
+.wear-parts-page .page-hero .hero-actions .btn.dark-text:hover,
+.wear-parts-page .page-hero .hero-actions .btn.dark-text:focus-visible {
+  color: #fff;
+  background: #126ad7;
+}

@@ -141,3 +141,8 @@ The approved public-site palette uses blue text, buttons and borders with pale b
 The English contact page now presents Jackson Wang and Tom He, one telephone per person, WhatsApp QR codes and email/WhatsApp links. The park map and visitor note remain available. The inquiry form uses the existing draft-only WhatsApp flow. `assets/css/contact-redesign.css` is scoped to this page.
 
 Seven existing category/landing-page part-reference links use the concise Search Parts label and magnifier, with `assets/css/parts-search-entry.css`. Their destinations and all original reference data are retained. Local preview noindex metadata and preview server files are not part of this release.
+
+
+### Confirmed park location (2 November 2026)
+
+The owner confirmed the Google Maps place for Shandong Zhigu Entrepreneurship Park (山东智谷创业园), Zhangqiu District, Jinan, Shandong, China 250220. The contact embed and directions link use that place, not the former Wangyue Zhigu coordinates in Shizhong District. Google Maps identifies the park; no building number or company entrance is asserted. Public company address text and Organization streetAddress references, plus the admin seed address, use the same confirmed park. Contact details, inquiry behavior and page styling are unchanged.

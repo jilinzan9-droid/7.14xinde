@@ -1415,6 +1415,26 @@
       "source": "/en/products/drilling-rigs-and-drawworks-accessories/page/4/",
       "target": "/en/products/drilling-rigs-and-drawworks-accessories/",
       "reason": "Retired fourth catalog page; return to the same category current listing"
+    },
+    {
+      "source": "/demo/pratt-oil-oilfield/en/news/page/2/",
+      "target": "/en/news/page/2/",
+      "reason": "Retired demo news pagination URL: identical canonical production page verified against GSC 404 history"
+    },
+    {
+      "source": "/demo/pratt-oil-oilfield/en/news/page/3/",
+      "target": "/en/news/page/3/",
+      "reason": "Retired demo news pagination URL: identical canonical production page verified against GSC 404 history"
+    },
+    {
+      "source": "/demo/pratt-oil-oilfield/en/news/page/4/",
+      "target": "/en/news/page/4/",
+      "reason": "Retired demo news pagination URL: identical canonical production page verified against GSC 404 history"
+    },
+    {
+      "source": "/demo/pratt-oil-oilfield/en/news/page/5/",
+      "target": "/en/news/page/5/",
+      "reason": "Retired demo news pagination URL: identical canonical production page verified against GSC 404 history"
     }
   ]
 }

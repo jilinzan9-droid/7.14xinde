@@ -26,15 +26,19 @@
     try { const url = new URL(value, window.location.origin); return url.origin + url.pathname; }
     catch (_) { return ""; }
   };
+  // Preserve known campaign channels as a pair, never arbitrary query text.
+  // Campaign names, IDs, terms and content can contain customer data.
   const visit = new URL(window.location.href);
-  const campaign = {};
-  for (const [query, field] of Object.entries({utm_source:"campaign_source",utm_medium:"campaign_medium",utm_campaign:"campaign_name",utm_id:"campaign_id",utm_term:"campaign_term",utm_content:"campaign_content"})) {
-    const value = visit.searchParams.get(query);
-    if (value) campaign[field] = value.slice(0, 100);
-  }
+  const source = (visit.searchParams.get("utm_source") || "").trim().toLowerCase();
+  const medium = (visit.searchParams.get("utm_medium") || "").trim().toLowerCase();
+  const campaign = ["google", "bing", "linkedin", "facebook", "youtube", "whatsapp", "newsletter"].includes(source)
+    && ["organic", "cpc", "paid_social", "social", "email", "referral"].includes(medium)
+    ? {campaign_source: source, campaign_medium: medium} : {};
+  let referrerOrigin = "";
+  try { referrerOrigin = new URL(document.referrer).origin; } catch (_) {}
   window.gtag("config", GA_MEASUREMENT_ID, {
     send_page_view: true, page_location: cleanURL(window.location.href),
-    page_referrer: cleanURL(document.referrer), ...campaign
+    page_referrer: referrerOrigin, ...campaign
   });
 
   window.prattAnalyticsReady = true;
@@ -47,15 +51,24 @@
     return url.origin + url.pathname;
   };
   const path = new URL(pageLocation()).pathname;
-  const isProduct = Boolean(document.querySelector("[data-product-overview], [data-product-detail-inquiry], .wcb-cn-hero, .brake-band-summary-copy"));
+  const isProduct = Boolean(document.querySelector("[data-product-overview], [data-product-detail-inquiry], [data-zq-inquiry], .wcb-cn-hero, .brake-band-summary-copy"));
   const productSlug = isProduct ? (path.match(/\/products\/([a-z0-9-]+)\//) || [])[1] || "other" : "none";
-  const pageType = isProduct ? "product" : /\/contact\//.test(path) ? "contact" : path === "/" || path === "/ar/" ? "homepage" : "other";
+  const isReference = Boolean(document.querySelector("[data-pump-reference-table], [data-parts-catalog], [data-product-reference], .lp-reference"));
+  const isNews = /\/(en|ar)\/news\/[^/]+\/$/.test(path) && !/\/(company-news|industry-news)\/$/.test(path);
+  const pageType = isProduct ? "product" : /\/contact\//.test(path) ? "contact"
+    : path === "/" || path === "/ar/" ? "homepage"
+    : /\/parts-reference\//.test(path) ? "parts_reference"
+    : isNews ? (isReference ? "reference_guide" : "news")
+    : /\/products\//.test(path) ? "product_category" : "other";
+  const contentSlug = (path.match(/\/(?:news|products)\/([a-z0-9-]+)\/$/) || [])[1] || "none";
+  let selectedReference = {};
   const track = (name, parameters = {}) => {
     window.gtag("event", name, {
       ...parameters,
       page_location: pageLocation(),
       page_type: pageType,
       product_slug: productSlug,
+      content_slug: contentSlug,
       ui_language: document.documentElement.lang === "ar" ? "ar" : "en"
     });
   };
@@ -73,6 +86,40 @@
   document.addEventListener("input", start, true);
   document.addEventListener("change", start, true);
 
+  const publicIdentifier = value => typeof value === "string" && value.length <= 100
+    && /\d/.test(value) && /^[\p{L}\p{N} ._()/+*\p{Pd}\u2212\uff08\uff09]+$/u.test(value) ? value : "";
+  const publishedReference = (link, url) => {
+    if (url.origin !== window.location.origin) return null;
+    const samePage = url.pathname === path;
+    if (!samePage && !/^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname)) return null;
+    // Search metadata is copied from the public catalog, not the entered query.
+    // Some catalog entries use shared anchors such as #part-identification.
+    const result = link?.closest(".pn-results");
+    if (result) {
+      const number = publicIdentifier(link.dataset?.referenceNumber);
+      if (!number) return null;
+      const model = publicIdentifier(link.dataset?.referenceModel);
+      return {reference_id: number, reference_page: url.pathname, ...(model ? {reference_model: model} : {})};
+    }
+    // Anchor IDs may be lowercased, generated, or suffixed to remove duplicates.
+    // Only the verified table's public value is a part/drawing number.
+    if (!samePage) return null;
+    let id;
+    try { id = decodeURIComponent(url.hash.slice(1)); } catch (_) { return null; }
+    if (!id.startsWith("pn-")) return null;
+    const target = document.getElementById(id);
+    if (!target?.closest("table")) return null;
+    const cell = target.matches("td, th") ? target : target.matches("tr") ? target.cells[0] : null;
+    if (!cell) return null;
+    const value = cell.getAttribute("data-reference-number") || cell.querySelector("code")?.textContent || cell.textContent;
+    const number = publicIdentifier(value?.trim());
+    if (!number) return null;
+    return {reference_id: number, reference_page: url.pathname};
+  };
+  // A search result can arrive directly at a published part-number anchor.
+  // Unmatched fragments are ignored rather than treated as customer data.
+  selectedReference = publishedReference(null, new URL(window.location.href)) || {};
+
   document.addEventListener("click", event => {
     const link = event.target && event.target.closest ? event.target.closest("a[href]") : null;
     if (!link) return;
@@ -88,17 +135,36 @@
       : link.closest("header") ? "header"
       : link.closest("footer") ? "footer"
       : link.closest("form") ? "form" : "content";
-    if (method) track("contact_click", {contact_method: method, contact_placement: placement});
-    else if (url.origin === window.location.origin && url.hash === "#product_inquiry_form") {
-      track("inquiry_open", {contact_placement: placement, form_kind: "product"});
+    if (method) {
+      track("contact_click", {...selectedReference, contact_method: method, contact_placement: placement, inquiry_stage: "contact_intent"});
+      return;
+    }
+    if (url.origin !== window.location.origin) return;
+    if (/^\/assets\/(data|documents|catalogs)\/.+\.(csv|pdf)$/i.test(url.pathname)) {
+      track("reference_download", {destination_path: url.pathname});
+      return;
+    }
+    const reference = publishedReference(link, url);
+    if (reference) {
+      selectedReference = reference;
+      track("part_reference_click", reference);
+    } else if (url.hash === "#product_inquiry_form") {
+      const model = publicIdentifier(link.dataset?.zqModel);
+      track("inquiry_open", {...selectedReference, contact_placement: placement, form_kind: "product", ...(model ? {model_id: model} : {})});
+    } else if (url.pathname !== path && /^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname)
+      && !link.closest("header, footer, .product-sidebar")) {
+      track("related_content_click", {destination_path: url.pathname});
     }
   }, true);
 
   document.addEventListener("pratt:inquiry-draft-prepared", event => {
     const kind = event.detail && event.detail.form_kind;
     track("inquiry_draft_prepared", {
+      ...selectedReference,
       contact_method: event.detail?.contact_method === "email" ? "email" : "whatsapp",
-      form_kind: ["product", "contact", "homepage"].includes(kind) ? kind : "other"
+      form_kind: ["product", "contact", "homepage"].includes(kind) ? kind : "other",
+      inquiry_stage: "draft_prepared",
+      ...(["ZQ127-25", "ZQ162-50", "ZQ203-100", "ZQ203-125"].includes(event.detail?.model_id) ? {model_id: event.detail.model_id} : {})
     });
   });
   if (isProduct) track("product_view");

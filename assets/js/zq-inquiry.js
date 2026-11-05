@@ -26,7 +26,8 @@
     // Reopening an unchanged draft is not another prepared inquiry.
     const signature = channel + message;
     if (signature !== prepared) {
-      document.dispatchEvent(new CustomEvent("pratt:inquiry-draft-prepared", {detail:{form_kind:"product",contact_method:channel}}));
+      const modelId = ["ZQ127-25", "ZQ162-50", "ZQ203-100", "ZQ203-125"].includes(value("model")) ? value("model") : "other";
+      document.dispatchEvent(new CustomEvent("pratt:inquiry-draft-prepared", {detail:{form_kind:"product",contact_method:channel,model_id:modelId}}));
       prepared = signature;
     }
     status.replaceChildren(document.createTextNode(channel === "email"

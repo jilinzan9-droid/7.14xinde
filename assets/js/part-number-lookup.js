@@ -60,6 +60,9 @@
         if (destination.origin !== window.location.origin || !['/en/products/', '/en/news/', '/en/parts-reference/'].some(prefix => destination.pathname.startsWith(prefix))) continue;
         link.href = destination.pathname + destination.hash;
         link.textContent = record.number + ' — ' + record.model;
+        // Public catalog identifiers only. Analytics never reads the search text.
+        link.dataset.referenceNumber = record.number;
+        link.dataset.referenceModel = record.model;
         const description = document.createElement('p');
         description.textContent = record.description;
         const context = document.createElement('p');

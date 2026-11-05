@@ -273,6 +273,8 @@ document.querySelectorAll("[data-news-tabs]").forEach((section) => {
   });
 });
 
+// Keep draft de-duplication in memory only; never persist or report form values.
+const preparedInquiryDrafts = new WeakMap();
 function openWhatsAppInquiry(form, message, statusSelector) {
   const url = `https://api.whatsapp.com/send?phone=8615908080040&text=${encodeURIComponent(message)}`;
   const status = form.querySelector(statusSelector);
@@ -292,11 +294,14 @@ function openWhatsAppInquiry(form, message, statusSelector) {
     });
     status.append(" ", link);
   }
-  document.dispatchEvent(new CustomEvent("pratt:inquiry-draft-prepared", {
-    detail: {form_kind: form.hasAttribute("data-product-detail-inquiry") ? "product"
-      : form.hasAttribute("data-contact-inquiry") ? "contact"
-      : form.hasAttribute("data-quote-form") ? "homepage" : "other"}
-  }));
+  if (preparedInquiryDrafts.get(form) !== message) {
+    preparedInquiryDrafts.set(form, message);
+    document.dispatchEvent(new CustomEvent("pratt:inquiry-draft-prepared", {
+      detail: {form_kind: form.hasAttribute("data-product-detail-inquiry") ? "product"
+        : form.hasAttribute("data-contact-inquiry") ? "contact"
+        : form.hasAttribute("data-quote-form") ? "homepage" : "other"}
+    }));
+  }
   window.open(url, "_blank", "noopener,noreferrer");
 }
 

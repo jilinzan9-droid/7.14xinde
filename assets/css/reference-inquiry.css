@@ -1,0 +1,46 @@
+/* Scoped public part selection; use the site's established blue palette. */
+[data-reference-inquiry-status][hidden] { display: none !important; }
+[data-reference-inquiry-status]:not([hidden]) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid #c7dbf5;
+  border-left: 3px solid #1265d8;
+  background: #f3f7fd;
+  color: #203a50;
+  font-size: 14px;
+  line-height: 1.55;
+}
+[data-reference-inquiry-status] span { flex: 1 1 240px; overflow-wrap: anywhere; }
+[data-reference-inquiry-status] button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: 1px solid #adc8eb;
+  border-radius: 3px;
+  background: #fff;
+  color: #1458aa;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+[data-reference-inquiry-status] button:hover { background: #e7f0fd; }
+[data-reference-inquiry-status] button:focus-visible { outline: 2px solid #1265d8; outline-offset: 3px; }
+.reference-inquiry-hint { margin: 12px 0; color: #526575; font-size: 14px; line-height: 1.55; }
+[data-reference-inquiry] .reference-inquiry-entry { margin: 14px 0 18px; }
+[data-reference-inquiry] p.pump-guide-links { display: block; text-align: left; }
+[data-reference-inquiry] .reference-inquiry-entry .hero-actions,
+[data-reference-inquiry] .pump-guide-inquiry .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+[data-reference-inquiry] .reference-inquiry-entry .btn,
+[data-reference-inquiry] .pump-guide-inquiry .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 11px 16px; font-size: 14px; line-height: 1.4; }
+[data-reference-inquiry] .reference-inquiry-entry .btn.primary,
+[data-reference-inquiry] .pump-guide-inquiry .btn.primary { background: #1265d8; border: 1px solid #1265d8; color: #fff !important; }
+[data-reference-inquiry] .reference-inquiry-entry .btn.secondary,
+[data-reference-inquiry] .pump-guide-inquiry .btn.secondary { background: #fff; border: 1px solid #adc8eb; color: #1458aa !important; }
+@media (max-width: 600px) {
+  [data-reference-inquiry-status]:not([hidden]) { padding: 12px; }
+  [data-reference-inquiry-status] button { min-height: 42px; }
+}

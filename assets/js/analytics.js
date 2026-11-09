@@ -87,7 +87,7 @@
   document.addEventListener("change", start, true);
 
   const publicIdentifier = value => typeof value === "string" && value.length <= 100
-    && /\d/.test(value) && /^[\p{L}\p{N} ._()/+*\p{Pd}\u2212\uff08\uff09]+$/u.test(value) ? value : "";
+    && /\d/.test(value) && /^[\p{L}\p{N} ._()/+*",:;=\p{Pd}\u00b0\u00d7\u201d\u2212\uff08\uff09]+$/u.test(value) ? value : "";
   const publishedReference = (link, url) => {
     if (url.origin !== window.location.origin) return null;
     const samePage = url.pathname === path;
@@ -119,6 +119,18 @@
   // A search result can arrive directly at a published part-number anchor.
   // Unmatched fragments are ignored rather than treated as customer data.
   selectedReference = publishedReference(null, new URL(window.location.href)) || {};
+
+  // Draft selection is independent of analytics. Synchronize public context
+  // without treating an anchor restore or a clear action as a click/inquiry.
+  document.addEventListener("pratt:reference-selected", event => {
+    const id = event.detail?.id;
+    if (typeof id !== "string" || !id.startsWith("pn-")) return;
+    const url = new URL(window.location.href);
+    url.hash = id;
+    const reference = publishedReference(null, url);
+    if (reference) selectedReference = reference;
+  });
+  document.addEventListener("pratt:reference-cleared", () => { selectedReference = {}; });
 
   document.addEventListener("click", event => {
     const link = event.target && event.target.closest ? event.target.closest("a[href]") : null;

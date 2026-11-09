@@ -27,6 +27,12 @@ jobs:
         shell: bash
         run: python3 -m unittest discover -s deploy -p 'test_*.py' -v
 
+      - name: Test reference inquiry and tracking privacy
+        shell: bash
+        run: |
+          node tests/reference-inquiry.test.cjs
+          node tests/inquiry-tracking.test.cjs
+
       - name: Validate website links and metadata
         shell: bash
         run: python3 deploy/validate_site.py

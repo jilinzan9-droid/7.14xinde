@@ -1,0 +1,11 @@
+/* Text-only company articles: no placeholder image column. */
+body.news-category-page .news-card--text .news-card-link { display:block; }
+body.news-category-page .news-card--text .news-badge { margin:0 0 10px; color:#687782; }
+body.news-category-page .news-card--text h3 { margin:0 0 12px; }
+body.news-category-page .news-card--text p { margin:0 0 16px; }
+body.news-category-page .news-card--text .news-read-more { display:block; margin:0; }
+.news-reference-item--text { display:block; min-height:0; }
+.news-reference-item--text .news-reference-copy { min-height:0; padding:0; }
+.news-reference-item--text .news-reference-copy time { color:#687782; }
+.news-reference-item--text .news-reference-copy h2 { white-space:normal; }
+.news-reference-item--text .news-reference-more { position:static; align-self:flex-start; margin-top:16px; }

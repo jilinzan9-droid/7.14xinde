@@ -19,6 +19,14 @@ Before packaging, `python3 deploy/validate_site.py` checks the actual HTML and C
 
 The receiver prepares a separate release and atomically switches the website root to it. On the first deployment it atomically exchanges the original directory and the new symlink, then preserves the original directory outside the public web root. It checks the served homepage, stylesheet and `/__pratt_release.json` against the requested commit. If this check fails, it restores the previous website. TERM, INT and ALRM interruptions are deferred during filesystem transitions and restoration; exception recovery checks the actual live target. Five recent releases and the original backup are retained. Nginx configuration and certificates are not changed.
 
+## Canonical hostname (10 November 2026)
+
+The public hostname is `https://www.pratt-oil.com`. Both HTTP hostnames and the HTTPS bare hostname permanently redirect to it with status 301. The original path and query string are preserved using `$request_uri`; do not append the query string a second time. The existing HTTPS legacy-map include runs before the bare-host rule, so reviewed old HTTPS paths can go directly to their final www destination. Unknown paths on www still return 404.
+
+The active domain file is `/etc/nginx/sites-available/pratt-domain`, enabled by `/etc/nginx/sites-enabled/pratt-domain`. Keep the existing certificate covering both hostnames, Certbot settings, cache/security settings, ACME location and site root. `nginx-example.conf` records this routing shape and its existing include dependencies; it is an administrative reference, not a file installed by normal website releases.
+
+Before any domain configuration change, back up the active file outside the web root, run `nginx -t`, reload only after successful validation, then run `python deploy/verify_canonical_host.py`. This public check covers the three alternate origins, exact paths/query strings, representative product/reference pages, legacy redirects and real 404 responses without sending analytics or inquiries. Separately check an actual temporary HTTP-01 token through both HTTP hostnames when changing certificate-validation routing. Restore the backup and reload if validation fails. The November 10 change does not alter certificate renewal configuration.
+
 ## Site integrations
 
 Inquiries continue through the existing public WhatsApp number. A visitor must confirm sending in WhatsApp; opening a prepared message is not a delivery confirmation. The admin page is a browser-local draft editor. Its JSON exports do not generate or publish the static website; reviewed source changes are published through this repository's `main` branch.

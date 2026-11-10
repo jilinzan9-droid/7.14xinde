@@ -10,6 +10,8 @@
 - A failed server health check restores the previous version. The original website and five recent releases remain available for recovery.
 - Check the workflow result in GitHub Actions after pushing. Manual reruns are available through **Run workflow** on `main`.
 - Deployment details and recovery commands are in `deploy/README.md`. The example Nginx file is not applied by the workflow.
+- The canonical origin is `https://www.pratt-oil.com/`. HTTP and HTTPS bare-domain entry points must return 301 to www while retaining paths and query strings.
+- After changing Nginx routing, run `python deploy/verify_canonical_host.py`; preserve legacy redirects, real 404s and access to ACME challenge files. Website releases do not install Nginx configuration.
 
 ## Google Analytics
 

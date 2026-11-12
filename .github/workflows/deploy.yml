@@ -32,6 +32,8 @@ jobs:
         run: |
           node tests/reference-inquiry.test.cjs
           node tests/inquiry-tracking.test.cjs
+          node tests/wcb-inquiry-markup.test.cjs
+          node tests/home-industrial-hero.test.cjs
 
       - name: Validate website links and metadata
         shell: bash

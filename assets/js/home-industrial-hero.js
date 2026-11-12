@@ -8,17 +8,52 @@
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const slideDuration = 1000;
   const holdDuration = 6000;
-  let current = 0, timer, moving = false, queued = null;
+  let current = 0, timer, preloadTimer, schedule = 0, moving = false, queued = null;
   let animations = [];
+  const pending = new Map();
 
-  // Prepare the next scene before it moves into view.
-  images.forEach(image => { image.loading = 'eager'; });
-  function stop() { clearTimeout(timer); }
+  // Keep hidden lazy images out of layout; retain their HTML sources for no-JS visitors.
+  images.slice(1).forEach(image => { image.style.display = 'none'; });
+  function prepare(index) {
+    if (pending.has(index)) return pending.get(index);
+    const image = images[index];
+    let timeout;
+    if (index !== current) image.fetchPriority = 'low';
+    image.loading = 'eager';
+    const ready = Promise.race([
+      image.decode().then(() => Boolean(image.naturalWidth), () => false),
+      new Promise(resolve => { timeout = setTimeout(() => resolve(false), 15000); })
+    ]).then(loaded => {
+      clearTimeout(timeout);
+      pending.delete(index);
+      return loaded;
+    });
+    pending.set(index, ready);
+    return ready;
+  }
+  function stop() {
+    clearTimeout(timer);
+    clearTimeout(preloadTimer);
+    schedule++;
+  }
   function start() {
     stop();
-    if (!reduced.matches && !document.hidden && !moving) {
+    if (reduced.matches || document.hidden || moving || images.length < 2) return;
+    const version = schedule;
+    // Give the current scene the first network/decoding turn, then prepare only its successor.
+    prepare(current).then(loaded => {
+      if (!loaded || version !== schedule || reduced.matches || document.hidden || moving) return;
+      preloadTimer = setTimeout(() => prepare((current + 1) % images.length), 1000);
       timer = setTimeout(() => select((current + 1) % images.length, 1), holdDuration);
-    }
+    });
+  }
+  function finish() {
+    moving = false;
+    if (queued !== null) {
+      const next = queued;
+      queued = null;
+      select(next);
+    } else start();
   }
   function markSelected(index) {
     buttons.forEach((button, i) => {
@@ -39,10 +74,8 @@
     const previous = current;
     const incoming = images[index];
     const outgoing = images[previous];
-    if (!incoming.complete) {
-      try { await incoming.decode(); } catch (_) { /* Keep the current scene if the image fails. */ }
-    }
-    if (!incoming.naturalWidth) { moving = false; start(); return; }
+    if (!await prepare(index)) { finish(); return; }
+    incoming.style.removeProperty('display');
     current = index;
     markSelected(index);
 
@@ -78,12 +111,7 @@
       animations.forEach(animation => animation.cancel());
       animations = [];
     }
-    moving = false;
-    if (queued !== null) {
-      const next = queued;
-      queued = null;
-      select(next);
-    } else start();
+    finish();
   }
   buttons.forEach((button, index) => button.addEventListener('click', () => select(index)));
   document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());

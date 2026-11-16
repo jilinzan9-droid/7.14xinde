@@ -1,0 +1,118 @@
+/* Contact page: photo overlay header, independent of the home slideshow. */
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  width: 100%;
+  background: #fff;
+  border-bottom-color: #dce4eb;
+  box-shadow: 0 5px 18px rgb(15 31 53 / 7%);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transition: background-color .24s ease, box-shadow .24s ease, border-color .24s ease;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) {
+  color: #fff;
+  background: linear-gradient(180deg, rgb(3 22 39 / 29%), rgb(3 22 39 / 7%));
+  border-bottom-color: rgb(255 255 255 / 20%);
+  box-shadow: none;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] .brand-logo {
+  filter: none;
+  transition: filter .24s ease;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .brand-logo {
+  filter: brightness(0) invert(1);
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .header-utility {
+  color: #fff;
+  background: transparent;
+  border-bottom-color: rgb(255 255 255 / 18%);
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .header-utility-email,
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .header-utility-email span {
+  color: rgb(255 255 255 / 92%);
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .header-social-entry img {
+  filter: brightness(0) invert(1);
+  opacity: .9;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .language-button,
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .menu-toggle {
+  color: #fff;
+  background: rgb(255 255 255 / 9%);
+  border-color: rgb(255 255 255 / 55%);
+  box-shadow: none;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) .nav-quick-link {
+  color: #fff;
+}
+
+/* Panels retain their own light surface in both header states. */
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] .dropdown-panel {
+  color: #173c59;
+  background: #fff;
+}
+
+html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] :is(a, button):focus-visible {
+  outline: 2px solid #70b9ff;
+  outline-offset: 4px;
+}
+
+@media (min-width: 1121px) {
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) #navLinks .nav-main-link,
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) #navLinks .nav-dropdown-toggle {
+    color: #fff;
+    background: transparent;
+  }
+
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"]:not(.is-past-contact-banner) #navLinks .nav-main-link:is(:hover, .is-active) {
+    color: #fff;
+    background: rgb(255 255 255 / 14%);
+  }
+}
+
+@media (max-width: 1120px) {
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks {
+    color: #173c59;
+    background: #fff;
+    max-height: calc(100vh - var(--contact-header-height, 150px));
+    max-height: calc(100dvh - var(--contact-header-height, 150px));
+    overscroll-behavior: contain;
+  }
+
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks.open {
+    box-shadow: 0 16px 24px rgb(4 23 41 / 14%);
+  }
+
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks .nav-main-link,
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks .nav-dropdown-toggle {
+    color: #173c59;
+    background: transparent;
+  }
+
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks .nav-main-link.is-active {
+    color: #fff;
+    background: #126ad7;
+  }
+
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] #navLinks .nav-main-link:hover {
+    color: #0964ce;
+    background: #f2f6fb;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"],
+  html[lang] body.contact-photo-page .site-header[data-primary-nav="unified"] .brand-logo {
+    transition: none;
+  }
+}

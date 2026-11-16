@@ -193,6 +193,19 @@ for (const kind of ['product', 'contact', 'homepage']) {
   check(kind + ': no private values in any analytics command', !JSON.stringify(formEnv.commands()).includes(PRIVATE));
 }
 
+const redesignedContact = env({product: false, url: 'https://www.pratt-oil.com/en/contact/'});
+const fullContact = redesignedContact.addForm('contact');
+fullContact.values = {name: PRIVATE, company: 'Example Test Co', email: PRIVATE, phone: '+12025550123', part: 'F-1600HL', quantity: '4 pcs', destination: 'Example City', message: 'Quotation test'};
+redesignedContact.run('script.js');
+fullContact.handlers.submit({preventDefault() {}});
+const fullContactDraft = new URL(redesignedContact.opened[0][0]).searchParams.get('text');
+check('Redesigned contact retains every inquiry field', ['Name: ' + PRIVATE, 'Company: Example Test Co', 'Email or WhatsApp: ' + PRIVATE, 'Phone / WhatsApp: +12025550123', 'Part number / model: F-1600HL', 'Quantity: 4 pcs', 'Delivery destination: Example City', 'Message: Quotation test'].every(line => fullContactDraft.includes(line)));
+check('Redesigned contact fields stay out of analytics', !JSON.stringify(redesignedContact.commands()).includes(PRIVATE) && !JSON.stringify(redesignedContact.commands()).includes('Example Test Co'));
+fullContact.values = {name: 'Legacy Test', contact: 'legacy@example.invalid', part_number: 'W25-20-900', message: 'Legacy request'};
+fullContact.handlers.submit({preventDefault() {}});
+const legacyContactDraft = new URL(redesignedContact.opened[1][0]).searchParams.get('text');
+check('Existing contact form still retains its original fields', legacyContactDraft.includes('Email or WhatsApp: legacy@example.invalid') && legacyContactDraft.includes('Part number / model: W25-20-900') && !legacyContactDraft.includes('Company:') && !legacyContactDraft.includes('Delivery destination:'));
+
 const zq = env(), zqForm = zq.addForm('zq'); zq.run('assets/js/zq-inquiry.js');
 zqForm.valid = false; zqForm.handlers.submit({preventDefault() {}, submitter: {value: 'whatsapp'}});
 check('Invalid ZQ form neither opens nor records draft', zq.opened.length === 0 && !zq.events().some(x => x[1] === 'inquiry_draft_prepared'));

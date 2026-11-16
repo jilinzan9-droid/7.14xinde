@@ -344,8 +344,8 @@ document.querySelectorAll("[data-contact-inquiry]").forEach((form) => {
           "مرحباً Pratt Oil، أحتاج إلى عرض سعر.", "",
           `الصفحة: ${title}`,
           `الاسم: ${value("name")}`,
-          `البريد الإلكتروني أو WhatsApp: ${value("contact")}`,
-          `رقم القطعة أو الموديل: ${value("part_number") || "غير مذكور"}`,
+          `البريد الإلكتروني أو WhatsApp: ${value("contact") || value("email")}`,
+          `رقم القطعة أو الموديل: ${value("part_number") || value("part") || "غير مذكور"}`,
           `الرسالة: ${value("message")}`,
           `رابط الصفحة: ${window.location.href}`
         ]
@@ -353,8 +353,12 @@ document.querySelectorAll("[data-contact-inquiry]").forEach((form) => {
           "Hello Pratt Oil, I need an oilfield spare parts quotation.", "",
           `Page: ${title}`,
           `Name: ${value("name")}`,
-          `Email or WhatsApp: ${value("contact")}`,
-          `Part number / model: ${value("part_number") || "Not provided"}`,
+          ...(value("company") ? [`Company: ${value("company")}`] : []),
+          `Email or WhatsApp: ${value("contact") || value("email")}`,
+          ...(value("phone") ? [`Phone / WhatsApp: ${value("phone")}`] : []),
+          `Part number / model: ${value("part_number") || value("part") || "Not provided"}`,
+          ...(value("quantity") ? [`Quantity: ${value("quantity")}`] : []),
+          ...(value("destination") ? [`Delivery destination: ${value("destination")}`] : []),
           `Message: ${value("message")}`,
           `Page URL: ${window.location.href}`
         ];

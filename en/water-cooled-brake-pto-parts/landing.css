@@ -1,0 +1,92 @@
+/* Component catalogue landing: existing Pratt blue, full product visibility. */
+.water-brake-landing{--blue:#125886;--orange:#125886;--ink:#123b5d;--muted:#526a7b;--pale:#f2f7fb;--line:#dbe5ed}
+.water-brake-landing .primary:hover{background:#0c4165}
+.water-brake-landing .breadcrumbs{display:flex;flex-wrap:wrap;gap:8px;color:#60788b;font-size:12px;padding-top:24px}
+.water-brake-landing .breadcrumbs a:hover{text-decoration:underline}
+.water-brake-landing .brake-hero{display:grid;grid-template-columns:1.08fr 1fr;gap:58px;align-items:center;padding-top:42px;padding-bottom:48px}
+.water-brake-landing .brake-hero h1{font-size:53px;line-height:1.08;letter-spacing:-1.9px;margin-bottom:22px}
+.water-brake-landing .brake-hero .lead{font-size:21px;line-height:1.45;color:#294f6d;margin-bottom:15px;max-width:470px}
+.water-brake-landing .brake-hero-copy>p:not(.eyebrow){max-width:510px}
+.water-brake-landing .brake-hero-photo{background:#fff;text-align:center;min-width:0}
+.water-brake-landing .brake-hero-photo img{width:100%;height:auto;max-height:440px;aspect-ratio:1;object-fit:contain}
+.water-brake-landing .brake-hero-photo figcaption{font-size:12px;color:#6e8190;margin-top:10px}
+.water-brake-landing .hero-detail{display:flex;flex-wrap:wrap;gap:9px 17px;margin-top:27px;font-size:12px;color:#536d81}
+.water-brake-landing .hero-detail span+span{border-left:1px solid #c9d7e1;padding-left:17px}
+.water-brake-landing .range-strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:22px;gap:30px}
+.water-brake-landing .range-strip>div{display:flex;align-items:center;gap:13px}
+.water-brake-landing .range-strip strong{font-size:15px;color:var(--blue)}
+.water-brake-landing .range-strip span{font-size:13px;color:var(--muted)}
+.water-brake-landing .section{padding-block:70px}
+.water-brake-landing h2{font-size:35px;letter-spacing:-1px}
+.water-brake-landing .section-heading{gap:50px;margin-bottom:30px}
+.water-brake-landing .section-heading>p{font-size:15px;line-height:1.7}
+.water-brake-landing .family-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.water-brake-landing .family-card{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-width:0}
+.water-brake-landing .family-photo{height:220px;padding:18px;border-bottom:1px solid var(--line)}
+.water-brake-landing .family-photo img{width:100%;height:100%;object-fit:contain}
+.water-brake-landing .family-copy{padding:25px;display:flex;flex:1;flex-direction:column;align-items:start}
+.water-brake-landing .family-copy .eyebrow{font-size:10px;letter-spacing:1.2px;margin-bottom:12px}
+.water-brake-landing .family-copy h3{font-size:22px;margin-bottom:14px}
+.water-brake-landing .family-copy>p:not(.eyebrow){font-size:14px;line-height:1.7}
+.water-brake-landing .family-copy .text-link{font-size:13px;margin-top:auto;padding-top:22px}
+.water-brake-landing .range-note{font-size:13px;line-height:1.6;margin-top:18px;max-width:950px}
+.water-brake-landing .photos-section{background:var(--pale);padding-block:60px}
+.water-brake-landing .photo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px}
+.water-brake-landing .photo-grid figure{background:white;border:1px solid var(--line)}
+.water-brake-landing .photo-grid img{width:100%;height:245px;object-fit:contain;padding:12px}
+.water-brake-landing .photo-grid figcaption{padding:12px 14px 15px;border-top:1px solid #edf1f4;font-size:13px;color:#48657b}
+.water-brake-landing .catalog-search{background:var(--pale);padding:23px 25px;margin-bottom:22px}
+.water-brake-landing .catalog-search[hidden]{display:none}
+.water-brake-landing .catalog-search label{display:block;font-size:14px;font-weight:700;margin-bottom:9px}
+.water-brake-landing .search-input-wrap{display:flex;gap:10px}
+.water-brake-landing .search-input-wrap input{width:100%;min-width:0;min-height:48px;border:1px solid #aec4d4;border-radius:2px;padding:10px 14px;font:inherit;color:var(--ink);background:#fff}
+.water-brake-landing .search-input-wrap input:focus{outline:2px solid var(--blue);outline-offset:2px}
+.water-brake-landing .search-input-wrap button{padding:10px 18px;border:1px solid #aec4d4;color:var(--blue);background:white;border-radius:2px;font-size:14px}
+.water-brake-landing #parts-status{font-size:13px;margin-top:10px}
+.water-brake-landing .family-jumps{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 15px}
+.water-brake-landing .family-jumps a{font-size:13px;padding:8px 14px;border:1px solid #b7cad9;color:#124f7a;border-radius:2px}
+.water-brake-landing .family-jumps a:hover{background:var(--pale)}
+.water-brake-landing .catalog-note{font-size:13px;max-width:1030px;line-height:1.65}
+.water-brake-landing .catalog-quote-actions .actions{margin-top:18px;margin-bottom:22px}
+.water-brake-landing .catalog-family{margin-top:43px;scroll-margin-top:25px}
+.water-brake-landing .catalog-title{display:flex;align-items:end;justify-content:space-between;gap:28px}
+.water-brake-landing .catalog-title h3{font-size:25px}
+.water-brake-landing .catalog-title .eyebrow{font-size:10px;margin-bottom:9px}
+.water-brake-landing .catalog-title .text-link{font-size:12px;flex-shrink:0}
+.water-brake-landing .catalog-count{font-size:12px;margin:12px 0}
+.water-brake-landing .parts-table-scroll{max-height:460px;overflow:auto;border:1px solid #ccdce8;scroll-margin:20px;scrollbar-gutter:stable}
+.water-brake-landing .parts-table-scroll:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.water-brake-landing table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5;text-align:left}
+.water-brake-landing th{position:sticky;top:0;z-index:1;padding:14px 18px;background:#edf4f9;color:#244c6a;font-weight:700;border-bottom:1px solid #ccdce8;font-size:12px}
+.water-brake-landing td{padding:11px 18px;border-bottom:1px solid #e3ebf0;vertical-align:top}
+.water-brake-landing td:first-child{width:28%;min-width:185px;white-space:nowrap}
+.water-brake-landing td:nth-child(2){width:49%;min-width:210px}
+.water-brake-landing td:last-child{width:23%;min-width:130px;color:#526a7b}
+.water-brake-landing tr:nth-child(even){background:#fbfcfe}
+.water-brake-landing tbody tr:hover{background:#eff6fb}
+.water-brake-landing tbody tr:target{background:#e5f0fb;outline:2px solid #5a92bc;outline-offset:-2px}
+.water-brake-landing td a{display:inline-block;color:#125886;text-decoration:underline;text-underline-offset:3px;font-weight:700;padding:2px 0}
+.water-brake-landing td code{font:inherit;letter-spacing:.1px}
+.water-brake-landing .variant-note{display:block;font-size:11px;color:#6b7f8d;line-height:1.5;margin-top:3px}
+.water-brake-landing .catalog-no-results{background:var(--pale);padding:24px;margin:22px 0}
+.water-brake-landing [hidden]{display:none!important}
+.water-brake-landing .catalog-bottom{border-top:1px solid var(--line);margin-top:30px;padding-top:25px}
+.water-brake-landing .catalog-bottom>p{font-size:14px}
+.water-brake-landing .catalog-bottom .actions{margin-top:15px}
+.water-brake-landing .faq-section{background:var(--pale);padding:65px 0}
+.water-brake-landing .faq-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:70px}
+.water-brake-landing .faq-grid h2{margin-bottom:20px}
+.water-brake-landing .faq-grid p{font-size:14px}
+.water-brake-landing .faq-list details{border-top:1px solid #ccdce8;padding:17px 0}
+.water-brake-landing .faq-list details:last-child{border-bottom:1px solid #ccdce8}
+.water-brake-landing .faq-list summary{cursor:pointer;font-size:16px;font-weight:700;line-height:1.5}
+.water-brake-landing .faq-list details p{margin-top:12px;font-size:14px;line-height:1.75}
+.water-brake-landing .faq-list a{text-decoration:underline;color:#125886;text-underline-offset:3px}
+.water-brake-landing .contact-section .secondary{background:white;color:#125886;border-color:white}
+.water-brake-landing .contact-section .primary{background:#fff;color:#125886;border-color:white}
+.water-brake-landing .contact-section .primary:hover,.water-brake-landing .contact-section .secondary:hover{background:#e7f0f7}
+.water-brake-landing .draft-note{font-size:12px!important;line-height:1.6;margin-top:15px;color:#bdcfdd!important}
+.water-brake-landing .footer{font-size:12px}
+@media(max-width:1050px){.water-brake-landing .brake-hero{gap:30px}.water-brake-landing .brake-hero h1{font-size:43px}.water-brake-landing .brake-hero .lead{font-size:19px}.water-brake-landing .family-copy{padding:20px}.water-brake-landing .photo-grid img{height:200px}.water-brake-landing .catalog-title{align-items:start}.water-brake-landing .catalog-title .text-link{flex-shrink:1;max-width:190px}.water-brake-landing .range-strip>div{display:block}.water-brake-landing .range-strip span{display:block;margin-top:4px}}
+@media(max-width:850px){.water-brake-landing .brake-hero{grid-template-columns:1fr;gap:24px;padding-top:32px;padding-bottom:35px}.water-brake-landing .brake-hero h1{font-size:47px}.water-brake-landing .brake-hero-photo img{max-height:390px}.water-brake-landing .brake-hero-copy>p:not(.eyebrow){max-width:620px}.water-brake-landing .brake-hero-copy .lead{font-size:21px}.water-brake-landing .hero-detail{margin-top:22px}.water-brake-landing .family-grid{grid-template-columns:1fr;gap:20px}.water-brake-landing .family-card{display:grid;grid-template-columns:200px 1fr}.water-brake-landing .family-photo{height:auto;min-height:220px;border-bottom:0;border-right:1px solid var(--line)}.water-brake-landing .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.water-brake-landing .photo-grid img{height:240px}.water-brake-landing .faq-grid{grid-template-columns:1fr;gap:28px}.water-brake-landing .section{padding-block:52px}.water-brake-landing .section-heading{gap:18px}.water-brake-landing .navigation{gap:16px 22px;flex-wrap:wrap;justify-content:start}}
+@media(max-width:520px){.water-brake-landing .breadcrumbs{font-size:10px;gap:6px;padding-top:18px}.water-brake-landing .brake-hero h1{font-size:37px;letter-spacing:-1.3px}.water-brake-landing .brake-hero-copy .lead{font-size:19px}.water-brake-landing .brake-hero-copy>p:not(.eyebrow){font-size:15px}.water-brake-landing .brake-hero-photo img{max-height:330px}.water-brake-landing .brake-hero .actions{gap:10px}.water-brake-landing .button{font-size:12px;padding:11px 13px}.water-brake-landing .hero-detail{font-size:10px;gap:8px}.water-brake-landing .hero-detail span+span{padding-left:8px}.water-brake-landing .range-strip{gap:12px;padding-block:19px}.water-brake-landing .range-strip strong{font-size:13px}.water-brake-landing .range-strip span{font-size:11px;line-height:1.5}.water-brake-landing h2{font-size:29px;letter-spacing:-.7px}.water-brake-landing .family-card{display:flex}.water-brake-landing .family-photo{height:205px;min-height:0;border-right:0;border-bottom:1px solid var(--line)}.water-brake-landing .family-copy{padding:22px}.water-brake-landing .family-copy h3{font-size:22px}.water-brake-landing .photo-grid{gap:12px}.water-brake-landing .photo-grid img{height:165px;padding:7px}.water-brake-landing .photo-grid figcaption{font-size:11px;padding:9px 10px}.water-brake-landing .photos-section{padding-block:45px}.water-brake-landing .catalog-search{padding:18px 15px}.water-brake-landing .search-input-wrap input{font-size:12px;padding:10px}.water-brake-landing .search-input-wrap button{font-size:12px;padding:9px 12px}.water-brake-landing .family-jumps a{font-size:12px;padding:7px 10px}.water-brake-landing .catalog-title{display:block}.water-brake-landing .catalog-title h3{font-size:22px}.water-brake-landing .catalog-title .text-link{max-width:none;margin-top:12px}.water-brake-landing table{font-size:13px}.water-brake-landing th,.water-brake-landing td{padding:11px 13px}.water-brake-landing td:first-child{min-width:165px}.water-brake-landing td:nth-child(2){min-width:200px}.water-brake-landing td:last-child{min-width:120px}.water-brake-landing .faq-section{padding-block:45px}.water-brake-landing .faq-list summary{font-size:15px}.water-brake-landing .contact-section h2{font-size:29px}}

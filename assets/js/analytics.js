@@ -51,16 +51,18 @@
     return url.origin + url.pathname;
   };
   const path = new URL(pageLocation()).pathname;
+  const isBrakePartsReference = path === "/en/water-cooled-brake-pto-parts/";
   const isProduct = Boolean(document.querySelector("[data-product-overview], [data-product-detail-inquiry], [data-zq-inquiry], .wcb-cn-hero, .brake-band-summary-copy"));
   const productSlug = isProduct ? (path.match(/\/products\/([a-z0-9-]+)\//) || [])[1] || "other" : "none";
   const isReference = Boolean(document.querySelector("[data-pump-reference-table], [data-parts-catalog], [data-product-reference], .lp-reference"));
   const isNews = /\/(en|ar)\/news\/[^/]+\/$/.test(path) && !/\/(company-news|industry-news)\/$/.test(path);
   const pageType = isProduct ? "product" : /\/contact\//.test(path) ? "contact"
     : path === "/" || path === "/ar/" ? "homepage"
-    : /\/parts-reference\//.test(path) ? "parts_reference"
+    : /\/parts-reference\//.test(path) || isBrakePartsReference ? "parts_reference"
     : isNews ? (isReference ? "reference_guide" : "news")
     : /\/products\//.test(path) ? "product_category" : "other";
-  const contentSlug = (path.match(/\/(?:news|products)\/([a-z0-9-]+)\/$/) || [])[1] || "none";
+  const contentSlug = (path.match(/\/(?:news|products)\/([a-z0-9-]+)\/$/) || [])[1]
+    || (isBrakePartsReference ? "water-cooled-brake-pto-parts" : "none");
   let selectedReference = {};
   const track = (name, parameters = {}) => {
     window.gtag("event", name, {
@@ -91,7 +93,8 @@
   const publishedReference = (link, url) => {
     if (url.origin !== window.location.origin) return null;
     const samePage = url.pathname === path;
-    if (!samePage && !/^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname)) return null;
+    if (!samePage && url.pathname !== "/en/water-cooled-brake-pto-parts/"
+      && !/^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname)) return null;
     // Search metadata is copied from the public catalog, not the entered query.
     // Some catalog entries use shared anchors such as #part-identification.
     const result = link?.closest(".pn-results");
@@ -163,7 +166,8 @@
     } else if (url.hash === "#product_inquiry_form") {
       const model = publicIdentifier(link.dataset?.zqModel);
       track("inquiry_open", {...selectedReference, contact_placement: placement, form_kind: "product", ...(model ? {model_id: model} : {})});
-    } else if (url.pathname !== path && /^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname)
+    } else if (url.pathname !== path && (url.pathname === "/en/water-cooled-brake-pto-parts/"
+      || /^\/(en|ar)\/(products|news|parts-reference)\//.test(url.pathname))
       && !link.closest("header, footer, .product-sidebar")) {
       track("related_content_click", {destination_path: url.pathname});
     }

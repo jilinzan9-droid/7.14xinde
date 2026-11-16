@@ -28,16 +28,25 @@
   const families = [...document.querySelectorAll('.catalog-family')];
   const status = document.querySelector('#parts-status');
   const empty = document.querySelector('#parts-empty');
+  const numberTools = document.querySelector('[data-number-tools]');
+  const selectionPanel = document.querySelector('[data-number-selection]');
+  const copyResult = document.querySelector('[data-copy-result]');
+  let selectedRow = null;
   const normalize = value => value.normalize('NFKC').toLowerCase();
   const compact = value => normalize(value).replace(/[\s\p{Pd}_./]+/gu, '');
   const update = () => {
     const query = normalize(search.value.trim());
+    const terms = query.split(/\s+/).filter(Boolean);
     const counts = new Map();
     let visible = 0;
     rows.forEach(row => {
       const number = row.querySelector('[data-reference-number]').dataset.referenceNumber;
-      const match = !query || normalize(row.textContent).includes(query)
-        || (/\d/.test(query) && compact(number).includes(compact(query)));
+      const family = row.closest('.catalog-family').dataset.equipmentFamily;
+      const text = normalize([number, row.dataset.component, row.dataset.model, family].join(' '));
+      const match = !query || text.includes(query)
+        || (/\d/.test(query) && compact(number).includes(compact(query)))
+        || terms.every(term => text.includes(term)
+          || (/\d/.test(term) && compact(number).includes(compact(term))));
       row.hidden = !match;
       if (match) {
         visible += 1;
@@ -82,6 +91,28 @@
   window.addEventListener('hashchange', reveal);
   reveal();
 
+  const copyReference = async linkOnly => {
+    if (!selectedRow || !rows.includes(selectedRow)) return;
+    const number = selectedRow.cells[0].dataset.referenceNumber;
+    const canonical = new URL(document.querySelector('link[rel="canonical"]').href);
+    canonical.search = '';
+    canonical.hash = selectedRow.id;
+    try {
+      await navigator.clipboard.writeText(linkOnly ? canonical.href : number);
+      copyResult.textContent = linkOnly ? 'Part link copied.' : 'Part number copied.';
+    } catch (_) {
+      copyResult.textContent = 'Copy is unavailable. Select the part number in the table to copy it.';
+    }
+  };
+  document.querySelector('[data-copy-number]')?.addEventListener('click', () => copyReference(false));
+  document.querySelector('[data-copy-part-link]')?.addEventListener('click', () => copyReference(true));
+  document.addEventListener('pratt:reference-cleared', () => {
+    selectedRow = null;
+    numberTools.hidden = true;
+    selectionPanel.hidden = true;
+    copyResult.textContent = '';
+  });
+
   // The shared selector builds each draft from its original URL, then emits
   // this event. Append context from that verified, visible table row once.
   document.addEventListener('pratt:reference-selected', event => {
@@ -90,9 +121,14 @@
     const number = row.cells[0].dataset.referenceNumber;
     if (!number || !row.id.startsWith('pn-')) return;
     const section = row.closest('.catalog-family');
-    const family = section.querySelector('h3').textContent.trim();
-    const component = row.cells[1].childNodes[0].textContent.trim();
-    const model = row.cells[2].textContent.trim();
+    const family = section.dataset.equipmentFamily;
+    const component = row.dataset.component;
+    const model = row.dataset.model;
+    if (!family || !component || !model) return;
+    selectedRow = row;
+    numberTools.hidden = false;
+    selectionPanel.hidden = false;
+    copyResult.textContent = '';
     const context = `Equipment family: ${family}\nModel reference: ${model}\nComponent: ${component}`;
     root.querySelectorAll('a[href]').forEach(link => {
       if (link.closest('form')) return;

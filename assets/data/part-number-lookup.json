@@ -1,5 +1,5 @@
 {
-  "version": "20261028-product-drawings",
+  "version": "20261116-water-brake-parts1",
   "catalogs": [
     {
       "model": "12-P-160",
@@ -370,6 +370,99 @@
           "description": "Friction disc",
           "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-508725",
           "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+        }
+      ]
+    },
+    {
+      "model": "Eaton WCB2 brake parts",
+      "slug": "water-cooled-brake-pto-eaton",
+      "url": "/en/water-cooled-brake-pto-parts/#eaton-parts",
+      "row_count": 112,
+      "unique_numbers": 111,
+      "csv": "/assets/catalogs/eaton-wcb2-water-brake-parts.csv",
+      "samples": [
+        {
+          "model": "Eaton WCB2 / 24WCB2",
+          "number": "508725",
+          "description": "Rotating friction disc",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-508725-27",
+          "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+        },
+        {
+          "model": "Eaton WCB2 / 24WCB2",
+          "number": "513348-01",
+          "description": "Mounting flange assembly",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513348-01-1",
+          "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+        },
+        {
+          "model": "Eaton WCB2 / 36WCB2",
+          "number": "513985-01",
+          "description": "Mounting flange assembly",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513985-01-2",
+          "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+        }
+      ]
+    },
+    {
+      "model": "WPT water-cooled brake parts",
+      "slug": "water-cooled-brake-pto-weipan",
+      "url": "/en/water-cooled-brake-pto-parts/#weipan-parts",
+      "row_count": 74,
+      "unique_numbers": 73,
+      "csv": "/assets/catalogs/wpt-water-brake-parts.csv",
+      "samples": [
+        {
+          "model": "WPT (Weipan) / 24WCB2",
+          "number": "W25-20-900",
+          "description": "Air bladder",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w25-20-900-45",
+          "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+        },
+        {
+          "model": "WPT (Weipan) / 24WCB2",
+          "number": "W24-04-304",
+          "description": "Mounting flange assembly",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-04-304-1",
+          "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+        },
+        {
+          "model": "WPT (Weipan) / 36WCB2",
+          "number": "W36-04-307",
+          "description": "Mounting flange assembly",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-04-307-2",
+          "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+        }
+      ]
+    },
+    {
+      "model": "21-inch PTO parts",
+      "slug": "water-cooled-brake-pto-pto",
+      "url": "/en/water-cooled-brake-pto-parts/#pto-parts",
+      "row_count": 52,
+      "unique_numbers": 52,
+      "csv": "/assets/catalogs/21-inch-pto-parts.csv",
+      "samples": [
+        {
+          "model": "21-inch PTO",
+          "number": "WSH1432731",
+          "description": "Clutch housing",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432731-1",
+          "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+        },
+        {
+          "model": "21-inch PTO",
+          "number": "WEX2020039",
+          "description": "Nut",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2020039-2",
+          "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+        },
+        {
+          "model": "21-inch PTO",
+          "number": "WSH1440107",
+          "description": "Drive ring gear",
+          "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1440107-3",
+          "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
         }
       ]
     }
@@ -234913,7 +235006,7 @@
     {
       "model": "Reference table: WPT Water-Cooled Brake",
       "number": "W24-02-304",
-      "description": "Fixed disc bottle",
+      "description": "Air bladder retaining plate",
       "url": "/en/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/#pn-ref-1-15-2",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
@@ -234948,7 +235041,7 @@
     {
       "model": "Reference table: WPT Water-Cooled Brake",
       "number": "W36-20-901",
-      "description": "Bottle",
+      "description": "Air bladder",
       "url": "/en/products/wpt-tormoz-s-vodyanym-ohlazhdeniem/#pn-ref-1-17-4",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
@@ -238857,6 +238950,1672 @@
       "description": "Flange",
       "url": "/en/products/shesternya/#pn-ref-1-42-4",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513348-01",
+      "description": "Mounting flange assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513348-01-1",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513985-01",
+      "description": "Mounting flange assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513985-01-2",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513284-01",
+      "description": "Mounting flange assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513284-01-3",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513337",
+      "description": "Mounting flange",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513337-4",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513986",
+      "description": "Mounting flange",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513986-5",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "512815",
+      "description": "Mounting flange",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512815-6",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "508459",
+      "description": "Stationary friction disc / copper disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-508459-7",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416527",
+      "description": "Stationary friction disc / copper disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416527-8",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "414026",
+      "description": "Stationary friction disc / copper disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-414026-9",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000153X0642",
+      "description": "Stationary disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153x0642-10",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000153X0843",
+      "description": "Stationary disc bolt, long / short",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153x0843-11",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000153X0842",
+      "description": "Stationary disc bolt, long / short",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153x0842-12",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000153X0685",
+      "description": "Stationary disc nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153x0685-13",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000153X0844",
+      "description": "Stationary disc nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153x0844-14",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 124WCB2",
+      "number": "000245 x 0069",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000245-x-0069-15",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 136WCB2",
+      "number": "307111-04",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307111-04-16",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 224WCB2",
+      "number": "000245 x 0071",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000245-x-0071-17",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 236WCB2",
+      "number": "307111-10",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307111-10-18",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 324WCB2",
+      "number": "000245 x 0081",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000245-x-0081-19",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 336WCB2",
+      "number": "307111-05",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307111-05-20",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 424WCB2",
+      "number": "000245 x 0082",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000245-x-0082-21",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 436WCB2",
+      "number": "307111-07",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307111-07-22",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513964-01",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513964-01-23",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513964-02",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513964-02-24",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513990",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513990-25",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513965-02",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513965-02-26",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "508725",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-508725-27",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "512825",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512825-28",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513658",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513658-29",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513675",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513675-30",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "510745",
+      "description": "Rotating disc core",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-510745-31",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513667",
+      "description": "Rotating disc core",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513667-32",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 124WCB2",
+      "number": "306542-05",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-306542-05-33",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 136WCB2",
+      "number": "308204-07",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308204-07-34",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 224WCB2",
+      "number": "306542-20",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-306542-20-35",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 236WCB2",
+      "number": "308204-02",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308204-02-36",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 324WCB2",
+      "number": "306542-23",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-306542-23-37",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 336WCB2",
+      "number": "308204-04",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308204-04-38",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 424WCB2",
+      "number": "306542-24",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-306542-24-39",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 436WCB2",
+      "number": "308204-05",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308204-05-40",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513348-03",
+      "description": "Pressure plate assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513348-03-41",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513985-03",
+      "description": "Pressure plate assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513985-03-42",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513284-03",
+      "description": "Pressure plate assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513284-03-43",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513345",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513345-44",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "512860",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512860-45",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000153 x 0641",
+      "description": "Plain washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000153-x-0641-46",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000067 x 0042",
+      "description": "Plain washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000067-x-0042-47",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000110 x 0073",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000110-x-0073-48",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000110 x 0075",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000110-x-0075-49",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513264",
+      "description": "Cylinder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513264-50",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513988",
+      "description": "Cylinder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513988-51",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "512809",
+      "description": "Cylinder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512809-52",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000402x0023",
+      "description": "Inner seal ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000402x0023-53",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000402x0005",
+      "description": "Inner seal ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000402x0005-54",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "000402x0024",
+      "description": "Outer seal ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000402x0024-55",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000402x0006",
+      "description": "Outer seal ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000402x0006-56",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 124WCB2",
+      "number": "411672",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-411672-57",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416538",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416538-58",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "415871",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-415871-59",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 224WCB2",
+      "number": "410970",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-410970-60",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416536",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416536-61",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416069",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416069-62",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 324WCB2",
+      "number": "412433",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-412433-63",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416535",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416535-64",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "414054",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-414054-65",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 424WCB2",
+      "number": "413195",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-413195-66",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416537",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416537-67",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "414132",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-414132-68",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "308396",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308396-69",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "307989-01",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307989-01-70",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "308397",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-308397-71",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "307094",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307094-72",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513348-02",
+      "description": "Stationary disc core assembly / intermediate water jacket assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513348-02-73",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513985-02",
+      "description": "Stationary disc core assembly / intermediate water jacket assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513985-02-74",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513284-02",
+      "description": "Stationary disc core assembly / intermediate water jacket assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513284-02-75",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513343",
+      "description": "Stationary disc core / intermediate water jacket",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513343-76",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "513989",
+      "description": "Stationary disc core / intermediate water jacket",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513989-77",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "512813",
+      "description": "Stationary disc core / intermediate water jacket",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512813-78",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "513317",
+      "description": "Piston",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-513317-79",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "512858",
+      "description": "Piston",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-512858-80",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "416751-02",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416751-02-81",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "307073",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307073-82",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "416751-01",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-416751-01-83",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "307175",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-307175-84",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "413107",
+      "description": "Inner retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-413107-85",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "414032-01",
+      "description": "Inner retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-414032-01-86",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "413108",
+      "description": "Outer retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-413108-87",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "414033-01",
+      "description": "Outer retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-414033-01-88",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24/36WCB2",
+      "number": "000294x407",
+      "description": "Rotating disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000294x407-89",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24/36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "000294x407",
+      "description": "Rotating disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-000294x407-90",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 124WCB2",
+      "number": "107821B",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821b-91",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 136WCB2",
+      "number": "107822B",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822b-92",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 224WCB2",
+      "number": "107821BA",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821ba-93",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 236WCB2",
+      "number": "107822BA",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822ba-94",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 324WCB2",
+      "number": "107821BB",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821bb-95",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 336WCB2",
+      "number": "107822BB",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822bb-96",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 424WCB2",
+      "number": "107821BC",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821bc-97",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 436WCB2",
+      "number": "107822BC",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822bc-98",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "107727A",
+      "description": "Mounting flange and pressure plate repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107727a-99",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "107662A",
+      "description": "Mounting flange and pressure plate repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107662a-100",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "107727E",
+      "description": "Stationary disc core / intermediate plate repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107727e-101",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "107662E",
+      "description": "Stationary disc core / intermediate plate repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107662e-102",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 24WCB2",
+      "number": "107727C",
+      "description": "Cylinder repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107727c-103",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 36WCB2",
+      "number": "107662C",
+      "description": "Cylinder repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107662c-104",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 124WCB2",
+      "number": "107821C",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821c-105",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 136WCB2",
+      "number": "107822C",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822c-106",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 224WCB2",
+      "number": "107821CA",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821ca-107",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 236WCB2",
+      "number": "107822CA",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822ca-108",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 324WCB2",
+      "number": "107821CB",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821cb-109",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 336WCB2",
+      "number": "107822CB",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822cb-110",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 424WCB2",
+      "number": "107821CC",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107821cc-111",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "Eaton WCB2 / 436WCB2",
+      "number": "107822CC",
+      "description": "Rotating friction disc repair kit",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-eaton-107822cc-112",
+      "context": "Eaton cylinder-type water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-04-304",
+      "description": "Mounting flange assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-04-304-1",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-04-307",
+      "description": "Mounting flange assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-04-307-2",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-04-305",
+      "description": "Mounting flange",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-04-305-3",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-04-301",
+      "description": "Mounting flange",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-04-301-4",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-11-307",
+      "description": "Stationary friction disc / copper disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-11-307-5",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-11-301",
+      "description": "Stationary friction disc / copper disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-11-301-6",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X20-08-054",
+      "description": "Stationary disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-08-054-7",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X20-08-123",
+      "description": "Stationary disc bolt, long / short",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-08-123-8",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X20-20-004",
+      "description": "Stationary disc nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-20-004-9",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X20-20-016",
+      "description": "Stationary disc nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-20-016-10",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 124WCB2",
+      "number": "X20-01-002",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-002-11",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 136WCB2",
+      "number": "X20-01-011",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-011-12",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 224WCB2",
+      "number": "X20-01-001",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-001-13",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 236WCB2",
+      "number": "X20-01-007",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-007-14",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 324WCB2",
+      "number": "X20-01-005",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-005-15",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 336WCB2",
+      "number": "X20-01-012",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-012-16",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 424WCB2",
+      "number": "X20-01-006",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-006-17",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 436WCB2",
+      "number": "X20-01-013",
+      "description": "Torque screw",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-01-013-18",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-08-304",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-08-304-19",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-08-303",
+      "description": "Rotating friction disc assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-08-303-20",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-07-301",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-07-301-21",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-07-302",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-07-302-22",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-07-301",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-07-301-23",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-07-302",
+      "description": "Rotating friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-07-302-24",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision. Confirm configuration: multiple references in the source entry."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-08-303",
+      "description": "Rotating disc core",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-08-303-25",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-08-302",
+      "description": "Rotating disc core",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-08-302-26",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 124WCB2",
+      "number": "W24-09-302",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-09-302-27",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 136WCB2",
+      "number": "W36-09-301",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-09-301-28",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 136WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 224WCB2",
+      "number": "W24-09-301",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-09-301-29",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 236WCB2",
+      "number": "W36-09-300",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-09-300-30",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 236WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 324WCB2",
+      "number": "W24-09-303",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-09-303-31",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 336WCB2",
+      "number": "W36-09-302",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-09-302-32",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 336WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 424WCB2",
+      "number": "W24-09-307",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-09-307-33",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 436WCB2",
+      "number": "W36-09-303",
+      "description": "Clamp tube",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-09-303-34",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 436WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-11-309",
+      "description": "Pressure plate assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-11-309-35",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-11-314",
+      "description": "Pressure plate assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-11-314-36",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-11-306",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-11-306-37",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-11-302",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-11-302-38",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X20-27-001",
+      "description": "Plain washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-27-001-39",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X20-27-010",
+      "description": "Plain washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-27-010-40",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X20-20-030",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-20-030-41",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X20-20-043",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x20-20-043-42",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-02-304",
+      "description": "Air bladder retaining plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-02-304-43",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-02-301",
+      "description": "Air bladder retaining plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-02-301-44",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W25-20-900",
+      "description": "Air bladder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w25-20-900-45",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-20-901",
+      "description": "Air bladder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-20-901-46",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-03-305",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-03-305-47",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-03-301",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-03-301-48",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 124WCB2",
+      "number": "W24-01-306",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-01-306-49",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 124WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-01-303",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-01-303-50",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 224WCB2",
+      "number": "W24-01-305",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-01-305-51",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 224WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-01-302",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-01-302-52",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 324WCB2",
+      "number": "W24-01-304",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-01-304-53",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 324WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-01-304",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-01-304-54",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 424WCB2",
+      "number": "W24-01-307",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-01-307-55",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 424WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-01-307",
+      "description": "Gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-01-307-56",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-33-300",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-33-300-57",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-33-300",
+      "description": "Wear ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-33-300-58",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-11-308",
+      "description": "Stationary disc core assembly / intermediate water jacket assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-11-308-59",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-11-313",
+      "description": "Stationary disc core assembly / intermediate water jacket assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-11-313-60",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X12-70-376",
+      "description": "Inner O-ring seal",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x12-70-376-61",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X12-70-374",
+      "description": "Inner O-ring seal",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x12-70-374-62",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "X12-70-375",
+      "description": "Outer O-ring seal",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x12-70-375-63",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "X12-70-373",
+      "description": "Outer O-ring seal",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-x12-70-373-64",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-11-305",
+      "description": "Stationary disc core / intermediate water jacket",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-11-305-65",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-11-303",
+      "description": "Stationary disc core / intermediate water jacket",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-11-303-66",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W00-33-928",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w00-33-928-67",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W00-33-942",
+      "description": "Return spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w00-33-942-68",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-50-304",
+      "description": "Inner retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-50-304-69",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-50-302",
+      "description": "Inner retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-50-302-70",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24WCB2",
+      "number": "W24-50-305",
+      "description": "Outer retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w24-50-305-71",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W36-50-303",
+      "description": "Outer retaining strip / support ring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w36-50-303-72",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 24/36WCB2",
+      "number": "W20-07-027",
+      "description": "Rotating disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w20-07-027-73",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 24/36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "WPT (Weipan) / 36WCB2",
+      "number": "W20-07-027",
+      "description": "Rotating disc bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-weipan-w20-07-027-74",
+      "context": "WPT (Weipan) air-bladder water-cooled brake; model reference: 36WCB2. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432731",
+      "description": "Clutch housing",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432731-1",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2020039",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2020039-2",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1440107",
+      "description": "Drive ring gear",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1440107-3",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2502089",
+      "description": "Plug",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2502089-4",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1401103",
+      "description": "Back plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1401103-5",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2501062",
+      "description": "Hose assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2501062-6",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1407907",
+      "description": "Friction disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1407907-7",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2502207",
+      "description": "90-degree elbow",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2502207-8",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1401120",
+      "description": "Gear hub",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1401120-9",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432734",
+      "description": "Spacer sleeve",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432734-10",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1415710",
+      "description": "Shaft",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1415710-11",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832770",
+      "description": "Bearing support",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832770-12",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432735",
+      "description": "Key",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432735-13",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832739",
+      "description": "Oil seal",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832739-14",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432706",
+      "description": "Nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432706-15",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832741",
+      "description": "Spacer sleeve",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832741-16",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432707",
+      "description": "Locking tab washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432707-17",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832707",
+      "description": "Bearing",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832707-18",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2008025",
+      "description": "Hex-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2008025-19",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX 2005069",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex-2005069-20",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH0033906",
+      "description": "Spring",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh0033906-21",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX 2005072",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex-2005072-22",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1411100",
+      "description": "Intermediate toothed disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1411100-23",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX 2005049",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex-2005049-24",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1511102",
+      "description": "Floating toothed disc",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1511102-25",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432713",
+      "description": "Breather plug",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432713-26",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2011001",
+      "description": "Spring pin",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2011001-27",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832769",
+      "description": "Key",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832769-28",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1603101",
+      "description": "Pressure plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1603101-29",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832733",
+      "description": "Bearing housing",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832733-30",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1620900",
+      "description": "Air bladder",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1620900-31",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2005073",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2005073-32",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1502101",
+      "description": "Fixed plate",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1502101-33",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832735",
+      "description": "Bearing",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832735-34",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1409100",
+      "description": "Gasket / spacer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1409100-35",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832791",
+      "description": "Inner bearing cover",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832791-36",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2005001",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2005001-37",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832732",
+      "description": "Pulley housing",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832732-38",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2005071",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2005071-39",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2005041",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2005041-40",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2005006",
+      "description": "Socket-head bolt",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2005006-41",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832792",
+      "description": "Outer bearing cover",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832792-42",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2502044",
+      "description": "Elbow",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2502044-43",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832738",
+      "description": "Lock washer",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832738-44",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432732",
+      "description": "Spacer sleeve",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432732-45",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832737",
+      "description": "Lock nut",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832737-46",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2501058",
+      "description": "Hose assembly",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2501058-47",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH0021001",
+      "description": "Rotary union",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh0021001-48",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1432714",
+      "description": "Bore cover",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1432714-49",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832748",
+      "description": "Connector",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832748-50",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WSH1832740",
+      "description": "Oil seal sleeve",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wsh1832740-51",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
+    },
+    {
+      "model": "21-inch PTO",
+      "number": "WEX2502019",
+      "description": "1/8-inch NPT grease fitting",
+      "url": "/en/water-cooled-brake-pto-parts/#pn-pto-wex2502019-52",
+      "context": "21-inch power take-off parts; model reference: 21-inch PTO. Confirm the installed assembly and drawing revision."
     }
   ],
   "notes": "Identifiers are strings. Separators and leading zeros are preserved. Model-specific references are not cross-model compatibility claims."

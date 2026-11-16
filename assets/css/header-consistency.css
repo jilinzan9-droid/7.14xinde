@@ -90,6 +90,13 @@ html[lang] body header.has-header-utility .lp-category-nav > summary {
 }
 
 @media (max-width: 1120px) {
+  html[lang] body header.has-header-utility :is(.navigation, #navigation),
+  html[lang] body header.lp-top.has-header-utility > nav {
+    flex-wrap:wrap;
+    min-width:0;
+    row-gap:8px;
+  }
+
   html[lang] body .site-header[data-primary-nav="unified"] #navLinks {
     gap: 8px;
     padding: 18px;
@@ -107,6 +114,25 @@ html[lang] body header.has-header-utility .lp-category-nav > summary {
 
   html[lang] body .site-header[data-primary-nav="unified"] #navLinks .dropdown-panel a {
     min-height: 44px;
+  }
+}
+
+/* Seven top-level entries retain readable labels on compact desktop widths. */
+@media (min-width:1121px) and (max-width:1439px) {
+  html[lang] body .site-header[data-primary-nav="unified"] .nav {
+    grid-template-columns:190px minmax(0,1fr) auto;
+  }
+  html[lang] body .site-header[data-primary-nav="unified"] .brand,
+  html[lang] body .site-header[data-primary-nav="unified"] .brand-logo {
+    width:180px;
+    height:90px;
+  }
+  html[lang] body .site-header[data-primary-nav="unified"] #navLinks {
+    gap:10px;
+    padding-inline-start:12px;
+  }
+  html[lang] body .site-header[data-primary-nav="unified"] #navLinks .nav-main-link {
+    padding-inline:10px;
   }
 }
 

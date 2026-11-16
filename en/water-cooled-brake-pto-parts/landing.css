@@ -54,6 +54,19 @@
 .water-brake-landing .catalog-title .eyebrow{font-size:10px;margin-bottom:9px}
 .water-brake-landing .catalog-title .text-link{font-size:12px;flex-shrink:0}
 .water-brake-landing .catalog-count{font-size:12px;margin:12px 0}
+.water-brake-landing .family-reference-intro{font-size:14px;line-height:1.7;margin:15px 0;max-width:960px}
+.water-brake-landing .number-shortcuts{display:flex;flex-wrap:wrap;gap:8px 18px;margin:12px 0}
+.water-brake-landing .number-shortcuts a{font-size:13px;color:#125886;text-decoration:underline;text-underline-offset:3px}
+.water-brake-landing .reference-download{font-size:13px;margin:12px 0}
+.water-brake-landing .reference-download a,.water-brake-landing .catalog-all-search a{color:#125886;text-decoration:underline;text-underline-offset:3px}
+.water-brake-landing .catalog-all-search{margin-top:18px;font-size:14px}
+.water-brake-landing .number-selection{position:sticky;top:8px;z-index:4;background:#fff;padding:1px 0;box-shadow:0 6px 14px #123b5d12}
+.water-brake-landing .number-selection [data-reference-inquiry-status]{margin:8px 0}
+.water-brake-landing .number-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:10px 0}
+.water-brake-landing .number-tools button{padding:9px 12px;min-height:42px;border:1px solid #aec4d4;border-radius:2px;background:#fff;color:#125886;font-size:13px}
+.water-brake-landing .number-tools button:hover{background:#edf4f9}
+.water-brake-landing .number-tools [role="status"]{font-size:13px;color:#526a7b}
+.water-brake-landing caption{text-align:left;background:#f7fafc;color:#526a7b;padding:11px 18px;font-size:12px;line-height:1.5}
 .water-brake-landing .parts-table-scroll{max-height:460px;overflow:auto;border:1px solid #ccdce8;scroll-margin:20px;scrollbar-gutter:stable}
 .water-brake-landing .parts-table-scroll:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 .water-brake-landing table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5;text-align:left}

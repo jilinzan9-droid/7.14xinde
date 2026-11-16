@@ -221,6 +221,25 @@ synced.click('mailto:2000@pratt-oil.com');
 check('Contact after clearing carries no stale identifier', !('reference_id' in synced.events().at(-1)[2]));
 
 const publicSymbols = JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures/public-reference-symbols.json'), 'utf8'));
+const brakeLanding = '/en/water-cooled-brake-pto-parts/';
+const brakeId = 'pn-weipan-w25-20-900-45';
+const brakeReference = env({url: 'https://www.pratt-oil.com' + brakeLanding + '?q=' + PRIVATE + '#' + brakeId,
+  product: false, reference: true, ids: [brakeId], referenceValues: {[brakeId]: 'W25-20-900'}, dataCells: true});
+brakeReference.click('mailto:2000@pratt-oil.com');
+check('Brake catalogue contact retains exact published part context', brakeReference.events().at(-1)[2].reference_id === 'W25-20-900');
+check('Brake catalogue is classified as a parts reference', brakeReference.events().at(-1)[2].page_type === 'parts_reference'
+  && brakeReference.events().at(-1)[2].content_slug === 'water-cooled-brake-pto-parts');
+check('Brake catalogue search query is never included in tracking', !JSON.stringify(brakeReference.commands()).includes(PRIVATE));
+fromSearch.click(brakeLanding + '#' + brakeId, '.pn-results', {referenceNumber:'W25-20-900', referenceModel:'WPT (Weipan) / 24WCB2'});
+check('Global search attributes public brake catalogue references', fromSearch.events().at(-1)[1] === 'part_reference_click'
+  && fromSearch.events().at(-1)[2].reference_id === 'W25-20-900'
+  && fromSearch.events().at(-1)[2].reference_model === 'WPT (Weipan) / 24WCB2');
+const beforeExternalBrake = fromSearch.events().length;
+fromSearch.click('https://other.example' + brakeLanding + '#' + brakeId, '.pn-results', {referenceNumber:'W25-20-900'});
+check('Brake reference exception never accepts a third-party origin', fromSearch.events().length === beforeExternalBrake);
+const beforeUnrelatedLanding = fromSearch.events().length;
+fromSearch.click('/en/water-cooled-brake-pto-parts-not-approved/#pn-123', '.pn-results', {referenceNumber:'123'});
+check('Brake reference exception does not expand to arbitrary landing paths', fromSearch.events().length === beforeUnrelatedLanding);
 for (const record of publicSymbols) {
   const symbols = env({url: 'https://www.pratt-oil.com' + guide, product: false, reference: true,
     ids: [record.id], referenceValues: {[record.id]: record.number}, codeCells: true});

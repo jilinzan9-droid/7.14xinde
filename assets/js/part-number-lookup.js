@@ -20,6 +20,7 @@
           exactNumber: normalize(record.number),
           identifier: compact(record.number),
           model: compact(record.model),
+          genericModel: /^Reference table:/i.test(record.model),
           text: normalize(record.number + ' ' + record.description + ' ' + record.model)
         })))
         .catch(error => { catalogPromise = undefined; throw error; });
@@ -39,14 +40,18 @@
       const records = await load();
       if (current !== request) return;
       const numberQuery = compact(query);
-      const matches = records.map(({ record, exactNumber, identifier, model, text }, order) => {
+      const matches = records.map(({ record, exactNumber, identifier, model, genericModel, text }, order) => {
         const exact = exactNumber === query;
         const formattedMatch = numberQuery.length > 0 && identifier === numberQuery;
         const numberMatch = /\d/.test(query) && identifier.includes(numberQuery);
         const modelMatch = /[a-z]/.test(query) && /\d/.test(query) && model.includes(numberQuery);
         const textMatch = text.includes(query);
-        return { record, order, score: exact ? 0 : formattedMatch ? 1 : numberMatch ? 2 : modelMatch || textMatch ? 3 : 4 };
-      }).filter(item => item.score < 4).sort((a, b) => a.score - b.score || a.order - b.order);
+        return { record, order, genericModel, score: exact ? 0 : formattedMatch ? 1 : numberMatch ? 2 : modelMatch || textMatch ? 3 : 4 };
+      }).filter(item => item.score < 4).sort((a, b) => a.score - b.score
+        // Exact identifiers with a stated model precede generic table contexts.
+        // Partial-number, component and model searches retain their source order.
+        || (a.score < 2 ? Number(a.genericModel) - Number(b.genericModel) : 0)
+        || a.order - b.order);
       if (!matches.length) {
         status.textContent = 'No matching entry in these references. Send the full part number, equipment model and drawing for identification.';
         return;
@@ -57,7 +62,9 @@
         const item = document.createElement('li');
         const link = document.createElement('a');
         const destination = new URL(record.url, window.location.origin);
-        if (destination.origin !== window.location.origin || !['/en/products/', '/en/news/', '/en/parts-reference/'].some(prefix => destination.pathname.startsWith(prefix))) continue;
+        const allowedPath = ['/en/products/', '/en/news/', '/en/parts-reference/'].some(prefix => destination.pathname.startsWith(prefix))
+          || destination.pathname === '/en/water-cooled-brake-pto-parts/';
+        if (destination.origin !== window.location.origin || !allowedPath) continue;
         link.href = destination.pathname + destination.hash;
         link.textContent = record.number + ' — ' + record.model;
         // Public catalog identifiers only. Analytics never reads the search text.

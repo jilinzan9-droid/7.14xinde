@@ -1,0 +1,8 @@
+/* Scoped to the November 16 articles and their illustrated list entries. */
+.plain-news .article-figure { margin:24px 0 28px; }
+.plain-news .article-figure img { display:block; width:100%; height:clamp(240px,40vw,420px); object-fit:contain; background:#fff; border:1px solid #e2e8ec; }
+.plain-news .article-figure figcaption { margin-top:9px; color:#60717c; font-size:13px; line-height:1.5; }
+body.news-category-page .news-card--illustrated .news-card-media { background:#fff; border:1px solid #e2e8ec; }
+body.news-category-page .news-card--illustrated .news-card-media img,
+.news-reference-item--illustrated .news-reference-media img { object-fit:contain; background:#fff; }
+.news-reference-item--illustrated .news-reference-copy h2 { white-space:normal; }

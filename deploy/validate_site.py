@@ -54,6 +54,7 @@ class Page(HTMLParser):
         self.relative = relative
         self.base = address(relative)
         self.references = []
+        self.navigation = []
         self.ids = set()
         self.canonical = []
         self.lang = ''
@@ -78,8 +79,12 @@ class Page(HTMLParser):
             self.ids.add(attrs['id'])
         if tag == 'a' and attrs.get('name'):
             self.ids.add(attrs['name'])
-        for key in ('href', 'src', 'action', 'formaction', 'poster'):
+        for key in ('href', 'src', 'action', 'formaction', 'poster', 'data-product-image'):
             self.reference(attrs.get(key))
+        if 'data-parts-lookup' in attrs:
+            self.reference(attrs.get('data-source'))
+        if tag == 'a' and attrs.get('href'):
+            self.navigation.append((self.getpos()[0], urljoin(self.base, attrs['href'])))
         if attrs.get('srcset') and not attrs['srcset'].startswith('data:'):
             for entry in attrs['srcset'].split(','):
                 if entry.strip():
@@ -118,6 +123,34 @@ class Page(HTMLParser):
                 self.reference(match[2])
         self.capture = None
         self.parts = []
+
+
+def file_target_error(candidate, available, folded):
+    """Use deployed spelling even on a case-insensitive development filesystem."""
+    relative = candidate.relative_to(ROOT).as_posix()
+    if relative in available:
+        return None
+    actual = folded.get(relative.casefold())
+    if actual:
+        return f'URL path case mismatch: {relative}; use {actual}'
+    return f'missing target file: {relative}'
+
+
+def navigation_error(source, url, pages):
+    """Public navigation should lead directly to an indexable canonical page."""
+    if source.noindex or source.refresh:
+        return None
+    destination = pages.get(target(url))
+    if destination is None:
+        return None
+    canonical = destination.canonical[0] if len(destination.canonical) == 1 else None
+    if destination.noindex or destination.refresh:
+        hint = f'; use {canonical}' if canonical else ''
+        return f'navigation points to a noindex or refresh page: {url}{hint}'
+    clean = urlsplit(url)._replace(query='', fragment='').geturl()
+    if canonical and clean != canonical:
+        return f'noncanonical navigation target: {url}; use {canonical}'
+    return None
 
 
 def validate():
@@ -172,19 +205,30 @@ def validate():
         for match in CSS_URL.finditer(text):
             references.append((file, text[:match.start()].count('\n') + 1,
                                urljoin(ORIGIN + '/' + file.relative_to(ROOT).as_posix(), match[2])))
+    available = {file.relative_to(ROOT).as_posix()
+                 for file in ROOT.rglob('*')
+                 if file.is_file() and allowed_path(file.relative_to(ROOT).as_posix())}
+    folded = {relative.casefold(): relative for relative in available}
     checked_files = {}
     for file, line, url in references:
         candidate = target(url)
         if candidate is None:
             continue
-        if candidate not in checked_files:
-            checked_files[candidate] = candidate.is_file()
-        if not checked_files[candidate]:
-            errors.append(f'{file.relative_to(ROOT)}:{line}: missing target {url}')
+        # Path equality is case-insensitive on Windows; cache by URL spelling.
+        key = candidate.relative_to(ROOT).as_posix()
+        if key not in checked_files:
+            checked_files[key] = file_target_error(candidate, available, folded)
+        if checked_files[key]:
+            errors.append(f'{file.relative_to(ROOT)}:{line}: {checked_files[key]} ({url})')
         else:
             fragment = unquote(urlsplit(url).fragment)
             if fragment and candidate in pages and fragment not in pages[candidate].ids:
                 errors.append(f'{file.relative_to(ROOT)}:{line}: missing anchor {url}')
+    for file, page in pages.items():
+        for line, url in page.navigation:
+            issue = navigation_error(page, url, pages)
+            if issue:
+                errors.append(f'{page.relative}:{line}: {issue}')
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls = [entry.text for entry in ET.parse(ROOT / 'sitemap.xml').findall('s:url/s:loc', ns)]
     if len(urls) != len(set(urls)):

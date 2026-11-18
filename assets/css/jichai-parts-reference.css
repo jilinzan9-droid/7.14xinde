@@ -1,0 +1,17 @@
+/* Shared, fully visible part-number tables. Four name/number groups per row. */
+.jichai-parts-page #parts-reference { scroll-margin-top: 150px; }
+.jichai-parts-page .jichai-reference-scroll { overflow-x: auto; max-height: none; }
+.jichai-parts-page .jichai-reference-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.jichai-parts-page .jichai-reference-table caption { text-align: left; padding: 0 0 12px; color: #555; font-size: 13px; }
+.jichai-parts-page .jichai-reference-table th { padding: 12px 9px; border: 1px solid #ced8e0; background: #4f82bf; color: #fff; text-align: left; font-size: 12px; line-height: 1.5; }
+.jichai-parts-page .jichai-reference-table td { padding: 11px 9px; border: 1px solid #ced8e0; background: #f0f1f2; color: #243f51; text-align: left; vertical-align: middle; font-size: 12px; line-height: 1.65; white-space: normal; overflow-wrap: anywhere; }
+.jichai-parts-page .jichai-reference-table tr:nth-child(even) td { background: #e9ecef; }
+.jichai-parts-page .jichai-reference-table td.jichai-part-name { font-weight: 600; }
+.jichai-parts-page .jichai-reference-table td.jichai-drawing-number { scroll-margin-top: 160px; font-weight: 400; }
+.jichai-parts-page .jichai-drawing-number a { color: inherit; text-decoration: none; }
+.jichai-parts-page .jichai-drawing-number code { font-family: Arial, sans-serif; font-size: inherit; font-weight: 400; white-space: normal; overflow-wrap: anywhere; }
+.jichai-parts-page .jichai-reference-table td:target { background: #fff3c4; outline: 2px solid #c99421; outline-offset: -2px; }
+.jichai-parts-page .jichai-reference-download { margin-top: 20px; font-size: 13px; }
+.jichai-parts-page .jichai-reference-download a { color: #1267d6; text-decoration: underline; }
+.jichai-parts-page .jichai-description-missing { font-weight: 400; color: #777; }
+@media (max-width: 760px) { .jichai-parts-page .jichai-reference-table { min-width: 960px; } }

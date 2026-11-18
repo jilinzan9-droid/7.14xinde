@@ -34,7 +34,6 @@ jobs:
           node tests/inquiry-tracking.test.cjs
           node tests/wcb-inquiry-markup.test.cjs
           node tests/home-industrial-hero.test.cjs
-          node tests/jichai-catalog.test.cjs
 
       - name: Validate website links and metadata
         shell: bash

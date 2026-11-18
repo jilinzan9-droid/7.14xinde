@@ -55,6 +55,8 @@ body.part-number-lookup-page #main-content.pn-shell .pn-section-heading { displa
 body.part-number-lookup-page #main-content.pn-shell .pn-section-heading h2 { margin: 0; font-size: clamp(24px, 2.3vw, 29px); line-height: 1.25; letter-spacing: -.3px; }
 body.part-number-lookup-page #main-content.pn-shell .pn-section-heading > p { max-width: 310px; margin: 0 0 2px; color: var(--pn-muted); font-size: 13px; }
 body.part-number-lookup-page #main-content.pn-shell .pn-equipment-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+body.part-number-lookup-page #main-content.pn-shell .pn-engine-card { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.35fr; align-items: center; background: #f6f9fc; }
+body.part-number-lookup-page #main-content.pn-shell .pn-engine-card .pn-equipment-image { height: 205px; padding: 8px 24px; background: #eaf1f8; }
 body.part-number-lookup-page #main-content.pn-shell .pn-equipment-card { display: block; min-width: 0; border: 1px solid var(--pn-line); background: #fff; text-decoration: none; border-radius: 3px; overflow: hidden; transition: border-color .18s, box-shadow .18s; }
 body.part-number-lookup-page #main-content.pn-shell .pn-equipment-card:hover { border-color: #8cbae8; box-shadow: 0 8px 24px #1738540c; }
 body.part-number-lookup-page #main-content.pn-shell .pn-equipment-image { height: 172px; padding: 10px 18px; background: #f4f7fa; overflow: hidden; }

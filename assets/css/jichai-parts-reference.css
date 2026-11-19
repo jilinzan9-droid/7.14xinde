@@ -1,5 +1,6 @@
 /* Shared, fully visible part-number tables. Four name/number groups per row. */
 body.jichai-parts-page { --site-mono: Arial, "Helvetica Neue", sans-serif; }
+body.jichai-parts-page main.plain-news { width: min(1100px, calc(100% - 48px)); }
 body.jichai-parts-page #parts-reference { scroll-margin-top: 150px; }
 body.jichai-parts-page .jichai-reference-scroll { overflow-x: auto; max-height: none; }
 body.jichai-parts-page .jichai-reference-table { width: 100%; min-width: 960px; table-layout: fixed; border-collapse: collapse; }

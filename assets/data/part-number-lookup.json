@@ -1,5 +1,5 @@
 {
-  "version": "20261121-hydraulic-brake1",
+  "version": "20261124-wcb2-standard",
   "catalogs": [
     {
       "model": "12-P-160",
@@ -346,30 +346,30 @@
       "model": "WCB2 brake components",
       "slug": "wcb-eaton-auxiliary-brake",
       "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-parts-reference",
-      "row_count": 16,
-      "unique_numbers": 16,
-      "csv": "/assets/catalogs/wcb2-component-parts-reference.csv",
+      "row_count": 190,
+      "unique_numbers": 65,
+      "csv": "/assets/catalogs/wcb2-standard-parts-24-36.csv",
       "samples": [
         {
-          "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+          "model": "124 WCB2",
           "number": "508459",
-          "description": "Wear plate",
-          "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-508459",
-          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+          "description": "Wear Plate",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-124-3",
+          "context": "Item 3. Model reference 146465A (514825). Catalog quantity: 2."
         },
         {
-          "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-          "number": "416527",
-          "description": "Wear plate",
-          "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-416527",
-          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-        },
-        {
-          "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+          "model": "124 WCB2",
           "number": "508725",
-          "description": "Friction disc",
-          "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-508725",
-          "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+          "description": "Friction Disc",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-124-8",
+          "context": "Item 8. Model reference 146465A (514825). Catalog quantity: 2."
+        },
+        {
+          "model": "124 WCB2",
+          "number": "416751-02",
+          "description": "Release Spring",
+          "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-124-34",
+          "context": "Item 34. Model reference 146465A (514825). Catalog quantity: 12."
         }
       ]
     },
@@ -226364,116 +226364,1334 @@
       "context": "TQ340-35Y assembly reference; confirm complete model and drawing revision"
     },
     {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "model": "124 WCB2",
+      "number": "513348-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-1",
+      "context": "Item 1. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "513337",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-2",
+      "context": "Item 2. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
       "number": "508459",
-      "description": "Wear plate",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-508459",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-124-3",
+      "context": "Item 3. Model reference 146465A (514825). Catalog quantity: 2."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "416527",
-      "description": "Wear plate",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-part-416527",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "000245X0069",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-6",
+      "context": "Item 6. Model reference 146465A (514825). Catalog quantity: 12."
     },
     {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "model": "124 WCB2",
       "number": "508725",
-      "description": "Friction disc",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-508725",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "description": "Friction Disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-124-8",
+      "context": "Item 8. Model reference 146465A (514825). Catalog quantity: 2."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "513658",
-      "description": "Friction disc",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513658",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-    },
-    {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "model": "124 WCB2",
       "number": "510745",
-      "description": "Friction disc core",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-510745",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-124-9",
+      "context": "Item 9. Model reference 146465A (514825). Catalog quantity: 1."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "513667",
-      "description": "Friction disc core",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513667",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "306542-05",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-12",
+      "context": "Item 12. Model reference 146465A (514825). Catalog quantity: 12."
     },
     {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
-      "number": "513964-01",
-      "description": "Friction disc subassembly",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513964-01",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "513348-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-13",
+      "context": "Item 13. Model reference 146465A (514825). Catalog quantity: 1."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "513990",
-      "description": "Friction disc subassembly",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-part-513990",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "513345",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-14",
+      "context": "Item 14. Model reference 146465A (514825). Catalog quantity: 1."
     },
     {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
-      "number": "000402*0023",
-      "description": "Inner lip seal (manual reference 000402X0023)",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0023",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "000153X0641",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-17",
+      "context": "Item 17. Model reference 146465A (514825). Catalog quantity: 12."
     },
     {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
-      "number": "000402*0024",
-      "description": "Outer lip seal (manual reference 000402X0024)",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0024",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "model": "124 WCB2",
+      "number": "000110X0073",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-18",
+      "context": "Item 18. Model reference 146465A (514825). Catalog quantity: 12."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "000402*0005",
-      "description": "Inner lip seal (manual reference 000402X0005)",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0005",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-    },
-    {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "000402*0006",
-      "description": "Outer lip seal (manual reference 000402X0006)",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-part-000402-0006",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-    },
-    {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
-      "number": "416751-02",
-      "description": "Release spring",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-part-416751-02",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-    },
-    {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
-      "number": "416751-01",
-      "description": "Release spring",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-part-416751-01",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
-    },
-    {
-      "model": "124WCB2 / 224WCB2 / 324WCB2 / 424WCB2",
+      "model": "124 WCB2",
       "number": "513264",
       "description": "Cylinder",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-part-513264",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-124-19",
+      "context": "Item 19. Model reference 146465A (514825). Catalog quantity: 1."
     },
     {
-      "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
+      "model": "124 WCB2",
+      "number": "000402X0023",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-124-21",
+      "context": "Item 21. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "000402X0024",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-124-23",
+      "context": "Item 23. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "411672",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-28",
+      "context": "Item 28. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "513317",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-33",
+      "context": "Item 33. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "416751-02",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-124-34",
+      "context": "Item 34. Model reference 146465A (514825). Catalog quantity: 12."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "413107",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-50",
+      "context": "Item 50. Model reference 146465A (514825). Catalog quantity: 6."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "413108",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-51",
+      "context": "Item 51. Model reference 146465A (514825). Catalog quantity: 10."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "000294X407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-57",
+      "context": "Item 57. Model reference 146465A (514825). Catalog quantity: 36."
+    },
+    {
+      "model": "124 WCB2",
+      "number": "000077x0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-124-105",
+      "context": "Item 105. Model reference 146465A (514825). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513348-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-1",
+      "context": "Item 1. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513337",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-2",
+      "context": "Item 2. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "508459",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-224-3",
+      "context": "Item 3. Model reference 146466A (514826). Catalog quantity: 4."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000245X0071",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-6",
+      "context": "Item 6. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "508725",
+      "description": "Friction Disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-224-8",
+      "context": "Item 8. Model reference 146466A (514826). Catalog quantity: 4."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "510745",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-224-9",
+      "context": "Item 9. Model reference 146466A (514826). Catalog quantity: 2."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "306542-20",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-12",
+      "context": "Item 12. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513348-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-13",
+      "context": "Item 13. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513345",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-14",
+      "context": "Item 14. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000153X0641",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-17",
+      "context": "Item 17. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000110X0073",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-18",
+      "context": "Item 18. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513264",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-224-19",
+      "context": "Item 19. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000402X0023",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-224-21",
+      "context": "Item 21. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000402X0024",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-224-23",
+      "context": "Item 23. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "410970",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-28",
+      "context": "Item 28. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "308396",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-29",
+      "context": "Item 29. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513348-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-30",
+      "context": "Item 30. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513343",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-31",
+      "context": "Item 31. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "513317",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-33",
+      "context": "Item 33. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "416751-02",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-224-34",
+      "context": "Item 34. Model reference 146466A (514826). Catalog quantity: 24."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "413107",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-50",
+      "context": "Item 50. Model reference 146466A (514826). Catalog quantity: 12."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "413108",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-51",
+      "context": "Item 51. Model reference 146466A (514826). Catalog quantity: 20."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000294X407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-57",
+      "context": "Item 57. Model reference 146466A (514826). Catalog quantity: 72."
+    },
+    {
+      "model": "224 WCB2",
+      "number": "000077x0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-224-105",
+      "context": "Item 105. Model reference 146466A (514826). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513348-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-1",
+      "context": "Item 1. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513337",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-2",
+      "context": "Item 2. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "508459",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-324-3",
+      "context": "Item 3. Model reference 146467A (514827). Catalog quantity: 6."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "508725",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-6",
+      "context": "Item 6. Model reference 146467A (514827). Catalog quantity: 12."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "508725",
+      "description": "Friction Disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-324-8",
+      "context": "Item 8. Model reference 146467A (514827). Catalog quantity: 6."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "510745",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-324-9",
+      "context": "Item 9. Model reference 146467A (514827). Catalog quantity: 3."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "306542-23",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-12",
+      "context": "Item 12. Model reference 146467A (514827). Catalog quantity: 12."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513348-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-13",
+      "context": "Item 13. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513345",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-14",
+      "context": "Item 14. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000153X0641",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-17",
+      "context": "Item 17. Model reference 146467A (514827). Catalog quantity: 12."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000110X0073",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-18",
+      "context": "Item 18. Model reference 146467A (514827). Catalog quantity: 12."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513264",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-324-19",
+      "context": "Item 19. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000402X0023",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-324-21",
+      "context": "Item 21. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000402X0024",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-324-23",
+      "context": "Item 23. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "412433",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-28",
+      "context": "Item 28. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "308396",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-29",
+      "context": "Item 29. Model reference 146467A (514827). Catalog quantity: 24."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513348-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-30",
+      "context": "Item 30. Model reference 146467A (514827). Catalog quantity: 2."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513343",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-31",
+      "context": "Item 31. Model reference 146467A (514827). Catalog quantity: 2."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "513317",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-33",
+      "context": "Item 33. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "416751-02",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-324-34",
+      "context": "Item 34. Model reference 146467A (514827). Catalog quantity: 36."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "413107",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-50",
+      "context": "Item 50. Model reference 146467A (514827). Catalog quantity: 18."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "413108",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-51",
+      "context": "Item 51. Model reference 146467A (514827). Catalog quantity: 30."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000294X407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-57",
+      "context": "Item 57. Model reference 146467A (514827). Catalog quantity: 108."
+    },
+    {
+      "model": "324 WCB2",
+      "number": "000077x0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-324-105",
+      "context": "Item 105. Model reference 146467A (514827). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513348-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-1",
+      "context": "Item 1. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513337",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-2",
+      "context": "Item 2. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "508459",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-424-3",
+      "context": "Item 3. Model reference 146468A (514828). Catalog quantity: 8."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000245X0082",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-6",
+      "context": "Item 6. Model reference 146468A (514828). Catalog quantity: 12."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "508725",
+      "description": "Friction Disc",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-424-8",
+      "context": "Item 8. Model reference 146468A (514828). Catalog quantity: 8."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "510745",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-424-9",
+      "context": "Item 9. Model reference 146468A (514828). Catalog quantity: 4."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "306542-24",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-12",
+      "context": "Item 12. Model reference 146468A (514828). Catalog quantity: 12."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513348-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-13",
+      "context": "Item 13. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513345",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-14",
+      "context": "Item 14. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000153X0641",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-17",
+      "context": "Item 17. Model reference 146468A (514828). Catalog quantity: 12."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000110X0073",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-18",
+      "context": "Item 18. Model reference 146468A (514828). Catalog quantity: 12."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513264",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-424-19",
+      "context": "Item 19. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000402X0023",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-424-21",
+      "context": "Item 21. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000402X0024",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-424-23",
+      "context": "Item 23. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "413195",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-28",
+      "context": "Item 28. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "308396",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-29",
+      "context": "Item 29. Model reference 146468A (514828). Catalog quantity: 36."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513348-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-30",
+      "context": "Item 30. Model reference 146468A (514828). Catalog quantity: 3."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513343",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-31",
+      "context": "Item 31. Model reference 146468A (514828). Catalog quantity: 3."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "513317",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-33",
+      "context": "Item 33. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "416751-02",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-424-34",
+      "context": "Item 34. Model reference 146468A (514828). Catalog quantity: 48."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "413107",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-50",
+      "context": "Item 50. Model reference 146468A (514828). Catalog quantity: 24."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "413108",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-51",
+      "context": "Item 51. Model reference 146468A (514828). Catalog quantity: 40."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000294X407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-57",
+      "context": "Item 57. Model reference 146468A (514828). Catalog quantity: 144."
+    },
+    {
+      "model": "424 WCB2",
+      "number": "000077x0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-424-105",
+      "context": "Item 105. Model reference 146468A (514828). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513985-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-1",
+      "context": "Item 1. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513986",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-2",
+      "context": "Item 2. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "416527",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-136-3",
+      "context": "Item 3. Model reference 146469A (514829). Catalog quantity: 2."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "307111-04",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-6",
+      "context": "Item 6. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513990",
+      "description": "Friction Disc sub Assy. (Item 8 & 9)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-136-7",
+      "context": "Item 7. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513658",
+      "description": "Friction Block",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-136-8",
+      "context": "Item 8. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513667",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-136-9",
+      "context": "Item 9. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "308204-07",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-12",
+      "context": "Item 12. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "513985-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-13",
+      "context": "Item 13. Model reference 146469A (514829). Catalog quantity: 13."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "512860",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-14",
+      "context": "Item 14. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000067X0042",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-17",
+      "context": "Item 17. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000110X0075",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-18",
+      "context": "Item 18. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
       "number": "513988",
       "description": "Cylinder",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-part-513988",
-      "context": "WCB2 standard configuration reference; confirm installed assembly and drawing revision"
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-136-19",
+      "context": "Item 19. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000402X0005",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-136-21",
+      "context": "Item 21. Model reference 146469A (514829). Catalog quantity: 2."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000402X0006",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-136-23",
+      "context": "Item 23. Model reference 146469A (514829). Catalog quantity: 2."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "416538",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-28",
+      "context": "Item 28. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "512858",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-33",
+      "context": "Item 33. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "416751-01",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-136-34",
+      "context": "Item 34. Model reference 146469A (514829). Catalog quantity: 16."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "414032-01",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-50",
+      "context": "Item 50. Model reference 146469A (514829). Catalog quantity: 12."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "414033-01",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-51",
+      "context": "Item 51. Model reference 146469A (514829). Catalog quantity: 18."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000294X0407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-57",
+      "context": "Item 57. Model reference 146469A (514829). Catalog quantity: 144."
+    },
+    {
+      "model": "136 WCB2",
+      "number": "000077X0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-136-105",
+      "context": "Item 105. Model reference 146469A (514829). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513985-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-1",
+      "context": "Item 1. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513986",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-2",
+      "context": "Item 2. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "416527",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-236-3",
+      "context": "Item 3. Model reference 146470 (514830). Catalog quantity: 4."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "307111-10",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-6",
+      "context": "Item 6. Model reference 146470 (514830). Catalog quantity: 16."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513990",
+      "description": "Friction Disc sub Assy. (Item 8 & 9)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-236-7",
+      "context": "Item 7. Model reference 146470 (514830). Catalog quantity: 2."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513658",
+      "description": "Friction Block",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-236-8",
+      "context": "Item 8. Model reference 146470 (514830). Catalog quantity: 32."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513667",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-236-9",
+      "context": "Item 9. Model reference 146470 (514830). Catalog quantity: 2."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513985-03",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-12",
+      "context": "Item 12. Model reference 146470 (514830). Catalog quantity: 16."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513985-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-13",
+      "context": "Item 13. Model reference 146470 (514830). Catalog quantity: 13."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "512860",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-14",
+      "context": "Item 14. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000067X0042",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-17",
+      "context": "Item 17. Model reference 146470 (514830). Catalog quantity: 16."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000110X0075",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-18",
+      "context": "Item 18. Model reference 146470 (514830). Catalog quantity: 16."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513988",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-236-19",
+      "context": "Item 19. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000402X0005",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-236-21",
+      "context": "Item 21. Model reference 146470 (514830). Catalog quantity: 2."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000402X0006",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-236-23",
+      "context": "Item 23. Model reference 146470 (514830). Catalog quantity: 2."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "416536",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-28",
+      "context": "Item 28. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "308397",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-29",
+      "context": "Item 29. Model reference 146470 (514830). Catalog quantity: 16."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513985-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-30",
+      "context": "Item 30. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "513989",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-31",
+      "context": "Item 31. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "512858",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-33",
+      "context": "Item 33. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "416751-01",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-236-34",
+      "context": "Item 34. Model reference 146470 (514830). Catalog quantity: 32."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "414032-01",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-50",
+      "context": "Item 50. Model reference 146470 (514830). Catalog quantity: 24."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "414033-01",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-51",
+      "context": "Item 51. Model reference 146470 (514830). Catalog quantity: 36."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000294X0407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-57",
+      "context": "Item 57. Model reference 146470 (514830). Catalog quantity: 288."
+    },
+    {
+      "model": "236 WCB2",
+      "number": "000077X0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-236-105",
+      "context": "Item 105. Model reference 146470 (514830). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513985-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-1",
+      "context": "Item 1. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513986",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-2",
+      "context": "Item 2. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "416527",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-336-3",
+      "context": "Item 3. Model reference 146471 (513831). Catalog quantity: 6."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "307111-05",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-6",
+      "context": "Item 6. Model reference 146471 (513831). Catalog quantity: 16."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513990",
+      "description": "Friction Disc sub Assy. (Item 8 & 9)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-336-7",
+      "context": "Item 7. Model reference 146471 (513831). Catalog quantity: 3."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513658",
+      "description": "Friction Block",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-336-8",
+      "context": "Item 8. Model reference 146471 (513831). Catalog quantity: 48."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513667",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-336-9",
+      "context": "Item 9. Model reference 146471 (513831). Catalog quantity: 3."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "308204-04",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-12",
+      "context": "Item 12. Model reference 146471 (513831). Catalog quantity: 16."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513985-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-13",
+      "context": "Item 13. Model reference 146471 (513831). Catalog quantity: 13."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "512860",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-14",
+      "context": "Item 14. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000067X0042",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-17",
+      "context": "Item 17. Model reference 146471 (513831). Catalog quantity: 16."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000110X0075",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-18",
+      "context": "Item 18. Model reference 146471 (513831). Catalog quantity: 16."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513988",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-336-19",
+      "context": "Item 19. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000402X0005",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-336-21",
+      "context": "Item 21. Model reference 146471 (513831). Catalog quantity: 2."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000402X0006",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-336-23",
+      "context": "Item 23. Model reference 146471 (513831). Catalog quantity: 2."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "416535",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-28",
+      "context": "Item 28. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "308397",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-29",
+      "context": "Item 29. Model reference 146471 (513831). Catalog quantity: 32."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513985-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-30",
+      "context": "Item 30. Model reference 146471 (513831). Catalog quantity: 2."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "513989",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-31",
+      "context": "Item 31. Model reference 146471 (513831). Catalog quantity: 2."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "512858",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-33",
+      "context": "Item 33. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "416751-01",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-336-34",
+      "context": "Item 34. Model reference 146471 (513831). Catalog quantity: 48."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "414032-01",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-50",
+      "context": "Item 50. Model reference 146471 (513831). Catalog quantity: 36."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "414033-01",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-51",
+      "context": "Item 51. Model reference 146471 (513831). Catalog quantity: 54."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000294X0407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-57",
+      "context": "Item 57. Model reference 146471 (513831). Catalog quantity: 432."
+    },
+    {
+      "model": "336 WCB2",
+      "number": "000077X0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-336-105",
+      "context": "Item 105. Model reference 146471 (513831). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513985-01",
+      "description": "Mounting Flange Sub Assy. (Includes Items 2,3,50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-1",
+      "context": "Item 1. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513986",
+      "description": "Mounting Flange",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-2",
+      "context": "Item 2. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "416527",
+      "description": "Wear Plate",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#wcb-row-436-3",
+      "context": "Item 3. Model reference 146472A (513832). Catalog quantity: 8."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "307111-07",
+      "description": "Stud",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-6",
+      "context": "Item 6. Model reference 146472A (513832). Catalog quantity: 16."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513990",
+      "description": "Friction Disc sub Assy. (Item 8 & 9)",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-436-7",
+      "context": "Item 7. Model reference 146472A (513832). Catalog quantity: 4."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513658",
+      "description": "Friction Block",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-436-8",
+      "context": "Item 8. Model reference 146472A (513832). Catalog quantity: 64."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513667",
+      "description": "Friction Disc Core",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-friction-disc/#wcb-row-436-9",
+      "context": "Item 9. Model reference 146472A (513832). Catalog quantity: 4."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "308204-05",
+      "description": "Clamp Tube",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-12",
+      "context": "Item 12. Model reference 146472A (513832). Catalog quantity: 16."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513985-03",
+      "description": "Pressure Platesub Assy.(Includes Items 3,14, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-13",
+      "context": "Item 13. Model reference 146472A (513832). Catalog quantity: 13."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "512860",
+      "description": "Pressure Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-14",
+      "context": "Item 14. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000067X0042",
+      "description": "Flat Washer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-17",
+      "context": "Item 17. Model reference 146472A (513832). Catalog quantity: 16."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000110X0075",
+      "description": "Locknut",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-18",
+      "context": "Item 18. Model reference 146472A (513832). Catalog quantity: 16."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513988",
+      "description": "Cylinder",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#wcb-row-436-19",
+      "context": "Item 19. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000402X0005",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-436-21",
+      "context": "Item 21. Model reference 146472A (513832). Catalog quantity: 2."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000402X0006",
+      "description": "Polypak Seal",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-edge-seal/#wcb-row-436-23",
+      "context": "Item 23. Model reference 146472A (513832). Catalog quantity: 2."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "416537",
+      "description": "Gear (not included in assembly)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-28",
+      "context": "Item 28. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "308397",
+      "description": "Wear Spacer",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-29",
+      "context": "Item 29. Model reference 146472A (513832). Catalog quantity: 48."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513985-02",
+      "description": "Reaction Plate Sub Assy. Includes Items 3, 31, 50 & 51)",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-30",
+      "context": "Item 30. Model reference 146472A (513832). Catalog quantity: 3."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "513989",
+      "description": "Reaction Plate",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-31",
+      "context": "Item 31. Model reference 146472A (513832). Catalog quantity: 3."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "512858",
+      "description": "Piston",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-33",
+      "context": "Item 33. Model reference 146472A (513832). Catalog quantity: 1."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "416751-01",
+      "description": "Release Spring",
+      "url": "/en/products/wcb-eaton-auxiliary-brake-return-spring/#wcb-row-436-34",
+      "context": "Item 34. Model reference 146472A (513832). Catalog quantity: 64."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "414032-01",
+      "description": "Inner Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-50",
+      "context": "Item 50. Model reference 146472A (513832). Catalog quantity: 48."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "414033-01",
+      "description": "Outer Support Ring",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-51",
+      "context": "Item 51. Model reference 146472A (513832). Catalog quantity: 72."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000294X0407",
+      "description": "Flat Head Screw",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-57",
+      "context": "Item 57. Model reference 146472A (513832). Catalog quantity: 576."
+    },
+    {
+      "model": "436 WCB2",
+      "number": "000077X0021",
+      "description": "Pipe Plug",
+      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#wcb-row-436-105",
+      "context": "Item 105. Model reference 146472A (513832). Catalog quantity: 1."
     },
     {
       "model": "Reference table: Large Gear P3100007AA",
@@ -230256,13 +231474,6 @@
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513348-01",
-      "description": "Mounting Flange Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-2-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
       "model": "124WCB2 146465A(514825) / 224WCB2 146466A(514826) / 324WCB2 146467A(514827) / 424WCB2 146468A(514828)",
       "number": "513337",
       "description": "Mounting Flange",
@@ -230277,48 +231488,6 @@
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "306542-05",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-8-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "306542-20",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-8-4",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "306542-23",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-8-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "306542-24",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-8-6",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513348-03",
-      "description": "Pressure Plate Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-9-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513345",
-      "description": "Pressure Plate",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-10-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
       "model": "124WCB2 146465A(514825) / 224WCB2 146466A(514826) / 324WCB2 146467A(514827) / 424WCB2 146468A(514828)",
       "number": "000153*0641",
       "description": "Flat Washer",
@@ -230326,24 +231495,10 @@
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "000110*0073",
-      "description": "Lock Nut",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-12-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
       "model": "224WCB2 146466A(514826) / 324WCB2 146467A(514827) / 424WCB2 146468A(514828)",
       "number": "308396",
       "description": "Wear Washer",
       "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz/#pn-ref-1-19-4",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513348-02",
-      "description": "Reaction Plate Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-18-4",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
@@ -230358,41 +231513,6 @@
       "number": "513317",
       "description": "Piston",
       "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz/#pn-ref-1-22-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "413107",
-      "description": "Inner Support Ring",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-22-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "413108",
-      "description": "Outer Support Ring",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-23-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "000294*407",
-      "description": "Countersunk Screw",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-24-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "000077*0021",
-      "description": "Pipe Plug",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-2-25-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513985-01",
-      "description": "Mounting Flange Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-2-3",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
@@ -230431,48 +231551,6 @@
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "308204-07",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-9-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "308204-02",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-9-4",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "308204-04",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-9-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "308204-05",
-      "description": "Pipe Clamp",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-9-6",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513985-03",
-      "description": "Pressure Plate Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-10-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "512860",
-      "description": "Pressure Plate",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-11-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
       "model": "136WCB2 / 236WCB2 / 336WCB2 / 436WCB2",
       "number": "000067*0042",
       "description": "Flat Washer",
@@ -230480,24 +231558,10 @@
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "000110*0075",
-      "description": "Lock Nut",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-13-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
       "model": "236WCB2 / 336WCB2 / 436WCB2",
       "number": "308397",
       "description": "Wear Washer",
       "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz/#pn-ref-1-47-4",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "513985-02",
-      "description": "Reaction Plate Half Assembly",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-19-4",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
@@ -230512,20 +231576,6 @@
       "number": "512858",
       "description": "Piston",
       "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz/#pn-ref-1-50-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "414032-01",
-      "description": "Inner Support Ring",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-23-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: Eaton Airflex WCB Water-Cooled Auxiliary Brake",
-      "number": "414033-01",
-      "description": "Outer Support Ring",
-      "url": "/en/products/eatonairflex-wcb-vodoohladitelnyy-tormoz-vspomogatelnyy-tormoz/#pn-ref-3-24-3",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {
@@ -234103,69 +235153,6 @@
       "number": "TK30-01-01",
       "description": "Connecting plate",
       "url": "/en/products/uzel-predohranitelnogo-tsilindra/#pn-ref-1-173-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Cylinder",
-      "number": "000153*1071",
-      "description": "Loctite 596",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#pn-ref-2-4-2",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Cylinder",
-      "number": "000294*0407",
-      "description": "Countersunk Screw",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#pn-ref-2-22-2",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Cylinder",
-      "number": "000153*1016",
-      "description": "Loctite 262 Thread Adhesive",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#pn-ref-3-2-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Cylinder",
-      "number": "000153*1239",
-      "description": "Piston Seal Ring",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#pn-ref-3-27-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Cylinder",
-      "number": "000153*1168",
-      "description": "Loctite 262 Thread Adhesive",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-cylinder/#pn-ref-4-2-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Wear Plate",
-      "number": "136WCB2",
-      "description": "Standard Part",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#pn-ref-2-29-3",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Wear Plate",
-      "number": "236WCB2",
-      "description": "Standard Part",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#pn-ref-2-29-4",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Wear Plate",
-      "number": "336WCB2",
-      "description": "Standard Part",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#pn-ref-2-29-5",
-      "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
-    },
-    {
-      "model": "Reference table: WCB Eaton Auxiliary Brake — Wear Plate",
-      "number": "436WCB2",
-      "description": "Standard Part",
-      "url": "/en/products/wcb-eaton-auxiliary-brake-wear-plate/#pn-ref-2-29-6",
       "context": "Published component-table reference; confirm equipment model and drawing revision before ordering."
     },
     {

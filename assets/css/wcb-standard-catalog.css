@@ -1,0 +1,75 @@
+/* Standard WCB2 parts are grouped by the brake model on its nameplate. */
+.wcb-standard-catalog {
+  min-width: 0;
+  color: #172c3b;
+}
+.wcb-standard-catalog .wcb-catalog-jumps {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  padding: 1rem 0;
+  border-block: 1px solid #dbe4e8;
+}
+.wcb-standard-catalog .wcb-catalog-size,
+.wcb-standard-catalog .wcb-catalog-size ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem 1rem;
+}
+.wcb-standard-catalog .wcb-catalog-size strong { min-width: 3rem; }
+.wcb-standard-catalog .wcb-catalog-size ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wcb-standard-catalog .wcb-catalog-size a {
+  display: inline-block;
+  color: #124f91;
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+.wcb-standard-catalog .wcb-catalog-group { margin: 2rem 0; }
+.wcb-standard-catalog .wcb-catalog-group h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .1rem 1rem;
+  margin: 0 0 .55rem;
+  font-size: 1.25rem;
+}
+.wcb-standard-catalog [id] { scroll-margin-top: 190px; }
+.wcb-standard-catalog .wcb-catalog-ref {
+  font-weight: 400;
+  font-size: .9rem;
+  color: #40515d;
+}
+.wcb-standard-catalog table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .94rem;
+  line-height: 1.45;
+}
+.wcb-standard-catalog th,
+.wcb-standard-catalog td {
+  padding: .5rem .6rem;
+  text-align: start;
+  vertical-align: top;
+  border-bottom: 1px solid #dbe4e8;
+}
+.wcb-standard-catalog th { font-weight: 600; background: #eaf0f4; color: #172c3b; }
+.wcb-standard-catalog td:nth-child(3) { white-space: nowrap; }
+.wcb-standard-catalog :is(td, th):last-child { text-align: end; }
+.wcb-standard-catalog tbody tr:nth-child(even) { background: #f6f8fa; }
+.wcb-standard-catalog .wcb-past-note { display: none; }
+.wcb-standard-catalog .wcb-past-ref:target ~ .wcb-past-note { display: block; }
+.wcb-standard-catalog tr:target,
+.wcb-standard-catalog tr:has(:target) { background: #fef2cf; }
+@media (max-width: 560px) {
+  .wcb-standard-catalog .wcb-catalog-size { display: block; }
+  .wcb-standard-catalog .wcb-catalog-size ul { gap: .2rem .75rem; }
+  .wcb-standard-catalog .wcb-catalog-size a { padding-block: .3rem; }
+  .wcb-standard-catalog table { font-size: .83rem; }
+  .wcb-standard-catalog :is(th, td) { padding: .4rem .23rem; }
+  .wcb-standard-catalog td:nth-child(2) { overflow-wrap: anywhere; }
+}

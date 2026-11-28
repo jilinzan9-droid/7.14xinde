@@ -1,0 +1,9 @@
+.company-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.company-photo-grid figure{margin:0;min-width:0}
+.company-photo-grid img{display:block;width:100%;height:auto}
+.company-photo-grid figcaption{margin-top:10px;line-height:1.6}
+.company-photo-grid .company-photo-packing{grid-column:1/-1;max-width:980px;margin-inline:auto}
+.company-photo-section .section-heading{margin-bottom:24px}
+.page-hero .btn.secondary.dark-text{color:#153d51;border-color:#9aaebc;background:#fff}
+.page-hero .btn.secondary.dark-text:hover{color:#0b5cad;border-color:#0b5cad;background:#eef5fc}
+@media(max-width:720px){.company-photo-grid{grid-template-columns:1fr;gap:22px}.company-photo-grid .company-photo-packing{grid-column:auto}}
